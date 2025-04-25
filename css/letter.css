@@ -91,11 +91,7 @@ button.collapsible.active::after {
 	font-family: "Montserrat", sans-serif;
 	font-weight: 300;
 	font-size: 14px;
-	color: black;
-}
-
-#metadata a:hover {
-	background-color: lightgrey;
+	color: #ff5c33;
 }
 
 /*TRANSKRIPTION*/
