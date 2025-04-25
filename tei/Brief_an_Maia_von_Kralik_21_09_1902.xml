@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">Edition Mathilde Kralik</title>
+				<title type="s">Mathilde Kralik an Maia Kralik am 21. September 1902</title>
+				<author>Mathilde Kralik</author>
+				<editor>
+					<forename>Anna</forename>
+					<surname>Bauer</surname>
+				</editor>
+			</titleStmt>
+			<publicationStmt>
+				<p>Kurzedition im Rahmen der Übung "Digitale Editionen" bei Gabriel Viehhauser</p>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country>Austria</country>
+						<settlement>Wien</settlement>
+						<repository>Wienbibliothek im Rathaus</repository>
+						<collection>Nachlass Richard von Kralik (Teil von)</collection>
+						<idno type="Signatur">H.I.N.-189355</idno>
+						<idno type="PURL">https://resolver.obvsg.at/urn:nbn:at:AT-WBR-553174</idno>
+					</msIdentifier>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="de">Deutsch</language>
+			</langUsage>
+			<correspDesc>
+				<correspAction type="sent">
+					<persName ref="#MathildeKralik">Mathilde Kralik</persName>
+					<placeName>Vorderbrühl</placeName>
+					<date when="1902-09-21">21. September 1902</date>
+				</correspAction>
+				<correspAction type="recieved">
+					<persName ref="#MaiaKralik">Maia Kralik</persName>
+				</correspAction>
+			</correspDesc>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="letterBody">
+				<pb n='1' facs="facsimile/21_09_1902_1.jpg"/>
+				<opener>
+					<lb facs='#facs_1_l_26' n='N001'/><dateline><placeName ref="#Vorderbrühl">Vorderbrühl</placeName> <date when="1902-09-21">21/9. 1902</date></dateline>
+					<lb facs='#facs_1_l_14' n='N001'/><salute>Liebste <persName ref="#MaiaKralik">Maia</persName>!</salute>
+				</opener>
+				<p>
+					<lb facs='#facs_1_l_15' n='N002'/>Mit großer Freude
+					<lb facs='#facs_1_l_16' n='N003'/>schaff ich Euch ein Spiegelein an
+					<lb facs='#facs_1_l_17' n='N004'/>die Wand und ich habe mich
+					<lb facs='#facs_1_l_18' n='N005'/>deshalb auch gestern ein wenig
+					<lb facs='#facs_1_l_19' n='N006'/>in der Stadt umgesehen und bei
+					<lb facs='#facs_1_l_20' n='N007'/>Onkel <persName ref="#LudwigLobmeyr">Ludwig</persName> diese gewißen
+					<lb facs='#facs_1_l_21' n='N008'/>falschen Venetianer, nämlich böhmischen
+					<lb facs='#facs_1_l_22' n='N009'/>Spiegel mit diesen silberartigen
+					<lb facs='#facs_1_l_23' n='N010'/>Glasrahmen, die aus einzelnen kleinen,
+					<lb facs='#facs_1_l_24' n='N011'/>Stücken zusammengesetzt sind
+					<lb facs='#facs_1_l_25' n='N012'/>besehen; <persName ref="#AloisiaPichler">Luise</persName> hat auch einen
+				</p>
+				<pb n='2' facs="facsimile/21_09_1902_2.jpg"/>
+				<p>
+					<lb facs='#facs_2_tr_1_tl_1' n='N001'/>solchen. Dagegen ließ Onkel
+					<lb facs='#facs_2_tr_1_tl_2' n='N002'/><persName ref="#LudwigLobmeyr">Ludwig</persName> in seinem Geschäftsadressen-
+					<lb facs='#facs_2_tr_1_tl_3' n='N003'/>buch nachsehen, ob es keine
+					<lb facs='#facs_2_tr_1_tl_4' n='N004'/>Niederlage in <placeName ref="#Wien">Wien</placeName> gäbe, die echte
+					<lb facs='#facs_2_tr_1_tl_5' n='N005'/>Venetianer mit bunten Rahmen
+					<lb facs='#facs_2_tr_1_tl_6' n='N006'/>führe, - nein es war früher
+					<lb facs='#facs_2_tr_1_tl_7' n='N007'/>eine solche Niederlage, jetzt besteht
+					<lb facs='#facs_2_tr_1_tl_8' n='N008'/>sie nicht mehr. Oder weißt Du
+					<lb facs='#facs_2_tr_1_tl_9' n='N009'/>von einer solchen Quelle? Oder
+					<lb facs='#facs_2_tr_1_tl_10' n='N010'/>meinst Du <choice><abbr>u.</abbr><expan>und</expan></choice> <persName ref="#RichardKralik">Richard</persName> diese Spiegel
+					<lb facs='#facs_2_tr_1_tl_11' n='N011'/>die bei Onkel <persName ref="#LudwigLobmeyr">Ludwig</persName> sind?
+					<lb facs='#facs_2_tr_1_tl_12' n='N012'/>Ich mache Dich übrigens auch
+					<lb facs='#facs_2_tr_1_tl_13' n='N013'/>aufmerksam auf etwas Schönes,
+					<lb facs='#facs_2_tr_1_tl_14' n='N014'/>das ich kürzlich, <choice><abbr>d. h.</abbr><expan>das heißt</expan></choice> auch gestern
+				</p>
+				<pb n='3' facs="facsimile/21_09_1902_3.jpg"/>
+				<p>
+					<lb facs='#facs_3_tr_1_tl_1' n='N001'/>bei Berndorfer am Graben gesehen
+					<lb facs='#facs_3_tr_1_tl_2' n='N002'/>habe. In der Auslage steht da
+					<lb facs='#facs_3_tr_1_tl_3' n='N003'/>ein St. Hubertus in Bronze -
+					<lb facs='#facs_3_tr_1_tl_4' n='N004'/>er ist von <persName ref="#JohannRathausky">Rathausky</persName> <choice><sic>modellirt</sic><corr>modelliert</corr></choice>.
+					<lb facs='#facs_3_tr_1_tl_5' n='N005'/>Vielleicht <choice><sic>sie<hi rend='superscript'>h</hi>st</sic><corr>siehst</corr></choice> Du Dir ihn an
+					<lb facs='#facs_3_tr_1_tl_6' n='N006'/>in dem <choice><sic>falle</sic><corr>Falle</corr></choice>, als Du Dir einen
+					<lb facs='#facs_3_tr_1_tl_7' n='N007'/>bunten Venetianerspiegel gedacht
+					<lb facs='#facs_3_tr_1_tl_8' n='N008'/>hast, den ich wahrscheinlich in
+					<lb facs='#facs_3_tr_1_tl_9' n='N009'/><placeName ref="#Wien">Wien</placeName> nicht bekomme. Sonst, wenn
+					<lb facs='#facs_3_tr_1_tl_10' n='N010'/>ein Onkel Ludwigischer Spiegel
+					<lb facs='#facs_3_tr_1_tl_11' n='N011'/>genügt, so bitte ich Dich jedenfalls
+					<lb facs='#facs_3_tr_1_tl_12' n='N012'/>um die Maße nur, dass Du
+					<lb facs='#facs_3_tr_1_tl_13' n='N013'/>bei Onkel <persName ref="#LudwigLobmeyr">Ludwig</persName> Dir ansiehst,
+					<lb facs='#facs_3_tr_1_tl_14' n='N014'/>was Dir gefällt und mir&apos;s näher
+				</p>
+				<pb n='4' facs="facsimile/21_09_1902_4.jpg"/>
+				<p>
+					<lb facs='#facs_4_tr_1_tl_1' n='N001'/>bezeichnest.
+					<lb facs='#facs_4_tr_1_tl_2' n='N002'/>Ich habe mich sehr gefreut,
+					<lb facs='#facs_4_tr_1_tl_3' n='N003'/>dass <persName ref="#RichardKralik">Richard</persName> am Samstag <choice><sic>gekomen</sic><corr>gekommen</corr></choice>
+					<lb facs='#facs_4_tr_1_tl_4' n='N004'/>ist und war sehr erstaunt über
+					<lb facs='#facs_4_tr_1_tl_5' n='N005'/>seinen Reise- und <choice><sic>Vortragsthatendurst</sic><corr>Vortragstatendurst</corr></choice>,
+					<lb facs='#facs_4_tr_1_tl_6' n='N007'/>ein Zeichen übrigens, daß er sich
+					<lb facs='#facs_4_tr_1_tl_7' n='N008'/>sehr wohl fühlt. Wir hoffen,
+					<lb facs='#facs_4_tr_1_tl_8' n='N009'/>dass es ihm gut bekommt.
+				</p>
+					<closer>
+					<lb facs='#facs_4_tr_1_tl_9' n='N010'/>Nun bitte ich Dich recht bald <choice><sic>am</sic><corr>um</corr></choice>
+					<lb facs='#facs_4_tr_1_tl_10' n='N011'/>nähere Auskünfte und danke Dir
+					<lb facs='#facs_4_tr_1_tl_11' n='N012'/>im Vorhinein für dieselben.
+					<lb facs='#facs_4_tr_1_tl_12' n='N013'/><salute>Herzlichst grüßt Dich</salute>
+					<lb facs='#facs_4_tr_1_tl_13' n='N014'/>Deine
+					<lb facs='#facs_4_tr_1_tl_14' n='N015'/><signed><persName ref="#MathildeKralik">Mathilde</persName></signed>
+					</closer>
+			</div>
+		</body>
+		<back>
+			<listPerson>
+				<person xml:id="MathildeKralik">
+					<persName>
+						<forename>Mathilde</forename>
+						<surname>Kralik</surname>
+					</persName>
+					<idno type="ID" subtype="WGW">37789</idno>
+					<idno type="ID" subtype="WIKIDATA">Q89972</idno>
+					<idno type="URI" subtype="GND">https://d-nb.info/gnd/130214566</idno>
+					<idno type="ID" subtype="PMB">19659</idno>
+				</person>
+				<person xml:id="MaiaKralik">
+					<persName>
+						<forename>Maia</forename>
+						<surname>Kralik</surname>
+					</persName>
+					<idno type="URI" subtype="GND">https://d-nb.info/gnd/116385863</idno>
+				</person>
+				<person xml:id="LouiseKralik">
+					<persName>
+						<forename>Louise</forename>
+						<surname>Kralik</surname>
+					</persName>
+					<idno type="URL" subtype="geni.com">https://www.geni.com/people/Louise-Kralik-von-Meyrswalden/6000000027540572061</idno>
+					<idno type="ID" subtype="WIKIDATA">Q133874636</idno>
+				</person>
+				<person xml:id="RichardKralik">
+					<persName>
+						<forename>Richard</forename>
+						<surname>Kralik</surname>
+					</persName>
+					<idno type="URI" subtype="GND">https://d-nb.info/gnd/118777920</idno>
+					<idno type="ID" subtype="WIKIDATA">Q1317482</idno>
+					<idno type="ID" subtype="WGW">16425</idno>
+					<idno type="ID" subtype="PMB">3731</idno>
+				</person>
+				<person xml:id="LudwigLobmeyr">
+					<persName>
+						<forename>Ludwig</forename>
+						<surname>Lobmeyr</surname>
+					</persName>
+					<idno type="ID" subtype="WIKIDATA">Q55847850</idno>
+				</person>
+				<person xml:id="AloisiaPichler">
+					<persName>
+						<forename>Aloisia</forename>
+						<surname>Pichler von Deeben</surname>
+					</persName>
+					<idno type="URL" subtype="geni.com">https://www.geni.com/people/Aloisia-Louise-Pichler-von-Deeben/6000000047505600963</idno>
+				</person>
+				<person xml:id="JohannRathausky">
+					<persName>
+						<forename>Johann</forename>
+						<surname>Rathausky</surname>
+					</persName>
+					<idno type="URI" subtype="GND">https://d-nb.info/gnd/1027435025</idno>
+				</person>	
+			</listPerson>
+			<listPlace>
+				<place xml:id="Vorderbrühl">
+					<placeName>Vorderbrühl</placeName>
+					<country>Austria</country>
+					<location>
+						<geo>48.08284, 16.25874</geo>
+					</location>
+					<idno type="ID" subtype="WIKIDATA">Q114048876</idno>
+					<idno type="URI" subtype="geonames">https://www.geonames.org/2762284/vorderbruehl.html</idno>
+				</place>
+				<place xml:id="Wien">
+					<placeName>Wien</placeName>
+					<country>Austria</country>
+					<location>
+						<geo>48.20849, 16.37208</geo>
+					</location>
+					<idno type="ID" subtype="WIKIDATA">Q1741</idno>
+					<idno type="URI" subtype="geonames">https://www.geonames.org/2761369/vienna.html</idno>
+				</place>
+			</listPlace>
+		</back>
+	</text>
+</TEI>

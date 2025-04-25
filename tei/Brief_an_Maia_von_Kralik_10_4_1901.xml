@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">Edition Mathilde Kralik</title>
+				<title type="s">Mathilde Kralik an Maia Kralik am 10. April 1901</title>
+				<author>Mathilde Kralik</author>
+				<editor>
+					<forename>Anna</forename>
+					<surname>Bauer</surname>
+				</editor>
+			</titleStmt>
+			<publicationStmt>
+				<p>Kurzedition im Rahmen der Übung "Digitale Editionen" bei Gabriel Viehhauser</p>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country>Austria</country>
+						<settlement>Wien</settlement>
+						<repository>Wienbibliothek im Rathaus</repository>
+						<collection>Nachlass Richard von Kralik (Teil von)</collection>
+						<idno type="Signatur">H.I.N.-189351</idno>
+						<idno type="PURL">https://resolver.obvsg.at/urn:nbn:at:AT-WBR-553467</idno>
+					</msIdentifier>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="de">Deutsch</language>
+			</langUsage>
+			<correspDesc>
+				<correspAction type="sent">
+					<persName ref="#MathildeKralik">Mathilde Kralik</persName>
+					<date when="1901-04-10">10. April 1901</date>
+				</correspAction>
+				<correspAction type="recieved">
+					<persName ref="#MaiaKralik">Maia Kralik</persName>
+				</correspAction>
+			</correspDesc>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="letterBody">
+				<pb n='1' facs="facsimile/10_04_1901_1.jpg"/>
+					<opener><lb facs='#facs_1_l_1' n='N001'/>Liebe <persName ref="#MaiaKralik">Maia</persName></opener>
+				<p>
+					<lb facs='#facs_1_l_2' n='N002'/>Bei meinem Nachhausekommen
+					<lb facs='#facs_1_l_3' n='N003'/>von <persName ref="#AnnaBaumgartner">Baumgarter</persName>, (wo ich mein
+					<lb facs='#facs_1_l_4' n='N004'/>Violinsonate für den Frauenclub mit
+					<lb facs='#facs_1_l_5' n='N005'/>ihr studirt habe) erfreute ich mich
+					<lb facs='#facs_1_l_6' n='N006'/>sehr an den schönen, d. h. gelungenen,
+					<lb facs='#facs_1_l_7' n='N007'/>Bildern <persName ref="#DietrichKralik">Dietrich&apos;s</persName>, der sich ja schon
+					<lb facs='#facs_1_l_8' n='N008'/>zu einem tüchtigen Photographen
+					<lb facs='#facs_1_l_9' n='N009'/>ausgebildet hat und den Vorzug
+					<lb facs='#facs_1_l_15' n='N010'/>hat, rasch zu liefern. Ich danke
+					<lb facs='#facs_1_l_12' n='N011'/>Dir und <persName ref="#DietrichKralik">Dietrich</persName>. Ist das Bild
+					<lb facs='#facs_1_l_13' n='N012'/>auf welchem <persName ref="#Ilse">Ilse</persName> mit der <persName ref="#Comtesse">Comtesse</persName><note>franz. für Gräfin</note>
+					<lb facs='#facs_1_l_14' n='N013'/>zusammen sind, nicht gut geworden?
+				</p>
+				<pb n='2' facs="facsimile/10_04_1901_2.jpg"/>
+				<p>
+					<lb facs='#facs_2_l' n='N001'/>Selbstverständlich that es mir
+					<lb facs='#facs_2_l_1' n='N002'/>leid, Deinen Besuch versäumt
+					<lb facs='#facs_2_l_2' n='N003'/>zu haben. <persName ref="#LouiseKralik">Mutter</persName> übergab mir
+					<lb facs='#facs_2_l_3' n='N004'/>auch Deinen Bankbrief. Wir haben
+					<lb facs='#facs_2_l_4' n='N005'/>in den letzten Zeiten angekauft:
+				</p>
+				<table>
+					<row n='0'>
+						<cell n='0'/>
+						<cell n='1'>
+							<lb facs='#facs_2_l_18' n='N001'/>heutiger Curs
+						</cell>
+					</row>
+					<row n='1'>
+						<cell n='2'>
+							<lb facs='#facs_2_l_34' n='N001'/>Einheitl. Notenrente 4∙2%
+						</cell>
+						<cell n='3'>
+							<lb facs='#facs_2_l_46' n='N001'/>98∙50
+						</cell>
+					</row>
+					<row n='2'>
+						<cell n='4'>
+							<lb facs='#facs_2_l_70' n='N001'/>od. 4% Anlehen der Haiz Wien (1898
+							<lb facs='#facs_2_l_82' n='N002'/>Gas-Anlehen)
+						</cell>
+						<cell n='5'>
+							<lb facs='#facs_2_l_58' n='N001'/>96∙25
+						</cell>
+					</row>
+					<row n='3'>
+						<cell n='6'>
+							<lb facs='#facs_2_l_94' n='N001'/>od. 4% Prior. d. Kaschare (derbg. B.
+							<lb facs='#facs_2_l_106' n='N002'/>1891<hi rend='superscript'>er</hi>, in Silber
+						</cell>
+						<cell n='7'>
+							<lb facs='#facs_2_l_118' n='N001'/>Curs v.
+							<lb facs='#facs_2_l_130' n='N002'/>H. Merz
+							<lb facs='#facs_2_l_142' n='N003'/>95∙55.
+						</cell>
+					</row>
+				</table>
+				<p>
+					<lb facs='#facs_2_l_29' n='N001'/>Es ist peinlich gleich, was Du von
+					<lb facs='#facs_2_l_30' n='N002'/>den drei Sorten wählen magst.
+					<lb facs='#facs_2_l_31' n='N003'/>Das verkaufte Effekt ist von Deinem
+					<lb facs='#facs_2_l_33' n='N004'/>Verzeichnis abzustreichen, das neugekaufte
+					<lb facs='#facs_2_l_32' n='N005'/>eingetragen.
+				</p>
+				<pb n='3' facs="facsimile/10_04_1901_3.jpg"/>
+				<closer>
+					<lb facs='#facs_3_tr_1_tl_1' n='N001'/>Ich würde mich freuen, morgen
+					<lb facs='#facs_3_tr_1_tl_2' n='N002'/>zum Barden-Abend <persName ref="#RichardKralik">Richard</persName> oder
+					<lb facs='#facs_3_tr_1_tl_3' n='N003'/>Dich zum Nachbarn zu haben.
+					<lb facs='#facs_3_tr_1_tl_4' n='N004'/>Der Mann ist ja seinem Programm
+					<lb facs='#facs_3_tr_1_tl_5' n='N005'/>nach, furchtbar interessant.
+					<lb facs='#facs_3_tr_1_tl_6' n='N006'/><salute>Mit herzlichsten Grüsse</salute>
+					<lb facs='#facs_3_tr_1_tl_7' n='N007'/>Deine
+					<lb facs='#facs_3_tr_1_tl_8' n='N008'/><signed><persName ref="MathildeKralik">Mathilde</persName></signed>
+					<lb facs='#facs_3_tr_1_tl_9' n='N009'/><dateline><date when="1901-04-10">10/4. 1901</date></dateline>
+				</closer>
+				<pb n='4' facs="facsimile/10_04_1901_4.jpg"/>
+			</div>
+		</body>
+		<back>
+			<listPerson>
+				<person xml:id="MathildeKralik">
+					<persName>
+						<forename>Mathilde</forename>
+						<surname>Kralik</surname>
+					</persName>
+					<idno type="ID" subtype="WGW">37789</idno>
+					<idno type="ID" subtype="WIKIDATA">Q89972</idno>
+					<idno type="URI" subtype="GND">https://d-nb.info/gnd/130214566</idno>
+					<idno type="ID" subtype="PMB">19659</idno>
+				</person>
+				<person xml:id="MaiaKralik">
+					<persName>
+						<forename>Maia</forename>
+						<surname>Kralik</surname>
+					</persName>
+					<idno type="URI" subtype="GND">https://d-nb.info/gnd/116385863</idno>
+				</person>
+				<person xml:id="LouiseKralik">
+					<persName>
+						<forename>Louise</forename>
+						<surname>Kralik</surname>
+					</persName>
+					<idno type="URL" subtype="geni.com">https://www.geni.com/people/Louise-Kralik-von-Meyrswalden/6000000027540572061</idno>
+					<idno type="ID" subtype="WIKIDATA">Q133874636</idno>
+				</person>
+				<person xml:id="RichardKralik">
+					<persName>
+						<forename>Richard</forename>
+						<surname>Kralik</surname>
+					</persName>
+					<idno type="URI" subtype="GND">https://d-nb.info/gnd/118777920</idno>
+					<idno type="ID" subtype="WIKIDATA">Q1317482</idno>
+					<idno type="ID" subtype="WGW">16425</idno>
+					<idno type="ID" subtype="PMB">3731</idno>
+				</person>
+				<person xml:id="DietrichKralik">
+					<persName>
+						<forename>Dietrich</forename>
+						<surname>Kralik</surname>
+					</persName>
+					<idno type="URI" subtype="GND">https://d-nb.info/gnd/118777912</idno>
+					<idno type="ID" subtype="WIKIDATA">Q1223897</idno>
+					<idno type="ID" subtype="WGW">16414</idno>
+				</person>
+				<person xml:id="AnnaBaumgartner">
+					<persName>
+						<forename>Anna</forename>
+						<surname>Baumgartner</surname>
+					</persName>
+				</person>
+				<person xml:id="Ilse">
+					<persName>
+						<forename>Ilse</forename>
+					</persName>
+				</person>
+				<person xml:id="Comtesse"></person>
+			</listPerson>
+			</back>
+	</text>
+</TEI>

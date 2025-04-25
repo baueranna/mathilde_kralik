@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">Edition Mathilde Kralik</title>
+				<title type="s">Curriculum vitae</title>
+				<author>
+					<forename>Anna</forename>
+					<surname>Bauer</surname>
+				</author>
+			</titleStmt>
+			<publicationStmt>
+				<p>Kurzedition im Rahmen der Übung "Digitale Editionen" bei Gabriel Viehhauser</p>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country>Austria</country>
+						<settlement>Wien</settlement>
+						<repository>Wienbibliothek im Rathaus</repository>
+						<collection>Nachlass Richard von Kralik (Teil von)</collection>
+						<idno type="Signatur">H.I.N.-189405</idno>
+						<idno type="PURL">https://resolver.obvsg.at/urn:nbn:at:AT-WBR-333392</idno>
+					</msIdentifier>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div>
+				<pb n='1' facs="facsimile/CV_1.jpg"/>
+				<p>
+					<lb facs='#facs_1_tr_1_tl_1' n='N001'/><placeName ref="#Wien">Wien</placeName> <date when="1904-10-19">19. Okt. 1904</date>
+					<lb facs='#facs_1_tr_1_tl_3' n='N003'/>Ich bin am <date when="1857-12-03">3. Dezember 1857</date> zu <placeName ref="#Linz">Linz</placeName>
+					<lb facs='#facs_1_tr_1_tl_4' n='N004'/>an der Donau geboren. <choice><sic>Meni</sic><corr>Mein</corr></choice> <persName ref="#WilhelmKralik">Vater</persName>
+					<lb facs='#facs_1_tr_1_tl_5' n='N005'/>gest. 1877) war Glasfabrikant (Chef der
+					<lb facs='#facs_1_tr_1_tl_6' n='N006'/>Firma <orgName ref="#MeyrsNeffe">Meyr&apos;s Neffe</orgName> in Böhmen), meine <persName ref="LouiseKralik">Mutter</persName>
+					<lb facs='#facs_1_tr_1_tl_7' n='N007'/>ist eine geborene Lobmeyr (Schwester des
+					<lb facs='#facs_1_tr_1_tl_8' n='N008'/>Herrenhausmitgliedes und Glasindustriellen
+					<lb facs='#facs_1_tr_1_tl_9' n='N009'/><persName ref="#LudwigLobmeyr">Lobmeyer</persName> zu Wien). Meinem <persName ref="#WilhelmKralik">Vater</persName> und
+					<lb facs='#facs_1_tr_1_tl_10' n='N010'/>meiner <persName ref="#LouiseKralik">Mutter</persName> verdanke ich den musikalischen
+					<lb facs='#facs_1_tr_1_tl_11' n='N011'/>Sinn und die Liebe zur Musik. Mein <persName ref="#WilhelmKralik">Vater</persName>
+					<lb facs='#facs_1_tr_1_tl_12' n='N012'/>war passionirter Geigenspieler, wiewohl Auto-
+					<lb facs='#facs_1_tr_1_tl_13' n='N013'/>didakt und pflegte im Böhmerwalde eifrig
+					<lb facs='#facs_1_tr_1_tl_14' n='N014'/>das Quartettspiel. Meine <persName ref="#LouiseKralik">Mutter</persName> spielte als
+					<lb facs='#facs_1_tr_1_tl_15' n='N015'/>Dilettantin gut Klavier und neigte schon
+					<lb facs='#facs_1_tr_1_tl_16' n='N016'/>als Mädchen der ernsten Klassischen
+					<lb facs='#facs_1_tr_1_tl_17' n='N017'/>Richtung zu. Von meinen Eltern hörte
+					<lb facs='#facs_1_tr_1_tl_18' n='N018'/>ich zuerst <persName ref="#Beethoven">Beethoven&apos;s</persName> Violin-Klavier-Sonaten.
+					<lb facs='#facs_1_tr_1_tl_19' n='N019'/><hi rend='superscript'>x</hi><persName ref="#Haydn">Haydn</persName>, <persName ref="#Mozart">Mozart</persName> lernte ich durch Anhörung
+					<lb facs='#facs_1_tr_1_tl_20' n='N020'/>der häuslichen Quartette kennen. Später
+					<lb facs='#facs_1_tr_1_tl_21' n='N021'/>übernahmen dann meine beiden älteren
+					<lb facs='#facs_1_tr_1_tl_22' n='N022'/>Brüder<note><persName ref="#RichardKralik">Richard Kralik</persName> und <persName ref="#LudwigKralik">Ludwig Kralik</persName>.</note> und schliesslich ich mit ihnen die
+					<lb facs='#facs_1_tr_1_tl_23' n='N023'/>Hausmusik die in Duos, Trios und Quatros
+					<lb facs='#facs_1_tr_1_tl_24' n='N024'/><hi rend='strikethrough'>Klassischer Richtunc</hi> unserer Klassiker bestand.
+					<lb facs='#facs_1_tr_1_tl_25' n='N025'/><hi rend='strikethrough'>Meine ersten Kompositionsversuche</hi>
+					<lb facs='#facs_1_tr_1_tl_26' n='N026'/><hi rend='strikethrough'>förderte mein Bruder <persName ref="#RichardKralik">Richard</persName>, der sich lebhaft</hi>
+					<lb facs='#facs_1_tr_1_tl_27' n='N027'/><hi rend='superscript'>x</hi> oder: <persName ref="#Haydn">Haydn&apos;s</persName> und <persName ref="#Mozart">Mozart&apos;s</persName> Klänge wurden mir zunächst durch die
+					<lb facs='#facs_1_tr_1_tl_28' n='N028'/>häuslichen Quartette vermittelt.
+				</p>
+				<pb n='2' facs="facsimile/CV_2.jpg"/>
+				<p>
+					<lb facs='#facs_2_tr_1_tl_1' n='N001'/><hi rend='strikethrough'>obt.</hi>
+					<lb facs='#facs_2_tr_1_tl_2' n='N002'/>In den folgenden Jahren pflegten wir in 
+					<lb facs='#facs_2_l' n='N003'/><hi rend='superscript'>unserem</hi>  <hi rend='strikethrough'>zu</hi> Hause den a capella-Gesang, wodurch ich mit den <hi rend='strikethrough superscript'>[dem]</hi> <hi rend='strikethrough'>Werken</hi>
+					<lb facs='#facs_2_l_1' n='N004'/><hi rend='subscript'>Werken </hi><hi rend='strikethrough subscript'>des</hi> der niederländischen und italienischen u. deutschen
+					<lb facs='#facs_2_tr_1_tl_7' n='N005'/>Meister des XV. <choice><abbr>u</abbr><expan>und</expan></choice> XVI. Jahrhunderts vertrauter
+					<lb facs='#facs_2_tr_1_tl_9' n='N006'/>am liebsten . hauptsächlichen
+					<lb facs='#facs_2_tr_1_tl_10' n='N007'/>wurde. <hi rend='strikethrough'>Immer Daneben ging</hi> Als mein <hi rend='strikethrough'>großten</hi>
+					<lb facs='#facs_2_tr_1_tl_11' n='N008'/>Lehrmeister betrachte ich Bach für die
+					<lb facs='#facs_2_tr_1_tl_12' n='N009'/>modernen <choice><sic>formen</sic><corr>Formen</corr></choice> <hi rend='strikethrough'>ihr di </hi><choice><sic>intnerit</sic><corr>interessierte</corr></choice>
+					<lb facs='#facs_2_tr_1_tl_13' n='N010'/><hi rend='strikethrough'>[unleserlich]</hi> mich <choice><sic>persnöl</sic><corr>persönlich</corr></choice> Liszt.
+				</p>
+				<p>
+					<lb facs='#facs_2_tr_2_tl_1' n='N001'/><hi rend='strikethrough'>dafür interessirte.</hi>
+					<lb facs='#facs_2_tr_2_tl_2' n='N002'/>Meinen ersten Klavierunterricht genoß
+					<lb facs='#facs_2_tr_2_tl_3' n='N003'/>ich bei meiner <persName ref="#LouiseKralik">Mutter</persName>, dann bei <persName ref="EduardHauptmann">Eduard
+					<lb facs='#facs_2_tr_2_tl_4' n='N004'/>Hauptmann</persName> in <placeName ref="Linz">Linz</placeName>. Meine ersten
+					<lb facs='#facs_2_tr_2_tl_5' n='N005'/>Kompositionsversuche forderte mein
+					<lb facs='#facs_2_tr_2_tl_6' n='N006'/>Bruder <persName ref="#RichardKralik">Richard</persName>, der sich lebhaft dafür interessierte.
+					<lb facs='#facs_2_tr_2_tl_7' n='N007'/>nach unserer Übersiedlung nach <placeName ref="#Wien">Wien</placeName>
+					<lb facs='#facs_2_tr_2_tl_8' n='N008'/>im Jahre 1870 erhielt ich Unterricht im
+					<lb facs='#facs_2_tr_2_tl_9' n='N009'/>Klavierspiel und in der Harmonielehre
+					<lb facs='#facs_2_tr_2_tl_10' n='N010'/>von <persName ref="#CarlHertlein">Carl Hertlein</persName> (Flötist der Hofoper).
+					<lb facs='#facs_2_tr_2_tl_11' n='N011'/>Im Jahre 1875 wurde ich Privat-Schülerin
+					<lb facs='#facs_2_tr_2_tl_12' n='N012'/>von Professor <persName ref="#JuliusEpstein">Julius Epstein</persName> für Klavier;
+					<lb facs='#facs_2_tr_2_tl_14' n='N014'/><choice><sic><hi rend='superscript'>Er nahm</hi></sic><corr>Er nahm</corr></choice><hi rend='strikethrough'>der</hi> ernsten Anteil an meinen Kompositionen
+					<lb facs='#facs_2_tr_2_tl_16' n='N016'/><hi rend='strikethrough'>nahm</hi> und <hi rend='superscript'>riet</hi> mir zur weiteren Ausbildung
+					<lb facs='#facs_2_tr_2_tl_17' n='N017'/>Anton Bruckner für Contrapunkt <hi rend='strikethrough'>vorschlug</hi>,
+					<lb facs='#facs_2_tr_2_tl_18' n='N018'/>dessen Unterricht ich privatim ein Jahr
+					<lb facs='#facs_2_tr_2_tl_19' n='N019'/>genoss bis in meinem Eintritt <hi rend='strikethrough'>im</hi> in die
+					<lb facs='#facs_2_tr_2_tl_20' n='N020'/>Kompositionsschule des <orgName ref="#WienerKonservatorium">Wiener Konservatoriums</orgName>
+					<lb facs='#facs_2_tr_2_tl_21' n='N021'/>im Oktober 1876. Ich wurde in den zweiten
+					<lb facs='#facs_2_tr_2_tl_24' n='N022'/>Jahrgang <hi rend='superscript'>[unleserlich]</hi> Schule Professor <hi rend='superscript'>Franz</hi> Krenn übernommen
+					<lb facs='#facs_2_tr_2_tl_26' n='N023'/>Nach Absolvierung des <hi rend='superscript'>folgenden</hi> dritten Jahrganges erhielt
+					<lb facs='#facs_2_tr_2_tl_27' n='N024'/>ich den <hi rend='superscript'>(I.) </hi>ersten Preis. | Meine Kompositionen
+					<lb facs='#facs_2_tr_2_tl_28' n='N025'/>sind zum Teil gedruckt, zum größerem Teil
+					<lb facs='#facs_2_tr_2_tl_29' n='N026'/>noch Manuscript. <hi rend='strikethrough'>Erstere, bestehen in</hi>:
+					<lb facs='#facs_2_tr_2_tl_30' n='N027'/><hi rend='strikethrough'>sind</hi> im Verlage Gutmann, <placeName ref="#Wien">Wien</placeName>, erschienen, <hi rend='strikethrough'>und</hi>
+					<lb facs='#facs_2_tr_2_tl_31' n='N028'/>sind:
+				</p>
+				<pb n='3' facs="facsimile/CV_3.jpg"/>
+				<p>
+					<lb facs='#facs_3_tr_1_tl_1' n='N001'/><hi rend="head"><hi rend="strikethrough">Narodny</hi></hi>
+				</p>
+				<pb n='4' facs="facsimile/CV_4.jpg"/>
+				<list rend="numbered">
+					<lb facs='#facs_4_tr_1_tl_2' n='N002'/><item n="1">Sonate für Clavier und Violine</item>
+					<lb facs='#facs_4_tr_1_tl_3' n='N003'/><item n="2">Trio für Clavier, Violine und Cello</item>
+					<lb facs='#facs_4_tr_1_tl_4' n='N004'/><item n="3">Fünf Clavierstücke
+					<lb facs='#facs_4_tr_1_tl_5' n='N005'/>(Festmarsch, Träumerei, Liedchen, Intermezzo)
+					<lb facs='#facs_4_tr_1_tl_6' n='N006'/>Gavotti, )</item>
+					<lb facs='#facs_4_tr_1_tl_7' n='N007'/><item n="4">Der Rosenkranz
+					<lb facs='#facs_4_tr_1_tl_8' n='N008'/><hi rend='strikethrough'>(</hi>Gedicht von <persName ref="#RichardKralik">Richard Kralik</persName>, für eine Singstimme
+					<lb facs='#facs_4_tr_1_tl_9' n='N009'/>mit Begleitung des Claviers<hi rend='strikethrough'>)</hi>.</item>
+					<lb facs='#facs_4_tr_1_tl_10' n='N010'/><item n="5">Büchlein der Unweisheit
+					<lb facs='#facs_4_tr_1_tl_11' n='N011'/><hi rend='strikethrough'>(</hi>Gedichte von <persName ref="#RichardKralik">Richard Kralik</persName>, für eine Singstamm
+					<lb facs='#facs_4_tr_1_tl_12' n='N012'/>mit Clavierbegleitung.</item>
+					<lb facs='#facs_4_tr_1_tl_13' n='N013'/><item n="6">Lieder im Heiligen Geist von <persName ref="#RichardKralik">Richard</persName> und <persName ref="MathildeKralik">Mathilde
+					<lb facs='#facs_4_tr_1_tl_14' n='N014'/>Kralik</persName> für eine Singstimme mit Clavierbegleitung.</item>
+					<lb facs='#facs_4_tr_1_tl_15' n='N015'/><item n="7">Die Taufe Christi. Gedicht von Papst <persName ref="#LeoXIII">Leo XIII.</persName> für eine
+					<lb facs='#facs_4_tr_1_tl_16' n='N016'/>Singstimme mit Clavierbegleitung.</item>
+					<lb facs='#facs_4_tr_1_tl_17' n='N017'/><item n="8">Hymnus <choice><abbr>S.</abbr><expan>Sankt</expan></choice> Hildegard&apos;o für Sopranerla, Frauenchor
+					<lb facs='#facs_4_tr_1_tl_18' n='N018'/>und Clavier.</item>
+					<lb facs='#facs_4_tr_1_tl_19' n='N019'/><item n="9">Ingendlieder für eine Singstimme mit Clavierbegleitung.</item>
+				</list>
+				<p>
+					<lb facs='#facs_4_tr_1_tl_20' n='N020'/><choice><sic>Ungedrukte</sic><corr>Ungedruckte</corr></choice> Kompositionen:
+					<lb facs='#facs_4_tr_1_tl_21' n='N021'/>Weihnachten. Cantate für Soli, Chor <choice><abbr>u.</abbr><expan>und</expan></choice> Orchester.
+					<lb facs='#facs_4_tr_1_tl_22' n='N022'/>Gedicht von <persName ref="#RichardKralik">Richard <choice><abbr>v.</abbr><expan>von</expan></choice> Kralik</persName>
+					<lb facs='#facs_4_tr_1_tl_23' n='N023'/>OrchesterPartitur <choice><abbr>u.</abbr><expan>und</expan></choice> <choice><abbr>2 hdg.</abbr><expan>händig</expan></choice> Klavierauszug
+					<lb facs='#facs_4_tr_1_tl_24' n='N024'/>Der Kreuzweg. Cantate für Soli, Chor <choice><abbr>u.</abbr><expan>und</expan></choice> Orchester.
+					<lb facs='#facs_4_tr_1_tl_25' n='N025'/>Gedicht von <persName ref="RichardKralik">Richard <choice><abbr>v.</abbr><expan>von</expan></choice> Kralik</persName>
+					<lb facs='#facs_4_tr_1_tl_26' n='N026'/>Orchester Partitur <choice><abbr>u.</abbr><expan>und</expan></choice> <choice><abbr>2 hdg.</abbr><expan>zweihändig</expan></choice> Klavierauszug
+					<lb facs='#facs_4_tr_1_tl_27' n='N027'/>Blume und Weißblume (<lang xml:lang="fr">Fleur et Blanche</lang>-
+					<lb facs='#facs_4_l' n='N028'/>Oper (Märchenspiel) <lang xml:lang="fr">fleur</lang>).
+					<lb facs='#facs_4_tr_1_tl_30' n='N029'/><hi rend='strikethrough'>Oper </hi>in drei Akten. Orchesterpart <choice><abbr>u.</abbr><expan>und</expan></choice> <choice><abbr>2hdg.</abbr><expan>zweihändig</expan></choice> Klavierauszu
+					<lb facs='#facs_4_tr_1_tl_31' n='N030'/><hi rend='strikethrough'>Märchenspiel</hi> Dichtung von <persName ref="RichardKralik">Richard v. Kralik</persName>
+				</p>
+				<pb n='5' facs="facsimile/CV_5.jpg"/>
+				<p>
+					<lb facs='#facs_5_tr_1_tl_1' n='N001'/><lang xml:lang="la">De se ipso.</lang> Gedicht von Papst <persName ref="#LeoXIII">Leo XIII.</persName> <choice><abbr>f.</abbr><expan>für</expan></choice> Männerchor
+					<lb facs='#facs_5_tr_1_tl_2' n='N002'/>a capella
+					<lb facs='#facs_5_l' n='N003'/>Marienlied . . . . <choice><abbr>f.</abbr><expan>für</expan></choice> Frauenchor
+					<lb facs='#facs_5_tr_1_tl_5' n='N004'/>O du sonnige, wonnige Welt. Gedicht von <persName ref="FriedrichWeber">F.W.Weber </persName><choice><abbr>fgem.Ch.m.Cl.B.</abbr><expan>für gemischten Chor mit Clavierbegleitung</expan></choice>
+				</p>
+				<p>
+					<lb facs='#facs_5_tr_2_tl_1' n='N001'/>Symphonie Fmoll <choice><abbr>Orchester.Part. u. 4 hdg.</abbr><expan>Orchesterpartitur und vierhändiges</expan></choice> Klavier
+					<lb facs='#facs_5_tr_2_tl_2' n='N002'/>Nonett <hi rend='superscript'>in C</hi> für Bläserquartett (<choice><abbr>Clar.</abbr><expan>Clarinette</expan></choice> 2 Hörner <choice><abbr>u.</abbr><expan>und</expan></choice> Fagott)
+					<lb facs='#facs_5_tr_2_tl_3' n='N003'/>Streichquartett und Klavier, Partitur <choice><abbr>u.</abbr><expan>und</expan></choice>
+					<lb facs='#facs_5_l_1' n='N004'/>Streichquartett A dur <choice><abbr>4 hdg.</abbr><expan>vierhändiger</expan></choice> Klavierauszug.
+					<lb facs='#facs_5_tr_2_tl_6' n='N005'/>Zwei Kurze Messen <choice><abbr>f.</abbr><expan>für</expan></choice> Chor mit Orgelbegleitung
+					<lb facs='#facs_5_tr_2_tl_7' n='N006'/>Te Deum für Chor <choice><abbr>u.</abbr><expan>und</expan></choice> Orgel
+					<lb facs='#facs_5_tr_2_tl_8' n='N007'/>3 Tantum ergo <choice><abbr>f.</abbr><expan>für</expan></choice> Chor <choice><abbr>u.</abbr><expan>und</expan></choice> Orgel
+					<lb facs='#facs_5_tr_2_tl_9' n='N008'/>6 Kirchen-Chor-Gesänge mit Orgelbegleitung
+					<lb facs='#facs_5_tr_2_tl_11' n='N009'/>Lieder-Cyclus: „Maia“. 57 Lieder.
+					<lb facs='#facs_5_tr_2_tl_12' n='N010'/>Gedichte von <choice><abbr><persName ref="#RichardKralik">Rich. v. Kralik</persName></abbr><expan><persName ref="#RichardKralik">Richard von Kralik</persName></expan></choice>
+					<lb facs='#facs_5_tr_2_tl_13' n='N011'/>Balladen-Cyclus „Pring Eugen&quot;
+					<lb facs='#facs_5_tr_2_tl_14' n='N012'/>Gedichte von <choice><abbr><persName ref="#RichardKralik">Rich. v. Kralik</persName></abbr><expan><persName ref="#RichardKralik">Richard von Kralik</persName></expan></choice>
+					<lb facs='#facs_5_tr_2_tl_15' n='N013'/>Tanzidyllen. Gedichte von <choice><abbr><persName ref="#RichardKralik">Rich. v. Kralik</persName></abbr><expan><persName ref="#RichardKralik">Richard von Kralik</persName></expan></choice>
+					<lb facs='#facs_5_l_2' n='N014'/>f. <hi rend='strikethrough'>Chor</hi> Soli) Chor Kleria <choice><abbr>melodramat.</abbr><expan>melodramatisch</expan></choice> Begleitung <choice><abbr>v.</abbr><expan>von</expan></choice> Klavier
+					<lb facs='#facs_5_tr_2_tl_18' n='N015'/><hi rend='strikethrough'>Die</hi> Musik zu zwei Auto’s von Calderon
+					<lb facs='#facs_5_l_3' n='N016'/>Text aus <persName ref="#Herder">Herders</persName> Stimmen d.v.
+					<lb facs='#facs_5_tr_2_tl_21' n='N017'/>Hymenäus. (<persName ref="#Herder">Herder</persName> nach <persName ref="#Catull">Catull</persName>) <choice><abbr>f.</abbr><expan>für</expan></choice> Chor <choice><abbr>u.</abbr><expan>und</expan></choice> Klavierbegleitung
+					<lb facs='#facs_5_tr_2_tl_22' n='N018'/>4 Melodramatische Novellen. Dichtungen von
+					<lb facs='#facs_5_tr_2_tl_23' n='N019'/><choice><abbr><persName ref="#RichardKralik">Rich. v. Kralik</persName></abbr><expan><persName ref="#RichardKralik">Richard von Kralik</persName></expan></choice>
+					<lb facs='#facs_5_tr_2_tl_24' n='N020'/><hi rend='strikethrough'>Blumenlieder. 5 Gedichte von <persName ref="#IreneZoepf">Irene Zoepf</persName>.</hi>
+					<lb facs='#facs_5_tr_2_tl_25' n='N021'/>Reihen. Clavier-Suite
+					<lb facs='#facs_5_tr_2_tl_26' n='N022'/>Clavier<hi rend='strikethrough'>stücke</hi>sonate
+					<lb facs='#facs_5_tr_2_tl_27' n='N023'/>Clavier Fauterive
+					<lb facs='#facs_5_tr_2_tl_28' n='N024'/>Weihefestmarsch <choice><abbr>f.</abbr><expan>für</expan></choice> Orchester.
+					<lb facs='#facs_5_tr_2_tl_29' n='N025'/>Zwei kleinere Festmärsche <choice><abbr>f.</abbr><expan>für</expan></choice> Clavier
+					<lb facs='#facs_5_tr_2_tl_30' n='N026'/><hi rend='strikethrough'>Clavierstücke</hi> Lieder <choice><abbr>u.</abbr><expan>und</expan></choice> Balladen nach Auszügen <choice><abbr>verschied.</abbr><expan>verschiedener</expan></choice> Autoren
+					<lb facs='#facs_5_l_4' n='N027'/>Aufgeführt wurden: Sonate <choice><abbr>f.</abbr><expan>für</expan></choice> Clavier <choice><abbr>u.</abbr><expan>und</expan></choice> Violine
+					<lb facs='#facs_5_tr_2_tl_33' n='N028'/>Trio <choice><abbr>f. Cl., V. Ve.</abbr><expan>für Clavier, Violine Violoncello</expan></choice>
+					<lb facs='#facs_5_tr_2_tl_34' n='N029'/>Lieder Nonett
+					<lb facs='#facs_5_tr_2_tl_35' n='N030'/>Clavierstücke
+					<lb facs='#facs_5_tr_2_tl_36' n='N031'/>Taufe Christi
+					<lb facs='#facs_5_tr_2_tl_37' n='N032'/>Hymnus <choice><abbr>S.</abbr><expan>Sankt</expan></choice> Hildegardi
+					<lb facs='#facs_5_tr_2_tl_38' n='N033'/>Weihnachten, Kreuzweg, Symphonie, Nonett, Streichquartett, Messen.
+				</p>
+				<pb n='6' facs="facsimile/CV_6.jpg"/>
+			</div>
+		</body>
+		<back>
+			<listPerson>
+				<person xml:id="MathildeKralik">
+					<persName>
+						<forename>Mathilde</forename>
+						<surname>Kralik</surname>
+					</persName>
+					<idno type="ID" subtype="WGW">37789</idno>
+					<idno type="ID" subtype="WIKIDATA">Q89972</idno>
+					<idno type="URI" subtype="GND">https://d-nb.info/gnd/130214566</idno>
+					<idno type="ID" subtype="PMB">19659</idno>
+				</person>
+				<person xml:id="MaiaKralik">
+					<persName>
+						<forename>Maia</forename>
+						<surname>Kralik</surname>
+					</persName>
+					<idno type="URI" subtype="GND">https://d-nb.info/gnd/116385863</idno>
+				</person>
+				<person xml:id="LudwigLobmeyr">
+					<persName>
+						<forename>Ludwig</forename>
+						<surname>Lobmeyr</surname>
+					</persName>
+					<idno type="ID" subtype="WIKIDATA">Q55847850</idno>
+				</person>
+				<person xml:id="RichardKralik">
+					<persName>
+						<forename>Richard</forename>
+						<surname>Kralik</surname>
+					</persName>
+					<idno type="URI" subtype="GND">https://d-nb.info/gnd/118777920</idno>
+					<idno type="ID" subtype="WIKIDATA">Q1317482</idno>
+					<idno type="ID" subtype="WGW">16425</idno>
+					<idno type="ID" subtype="PMB">3731</idno>
+				</person>
+				<person xml:id="LudwigKralik">
+					<persName>
+						<forename>Ludwig</forename>
+						<surname>Kralik</surname>
+					</persName>
+					<idno type="URL" subtype="geni.com">https://www.geni.com/people/Ludwig-Kralik-von-Meyrswalden/6000000067101560079</idno>
+				</person>
+				<person xml:id="LouiseKralik">
+				<persName>
+					<forename>Louise</forename>
+					<surname>Kralik</surname>
+				</persName>
+				<idno type="URL" subtype="geni.com">https://www.geni.com/people/Louise-Kralik-von-Meyrswalden/6000000027540572061</idno>
+				<idno type="ID" subtype="WIKIDATA">Q133874636</idno>
+				</person>
+				<person xml:id="WilhelmKralik">
+					<persName>
+						<forename>Wilhelm</forename>
+						<surname>Kralik von Meyrswalden</surname>
+					</persName>
+					<idno type="URI" subtype="GND">https://d-nb.info/gnd/136539696</idno>
+					<idno type="ID" subtype="WIKIDATA">Q2573745</idno>
+				</person>
+				<person xml:id="Beethoven">
+					<persName>
+						<forename>Ludwig</forename>
+						<surname>van Beethoven</surname>
+					</persName>
+					<idno type="URI" subtype="GND">https://d-nb.info/gnd/118508288</idno>
+					<idno type="ID" subtype="WIKIDATA">Q255</idno>
+					</person>
+				<person xml:id="JuliusEpstein">
+					<persName>
+						<forename>Julius</forename>
+						<surname>Epstein</surname>
+					</persName>
+					<idno type="URI" subtype="GND">https://d-nb.info/gnd/116652357</idno>
+					<idno type="ID" subtype="WIKIDATA">Q79036</idno>
+				</person>
+					<person xml:id="EduardHauptmann">
+						<persName>
+							<forename>Eduard</forename>
+							<surname>Hauptmann</surname>
+						</persName>
+				</person>
+				<person xml:id="IreneZoepf">
+					<persName>
+						<forename>Irene</forename>
+						<surname>Zoepf</surname>
+					</persName>
+					<idno type="URI" subtype="VIAF">http://viaf.org/viaf/66893083</idno>
+				</person>
+				<person xml:id="CarlHertlein">
+					<persName>
+						<forename>Carl</forename>
+						<surname>Hertlein</surname>
+					</persName>
+				</person>
+				<person xml:id="Herder">
+					<persName>
+						<forename>Johann</forename>
+						<forename>Gottfried</forename>
+						<surname>Herder</surname>
+					</persName>
+					<idno type="ID" subtype="WIKIDATA">Q155547</idno>
+					<idno type="URI" subtype="GND">https://d-nb.info/gnd/118549553</idno>
+				</person>
+				<person xml:id="Mozart">
+					<persName>
+						<forename>Wolfgang</forename>
+						<forename>Amadeus</forename>
+						<surname>Mozart</surname>
+					</persName>
+					<idno type="URI" subtype="GND">https://d-nb.info/gnd/118584596</idno>
+					<idno type="ID" subtype="WIKIDATA">Q254</idno>
+				</person>
+				<person xml:id="FriedrichWeber">
+					<persName>
+						<forename>Friedrich</forename>
+						<forename>Wilhelm</forename>
+						<surname>Weber</surname>
+					</persName>
+					<idno type="URI" subtype="GND">https://d-nb.info/gnd/118765833</idno>
+					<idno type="ID" subtype="WIKIDATA">Q77492</idno>
+				</person>
+				<person xml:id="Catull">
+					<persName>Catull</persName>
+					<idno type="URI" subtype="GND">https://d-nb.info/gnd/118519719</idno>
+					<idno type="ID" subtype="WIKIDATA">Q163079</idno>
+				</person>
+				<person xml:id="Haydn">
+					<persName>
+						<forename>Joseph</forename>
+						<surname>Haydn</surname>
+					</persName>
+					<idno type="URI" subtype="GND">https://d-nb.info/gnd/118547356</idno>
+					<idno type="ID" subtype="WIKIDATA">Q7349</idno>
+				</person>
+				<person xml:id="LeoXIII">
+					<persName>Leo XIII</persName>
+					<idno type="ID" subtype="WIKIDATA">Q43922</idno>
+				</person>
+			</listPerson>
+			<listPlace>
+				<place xml:id="Wien">
+					<placeName>Wien</placeName>
+					<country>Austria</country>
+					<location>
+						<geo>48.20849, 16.37208</geo>
+					</location>
+					<idno type="ID" subtype="WIKIDATA">Q1741</idno>
+					<idno type="URI" subtype="geonames">https://www.geonames.org/2761369/vienna.html</idno>
+				</place>
+				<place xml:id="Linz">
+					<placeName>Linz</placeName>
+					<country>Austria</country>
+					<location>
+						<geo>48.30639, 14.28611</geo>
+					</location>
+					<idno type="ID" subtype="WIKIDATA">Q41329</idno>
+					<idno type="URI" subtype="geonames">https://www.geonames.org/2772400/linz.html</idno>
+				</place>
+			</listPlace>
+			<listOrg>
+				<org xml:id="MeyrsNeffe">
+					<orgName>Meyr's Neffe</orgName>
+					<idno type="ID" subtype="WIKIDATA">Q1926388</idno>
+				</org>
+				<org xml:id="WienerKonservatorium">
+					<orgName>Wiener Konservatorium</orgName>
+					<idno type="ID" subtype="WIKIDATA">Q28864370</idno>
+				</org>
+			</listOrg>
+		</back>
+	</text>
+</TEI>

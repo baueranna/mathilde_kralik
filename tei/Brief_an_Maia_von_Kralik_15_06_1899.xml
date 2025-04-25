@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">Edition Mathilde Kralik</title>
+				<title type="s">Mathilde Kralik an Maia Kralik am 15. Juni 1899</title>
+				<author>Mathilde Kralik</author>
+				<editor>
+					<forename>Anna</forename>
+					<surname>Bauer</surname>
+				</editor>
+			</titleStmt>
+			<publicationStmt>
+				<p>Kurzedition im Rahmen der Übung "Digitale Editionen" bei Gabriel Viehhauser</p>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country>Austria</country>
+						<settlement>Wien</settlement>
+						<repository>Wienbibliothek im Rathaus</repository>
+						<collection>Nachlass Richard von Kralik (Teil von)</collection>
+						<idno type="Signatur">H.I.N.-189334</idno>
+						<idno type="PURL">https://resolver.obvsg.at/urn:nbn:at:AT-WBR-553155</idno>
+					</msIdentifier>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="de">Deutsch</language>
+			</langUsage>
+			<correspDesc>
+				<correspAction type="sent">
+					<persName ref="#MathildeKralik">Mathilde Kralik</persName>
+					<placeName>Vorderbrühl</placeName>
+					<date when="1899-06-15">15. Juni 1899</date>
+				</correspAction>
+				<correspAction type="recieved">
+					<persName ref="#MaiaKralik">Maia Kralik</persName>
+				</correspAction>
+			</correspDesc>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="letterBody">
+				<pb n='1' facs="facsimile/15_06_1899_1.jpg"/>
+				<opener>
+					<lb facs='#facs_1_l_17' n='N001'/><placeName ref="#Vorderbrühl">Vorderbrühl</placeName>, Jägerhausstr. 11.
+					<lb facs='#facs_1_l_32' n='N002'/><dateline><date when="1899-06-15">15. Juni 1899.</date></dateline>
+					<lb facs='#facs_1_l_18' n='N001'/><salute>Liebste <persName ref="#MaiaKralik">Maia</persName>!</salute>
+				</opener>
+				<p>
+					<lb facs='#facs_1_l_31' n='N002'/>Dein Brief war mir sehr
+					<lb facs='#facs_1_l_19' n='N003'/>willkommen, leidet man doch durch
+					<lb facs='#facs_1_l_20' n='N004'/>den unterbrochenen Contact im Sommer
+					<lb facs='#facs_1_l_21' n='N005'/>immer etwas Mangel. Da gibt es keine
+					<lb facs='#facs_1_l_22' n='N006'/><persName ref="#RichardKralik">Richard&apos;schen</persName> Jausenbesuche und keine
+					<lb facs='#facs_1_l_23' n='N007'/>Familienzusammenkünfte mit Ausnahme
+					<lb facs='#facs_1_l_24' n='N008'/>der wenigen stets allzu rasch verfliegenden
+					<lb facs='#facs_1_l_25' n='N009'/>Tage, die Ihr in der <placeName ref="#Vorderbrühl">Brühl</placeName><note>Brühl bezeichnet ein Tal bei Mödling, das unter anderem aus den Ortschaften Voderbrühl und Hinterbrühl besteht.</note> zubringt.
+					<lb facs='#facs_1_l_26' n='N010'/>Es kommt mir vor, als ob <persName ref="#LudwigKralik">Ludwig</persName> auch
+					<lb facs='#facs_1_l_27' n='N011'/>unter unserer Entfernung von <placeName ref="Wien">Wien</placeName> litte
+					<lb facs='#facs_1_l_28' n='N012'/>denn ihm ist ja das Herauskommen un-
+					<lb facs='#facs_1_l_29' n='N013'/>bequem und wir verlieren dabei zu sehr
+					<lb facs='#facs_1_l_30' n='N014'/>die Fühlung mit ihm. Leider ist er
+				</p>
+				<pb n='2' facs="facsimile/15_06_1899_2.jpg"/>
+				<p>
+					<lb facs='#facs_2_tr_1_tl_1' n='N001'/>noch dazu gegenwärtig seit Mittwoch
+					<lb facs='#facs_2_tr_1_tl_2' n='N002'/>oder Donnerstag voriger Woche, also seit
+					<lb facs='#facs_2_tr_1_tl_3' n='N003'/>8 Tagen von <placeName ref="#Wien">Wien</placeName> abwesend und nach
+					<lb facs='#facs_2_tr_1_tl_4' n='N004'/><placeName ref="#Berlin">Berlin</placeName> abgereist. Keine noch so karge
+					<lb facs='#facs_2_tr_1_tl_5' n='N005'/>Ansichtskarte hat uns inzwischen von
+					<lb facs='#facs_2_tr_1_tl_6' n='N006'/>seiner Reise, seinem Aufenthalte etwas
+					<lb facs='#facs_2_tr_1_tl_7' n='N007'/>gemeldet; wir wissen nicht in welchem
+					<lb facs='#facs_2_tr_1_tl_8' n='N008'/>Hôtel er ist, noch wann er zurückzu-
+					<lb facs='#facs_2_tr_1_tl_9' n='N009'/>kommen gedenkt, wiewohl ich ihn sehr
+					<lb facs='#facs_2_tr_1_tl_10' n='N010'/>bat, mir zu schreiben wo er abgestiegen
+					<lb facs='#facs_2_tr_1_tl_11' n='N011'/>sein würde. Es ist mir schon ordentlich
+					<lb facs='#facs_2_tr_1_tl_12' n='N012'/>bang um ihn. Wenn er sich nur an dem
+					<lb facs='#facs_2_tr_1_tl_13' n='N013'/><persName ref="#Sokrates">Sokrates</persName> ein Beispiel nehmen möchte, wenig-
+					<lb facs='#facs_2_tr_1_tl_14' n='N014'/>stens für eine Zeit lang, um auszuruhen
+					<lb facs='#facs_2_tr_1_tl_15' n='N015'/>der die intensive Beschäftigung mit der
+					<lb facs='#facs_2_tr_1_tl_16' n='N016'/>Mathematik ungesund hält.
+					<lb facs='#facs_2_tr_1_tl_17' n='N017'/>Der <date when="1899-06-21">21. Juni</date> naht, es ist der Mitt-
+				</p>
+				<pb n='3' facs="facsimile/15_06_1899_3.jpg"/>
+				<p>
+					<lb facs='#facs_3_tr_1_tl_1' n='N001'/>woch der nächsten Woche. Wann kommt
+					<lb facs='#facs_3_tr_1_tl_2' n='N002'/>Ihr? Hoffentlich lässt es sich machen,
+					<lb facs='#facs_3_tr_1_tl_3' n='N003'/>dass Ihr uns die Freude bereitet.
+					<lb facs='#facs_3_tr_1_tl_4' n='N004'/>Wie steht es inzwischen mit Deinen
+					<lb facs='#facs_3_tr_1_tl_6' n='N005'/>dienenden Geistern? Bist Du von den
+					<lb facs='#facs_3_tr_1_tl_7' n='N006'/>quälendsten Hausfrauensorgen indessen
+					<lb facs='#facs_3_tr_1_tl_8' n='N007'/>befreit?
+					<lb facs='#facs_3_tr_1_tl_9' n='N008'/>Wisst Ihr auch, dass wir kürzlich
+					<lb facs='#facs_3_tr_1_tl_10' n='N009'/>hier ein ganz nettes Erdbeben erlebten?
+					<lb facs='#facs_3_tr_1_tl_11' n='N010'/>In der Nacht vom <date from="1899-06-10">10.</date> auf den <date to="1899-06-11">11.</date> wachte ich
+					<lb facs='#facs_3_tr_1_tl_12' n='N011'/>auf, und da war es mir, als ob der Sessel
+					<lb facs='#facs_3_tr_1_tl_13' n='N012'/>an meinem Schreibtisch eben zu tanzen
+					<lb facs='#facs_3_tr_1_tl_14' n='N013'/>aufhörte; ich schrieb dies nur einer traum=
+					<lb facs='#facs_3_tr_1_tl_15' n='N014'/>haften Hallucination zu und schlief sofort
+					<lb facs='#facs_3_tr_1_tl_16' n='N015'/>wieder ein. Die nächsten Morgens erinnerte
+					<lb facs='#facs_3_tr_1_tl_17' n='N016'/>ich mich jedoch daran und sprach davon,
+					<lb facs='#facs_3_tr_1_tl_19' n='N017'/>und da gab es gleich eine Menge anderer,
+					<lb facs='#facs_3_tr_1_tl_20' n='N018'/>Leute, die auch Erschütterungen in der Nacht
+				</p>
+				<p>
+					<lb facs='#facs_3_l' n='N001'/><hi rend="rotate">Commentar, offenbar eine Acquistion aus der <placeName ref="#Seccession">Seccession</placeName> - nicht mein Geschmack!</hi>
+				</p>
+				<pb n='4' facs="facsimile/15_06_1899_4.jpg"/>
+				<p><lb facs='#facs_4_l' n='N001'/><hi rend="rotate"><persName ref="#LudwigKralik">Ludwig</persName> hat uns vor etwa 10 Tagen einen „Klimt" herausgeschickt, ohne jeden</hi></p>
+				<p>
+					<lb facs='#facs_4_tr_1_tl_1' n='N001'/>wahrgenommen hatten. Dagegen gibt
+					<lb facs='#facs_4_tr_1_tl_2' n='N002'/>is auch solche gesunde Schläfer, die
+					<lb facs='#facs_4_tr_1_tl_3' n='N003'/>gar nichts gemerkt haben, so <choice><abbr>z. B.</abbr><expan>zum Beispiel</expan></choice> die
+					<lb facs='#facs_4_tr_1_tl_4' n='N004'/><persName ref="#LouiseKralik">Mutter</persName> und unsere Dienstmädchen,
+					<lb facs='#facs_4_tr_1_tl_5' n='N005'/>auch <persName ref="#Ilse">Ilse</persName>, natürlich zu ihrem Bedauern,
+					<lb facs='#facs_4_tr_1_tl_6' n='N006'/>dass sie nicht recht aufschneiden kann.
+					<lb facs='#facs_4_tr_1_tl_7' n='N007'/>wenn man davon redet.
+					<lb facs='#facs_4_tr_1_tl_8' n='N008'/>Fräulein <persName ref="#FranziskaTschampa">Tschampa</persName> war vorige
+					<lb facs='#facs_4_tr_1_tl_9' n='N009'/>Woche hier. Wir sangen lustig Jodler
+					<lb facs='#facs_4_tr_1_tl_10' n='N010'/>zweistimmig. Auch nahmen wir die Jugend-
+					<lb facs='#facs_4_tr_1_tl_11' n='N011'/>lieder und die Eugen-Schlachten-Balladen
+					<lb facs='#facs_4_tr_1_tl_12' n='N012'/>durch. Es gab einen vergnügten Tag.
+				</p>
+					<closer><lb facs='#facs_4_tr_1_tl_13' n='N013'/>Hoffentlich geht es Euch Allen gut.
+					<salute><lb facs='#facs_4_tr_1_tl_14' n='N014'/>Wir lesen fleissig <persName ref="#Sokrates">Sokrates</persName> und <persName ref="RichardKralik">Richard&apos;s</persName>
+					<lb facs='#facs_4_tr_1_tl_15' n='N015'/>Feuilleton&apos;s. Seid Alle innigst gegrüsst
+					<lb facs='#facs_4_tr_1_tl_16' n='N016'/>von uns Allen und besonders
+					<lb facs='#facs_4_tr_1_tl_17' n='N017'/>von
+					<lb facs='#facs_4_tr_1_tl_18' n='N018'/>Deiner</salute>
+					<lb facs='#facs_4_tr_1_tl_19' n='N019'/><signed><persName ref="#MathildeKralik">Mathilde</persName></signed></closer>
+			</div>
+		</body>
+		<back>
+			<listPerson>
+				<person xml:id="MathildeKralik">
+					<persName>
+						<forename>Mathilde</forename>
+						<surname>Kralik</surname>
+					</persName>
+					<idno type="ID" subtype="WGW">37789</idno>
+					<idno type="ID" subtype="WIKIDATA">Q89972</idno>
+					<idno type="URI" subtype="GND">https://d-nb.info/gnd/130214566</idno>
+					<idno type="ID" subtype="PMB">19659</idno>
+				</person>
+				<person xml:id="MaiaKralik">
+					<persName>
+						<forename>Maia</forename>
+						<surname>Kralik</surname>
+					</persName>
+					<idno type="URI" subtype="GND">https://d-nb.info/gnd/116385863</idno>
+				</person>
+				<person xml:id="LouiseKralik">
+					<persName>
+						<forename>Louise</forename>
+						<surname>Kralik</surname>
+					</persName>
+					<idno type="URL" subtype="geni.com">https://www.geni.com/people/Louise-Kralik-von-Meyrswalden/6000000027540572061</idno>
+					<idno type="ID" subtype="WIKIDATA">Q133874636</idno>
+				</person>
+				<person xml:id="RichardKralik">
+					<persName>
+						<forename>Richard</forename>
+						<surname>Kralik</surname>
+					</persName>
+					<idno type="URI" subtype="GND">https://d-nb.info/gnd/118777920</idno>
+					<idno type="ID" subtype="WIKIDATA">Q1317482</idno>
+					<idno type="ID" subtype="WGW">16425</idno>
+					<idno type="ID" subtype="PMB">3731</idno>
+				</person>
+				<person xml:id="LudwigKralik">
+					<persName>
+						<forename>Ludwig</forename>
+						<surname>Kralik</surname>
+					</persName>
+					<idno type="URL" subtype="geni.com">https://www.geni.com/people/Ludwig-Kralik-von-Meyrswalden/6000000067101560079</idno>
+				</person>
+				<person xml:id="Sokrates">
+					<persName>Sokrates</persName>
+					<idno type="ID" subtype="WIKIDATA">Q913</idno>
+				</person>
+				<person xml:id="Ilse">
+					<persName>
+						<forename>Ilse</forename>
+					</persName>
+				</person>
+				<person xml:id="FranziskaTschampa">
+					<persName>
+						<forename>Franziska</forename>
+						<surname>Tschampa</surname>
+					</persName>
+					<idno type="URI" subtype="GND">https://d-nb.info/gnd/1081510544</idno>
+				</person>
+			</listPerson>
+			<listPlace>
+				<place xml:id="Vorderbrühl">
+					<placeName>Vorderbrühl</placeName>
+					<country>Austria</country>
+					<location>
+						<geo>48.08284, 16.25874</geo>
+					</location>
+					<idno type="ID" subtype="WIKIDATA">Q114048876</idno>
+					<idno type="URI" subtype="geonames">https://www.geonames.org/2762284/vorderbruehl.html</idno>
+				</place>
+				<place xml:id="Wien">
+					<placeName>Wien</placeName>
+					<country>Austria</country>
+					<location>
+						<geo>48.20849, 16.37208</geo>
+					</location>
+					<idno type="ID" subtype="WIKIDATA">Q1741</idno>
+					<idno type="URI" subtype="geonames">https://www.geonames.org/2761369/vienna.html</idno>
+				</place>
+				<place xml:id="Berlin">
+					<placeName>Berlin</placeName>
+					<country>Germany</country>
+					<location>
+						<geo>52.52437, 13.41053</geo>
+					</location>
+					<idno type="ID" subtype="WIKIDATA">Q1741</idno>
+					<idno type="URI" subtype="geonames">https://www.geonames.org/2950159/berlin.html</idno>
+				</place>
+				<place xml:id="Seccession">
+					<placeName>Seccession</placeName>
+					<country>Austria</country>
+					<settlement>Vienna</settlement>
+					<location>
+						<geo>48.20041, 16.36542</geo>
+					</location>
+					<idno type="ID" subtype="WIKIDATA">Q265129</idno>
+					<idno type="URL" subtype="geonames">https://www.geonames.org/6354994/secession.html</idno>
+				</place>
+			</listPlace>
+			</back>
+	</text>
+</TEI>

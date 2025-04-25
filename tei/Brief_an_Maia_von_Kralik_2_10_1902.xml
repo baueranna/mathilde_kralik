@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">Edition Mathilde Kralik</title>
+				<title type="s">Mathilde Kralik an Maia Kralik am 2. Oktober 1902</title>
+				<author>Mathilde Kralik</author>
+				<editor>
+					<forename>Anna</forename>
+					<surname>Bauer</surname>
+				</editor>
+			</titleStmt>
+			<publicationStmt>
+				<p>Kurzedition im Rahmen der Übung "Digitale Editionen" bei Gabriel Viehhauser</p>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country>Austria</country>
+						<settlement>Wien</settlement>
+						<repository>Wienbibliothek im Rathaus</repository>
+						<collection>Nachlass Richard von Kralik (Teil von)</collection>
+						<idno type="Signatur">H.I.N.-189356</idno>
+						<idno type="PURL">https://resolver.obvsg.at/urn:nbn:at:AT-WBR-553314</idno>
+					</msIdentifier>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="de">Deutsch</language>
+			</langUsage>
+			<correspDesc>
+				<correspAction type="sent">
+					<persName ref="#MathildeKralik">Mathilde Kralik</persName>
+					<placeName>Vorderbrühl</placeName>
+					<date when="1902-10-02">2. Oktober 1902</date>
+				</correspAction>
+				<correspAction type="recieved">
+					<persName ref="#MaiaKralik">Maia Kralik</persName>
+				</correspAction>
+			</correspDesc>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="letterBody">
+					<pb n='1' facs="facsimile/02_10_1902_1.jpg"/>
+				<opener>
+					<lb facs='#facs_1_tr_1_tl_2' n='N001'/><dateline><placeName ref="#Vorderbrühl">Vorderbrühl</placeName> <date when="1902-10-02">2. Okt. 1902</date></dateline>
+					<lb facs='#facs_1_tr_1_tl_3' n='N001'/><salute>Liebste <persName ref="#MaiaKralik">Maia</persName>!</salute>
+				</opener>
+				<p>
+					<lb facs='#facs_1_tr_1_tl_4' n='N002'/>Dein letzter Brief war
+					<lb facs='#facs_1_tr_1_tl_5' n='N003'/>sehr sehr lieb. <persName ref="#LouiseKralik">Mutter</persName> und <persName ref="#MathildeKralik">ich</persName>
+					<lb facs='#facs_1_tr_1_tl_6' n='N004'/>waren freudig gerührt davon.
+					<lb facs='#facs_1_tr_1_tl_7' n='N005'/>Ich <choice><sic>gratulire</sic><corr>gratuliere</corr></choice> Dir auch von
+					<lb facs='#facs_1_tr_1_tl_8' n='N006'/>Herzen zum <persName ref="#RichardKralik">Richard</persName> und wir
+					<lb facs='#facs_1_tr_2_tl_1' n='N007'/><choice><sic>gratuliren</sic><corr>gratulieren</corr></choice> uns zu ihm und freuen
+					<lb facs='#facs_1_tr_2_tl_2' n='N008'/>uns Alle miteinander über ihn.
+					<lb facs='#facs_1_tr_2_tl_3' n='N009'/><persName ref="#LouiseKralik">Mutter</persName> ist sehr erbaut und
+					<lb facs='#facs_1_tr_2_tl_4' n='N010'/>beglückt über all die schönen
+					<lb facs='#facs_1_tr_2_tl_5' n='N011'/>Zeitungsartikel, die ihr bis nun
+					<lb facs='#facs_1_tr_2_tl_6' n='N012'/>in die Hände gekommen sind:
+					<lb facs='#facs_1_tr_2_tl_7' n='N013'/><orgName ref="#Vaterland">Vaterland</orgName>, <orgName ref="#FreiePresse">Neue Freie Presse</orgName>, <choice><sic>Illustrites</sic><corr>Illustriertes</corr></choice>
+				</p>
+					<pb n='2' facs="facsimile/02_10_1902_2.jpg"/>
+				<p>
+					<lb facs='#facs_2_tr_1_tl_1' n='N001'/><orgName ref="#Extrablatt">Extrablatt</orgName> (mit Portrait). Ihr
+					<lb facs='#facs_2_tr_1_tl_2' n='N002'/>werdet bewegte Tage gehabt haben
+					<lb facs='#facs_2_tr_1_tl_3' n='N003'/>und noch haben. Von Dir hoffe
+					<lb facs='#facs_2_l' n='N004'/>ich und hofft <persName ref="#LouiseKralik">Mutter</persName>, Viel erzählt
+					<lb facs='#facs_2_tr_1_tl_6' n='N005'/>zu bekommen. <persName ref="#LouiseKralik">Mutter</persName> läßt Dir auch
+					<lb facs='#facs_2_tr_1_tl_7' n='N006'/>sehr schon danken für Deinen
+					<lb facs='#facs_2_tr_1_tl_8' n='N007'/>Brief und wir beide grüßen Dich
+					<lb facs='#facs_2_tr_1_tl_9' n='N008'/>herzlich. Ich komme also am
+					<lb facs='#facs_2_tr_1_tl_10' n='N009'/>Samstag in die <placeName ref="#Wien">Stadt</placeName> und fahre
+					<lb facs='#facs_2_tr_1_tl_11' n='N010'/>um 11 Uhr oder etwas später zu
+					<lb facs='#facs_2_tr_1_tl_12' n='N011'/><persName ref="#LudwigKralik">Ludwig</persName>. Wenn Du wirklich Zeit hast,
+					<lb facs='#facs_2_tr_1_tl_13' n='N013'/>wird es mich sehr freuen, dass
+					<lb facs='#facs_2_tr_1_tl_14' n='N014'/>Du mit halten willst; solltest Du
+					<lb facs='#facs_2_tr_1_tl_15' n='N015'/>aber doch schwer dazu kommen,
+					<lb facs='#facs_2_tr_1_tl_16' n='N016'/>so heb Dir &apos;s für später auf.
+				</p>
+					<pb n='3' facs="facsimile/02_10_1902_3.jpg"/>
+				<p>
+					<lb facs='#facs_3_tr_1_tl_1' n='N001'/>Dagegen würde ich gerne wegen
+					<lb facs='#facs_3_tr_1_tl_2' n='N002'/>des Spielgels noch mit Dir parla-
+					<lb facs='#facs_3_tr_1_tl_3' n='N003'/>mentiren. Denn mich befriedigt
+					<lb facs='#facs_3_tr_1_tl_4' n='N004'/>er eigentlich nicht; ich hab ihn
+					<lb facs='#facs_3_tr_1_tl_5' n='N005'/>nur als Provisorium geschickt;
+					<lb facs='#facs_3_tr_1_tl_6' n='N006'/>er war der Ähnlichste dem Spiegel von
+					<lb facs='#facs_3_tr_1_tl_7' n='N007'/>der <persName ref="#LouiseKralik">Mama</persName> u. am entsprechendsten den
+					<lb facs='#facs_3_l' n='N008'/>gegebene Maßen. Es gibt aber
+					<lb facs='#facs_3_tr_1_tl_10' n='N009'/>f<hi rend='underlined'>einere Sorte</hi>n, die mir lieber
+					<lb facs='#facs_3_tr_1_tl_11' n='N010'/>waren; sowohl sind solche vorhan-
+					<lb facs='#facs_3_tr_1_tl_12' n='N011'/>den, <hi rend='strikethrough'>als</hi> auch <hi rend='superscript'>können</hi> welche nach Zeich
+					<lb facs='#facs_3_tr_1_tl_13' n='N012'/>nungen (bei <persName ref="#LudwigBikel">Bikel Ludwig</persName> einzusehen)
+					<lb facs='#facs_3_tr_1_tl_14' n='N013'/>angefertigt werden <hi rend='strikethrough'>können</hi>.
+					<lb facs='#facs_3_tr_1_tl_15' n='N014'/>Ich komme am Samstag <choice><abbr>d.</abbr><expan>den</expan></choice> 4.
+				</p>
+					<pb n='4' facs="facsimile/02_10_1902_4.jpg"/>
+				<p>
+					<lb facs='#facs_4_tr_1_tl_1' n='N001'/>ungefähr um ¾10 in unsere
+					<lb facs='#facs_4_tr_1_tl_2' n='N002'/>Wohnung; vorher habe ich ein
+					<lb facs='#facs_4_tr_1_tl_3' n='N003'/>Kirchenamt mit <persName ref="#AnnaBaumgartner">Anna Baumgartner</persName>.
+					<lb facs='#facs_4_tr_1_tl_4' n='N004'/>Dann habe ich Zeit.
+					<lb facs='#facs_4_tr_1_tl_5' n='N005'/>Grüße mir auch die Buben<note>Damit sind Maia Kraliks Söhne <persName ref="#DietrichKralik">Dietrich</persName> und <persName ref="#HeinrichKralik">Heinrich</persName> Kralik gemeint.</note>
+					<lb facs='#facs_4_tr_1_tl_6' n='N006'/>und <persName ref="#RichardKralik">Richard</persName>.
+				</p>
+				<closer>
+					<lb facs='#facs_4_tr_1_tl_7' n='N007'/><salute>Deine getreue</salute>
+					<lb facs='#facs_4_tr_1_tl_8' n='N008'/><signed><persName ref="#MathildeKralik">Mathilde</persName></signed>
+				</closer>
+			</div>
+		</body>
+		<back>
+		<listPerson>
+			<person xml:id="MathildeKralik">
+				<persName>
+					<forename>Mathilde</forename>
+					<surname>Kralik</surname>
+				</persName>
+				<idno type="ID" subtype="WGW">37789</idno>
+				<idno type="ID" subtype="WIKIDATA">Q89972</idno>
+				<idno type="URI" subtype="GND">https://d-nb.info/gnd/130214566</idno>
+				<idno type="ID" subtype="PMB">19659</idno>
+			</person>
+			<person xml:id="MaiaKralik">
+				<persName>
+					<forename>Maia</forename>
+					<surname>Kralik</surname>
+				</persName>
+				<idno type="URI" subtype="GND">https://d-nb.info/gnd/116385863</idno>
+			</person>
+			<person xml:id="LouiseKralik">
+				<persName>
+					<forename>Louise</forename>
+					<surname>Kralik</surname>
+				</persName>
+				<idno type="URL" subtype="geni.com">https://www.geni.com/people/Louise-Kralik-von-Meyrswalden/6000000027540572061</idno>
+				<idno type="ID" subtype="WIKIDATA">Q133874636</idno>
+			</person>
+			<person xml:id="RichardKralik">
+				<persName>
+					<forename>Richard</forename>
+					<surname>Kralik</surname>
+				</persName>
+				<idno type="URI" subtype="GND">https://d-nb.info/gnd/118777920</idno>
+				<idno type="ID" subtype="WIKIDATA">Q1317482</idno>
+				<idno type="ID" subtype="WGW">16425</idno>
+				<idno type="ID" subtype="PMB">3731</idno>
+			</person>
+			<person xml:id="LudwigKralik">
+				<persName>
+					<forename>Ludwig</forename>
+					<surname>Kralik</surname>
+				</persName>
+				<idno type="URL" subtype="geni.com">https://www.geni.com/people/Ludwig-Kralik-von-Meyrswalden/6000000067101560079</idno>
+			</person>
+			<person xml:id="DietrichKralik">
+				<persName>
+					<forename>Dietrich</forename>
+					<surname>Kralik</surname>
+				</persName>
+				<idno type="URI" subtype="GND">https://d-nb.info/gnd/118777912</idno>
+				<idno type="ID" subtype="WIKIDATA">Q1223897</idno>
+				<idno type="ID" subtype="WGW">16414</idno>
+			</person>
+			<person xml:id="HeinrichKralik">
+				<persName>
+					<forename>Heinrich</forename>
+					<surname>Kralik</surname>
+				</persName>
+				<idno type="URI" subtype="GND">https://d-nb.info/gnd/121829324</idno>
+				<idno type="ID" subtype="WIKIDATA">Q1235353</idno>
+				<idno type="ID" subtype="WGW">16424</idno>
+			</person>
+			<person xml:id="LudwigBikel">
+				<persName>
+					<forename>Ludwig</forename>
+					<surname>Bikel</surname>
+				</persName>
+			</person>
+			<person xml:id="AnnaBaumgartner">
+				<persName>
+					<forename>Anna</forename>
+					<surname>Baumgartner</surname>
+				</persName>
+			</person>
+		</listPerson>
+		<listPlace>
+			<place xml:id="Vorderbrühl">
+				<placeName>Vorderbrühl</placeName>
+				<country>Austria</country>
+				<location>
+					<geo>48.08284, 16.25874</geo>
+				</location>
+				<idno type="ID" subtype="WIKIDATA">Q114048876</idno>
+				<idno type="URI" subtype="geonames">https://www.geonames.org/2762284/vorderbruehl.html</idno>
+			</place>
+			<place xml:id="Wien">
+				<placeName>Wien</placeName>
+				<country>Austria</country>
+				<location>
+					<geo>48.20849, 16.37208</geo>
+				</location>
+				<idno type="ID" subtype="WIKIDATA">Q1741</idno>
+				<idno type="URI" subtype="geonames">https://www.geonames.org/2761369/vienna.html</idno>
+			</place>
+		</listPlace>
+		<listOrg>
+			<org xml:id="Vaterland">
+				<orgName>Vaterland</orgName>
+				<idno type="ID" subtype="WIKIDATA">Q125847075</idno>
+			</org>
+			<org xml:id="FreiePresse">
+				<orgName>Neue Freie Presse</orgName>
+				<idno type="ID" subtype="WIKIDATA">Q2919142</idno>
+			</org>
+			<org xml:id="Extrablatt">
+				<orgName>Illustrirtes Wiener Extrablatt</orgName>
+				<idno type="ID" subtype="WIKIDATA">Q1658926</idno>
+			</org>
+		</listOrg>
+		</back>
+	</text>
+</TEI>
