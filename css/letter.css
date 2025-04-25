@@ -76,7 +76,7 @@ button.collapsible.active::after {
     font-family: "Montserrat", sans-serif;
 	font-weight: 600;
 	font-size: 14px;
-    width: 10%; /* Ensure the first column is narrower */
+    width: 10%; 
 	
 }
 
