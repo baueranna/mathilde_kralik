@@ -57,20 +57,4 @@ body, html {
 	color: #ff5c33;
 	text-decoration: none;
 }
-
-footer {
-	width:100%;
-    background: white;
-    color: black;
-	position: relative;
-	line-height:1pt;
-}
-
-.right {
-	font-family: "Montserrat", sans-serif;
-	font-weight: 300;
-	font-size: 9pt;
-	text-align: right;
-	padding: 0 50px;
-}
 	
