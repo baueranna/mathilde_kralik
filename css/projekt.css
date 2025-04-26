@@ -11,7 +11,7 @@ body, html {
 	text-align:justify;
 }
 
-h1 {
+.container h1 {
 	font-family: "Montserrat", sans-serif;
 	font-weight: 650;
 	font-size: 26px;
