@@ -6,28 +6,28 @@ body, html {
 }
 
 .container {
-	width: 100%;
 	margin-top: 80px;
-	padding: 50px 0px 0px 35px;
+	padding: 0px 250px 0px 35px;
+	text-align:justify;
 }
 
 h1 {
 	font-family: "Montserrat", sans-serif;
 	font-weight: 650;
-	font-size: 24px;
+	font-size: 26px;
 }
 
 p {
-	font-family: "Montserrat", sans-serif;
-	font-weight: 450;
+	font-family: "Merriweather", serif;
+	font-weight: 250;
 	font-size: 14px;
 	line-height: 2;
 }
 
 
 a {
-	font-family: "Montserrat", sans-serif;
-	font-weight: 450;
+	font-family: "Merriweather", serif;
+	font-weight: 300;
 	font-size: 14px;
 	color: #ff5c33;
 	text-decoration: none;
