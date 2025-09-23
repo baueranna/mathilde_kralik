@@ -1,0 +1,786 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Edition Mathilde Kralik</title>
+            <title type="s">Personen-, Orte-, und Organisationsverzeichnis</title>
+            <editor>
+               <forename>Anna</forename>
+               <surname>Bauer</surname>
+            </editor>
+         </titleStmt>
+         <publicationStmt>
+            <p>Kurzedition im Rahmen der Übung "Textkodierung und -verarbeitung mit TEI und XSL"
+               bei Martina Scholger und Selina Galka</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>born digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <listPerson>
+            <person xml:id="LudwigLobmeyr">
+               <persName>
+                  <forename>Ludwig</forename>
+                  <surname>Lobmeyr</surname>
+               </persName>
+               <death when="1917-03-25">25. März 1917</death>
+               <occupation>k. k. Hofglashändler</occupation>
+               <affiliation type="member" subtype="honorary"><orgName ref="#Herrenhaus"
+                  >Österreichisches Herrenhaus</orgName></affiliation>
+               <affiliation type="member" subtype="honorary"><orgName ref="#AkBild">k. k.
+                  Akademie der bildenden Künste</orgName></affiliation>
+               <affiliation type="member" subtype="honorary"><orgName
+                  ref="#GenossenschaftKünstler">Genossenschaft der bildenden Künstler
+                  Wiens</orgName></affiliation>
+               <affiliation type="member" subtype="honorary"><orgName ref="#Schillerstiftung">Deutsche
+                  Schillerstiftung</orgName></affiliation>
+               <idno type="ID" subtype="WIKIDATA">Q55847850</idno>
+            </person>
+            <person xml:id="JosephLobmeyr">
+               <persName>
+                  <forename>Joseph</forename>
+                  <surname>Lobmeyr</surname>
+               </persName>
+               <occupation>k. k. Hofglashändler</occupation>
+            </person>
+            <person xml:id="FranzLobmeyr">
+               <persName>
+                  <forename>Franz</forename>
+                  <surname>Lobmeyr</surname>
+               </persName>
+               <occupation>k. k. Linienschiffs-Lieutenant</occupation>
+            </person>
+            <person xml:id="LouiseKralik">
+               <persName>
+                  <forename>Louise</forename>
+                  <surname type="married">Kralik von Meyrswalden</surname>
+                  <surname type="maiden">Lobmayr</surname>
+               </persName>
+               <death when="1905-10-03">3. Oktober 1905</death>
+               <idno type="ID" subtype="WIKIDATA">Q133874636</idno>
+            </person>
+            <person xml:id="HannsKralik">
+               <persName>
+                  <forename>Hanns</forename>
+                  <surname>Kralik von Meyrswalden</surname>
+               </persName>
+            </person>
+            <person xml:id="HeinrichKralikSen">
+               <persName>
+                  <forename>Heinrich</forename>
+                  <surname>Kralik von Meyrswalden</surname>
+               </persName>
+               <occupation>Glasfabrikant</occupation>
+               <idno type="URL" subtype="Wikipedia"
+                  >https://de.wikipedia.org/wiki/Heinrich_Kralik_von_Meyrswalden_(Industrieller)</idno>
+            </person>
+            <person xml:id="MathildeRath">
+               <persName>
+                  <forename>Mathilde</forename>
+                  <surname type="married">Rath</surname>
+                  <surname type="maiden">Lobmeyr</surname>
+               </persName>
+            </person>
+            <person xml:id="WilhelmKralik">
+               <persName>
+                  <forename>Wilhelm</forename>
+                  <surname>Kralik von Meyrswalden</surname>
+               </persName>
+               <occupation>Glasfabriken-Besitzer</occupation>
+               <idno type="ID" subtype="GND">136539696</idno>
+               <idno type="ID" subtype="WIKIDATA">Q2573745</idno>
+            </person>
+            <person xml:id="LudwigKralik">
+               <persName>
+                  <forename>Ludwig</forename>
+                  <surname>Ritter Kralik von Meyrswalden</surname>
+               </persName>
+               <occupation>Oberingenier der <orgName ref="#Nordbahn">Kaiser-Ferdinand-Nordbahn</orgName></occupation>
+            </person>
+            <person xml:id="HildegardLobmeyr">
+               <persName>
+                  <forename>Hildegard</forename>
+                  <surname type="married">Lobmeyr</surname>
+                  <surname type="maiden">von Stahlberg</surname>
+               </persName>
+            </person>
+            <person xml:id="AloisiaLobmeyr">
+               <persName>
+                  <forename>Aloisia</forename>
+                  <surname type="married">Lobmeyr</surname>
+                  <surname type="maiden">Dobratsky</surname>
+               </persName>
+               <death when="1864-01-26">26. Jänner 1864</death>
+            </person>
+            <person xml:id="CarlGerold">
+               <persName>
+                  <forename>Carl</forename>
+                  <surname>Gerold</surname>
+               </persName>
+               <occupation>Buchdrucker</occupation>
+               <affiliation type="owner"><orgName ref="#Gerold">Gerold &amp; Co</orgName></affiliation>
+               <idno type="ID" subtype="WGW">19487</idno>
+               <idno type="ID" subtype="GND">133262871</idno>
+               <idno type="ID" subtype="WIKIDATA">Q61995654</idno>
+            </person>
+            <person xml:id="RudolfLobmeyr">
+               <persName>
+                  <forename>Rudolf</forename>
+                  <surname>Lobmeyr</surname>
+               </persName>
+               <occupation>k. k. Bezirkshauptmann</occupation>
+            </person>
+            <person xml:id="AdolfLobmeyr">
+               <persName>
+                  <forename>Adolf</forename>
+                  <surname>Lobmeyr</surname>
+               </persName>
+               <occupation>Oberinspektionsrat der <orgName ref="#GeneralinspektionEisenbahn">Generalinspektion der österreichischen Eisenbahnen</orgName></occupation>
+            </person>
+            <person xml:id="OskarLobmeyr">
+               <persName>
+                  <forename>Oskar</forename>
+                  <surname>von Lobmeyr</surname>
+               </persName>
+               <occupation>Vize-Präsident der <orgName ref="#Statthalterei">küstenländischen Statthalterei</orgName></occupation>
+               <idno type="ID" subtype="GND">1157623174</idno>
+            </person>
+            <person xml:id="LudwigLobmeyrJun">
+               <persName>
+                  <forename>Ludwig</forename>
+                  <surname>Lobmeyr</surname>
+               </persName>
+               <occupation>k. k. Rittmeister</occupation>
+            </person>
+            <person xml:id="JennyLobmeyr">
+               <persName>
+                  <forename>Jenny</forename>
+                  <surname type="married">Lobmeyr</surname>
+                  <surname type="maiden">Ruße</surname>
+               </persName>
+            </person>
+            <person xml:id="MarieLobmeyr">
+               <persName>
+                  <forename>Marie</forename>
+                  <surname type="married">Lobmeyr</surname>
+                  <surname type="maiden">Steinhuber</surname>
+               </persName>
+            </person>
+            <person xml:id="EllyLobmeyr">
+               <persName>
+                  <forename>Elly</forename>
+                  <surname type="married">von Lobmeyr</surname>
+                  <surname type="maiden">Arbeßer von Rastburg</surname>
+               </persName>
+            </person>
+            <person xml:id="GretlLobmeyr">
+               <persName>
+                  <forename>Gretl</forename>
+                  <surname type="married">Lobmeyr</surname>
+                  <surname type="maiden">Handofsky</surname>
+               </persName>
+            </person>
+            <person xml:id="HermannSpaun">
+               <persName>
+                  <forename>Hermann</forename>
+                  <surname>von Spaun</surname>
+               </persName>
+               <occupation>Geheimer Rat</occupation>
+               <occupation>k. k. Admiral</occupation>
+               <idno type="ID" subtype="GND">103544075X</idno>
+               <idno type="URL" subtype="ÖBL"
+                  >https://www.biographien.ac.at/oebl/oebl_S/Spaun_Hermann_1833_1919.xml</idno>
+            </person>
+            <person xml:id="AugustRath">
+               <persName>
+                  <forename>August</forename>
+                  <surname>Rath</surname>
+               </persName>
+               <occupation>kaiserlicher Rat</occupation>
+            </person>
+            <person xml:id="MarieSchönvonKreuzenau">
+               <persName>
+                  <forename>Marie</forename>
+                  <surname type="married">Schön von Kreuzenau</surname>
+                  <surname type="maiden">Rath</surname>
+               </persName>
+            </person>
+            <person xml:id="AugustRathjun">
+               <persName>
+                  <forename>August</forename>
+                  <surname>Rath jun.</surname>
+               </persName>
+               <occupation>Großindustrieller</occupation>
+            </person>
+            <person xml:id="PaulRath">
+               <persName>
+                  <forename>Paul</forename>
+                  <surname>Rath</surname>
+               </persName>
+               <occupation>k.k. Oberst</occupation>
+            </person>
+            <person xml:id="StefanRath">
+               <persName>
+                  <forename>Stefan</forename>
+                  <surname>Rath</surname>
+               </persName>
+               <occupation>k. k. Oberleutnant i. V. d. E.</occupation>
+               <occupation>Gesellschafter der Firma J. &amp; L. Lobmeyr</occupation>
+            </person>
+            <person xml:id="AdeleRath">
+               <persName>
+                  <forename>Adele</forename>
+                  <surname type="married">Rath</surname>
+                  <surname type="maiden">Wagenmann</surname>
+               </persName>
+            </person>
+            <person xml:id="KarlPichler">
+               <persName>
+                  <forename>Karl</forename>
+                  <surname>Pichler von Deeben</surname>
+               </persName>
+               <occupation>k. k. Ministerialrat</occupation>
+            </person>
+            <person xml:id="MathildeKralik">
+               <persName>
+                  <forename>Mathilde</forename>
+                  <surname>Kralik von Meyrswalden</surname>
+               </persName>
+               <idno type="ID" subtype="WGW">37789</idno>
+               <idno type="ID" subtype="WIKIDATA">Q89972</idno>
+               <idno type="ID" subtype="GND">130214566</idno>
+               <idno type="ID" subtype="PMB">19659</idno>
+            </person>
+            <person xml:id="AloisiaPichler">
+               <persName>
+                  <forename>Louisa</forename>
+                  <surname type="married">Pichler von Deeben</surname>
+                  <surname type="maiden">Kralik von Meyrswalden</surname>
+               </persName>
+            </person>
+            <person xml:id="MinnaKralik">
+               <persName>
+                  <forename>Minna</forename>
+                  <surname>Kralik von Meyrswalden</surname>
+               </persName>
+            </person>
+            <person xml:id="RichardKralik">
+               <persName>
+                  <forename>Richard</forename>
+                  <surname>Kralik von Meyrswalden</surname>
+               </persName>
+               <death when="1934-02-04">4. Februar 1934</death>
+               <idno type="ID" subtype="GND">118777920</idno>
+               <idno type="ID" subtype="WIKIDATA">Q1317482</idno>
+               <idno type="ID" subtype="WGW">16425</idno>
+               <idno type="ID" subtype="PMB">3731</idno>
+            </person>
+            <person xml:id="MaiaKralik">
+               <persName>
+                  <forename>Maia</forename>
+                  <surname type="married">Kralik von Meyrswalden</surname>
+                  <surname type="maiden">von Flattich</surname>
+               </persName>
+               <idno type="ID" subtype="GND">116385863</idno>
+            </person>
+            <person xml:id="EduardPichler">
+               <persName>
+                  <forename>Eduard</forename>
+                  <surname>Pichler von Deeben</surname>
+               </persName>
+               <occupation>k. k. Ministerialrat</occupation>
+               <occupation>Sektionsrat im <orgName ref="#EisenbahnMinisterium">Eisenbahn-Ministerium</orgName></occupation>
+            </person>
+            <person xml:id="JosefBileg">
+               <persName>
+                  <forename>Josef</forename>
+                  <surname>Bileg</surname>
+               </persName>
+               <occupation>Drucker</occupation>
+            </person>
+            <person xml:id="AgnesKralik">
+               <persName>
+                  <forename>Agnes</forename>
+                  <surname>Kralik von Meyrswalden</surname>
+               </persName>
+            </person>
+            <person xml:id="EduardSchmid">
+               <persName>
+                  <forename>Eduard</forename>
+                  <surname>Schmid</surname>
+               </persName>
+               <occupation>Glasfabrikant</occupation>
+               <idno type="URL" subtype="ÖBL"
+                  >https://www.biographien.ac.at/oebl/oebl_S/Schmid_Josef-Eduard_1836_1910.xml</idno>
+               <idno type="ID" subtype="GND">1030547009</idno>
+            </person>
+            <person xml:id="CarlKralik">
+               <persName>
+                  <forename>Carl</forename>
+                  <surname>Kralik von Meyrswalden</surname>
+               </persName>
+            </person>
+            <person xml:id="JosefTaschek">
+               <persName>
+                  <forename>Josef</forename>
+                  <surname>Taschek</surname>
+               </persName>
+               <idno type="ID" subtype="WIKIDATA">Q8311993</idno>
+               <idno type="URL" subtype="Wikipedia"
+                  >https://de.wikipedia.org/wiki/Josef_Taschek</idno>
+            </person>
+            <person xml:id="DietrichKralik">
+               <persName>
+                  <forename>Dietrich</forename>
+                  <surname>Kralik von Meyrswalden</surname>
+               </persName>
+               <occupation>Universitätsprofessor</occupation>
+               <affiliation type="member" subtype="political"><orgName ref="#Bärenhöhle">Bärenhöhle</orgName></affiliation>
+               <idno type="ID" subtype="GND">118777912</idno>
+               <idno type="ID" subtype="WIKIDATA">Q1223897</idno>
+               <idno type="ID" subtype="WGW">16414</idno>
+            </person>
+            <person xml:id="HeinrichKralik">
+               <persName>
+                  <forename>Heinrich</forename>
+                  <surname>Kralik von Meyrswalden</surname>
+               </persName>
+               <idno type="ID" subtype="GND">121829324</idno>
+               <idno type="ID" subtype="WIKIDATA">Q1235353</idno>
+               <idno type="ID" subtype="WGW">16424</idno>
+            </person>
+            <person xml:id="RodrichKralik">
+               <persName>
+                  <forename>Rodrich</forename>
+                  <surname>Kralik von Meyrswalden</surname>
+               </persName>
+               <occupation>Landesgerichtsrat</occupation>
+               <idno type="ID" subtype="GND">11638610X</idno>
+            </person>
+            <person xml:id="EdithPichler">
+               <persName>
+                  <forename>Edith</forename>
+                  <surname>Pichler von Deeben</surname>
+               </persName>
+            </person>
+            <person xml:id="IlsePichler">
+               <persName>
+                  <forename>Ilse</forename>
+                  <surname>Pichler von Deeben</surname>
+               </persName>
+            </person>
+            <person xml:id="HannahKralik">
+               <persName>
+                  <forename>Hannah</forename>
+                  <surname>Kralik von Meyerswalden</surname>
+               </persName>
+            </person>
+            <person xml:id="GretlKralik">
+               <persName>
+                  <forename>Gretl</forename>
+                  <surname>Kralik von Meyrswalden</surname>
+               </persName>
+            </person>
+            <person xml:id="LuiseKralik">
+               <persName>
+                  <forename>Luise</forename>
+                  <surname>Kralik von Meyrswalden</surname>
+               </persName>
+            </person>
+            <person xml:id="WinifredKralik">
+               <persName>
+                  <forename>Winifred</forename>
+                  <surname>Kralik</surname>
+               </persName>
+               <idno type="ID" subtype="WGW">37795</idno>
+               <idno type="ID" subtype="WIKIDATA">Q59653649</idno>
+               <idno type="ID" subtype="GND">118643274</idno>
+            </person>
+            <person xml:id="LeopoldKralik">
+               <persName>
+                  <forename>Leopold</forename>
+                  <surname>Kralik</surname>
+               </persName>
+            </person>
+            <person xml:id="ElfriedeKralik">
+               <persName>
+                  <forename>Elfriede</forename>
+                  <surname>Kralik</surname>
+               </persName>
+            </person>
+            <person xml:id="TheodorInnitzer">
+               <persName>
+                  <forename>Theodor</forename>
+                  <surname>Innitzer</surname>
+               </persName>
+               <idno type="ID" subtype="GND">118555634</idno>
+               <idno type="ID" subtype="WIKIDATA">Q78988</idno>
+               <idno type="ID" subtype="WGW">13273</idno>
+               <idno type="ID" subtype="PMB">57443</idno>
+            </person>
+            <person xml:id="RudolfWieser">
+               <persName>
+                  <forename>Rudolf</forename>
+                  <surname>Wieser</surname>
+               </persName>
+            </person>
+            <person xml:id="EdmundSteinbock">
+               <persName>
+                  <forename>Edmund</forename>
+                  <surname>Steinbock</surname>
+               </persName>
+            </person>
+            <person xml:id="AliceScarlates">
+               <persName>
+                  <forename>Alice</forename>
+                  <surname>Scarlates</surname>
+               </persName>
+               <idno type="ID" subtype="WIKIDATA">Q52084077</idno>
+               <idno type="ID" subtype="GND">1228633460</idno>
+            </person>
+         </listPerson>
+         <listPlace>
+            <place xml:id="Wien">
+               <placeName>Wien</placeName>
+               <country>Austria</country>
+               <location>
+                  <geo>48.20849, 16.37208</geo>
+               </location>
+               <idno type="ID" subtype="WIKIDATA">Q1741</idno>
+               <idno type="URI" subtype="geonames"
+                  >https://www.geonames.org/2761369/vienna.html</idno>
+            </place>
+            <place xml:id="Weimarerplatz_3">
+               <placeName type="street" notBefore="1919-11-06" notAfter="1934-12-27"
+                  >Weimarerplatz 3</placeName>
+               <placeName type="street" notBefore="1934-12-27">Richard-Kralik-Platz
+                  3</placeName>
+               <settlement type="city">Wien</settlement>
+               <country>Österreich</country>
+               <location>
+                  <geo>48.233902622021546, 16.344070193512067</geo>
+               </location>
+               <idno type="URL" subtype="Wikipedia"
+                  >https://de.wikipedia.org/wiki/Richard-Kralik-Platz</idno>
+               <idno type="ID" subtype="WGW">26530</idno>
+            </place>
+            <place xml:id="DöblingerFriedhof">
+               <placeName type="cemetery">Döblinger Friedhof</placeName>
+               <settlement type="city">Wien</settlement>
+               <country>Österreich</country>
+               <location>
+                  <geo>48.238719731402156, 16.328673269061063</geo>
+               </location>
+               <idno type="URL" subtype="Wikipedia"
+                  >https://de.wikipedia.org/wiki/D%C3%B6blinger_Friedhof</idno>
+               <idno type="ID" subtype="WGW">6843</idno>
+               <idno type="ID" subtype="WIKIDATA">Q1270909</idno>
+               <idno type="ID" subtype="GND">1233214810</idno>
+            </place>
+            <place xml:id="WähringerKirche">
+               <placeName type="church">Pfarrkirche heilige Gertraud und heiliger
+                  Laurentius</placeName>
+               <placeName type="church">Währinger Kirche</placeName>
+               <settlement type="city">Wien</settlement>
+               <country>Österreich</country>
+               <location>
+                  <geo>48.22621692059329, 16.34450228069556</geo>
+               </location>
+               <idno type="URL" subtype="Wikipedia"
+                  >https://de.wikipedia.org/wiki/W%C3%A4hringer_Pfarrkirche</idno>
+               <idno type="ID" subtype="WGW">3616</idno>
+            </place>
+            <place xml:id="Rosensteingasse_32">
+               <placeName type="street">Rosensteingasse 32</placeName>
+               <settlement type="city">Wien</settlement>
+               <country>Österreich</country>
+               <location>
+                  <geo>48.21808403776477, 16.326086765349057</geo>
+               </location>
+            </place>
+            <place xml:id="HernalserHauptstraße_81">
+               <placeName type="street">Hernalser Hauptstraße 81</placeName>
+               <settlement type="city">Wien</settlement>
+               <country>Österreich</country>
+               <location>
+                  <geo>48.21845628508243, 16.328900153713658</geo>
+               </location>
+            </place>
+            <place xml:id="EhrengrabKralik">
+               <placeName>Ehrengrab Richard Kralik</placeName>
+            </place>
+            <place xml:id="Stephansdom">
+               <placeName type="church">Dom- und Metropolitankirche zu St. Stephan</placeName>
+               <settlement type="city">Wien</settlement>
+               <country>Österreich</country>
+               <location>
+                  <geo>48.20854411963058, 16.373480666951327</geo>
+               </location>
+            </place>
+            <place xml:id="StMarxerFriedhof">
+               <placeName type="cementary">St. Marxer Friedhof</placeName>
+               <settlement type="city">Wien</settlement>
+               <country>Österreich</country>
+               <location>
+                  <geo>48.18402446536315, 16.4032053383651</geo>
+               </location>
+               <idno type="ID" subtype="WGW">18057</idno>
+               <idno type="ID" subtype="GND">4843295-7</idno>
+            </place>
+            <place xml:id="Weimar">
+               <placeName type="City">Weimar</placeName>
+               <location>
+                  <geo>50.9803, 11.32903</geo>
+               </location>
+               <idno type="ID" subtype="WIKIDATA">Q3955</idno>
+            </place>
+            <place xml:id="Zentralfriedhof">
+               <placeName type="cemetery">Zentralfriedhof</placeName>
+               <settlement type="city">Wien</settlement>
+               <country>Österreich</country>
+               <location>
+                  <geo>48.1514660511102, 16.438521926727077</geo>
+               </location>
+               <idno type="URL" subtype="Wikipedia"
+                  >https://de.wikipedia.org/wiki/Wiener_Zentralfriedhof</idno>
+               <idno type="ID" subtype="WGW">9327</idno>
+               <idno type="ID" subtype="WIKIDATA">Q240744</idno>
+               <idno type="ID" subtype="GND">4120093-7</idno>
+            </place>
+            <place xml:id="GoldeggGasse_19">
+               <placeName type="street">Goldegg-Gasse 19</placeName>
+               <settlement type="city">Wien</settlement>
+               <country>Österreich</country>
+               <location>
+                  <geo>48.18976066981652, 16.37695638069264</geo>
+               </location>
+            </place>
+            <place xml:id="Favoritenstraße_27">
+               <placeName type="street">Favoritenstraße 27</placeName>
+               <settlement type="city">Wien</settlement>
+               <country>Österreich</country>
+               <location>
+                  <geo>48.189747763641684, 16.372364634655163</geo>
+               </location>
+            </place>
+            <place xml:id="Vorderbrühl">
+               <placeName>Vorderbrühl</placeName>
+               <country>Austria</country>
+               <location>
+                  <geo>48.08284, 16.25874</geo>
+               </location>
+               <idno type="ID" subtype="WIKIDATA">Q114048876</idno>
+               <idno type="ID" subtype="PMB">957</idno>
+               <idno type="URI" subtype="geonames"
+                  >https://www.geonames.org/2762284/vorderbruehl.html</idno>
+            </place>
+            <place xml:id="Elisabethstraße_1">
+               <placeName type="street">Elisabethstraße 1</placeName>
+               <settlement type="city">Wien</settlement>
+               <country>Österreich</country>
+               <location>
+                  <geo>48.201765590654134, 16.368675138366534</geo>
+               </location>
+            </place>
+            <place xml:id="Augustinerkircher">
+               <placeName type="church">Augustinerkirche</placeName>
+               <settlement type="city">Wien</settlement>
+               <country>Österreich</country>
+               <location>
+                  <geo>48.20610677964904, 16.367669853712695</geo>
+               </location>
+               <idno type="ID" subtype="WGW">28422</idno>
+            </place>
+            <place xml:id="KärntnerStraße_21">
+               <placeName type="street">Kärntner Straße 21</placeName>
+               <settlement type="city">Wien</settlement>
+               <country>Österreich</country>
+               <location>
+                  <geo>48.206327276134346, 16.371738011385606</geo>
+               </location>
+            </place>
+            <place xml:id="Rennweg_91">
+               <placeName type="street">Rennweg 91</placeName>
+               <settlement type="city">Wien</settlement>
+               <country>Österreich</country>
+               <location>
+                  <geo>48.19044582541425, 16.397931765346893</geo>
+               </location>
+            </place>
+            <place xml:id="ErdbergerKirche">
+               <placeName type="church">Peter-und-Paul-Kirche</placeName>
+               <placeName type="church">Erdberger Kirche</placeName>
+               <settlement type="city">Wien</settlement>
+               <country>Österreich</country>
+               <location>
+                  <geo>48.200857294744246, 16.398227150471623</geo>
+               </location>
+               <idno type="ID" subtype="WGW">14138</idno>
+            </place>
+            <place xml:id="KircheMödling">
+               <placeName type="church">Stadtpfarrkirche Mödling</placeName>
+               <settlement type="city">Mödling</settlement>
+               <country>Österreich</country>
+               <location>
+                  <geo>48.085662256259745, 16.280088723318332</geo>
+               </location>
+            </place>
+            <place xml:id="Eleonorenhain">
+               <placeName type="village">Eleonorenhain</placeName>
+               <country>Tschechien</country>
+               <location>
+                  <geo>48.9343471954487, 13.794896645500788</geo>
+               </location>
+            </place>
+            <place xml:id="Annathal">
+               <placeName type="village">Annathal</placeName>
+               <country>Deutschland</country>
+               <location>
+                  <geo>48.87337398216413, 13.614796312599777</geo>
+               </location>
+            </place>
+            <place xml:id="Zentralfriedhof_Halle1">
+               <placeName type="cemetery">Zentralfriedhof Halle 1 Tor 2</placeName>
+               <settlement type="city">Wien</settlement>
+               <country>Österreich</country>
+               <location>
+                  <geo>48.153249181929844, 16.442484911381403</geo>
+               </location>
+               <idno type="URL" subtype="Wikipedia"
+                  >https://de.wikipedia.org/wiki/Wiener_Zentralfriedhof</idno>
+               <idno type="ID" subtype="WGW">9327</idno>
+               <idno type="ID" subtype="WIKIDATA">Q240744</idno>
+               <idno type="ID" subtype="GND">4120093-7</idno>
+            </place>
+            <place xml:id="WeimarerStraße_89">
+               <placeName>Weimarer Straße 89</placeName>
+               <settlement type="city">Wien</settlement>
+               <country>Österreich</country>
+               <location>
+                  <geo>48.2367713611113, 16.344899553715038</geo>
+               </location>
+            </place>
+            <place xml:id="Bendlgasse_24">
+               <placeName>Bendlgasse 24</placeName>
+               <settlement type="city">Wien</settlement>
+               <country>Österreich</country>
+               <location>
+                  <geo>48.17974233449344, 16.335147009528303</geo>
+               </location>
+            </place>
+         </listPlace>
+         <listOrg>
+            <org xml:id="JLLobmeyr">
+               <orgName>J. &amp; L. Lobmeyr </orgName>
+               <idno type="ID" subtype="WGW">17959</idno>
+               <idno type="ID" subtype="WIKIDATA">Q876883</idno>
+            </org>
+            <org xml:id="Gerold">
+               <orgName>Gerold &amp; Co</orgName>
+               <idno type="ID" subtype="WGW">19514</idno>
+            </org>
+            <org xml:id="Herrenhaus">
+               <orgName>Herrenhaus</orgName>
+               <idno type="ID" subtype="WGW">12008</idno>
+            </org>
+            <org xml:id="AkBild">
+               <orgName>Akademie der bildenden Künste</orgName>
+               <idno type="ID" subtype="WGW">17555</idno>
+               <idno type="ID" subtype="GND">2003761-2</idno>
+               <idno type="ID" subtype="WIKIDATA">Q414219</idno>
+            </org>
+            <org xml:id="GenossenschaftKünstler">
+               <orgName>Genossenschaft der bildenden Künstler Wiens</orgName>
+               <idno type="ID" subtype="WGW">25052</idno>
+               <idno type="ID" subtype="GND">2100204-6</idno>
+               <idno type="ID" subtype="WIKIDATA">Q284902</idno>
+            </org>
+            <org xml:id="Schillerstiftung">
+               <orgName>Deutsche Schillerstiftung</orgName>
+               <idno type="ID" subtype="GND">5187203-1</idno>
+            </org>
+            <org xml:id="TheyerHartmut">
+               <orgName>THEYER &amp; HARDTMUTH</orgName>
+               <idno type="ID" subtype="WGW">46454</idno>
+            </org>
+            <org xml:id="StädtischeLeichenbestattung">
+               <orgName>Städtische Leichenbestattung</orgName>
+            </org>
+            <org xml:id="DruckBileg">
+               <orgName>Josef Bileg</orgName>
+            </org>
+            <org xml:id="GeneralinspektionEisenbahn">
+               <orgName>Generalinspektion der österreichischen Eisenbahnen</orgName>
+            </org>
+            <org xml:id="Statthalterei">
+               <orgName>Küstenländische Statthalterei</orgName>
+            </org>
+            <org xml:id="Enterprisefunebres">
+               <orgName>Entreprise des pompes funèbres</orgName>
+            </org>
+            <org xml:id="Bärenhöhle" type="political" subtype="antisemitic">
+               <orgName>Bärenhöhle</orgName>
+               <idno type="ID" subtype="WGW">42579</idno>
+            </org>
+            <org xml:id="Nordbahn">
+               <orgName>Kaiser-Ferdinands-Nordbahn</orgName>
+               <idno type="URL" subtype="Wikipedia"
+                  >https://de.wikipedia.org/wiki/Kaiser_Ferdinands-Nordbahn</idno>
+               <idno type="ID" subtype="WGW">21891</idno>
+               <idno type="ID" subtype="WIKIDATA">Q352763</idno>
+               <idno type="ID" subtype="GND">4276204-2</idno>
+            </org>
+            <org xml:id="EisenbahnMinisterium">
+               <orgName>Eisenbahnen-Ministerium</orgName>
+               <idno type="URL" subtype="Wikipedia">https://de.wikipedia.org/wiki/K.k._Eisenbahnministerium</idno>
+            </org>
+            <org xml:id="BestattungPayer">
+               <orgName>Payer, Schmutzer &amp; Co</orgName>
+            </org>
+            <org xml:id="Lischkar">
+               <orgName>Lischkar &amp; Co</orgName>
+            </org>
+         </listOrg>
+         <listRelation>
+            <relation name="parent" active="#AugustRath" passive="#MarieSchönvonKreuzenau #AugustRathjun #PaulRath #StefanRath"/>
+            <relation name="parent" active="#AloisiaLobmeyr" passive="#JosephLobmeyr #LudwigLobmeyr #FranzLobmeyr #LouiseKralik #MathildeRath"/>
+            <relation name="parent" active="#LouiseKralik" passive="#RichardKralik #MathildeKralik #AloisiaPichler"/>
+            <relation name="parent" active="#MaiaKralik" passive="#DietrichKralik #HeinrichKralik #RodrichKralik"/>
+            <relation name="parent" active="#RichardKralik" passive="#DietrichKralik #HeinrichKralik #RodrichKralik"/>
+            <relation name="parent" active="#AloisiaPichler" passive="#IlsePichler #EdithPichler"/>
+            <relation name="parent" active="#EduardPichler" passive="#IlsePichler #EdithPichler"/>
+            <relation name="parent" active="#RichardKralik" passive="#HeinrichKralik #DietrichKralik #RodrichKralik"/>
+            <relation name="parent" active="#MaiaKralik" passive="#HeinrichKralik #DietrichKralik #RodrichKralik"/>
+            
+            <relation name="grandparent" active="#LouiseKralik" passive="#DietrichKralik #HeinrichKralik #RodrichKralik #IlsePichler #EdithPichler"/>
+            <relation name="grandparent" active="#MaiaKralik" passive="#WinifredKralik #LeopoldKralik #ElfriedeKralik"/>
+            <relation name="grandparent" active="#RichardKralik" passive="#WinifredKralik #LeopoldKralik #ElfriedeKralik"/>
+            
+            <relation name="sibling" mutual="#LouiseKralik #LudwigLobmeyr #MathildeRath"/>
+            <relation name="sibling" mutual="#RudolfLobmeyr #AdolfLobmeyr #OskarLobmeyr #LudwigLobmeyrJun"/>
+            <relation name="sibling" mutual="#MarieSchönvonKreuzenau #AugustRathjun #PaulRath #StefanRath"/>
+            <relation name="sibling" mutual="#RichardKralik #MathildeKralik #AloisiaPichler"/>
+            <relation name="sibling" mutual="#JosephLobmeyr #LudwigLobmeyr #FranzLobmeyr #LouiseKralik #MathildeRath"/>
+            <relation name="sibling" mutual="#HeinrichKralik #RodrichKralik #DietrichKralik"/>
+            <relation name="sibling" mutual="#RichardKralik #AloisiaPichler #MathildeKralik"/>
+            
+            <relation name="uncle" active="#LudwigLobmeyr" passive="#RudolfLobmeyr #AdolfLobmeyr #OskarLobmeyr #LudwigLobmeyrJun #MarieSchönvonKreuzenau #AugustRathjun #PaulRath #StefanRath #RichardKralik #MathildeKralik #AloisiaPichler"/>
+            <relation name="uncle" active="#LudwigKralik" passive="#DietrichKralik #HeinrichKralik #RodrichKralik #IlsePichler #EdithPichler"/>
+            
+            <relation name="spouse" mutual="#LouiseKralik #WilhelmKralik"/>
+            <relation name="spouse" mutual="#HildegardLobmeyr #FranzLobmeyr"/>
+            <relation name="spouse" mutual="#MaiaKralik #RichardKralik" />
+            <relation name="spouse" mutual="#AloisiaPichler #EduardPichler"/>
+            
+            <relation name="partner" mutual="#AliceScarlates #MathildeKralik" />
+         </listRelation>
+      </body>
+  </text>
+</TEI>

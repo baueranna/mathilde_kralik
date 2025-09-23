@@ -1,0 +1,139 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+button.collapsible {
+	display:block;
+	width:100%;
+    background: white;
+    border: white;
+    font-size: 32px;
+    text-align: left;
+    padding: 35px 65px 20px;
+	margin-top:30px;
+    color: black;
+    cursor: pointer;
+    outline: none;
+	font-family: "Jost", sans-serif;
+	font-weight: 500;
+	position: relative;
+}
+
+button.collapsible::after {
+    content: '˅';
+    position: absolute;
+    right: 120px;
+    font-family: "Jost", sans-serif;
+	font-weight: 550;
+    color: #333;
+    transition: transform 0.3s ease; 
+}
+
+button.collapsible.active::after {
+    transform: rotate(180deg); 
+}
+
+/* Collapsible Content */
+.content {
+    display: none; 
+}
+
+.content.active {
+    display: block; 
+}
+
+/* Metadata Section */
+#metadata {
+    margin-top: 70px; 
+	line-height: 1.45;
+}
+
+#metadata h2{
+	font-family: "Jost", sans-serif;
+	font-weight: 500;
+	font-size: 24px;
+	padding:0 65px;
+}
+
+/* Metadata Table */
+#metadata table {
+    width: 100%;
+    border-collapse: collapse;
+	padding:0 65px;
+}
+
+#metadata th {
+	padding:0 80px;
+    text-align: left;
+    font-family: "Jost", sans-serif;
+	font-weight: 450;
+	font-size: 18px;
+    width: 10%;
+	
+}
+
+#metadata td {
+	font-family: "Jost", sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+}
+
+#metadata a {
+    text-decoration: none;
+	font-family: "Jost", sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	color: #ff5c33;
+}
+
+/*TRANSKRIPTION*/
+
+.text-wrapper {
+    margin-bottom: 20px;
+	font-family: "EB Garamond", serif;
+	font-size: 13pt;
+	line-height: 1.5;
+	padding-left: 80px;
+}
+
+
+img {
+	display: inline;
+	height: 400px;
+	width: auto;
+	padding-left: 65px;
+}
+ 
+ #transcription h1 {
+	font-family: "Jost", sans-serif;
+	font-weight: 500;
+	font-size: 24px;
+	padding:0 65px;
+}
+
+#transcription a{
+    text-decoration:underline dotted 5%;
+	color: #333;
+}
+
+#transcription a:hover{
+	background-color: #ff5c33;
+	font-size: 14pt;
+	border-radius: 2pt;
+}
+
+/*Text styles*/
+.bold {
+    font-weight: bold;
+}
+
+.superscript {
+    vertical-align: super;
+    font-size: smaller;
+}
+
+
+footer {
+	display:none;
+}

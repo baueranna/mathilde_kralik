@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">Edition Mathilde Kralik</title>
+				<title type="sub">Totenzettel Mathilde Kralik von Meyrswalden</title>
+				<editor>
+					<forename>Anna</forename>
+					<surname>Bauer</surname>
+				</editor>
+			</titleStmt>
+			<publicationStmt>
+				<p>Kurzedition im Rahmen der Übung "Textkodierung und -verarbeitung mit TEI und XSL"
+					bei Martina Scholger und Selina Galka</p>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Wien</settlement>
+						<repository>Wienbibliothek im Rathaus</repository>
+						<idno type="Signatur">E-74842 </idno>
+						<idno type="URL"
+							>https://digital.wienbibliothek.at/wbrparte/content/titleinfo/3545318?query=Mathilde%20Kralik</idno>
+					</msIdentifier>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="de">Deutsch</language>
+			</langUsage>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="obituary">
+				<pb n="1" facs="../facsimile/Totenzettel_MathildeKralik.jpg"/>
+					<div type="info">
+						<p>
+							<lb/>Wir geben allen Verwandten und Freunden bekannt, daß Frau
+							<lb/><hi rend="bold"><persName ref="#MathildeKralik">Mathilde Kralik von Meyrswalden</persName></hi>
+							<lb/>am <date when="1944-03-08" type="death">Mittwoch, den 8. März 1944</date>, um <time when="04:00:00" type="death">4 Uhr morgens</time> nach Empfang der heiligen Sterbe- <lb/>sakramente gestorben ist.
+							<lb/>Die Beerdigung findet am <date when="1944-03-14" type="funeral">Mittwoch, den 15. März 1944</date>, um <time when="15:00:00" type="funeral">15 Uhr</time> nach erfolgter
+							<lb/>Einsegnung von der <placeName ref="#Zentralfriedhof_Halle1">Halle 1 des Wr. Zentral-Friedhofes (2. Tor links)</placeName> aus statt.
+							<lb/>Die heilige Seelenmesse wird am <date when="1944-03-16" type="mass">Donnerstag, den 16. März 1944</date>, um <time when="07:30:00" type="mass">7<hi rend="superscript">30</hi> Uhr</time> in der 
+							<lb/><placeName ref="#WähringerKirche">Pfarrkirche zur heiligen Gertrud in Währing</placeName> gelesen werden.
+						</p>
+					</div>
+					<div type="dateline">
+						<p>
+							<lb/><placeName ref="#Wien">Wien</placeName>, am <date when="1944-03-09" type="notice">9. März 1944</date>.</p>
+					<p>
+						<lb/>19. Bezirk, <placeName ref="#WeimarerStraße_89">Weimarerstraße 89</placeName>.
+					</p>
+					</div>
+					<div type="names">
+						<p>
+							<lb/><hi rend="bold"><persName ref="#AloisiaPichler">Luisa Pichler Edle von Deeben</persName>,
+							<lb/>geb. Kralik von Meyrswalden
+							<lb/><persName ref="#AliceScarlates">Dr. Alice Scarlates</persName>.</hi>
+						</p>
+					</div>
+					<div type="printer">
+						<p>
+							<lb/><orgName ref="#BestattungPayer">Leichenbestattung Payer, Schmutzer &amp; Co.</orgName>, <placeName ref="#Wien">Wien</placeName>, Fernruf R=33=5=60 Serie und R=31=4=03. 
+							<lb/>Druck: <orgName ref="#Lischkar">Lischkar &amp; Co.</orgName>, <placeName ref="#Bendlgasse_24">12. Bezirk, Bendlgasse 24</placeName>, Telefon R=35-5-89
+						</p>
+					</div>
+			</div>
+		</body>
+		<back>
+			<listPerson>
+				<person xml:id="MathildeKralik">
+					<persName>
+						<forename>Mathilde</forename>
+						<surname>Kralik</surname>
+					</persName>
+					<death when="1944-03-08">8. März 1944</death>
+					<idno type="ID" subtype="WGW">37789</idno>
+					<idno type="ID" subtype="WIKIDATA">Q89972</idno>
+					<idno type="ID" subtype="GND">gnd/130214566</idno>
+					<idno type="ID" subtype="PMB">19659</idno>
+				</person>
+				<person xml:id="AloisiaPichler">
+					<persName>
+						<forename>Luisa</forename>
+						<surname type="married">Pichler von Deeben</surname>
+					</persName>
+				</person>
+				<person xml:id="AliceScarlates">
+					<persName>
+						<forename>Alice</forename>
+						<surname>Scarlates</surname>
+					</persName>
+					<idno type="ID" subtype="WIKIDATA">Q52084077</idno>
+					<idno type="ID" subtype="GND">1228633460</idno>
+				</person>
+			</listPerson>
+			<listPlace>
+				<place xml:id="Wien">
+					<placeName>Wien</placeName>
+					<country>Austria</country>
+					<location>
+						<geo>48.20849, 16.37208</geo>
+					</location>
+					<idno type="ID" subtype="WIKIDATA">Q1741</idno>
+					<idno type="URI" subtype="geonames"
+						>https://www.geonames.org/2761369/vienna.html</idno>
+				</place>
+				<place xml:id="Zentralfriedhof_Halle1">
+					<placeName type="cemetery">Zentralfriedhof Halle 1 Tor 2</placeName>
+					<settlement type="city">Wien</settlement>
+					<country>Österreich</country>
+					<location>
+						<geo>48.153249181929844, 16.442484911381403</geo>
+					</location>
+					<idno type="URL" subtype="Wikipedia"
+						>https://de.wikipedia.org/wiki/Wiener_Zentralfriedhof</idno>
+					<idno type="ID" subtype="WGW">9327</idno>
+					<idno type="ID" subtype="WIKIDATA">Q240744</idno>
+					<idno type="ID" subtype="GND">4120093-7</idno>
+				</place>
+				<place xml:id="WähringerKirche">
+					<placeName type="church">Pfarrkirche heilige Gertraud und heiliger
+						Laurentius</placeName>
+					<placeName type="church">Währinger Kirche</placeName>
+					<settlement type="city">Wien</settlement>
+					<country>Österreich</country>
+					<location>
+						<geo>48.22621692059329, 16.34450228069556</geo>
+					</location>
+					<idno type="URL" subtype="Wikipedia"
+						>https://de.wikipedia.org/wiki/W%C3%A4hringer_Pfarrkirche</idno>
+					<idno type="ID" subtype="WGW">3616</idno>
+				</place>
+				<place xml:id="WeimarerStraße_89">
+					<placeName>Weimarer Straße <num>89</num></placeName>
+					<settlement type="city">Wien</settlement>
+					<country>Österreich</country>
+					<location>
+						<geo>48.2367713611113, 16.344899553715038</geo>
+					</location>
+				</place>
+				<place xml:id="Bendlgasse_24">
+					<placeName>Bendlgasse 24</placeName>
+					<settlement type="city">Wien</settlement>
+					<country>Österreich</country>
+					<location>
+						<geo>48.17974233449344, 16.335147009528303</geo>
+					</location>
+				</place>
+			</listPlace>
+			<listOrg>
+				<org xml:id="BestattungPayer">
+					<orgName>Payer, Schmutzer &amp; Co</orgName>
+				</org>
+				<org xml:id="Lischkar">
+					<orgName>Lischkar &amp; Co</orgName>
+				</org>
+			</listOrg>
+			<listRelation>
+				<relation name="sibling" mutual="#AloisiaPichler #MathildeKralik"/>
+				<relation name="partner" mutual="#AliceScarlates #MathildeKralik"/>
+			</listRelation>
+		</back>
+	</text>
+</TEI>

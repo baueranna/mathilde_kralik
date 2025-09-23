@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">Edition Mathilde Kralik</title>
+				<title type="sub">Totenzettel Louise Kralik von Meyrswalden</title>
+				<editor>
+					<forename>Anna</forename>
+					<surname>Bauer</surname>
+				</editor>
+			</titleStmt>
+			<publicationStmt>
+				<p>Kurzedition im Rahmen der Übung "Textkodierung und -verarbeitung mit TEI und XSL"
+					bei Martina Scholger und Selina Galka</p>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Wien</settlement>
+						<repository>Wienbibliothek im Rathaus</repository>
+						<idno type="Signatur">E-74842</idno>
+						<idno type="URL"
+							>https://www.digital.wienbibliothek.at/wbrparte/content/titleinfo/3545312?query=Louise%20Kralik</idno>
+					</msIdentifier>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="de">Deutsch</language>
+			</langUsage>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="obituary">
+				<pb n="1" facs="../facsimile/Totenzettel_LouiseKralik.jpg"/>
+					<div type="info">
+						<p>Von tieftsem Schmerz erfüllt teilen wir die traurige Nachricht mit, daß
+					unsere liebe Mutter etc., Frau <lb/><hi rend="bold"><persName ref="#LouiseKralik">Louise Kralik
+						von Meyrswalden</persName> geborene Lobmeyr</hi> <lb/>heute den <date
+						when="1905-10-03" type="death">3. Oktober</date> um <time when="08:00:00" type="death">8 Uhr
+						morgens</time> in der <placeName ref="#Vorderbrühl">Vorderbrühl</placeName>
+					im 74. Lebensjahre nach kurzem Leiden sanft <lb/>verschieden ist. <lb/>Die
+					irdische Hülle der teuren <persName ref="#LouiseKralik"
+						>Dahingeschiedenen</persName> wird <date when="1905-10-05" type="funeral">Donnerstag den 5.
+						Oktober</date> um <time when="14:30:00" type="funeral">½3 Uhr <lb/>nachmittags</time> vom
+						<placeName ref="#Elisabethstraße_1">Trauerhause: I., Elisabethstraße
+						I</placeName> in die <placeName ref="#Augustinerkircher">Hof- und
+						Stadtpfarrkirche zu St. Augustin</placeName> über- <lb/>führt, daselbst
+					feierlich eingesegnet und sodann auf dem <placeName ref="#Zentralfriedhof"
+						>Zentralfriedhofe</placeName> nach nochmaliger Einsegnung im <lb/>eigenen
+					Grabe zur ewigen Ruhe bestattet. <lb/>Die heiligen Seelenmessen werden <date
+						when="1905-10-06" type="mass">Freitag den 6. Oktober</date> um <time when="10:00:00" type="mass">10
+						Uhr vormittags </time>in obgenannter <lb/><placeName
+						ref="#Augustinerkircher">Hof- und Stadtpfarrkirche</placeName> gelesen,</p></div>
+						<div type="dateline">
+							<p><placeName ref="#Wien">WIEN</placeName>, am <date when="1905-10-03" type="notice">3.
+						Oktober 1905</date>.</p>
+						</div> 
+				<div type="names">
+					<p>
+					<hi rend="bold"><persName ref="#RichardKralik">Dr. Richard Ritter Kralik von
+						Meyrswalden</persName>
+					<lb/><persName ref="#MathildeKralik">Mathilde Kralik von Meyrswalden</persName>
+					<lb/><persName ref="#AloisiaPichler">Luisa Pichler Edle v. Deeben, geb. Kralik
+						v. Meyrswalden</persName></hi>
+					<lb/>als Kinder </p>
+				<p>
+					<hi rend="bold"><persName ref="#MaiaKralik">Maia Kralik von Meyrswalden</persName> geb. von
+					Flattich.</hi> <lb/>als Schwiegertochter. <lb/><hi rend="bold"><persName ref="#EduardPichler">Eduard
+						Pichler Edler von Deeben</persName>,</hi> k. k. Sektionsrat <lb/>als
+					Schwiegersohn </p>
+				<p>
+					<hi rend="bold"><persName ref="#DietrichKralik">Dietrich</persName>, <persName
+						ref="#HeinrichKralik">Heinrich</persName>, <persName ref="#RodrichKralik"
+						>Rodrich Kralik von Meyrswalden</persName></hi>
+					<lb/><hi rend="bold"><persName ref="#IlsePichler">Ilse</persName></hi> und <hi rend="bold"><persName ref="#EdithPichler">Edith Pichler von Deeben</persName></hi>
+					<lb/>als Enkel </p>
+				<p>
+					<hi rend="bold"><persName ref="#LudwigLobmeyr">Ludwig Lobmeyr</persName>,</hi> Mitglied des Herrenhauses <lb/>als Bruder. <lb/><hi rend="bold"><persName ref="MathildeRath">Mathilde
+						Rath</persName> geb. Lobmeyr</hi> und <hi rend="bold"><persName ref="#AugustRath">August Rath</persName></hi> <lb/>als Schwester und Schwager. <lb/><hi rend="bold"><persName ref="#HeinrichKralikSen">Heinrich
+					Ritter Kralik von Meyrswalden</persName></hi> <lb/><hi rend="bold"><persName ref="#AgnesKralik">Agnes Kralik von Meyrswalden</persName> <lb/><persName ref="#EduardSchmid">Eduard
+					Schmid</persName></hi></p>
+				<p>
+					<hi rend="bold">und sämtliche Enkel und Urenkel von Seite der Familien weiland <persName ref="#WilhelmKralik">Wilhelm</persName> und
+					<persName ref="#CarlKralik">Carl Ritter Kralik v. Meyrswalden</persName> <lb/>und <persName ref="#JosefTaschek">Josef Taschek</persName>, ferner der Familien
+					<persName ref="#HeinrichKralikSen">Heinrich Ritter Kralik von Meyrswalden</persName> und <persName ref="#EduardSchmid">Eduard Schmid</persName>.</hi></p>
+				</div>
+				<div type="printer">
+					<p>
+					<orgName ref="#Enterprisefunebres">Entreprise des pompes funèbres</orgName>, <placeName ref="#KärntnerStraße_21">Wien, I. Kärntnerstrasse 21</placeName>. — Telephon
+					313.</p>
+				</div>
+			</div>
+		</body>
+		<back>
+			<listPerson>
+				<person xml:id="LouiseKralik">
+					<persName>
+						<forename>Louise</forename>
+						<surname type="married">Kralik von Meyrswalden</surname>
+						<surname type="maiden">Lobmeyr</surname>
+					</persName>
+					<death when="1905-10-03">3. Oktober 1905</death>
+					<idno type="ID" subtype="WIKIDATA">Q133874636</idno>
+				</person>
+				<person xml:id="RichardKralik">
+					<persName>
+						<forename>Richard</forename>
+						<surname>Kralik von Meyrswalden</surname>
+					</persName>
+					<idno type="URI" subtype="GND">https://d-nb.info/gnd/118777920</idno>
+					<idno type="ID" subtype="WIKIDATA">Q1317482</idno>
+					<idno type="ID" subtype="WGW">16425</idno>
+					<idno type="ID" subtype="PMB">3731</idno>
+				</person>
+				<person xml:id="HeinrichKralikSen">
+					<persName>
+						<forename>Heinrich</forename>
+						<surname>Kralik von Meyrswalden</surname>
+					</persName>
+					<idno type="URL" subtype="Wikipedia"
+						>https://de.wikipedia.org/wiki/Heinrich_Kralik_von_Meyrswalden_(Industrieller)</idno>
+				</person>
+				<person xml:id="MathildeKralik">
+					<persName>
+						<forename>Mathilde</forename>
+						<surname>Kralik</surname>
+					</persName>
+					<idno type="ID" subtype="WGW">37789</idno>
+					<idno type="ID" subtype="WIKIDATA">Q89972</idno>
+					<idno type="URI" subtype="GND">https://d-nb.info/gnd/130214566</idno>
+					<idno type="ID" subtype="PMB">19659</idno>
+				</person>
+				<person xml:id="AloisiaPichler">
+					<persName>
+						<forename>Louisa</forename>
+						<surname type="married">Pichler von Deeben</surname>
+						<surname type="maiden">Kralik von Meyrswalden</surname>
+					</persName>
+				</person>
+				<person xml:id="MaiaKralik">
+					<persName>
+						<forename>Maia</forename>
+						<surname type="married">Kralik von Meyrswalden</surname>
+						<surname type="maiden">von Flattich</surname>
+					</persName>
+					<idno type="URI" subtype="GND">https://d-nb.info/gnd/116385863</idno>
+				</person>
+				<person xml:id="AgnesKralik">
+					<persName>
+						<forename>Agnes</forename>
+						<surname>Kralik von Meyrswalden</surname>
+					</persName>
+				</person>
+				<person xml:id="EduardPichler">
+					<persName>
+						<forename>Eduard</forename>
+						<surname>Pichler Edler von Deeben</surname>
+					</persName>
+					<occupation>k. k. Sektionsrat</occupation>
+				</person>
+				<person xml:id="EduardSchmid">
+					<persName>
+						<forename>Eduard</forename>
+						<surname>Schmid</surname>
+					</persName>
+					<idno type="URL" subtype="ÖBL"
+						>https://www.biographien.ac.at/oebl/oebl_S/Schmid_Josef-Eduard_1836_1910.xml</idno>
+					<idno type="ID" subtype="GND">1030547009</idno>
+				</person>
+				<person xml:id="WilhelmKralik">
+					<persName>
+						<forename>Wilhelm</forename>
+						<surname>Kralik von Meyrswalden</surname>
+					</persName>
+					<idno type="ID" subtype="GND">136539696</idno>
+					<idno type="ID" subtype="WIKIDATA">Q2573745</idno>
+				</person>
+				<person xml:id="CarlKralik">
+					<persName>
+						<forename>Carl</forename>
+						<surname>Kralik von Meyrswalden</surname>
+					</persName>
+				</person>
+				<person xml:id="JosefTaschek">
+					<persName>
+						<forename>Josef</forename>
+						<surname>Taschek</surname>
+					</persName>
+					<idno type="ID" subtype="WIKIDATA">Q8311993</idno>
+					<idno type="URL" subtype="wikipedia"
+						>https://de.wikipedia.org/wiki/Josef_Taschek</idno>
+				</person>
+				<person xml:id="DietrichKralik">
+					<persName>
+						<forename>Dietrich</forename>
+						<surname>Kralik von Meyrswalden</surname>
+					</persName>
+					<affiliation type="member" subtype="political"><orgName ref="#Bärenhöhle">Bärenhöhle</orgName></affiliation>
+					<idno type="ID" subtype="GND">118777912</idno>
+					<idno type="ID" subtype="WIKIDATA">Q1223897</idno>
+					<idno type="ID" subtype="WGW">16414</idno>
+				</person>
+				<person xml:id="HeinrichKralik">
+					<persName>
+						<forename>Heinrich</forename>
+						<surname>Kralik von Meyrswalden</surname>
+					</persName>
+					<idno type="ID" subtype="GND">121829324</idno>
+					<idno type="ID" subtype="WIKIDATA">Q1235353</idno>
+					<idno type="ID" subtype="WGW">16424</idno>
+				</person>
+				<person xml:id="RodrichKralik">
+					<persName>
+						<forename>Rodrich</forename>
+						<surname>Kralik von Meyrswalden</surname>
+					</persName>
+					<idno type="URI" subtype="GND">https://d-nb.info/gnd/11638610X</idno>
+				</person>
+				<person xml:id="EdithPichler">
+					<persName>
+						<forename>Edith</forename>
+						<surname>Pichler von Deeben</surname>
+					</persName>
+				</person>
+				<person xml:id="IlsePichler">
+					<persName>
+						<forename>Ilse</forename>
+						<surname>Pichler von Deeben</surname>
+					</persName>
+				</person>
+				<person xml:id="LudwigLobmeyr">
+					<persName>
+						<forename>Ludwig</forename>
+						<surname>Lobmeyr</surname>
+					</persName>
+					<idno type="ID" subtype="WIKIDATA">Q55847850</idno>
+				</person>
+				<person xml:id="MathildeRath">
+					<persName>
+						<forename>Mathilde</forename>
+						<surname type="married">Rath</surname>
+						<surname type="maiden">Lobmeyr</surname>
+					</persName>
+				</person>
+				<person xml:id="AugustRath">
+					<persName>
+						<forename>August</forename>
+						<surname>Rath</surname>
+					</persName>
+				</person>
+			</listPerson>
+			<listPlace>
+				<place xml:id="Wien">
+					<placeName>Wien</placeName>
+					<country>Austria</country>
+					<location>
+						<geo>48.20849, 16.37208</geo>
+					</location>
+					<idno type="ID" subtype="WIKIDATA">Q1741</idno>
+					<idno type="URI" subtype="geonames"
+						>https://www.geonames.org/2761369/vienna.html</idno>
+				</place>
+				<place xml:id="Vorderbrühl">
+					<placeName>Vorderbrühl</placeName>
+					<country>Austria</country>
+					<location>
+						<geo>48.08284, 16.25874</geo>
+					</location>
+					<idno type="ID" subtype="WIKIDATA">Q114048876</idno>
+					<idno type="ID" subtype="PMB">957</idno>
+					<idno type="URI" subtype="geonames"
+						>https://www.geonames.org/2762284/vorderbruehl.html</idno>
+				</place>
+				<place xml:id="Elisabethstraße_1">
+					<placeName type="street">Elisabethstraße 1</placeName>
+					<settlement type="city">Wien</settlement>
+					<country>Österreich</country>
+					<location>
+						<geo>48.201765590654134, 16.368675138366534</geo>
+					</location>
+				</place>
+				<place xml:id="Augustinerkircher">
+					<placeName type="church">Augustinerkirche</placeName>
+					<settlement type="city">Wien</settlement>
+					<country>Österreich</country>
+					<location>
+						<geo>48.20610677964904, 16.367669853712695</geo>
+					</location>
+					<idno type="ID" subtype="WGW">28422</idno>
+				</place>
+				<place xml:id="Zentralfriedhof">
+					<placeName type="cemetery">Zentralfriedhof</placeName>
+					<settlement type="city">Wien</settlement>
+					<country>Österreich</country>
+					<location>
+						<geo>48.1514660511102, 16.438521926727077</geo>
+					</location>
+					<idno type="URL" subtype="Wikipedia"
+						>https://de.wikipedia.org/wiki/Wiener_Zentralfriedhof</idno>
+					<idno type="ID" subtype="WGW">9327</idno>
+					<idno type="ID" subtype="WIKIDATA">Q240744</idno>
+					<idno type="ID" subtype="GND">4120093-7</idno>
+				</place>
+				<place xml:id="KärntnerStraße_21">
+					<placeName type="street">Kärntner Straße 21</placeName>
+					<settlement type="city">Wien</settlement>
+					<country>Österreich</country>
+					<location>
+						<geo>48.206327276134346, 16.371738011385606</geo>
+					</location>
+				</place>
+			</listPlace>
+			<listOrg>
+				<org xml:id="Enterprisefunebres">
+					<orgName>Entreprise des pompes funèbres</orgName>
+				</org>
+				<org xml:id="Bärenhöhle" type="political" subtype="antisemitic">
+					<orgName>Bärenhöhle</orgName>
+					<idno type="ID" subtype="WGW">42579</idno>
+				</org>
+			</listOrg>
+			<listRelation>
+				<relation name="parent" active="#LouiseKralik" passive="#RichardKralik #MathildeKralik #AloisiaPichler"/>
+				<relation name="parent" active="#MaiaKralik" passive="#DietrichKralik #HeinrichKralik #RodrichKralik"/>
+				<relation name="parent" active="#RichardKralik" passive="#DietrichKralik #HeinrichKralik #RodrichKralik"/>
+				<relation name="parent" active="#AloisiaPichler" passive="#IlsePichler #EdithPichler"/>
+				<relation name="parent" active="#EduardPichler" passive="#IlsePichler #EdithPichler"/>
+				<relation name="grandparent" active="#LouiseKralik" passive="#DietrichKralik #HeinrichKralik #RodrichKralik #IlsePichler #EdithPichler"/>
+				<relation name="sibling" mutual="#LouiseKralik #LudwigLobmeyr #MathildeRath"/>
+				<relation name="sibling" mutual="#RichardKralik #MathildeKralik #AloisiaPichler"/>
+				<relation name="spouse" mutual="#MaiaKralik #RichardKralik" />
+				<relation name="spouse" mutual="#AloisiaPichler #EduardPichler"/>
+			</listRelation>
+		</back>
+	</text>
+</TEI>
