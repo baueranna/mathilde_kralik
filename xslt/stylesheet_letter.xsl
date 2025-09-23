@@ -15,8 +15,8 @@
                 <title>
                     <xsl:value-of select="//tei:teiHeader//tei:titleStmt//tei:title[@type='main']"/>
                 </title>
-                <link rel="stylesheet" type="text/css" href="css/menu_bar.css" />
-                <link rel="stylesheet" type="text/css" href="css/letter.css" />
+                <link rel="stylesheet" type="text/css" href="../css/menu_bar.css" />
+                <link rel="stylesheet" type="text/css" href="../css/letter.css" />
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
                 <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900&amp;1,18..144,300..900&amp;family=Montserrat:ital,wght@0,100..900&amp;1,100..900&amp;display=swap" rel="stylesheet" />
@@ -123,8 +123,8 @@
                 </footer>
                 
                 <!-- Java script -->
-                <script src="js/menu_bar.js"></script>
-                <script src="js/letter.js"></script>
+                 <script src="../js/menu_bar.js"></script>
+                 <script src="../js/letter.js"></script>
             </body>
         </html>
     </xsl:template>
