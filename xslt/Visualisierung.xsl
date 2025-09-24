@@ -52,7 +52,7 @@
                         <div class="subnav-content" aria-label="Submenu">
                             <a href="Personen.html">Personen</a>
                             <a href="Orte.html">Orte</a>
-                            <a href="Org.html">Organisation</a>
+                            <a href="Org.html">Organisationen</a>
                         </div>
                     </div>
                     
@@ -80,6 +80,7 @@
                     </div>
                 </nav>
                 
+                <!-- Java Script -->
                 <!-- Map -->
                 <div id="map"></div>
                 <script>
@@ -112,6 +113,7 @@
                         </xsl:if>
                     </xsl:for-each>
                 </script>
+                <script src="../js/menu_bar.js"></script>
             </body>
         </html>
     </xsl:template>

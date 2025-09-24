@@ -19,7 +19,7 @@
                 <link rel="stylesheet" type="text/css" href="../css/manuscript.css" />
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
-                <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900&amp;1,18..144,300..900&amp;family=Montserrat:ital,wght@0,100..900&amp;1,100..900&amp;display=swap" rel="stylesheet" />
+                <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900&amp;1,18..144,300..900&amp;family=Montserrat:ital,wght@0,100..900&amp;1,100..900&amp;display=swap" rel="stylesheet" /> 
             </head>
              <body>
                  <!-- Navigation bar -->
@@ -46,7 +46,7 @@
                          <div class="subnav-content" aria-label="Submenu">
                              <a href="Personen.html">Personen</a>
                              <a href="Orte.html">Orte</a>
-                             <a href="Org.html">Organisation</a>
+                             <a href="Org.html">Organisationen</a>
                          </div>
                      </div>
                      
@@ -77,7 +77,7 @@
                 
                 <!-- Metadata Section -->
                 <section id="metadata">
-                    <button type="button" class="collapsible"><xsl:value-of select="//tei:teiHeader//tei:titleStmt//tei:title[@type='s']"/></button>
+                    <button type="button" class="collapsible"><xsl:value-of select="//tei:teiHeader//tei:titleStmt//tei:title[@type='sub']"/></button>
                     <div class="content">
                     <div id="msDesc">
                         <h1>Metadaten</h1>

@@ -46,7 +46,7 @@
                         <div class="subnav-content" aria-label="Submenu">
                             <a href="Personen.html">Personen</a>
                             <a href="Orte.html">Orte</a>
-                            <a href="Org.html">Organisation</a>
+                            <a href="Org.html">Organisationen</a>
                         </div>
                     </div>
                     
@@ -77,7 +77,7 @@
                 
                 <!-- Metadata Section -->
                 <section id="metadata">
-                    <button type="button" class="collapsible"><xsl:value-of select="//tei:teiHeader//tei:titleStmt//tei:title[@type='s']"/></button>
+                    <button type="button" class="collapsible"><xsl:value-of select="//tei:teiHeader//tei:titleStmt//tei:title[@type='sub']"/></button>
                     <div class="content">
                     <div id="msDesc">
                         <h1>Metadaten</h1>

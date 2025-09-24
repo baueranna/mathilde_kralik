@@ -47,7 +47,7 @@
                         <div class="subnav-content" aria-label="Submenu">
                             <a href="Personen.html">Personen</a>
                             <a href="Orte.html">Orte</a>
-                            <a href="Org.html">Organisation</a>
+                            <a href="Org.html">Organisationen</a>
                         </div>
                     </div>
                     
@@ -93,6 +93,9 @@
                 <footer>
                     <p class="right">Work in progress</p>
                 </footer>
+               
+               <!--Java script-->
+                <script src="../js/menu_bar.js"></script>
             </body>
         </html>
     </xsl:template>
