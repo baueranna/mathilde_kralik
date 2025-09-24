@@ -7,7 +7,7 @@
 		<fileDesc>
 			<titleStmt>
 				<title type="main">Edition Mathilde Kralik</title>
-				<title type="s">Mathilde Kralik an Maia Kralik am 10. April 1901</title>
+				<title type="sub">Mathilde Kralik an Maia Kralik am 10. April 1901</title>
 				<author>Mathilde Kralik</author>
 				<editor>
 					<forename>Anna</forename>
@@ -48,7 +48,7 @@
 	<text>
 		<body>
 			<div type="letterBody">
-				<pb n='1' facs="facsimile/10_04_1901_1.jpg"/>
+				<pb n='1' facs="../facsimile/10_04_1901_1.jpg"/>
 					<opener><lb facs='#facs_1_l_1' n='N001'/>Liebe <persName ref="#MaiaKralik">Maia</persName></opener>
 				<p>
 					<lb facs='#facs_1_l_2' n='N002'/>Bei meinem Nachhausekommen
@@ -64,7 +64,7 @@
 					<lb facs='#facs_1_l_13' n='N012'/>auf welchem <persName ref="#Ilse">Ilse</persName> mit der <persName ref="#Comtesse">Comtesse</persName><note>franz. für Gräfin</note>
 					<lb facs='#facs_1_l_14' n='N013'/>zusammen sind, nicht gut geworden?
 				</p>
-				<pb n='2' facs="facsimile/10_04_1901_2.jpg"/>
+				<pb n='2' facs="../facsimile/10_04_1901_2.jpg"/>
 				<p>
 					<lb facs='#facs_2_l' n='N001'/>Selbstverständlich that es mir
 					<lb facs='#facs_2_l_1' n='N002'/>leid, Deinen Besuch versäumt
@@ -115,7 +115,7 @@
 					<lb facs='#facs_2_l_33' n='N004'/>Verzeichnis abzustreichen, das neugekaufte
 					<lb facs='#facs_2_l_32' n='N005'/>eingetragen.
 				</p>
-				<pb n='3' facs="facsimile/10_04_1901_3.jpg"/>
+				<pb n='3' facs="../facsimile/10_04_1901_3.jpg"/>
 				<closer>
 					<lb facs='#facs_3_tr_1_tl_1' n='N001'/>Ich würde mich freuen, morgen
 					<lb facs='#facs_3_tr_1_tl_2' n='N002'/>zum Barden-Abend <persName ref="#RichardKralik">Richard</persName> oder
@@ -127,7 +127,7 @@
 					<lb facs='#facs_3_tr_1_tl_8' n='N008'/><signed><persName ref="MathildeKralik">Mathilde</persName></signed>
 					<lb facs='#facs_3_tr_1_tl_9' n='N009'/><dateline><date when="1901-04-10">10/4. 1901</date></dateline>
 				</closer>
-				<pb n='4' facs="facsimile/10_04_1901_4.jpg"/>
+				<pb n='4' facs="../facsimile/10_04_1901_4.jpg"/>
 			</div>
 		</body>
 		<back>
@@ -187,7 +187,9 @@
 						<forename>Ilse</forename>
 					</persName>
 				</person>
-				<person xml:id="Comtesse"></person>
+				<person xml:id="Comtesse">
+					<persName>Comtesse</persName>
+				</person>
 			</listPerson>
 			</back>
 	</text>

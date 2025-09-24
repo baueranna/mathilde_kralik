@@ -79,7 +79,7 @@
 					<death when="1944-03-08">8. März 1944</death>
 					<idno type="ID" subtype="WGW">37789</idno>
 					<idno type="ID" subtype="WIKIDATA">Q89972</idno>
-					<idno type="ID" subtype="GND">gnd/130214566</idno>
+					<idno type="ID" subtype="GND">130214566</idno>
 					<idno type="ID" subtype="PMB">19659</idno>
 				</person>
 				<person xml:id="AloisiaPichler">

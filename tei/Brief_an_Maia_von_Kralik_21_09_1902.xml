@@ -7,7 +7,7 @@
 		<fileDesc>
 			<titleStmt>
 				<title type="main">Edition Mathilde Kralik</title>
-				<title type="s">Mathilde Kralik an Maia Kralik am 21. September 1902</title>
+				<title type="sub">Mathilde Kralik an Maia Kralik am 21. September 1902</title>
 				<author>Mathilde Kralik</author>
 				<editor>
 					<forename>Anna</forename>
@@ -49,7 +49,7 @@
 	<text>
 		<body>
 			<div type="letterBody">
-				<pb n='1' facs="facsimile/21_09_1902_1.jpg"/>
+				<pb n='1' facs="../facsimile/21_09_1902_1.jpg"/>
 				<opener>
 					<lb facs='#facs_1_l_26' n='N001'/><dateline><placeName ref="#Vorderbrühl">Vorderbrühl</placeName> <date when="1902-09-21">21/9. 1902</date></dateline>
 					<lb facs='#facs_1_l_14' n='N001'/><salute>Liebste <persName ref="#MaiaKralik">Maia</persName>!</salute>
@@ -67,7 +67,7 @@
 					<lb facs='#facs_1_l_24' n='N011'/>Stücken zusammengesetzt sind
 					<lb facs='#facs_1_l_25' n='N012'/>besehen; <persName ref="#AloisiaPichler">Luise</persName> hat auch einen
 				</p>
-				<pb n='2' facs="facsimile/21_09_1902_2.jpg"/>
+				<pb n='2' facs="../facsimile/21_09_1902_2.jpg"/>
 				<p>
 					<lb facs='#facs_2_tr_1_tl_1' n='N001'/>solchen. Dagegen ließ Onkel
 					<lb facs='#facs_2_tr_1_tl_2' n='N002'/><persName ref="#LudwigLobmeyr">Ludwig</persName> in seinem Geschäftsadressen-
@@ -84,7 +84,7 @@
 					<lb facs='#facs_2_tr_1_tl_13' n='N013'/>aufmerksam auf etwas Schönes,
 					<lb facs='#facs_2_tr_1_tl_14' n='N014'/>das ich kürzlich, <choice><abbr>d. h.</abbr><expan>das heißt</expan></choice> auch gestern
 				</p>
-				<pb n='3' facs="facsimile/21_09_1902_3.jpg"/>
+				<pb n='3' facs="../facsimile/21_09_1902_3.jpg"/>
 				<p>
 					<lb facs='#facs_3_tr_1_tl_1' n='N001'/>bei Berndorfer am Graben gesehen
 					<lb facs='#facs_3_tr_1_tl_2' n='N002'/>habe. In der Auslage steht da
@@ -101,7 +101,7 @@
 					<lb facs='#facs_3_tr_1_tl_13' n='N013'/>bei Onkel <persName ref="#LudwigLobmeyr">Ludwig</persName> Dir ansiehst,
 					<lb facs='#facs_3_tr_1_tl_14' n='N014'/>was Dir gefällt und mir&apos;s näher
 				</p>
-				<pb n='4' facs="facsimile/21_09_1902_4.jpg"/>
+				<pb n='4' facs="../facsimile/21_09_1902_4.jpg"/>
 				<p>
 					<lb facs='#facs_4_tr_1_tl_1' n='N001'/>bezeichnest.
 					<lb facs='#facs_4_tr_1_tl_2' n='N002'/>Ich habe mich sehr gefreut,

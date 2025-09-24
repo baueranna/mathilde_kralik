@@ -71,8 +71,8 @@
 					</div>
 				<div type="printer">
 					<p>
-						<lb/><orgName ref="#Gerold">Buchdruckerei von <persName
-							ref="#CarlGerold">Carl Gerold</persName>'s Sohn</orgName> in <placeName
+						<lb/><orgName ref="#Gerold">Buchdruckerei</orgName> von <persName
+							ref="#CarlGerold">Carl Gerold</persName>'s Sohn in <placeName
 						ref="#Wien">Wien</placeName>.
 					</p>
 				</div>

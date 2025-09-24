@@ -7,7 +7,7 @@
 		<fileDesc>
 			<titleStmt>
 				<title type="main">Edition Mathilde Kralik</title>
-				<title type="s">Mathilde Kralik an Maia Kralik am 15. Juni 1899</title>
+				<title type="sub">Mathilde Kralik an Maia Kralik am 15. Juni 1899</title>
 				<author>Mathilde Kralik</author>
 				<editor>
 					<forename>Anna</forename>
@@ -49,7 +49,7 @@
 	<text>
 		<body>
 			<div type="letterBody">
-				<pb n='1' facs="facsimile/15_06_1899_1.jpg"/>
+				<pb n='1' facs="../facsimile/15_06_1899_1.jpg"/>
 				<opener>
 					<lb facs='#facs_1_l_17' n='N001'/><placeName ref="#Vorderbrühl">Vorderbrühl</placeName>, Jägerhausstr. 11.
 					<lb facs='#facs_1_l_32' n='N002'/><dateline><date when="1899-06-15">15. Juni 1899.</date></dateline>
@@ -70,7 +70,7 @@
 					<lb facs='#facs_1_l_29' n='N013'/>bequem und wir verlieren dabei zu sehr
 					<lb facs='#facs_1_l_30' n='N014'/>die Fühlung mit ihm. Leider ist er
 				</p>
-				<pb n='2' facs="facsimile/15_06_1899_2.jpg"/>
+				<pb n='2' facs="../facsimile/15_06_1899_2.jpg"/>
 				<p>
 					<lb facs='#facs_2_tr_1_tl_1' n='N001'/>noch dazu gegenwärtig seit Mittwoch
 					<lb facs='#facs_2_tr_1_tl_2' n='N002'/>oder Donnerstag voriger Woche, also seit
@@ -90,7 +90,7 @@
 					<lb facs='#facs_2_tr_1_tl_16' n='N016'/>Mathematik ungesund hält.
 					<lb facs='#facs_2_tr_1_tl_17' n='N017'/>Der <date when="1899-06-21">21. Juni</date> naht, es ist der Mitt-
 				</p>
-				<pb n='3' facs="facsimile/15_06_1899_3.jpg"/>
+				<pb n='3' facs="../facsimile/15_06_1899_3.jpg"/>
 				<p>
 					<lb facs='#facs_3_tr_1_tl_1' n='N001'/>woch der nächsten Woche. Wann kommt
 					<lb facs='#facs_3_tr_1_tl_2' n='N002'/>Ihr? Hoffentlich lässt es sich machen,
@@ -114,7 +114,7 @@
 				<p>
 					<lb facs='#facs_3_l' n='N001'/><hi rend="rotate">Commentar, offenbar eine Acquistion aus der <placeName ref="#Seccession">Seccession</placeName> - nicht mein Geschmack!</hi>
 				</p>
-				<pb n='4' facs="facsimile/15_06_1899_4.jpg"/>
+				<pb n='4' facs="../facsimile/15_06_1899_4.jpg"/>
 				<p><lb facs='#facs_4_l' n='N001'/><hi rend="rotate"><persName ref="#LudwigKralik">Ludwig</persName> hat uns vor etwa 10 Tagen einen „Klimt" herausgeschickt, ohne jeden</hi></p>
 				<p>
 					<lb facs='#facs_4_tr_1_tl_1' n='N001'/>wahrgenommen hatten. Dagegen gibt
