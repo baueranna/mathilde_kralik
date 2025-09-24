@@ -22,34 +22,57 @@
                 <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900&amp;1,18..144,300..900&amp;family=Montserrat:ital,wght@0,100..900&amp;1,100..900&amp;display=swap" rel="stylesheet" />
             </head>
              <body>
-                <!-- Navigation bar -->
-                <nav class="topnav" aria-label="Main Navigation">
-                    <a href="index.html">Home</a>
-                    <a href="Briefe.html">Briefe</a>
-                    <a href="Manuskript.html">Manuskripte</a>
-                    
-                    <!-- Submenu for Mathilde Kralik -->
-                    <div class="subnav">
-                        <div class="nav-toggle" tabindex="0" aria-haspopup="true" aria-expanded="false" aria-label="Mathilde Kralik Submenu">
-                            Mathilde Kralik
-                        </div>
-                        <div class="subnav-content" aria-label="Mathilde Kralik Submenu">
-                            <a href="Ressourcen.html">Ressourcen</a>
-                        </div>
-                    </div>
-                    
-                    <!-- Submenu for Edition -->
-                    <div class="subnav">
-                        <div class="nav-toggle" tabindex="0" aria-haspopup="true" aria-expanded="false" aria-label="Edition Submenu">
-                            Edition
-                        </div>
-                        <div class="subnav-content" aria-label="Edition Submenu">
-                            <a href="Projekt.html">Projekt</a>
-                            <a href="Transkription.html">Transkription</a>
-                            <a href="https://github.com" target="_blank" rel="noopener noreferrer">Github</a>
-                        </div>
-                    </div>
-                </nav>
+                 <!-- Navigation bar -->
+                 <nav class="topnav" aria-label="Main Navigation">
+                     <a href="index.html">Menü</a>
+                     
+                     <!-- Submenu for documents -->
+                     <div class="subnav">
+                         <div class="nav-toggle" tabindex="0" aria-haspopup="true" aria-expanded="false" aria-label="Document Submenu">
+                             <a href="Dokumente.html">Dokumente</a>
+                         </div>
+                         <div class="subnav-content" aria-label="Submenu">
+                             <a href="Briefe.html">Briefe</a>
+                             <a href="Manuskript.html">Manuskripte</a>
+                             <a href="Totenzettel.html">Totenzettel</a>
+                         </div>
+                     </div>
+                     
+                     <!-- Submenu for Entities -->
+                     <div class="subnav">
+                         <div class="nav-toggle" tabindex="0" aria-haspopup="true" aria-expanded="false" aria-label="Entity Submenu">
+                             <a href="Verzeichnis.html">Verzeichnis</a>
+                         </div>
+                         <div class="subnav-content" aria-label="Submenu">
+                             <a href="Personen.html">Personen</a>
+                             <a href="Orte.html">Orte</a>
+                             <a href="Org.html">Organisation</a>
+                         </div>
+                     </div>
+                     
+                     <!-- Submenu for Mathilde Kralik -->
+                     <div class="subnav">
+                         <div class="nav-toggle" tabindex="0" aria-haspopup="true" aria-expanded="false" aria-label="Mathilde Kralik Submenu">
+                             Mathilde Kralik
+                         </div>
+                         <div class="subnav-content" aria-label="Mathilde Kralik Submenu">
+                             <a href="Bio.html">Biographie</a>
+                             <a href="Ressourcen.html">Ressourcen</a>
+                         </div>
+                     </div>
+                     
+                     <!-- Submenu for Edition -->
+                     <div class="subnav">
+                         <div class="nav-toggle" tabindex="0" aria-haspopup="true" aria-expanded="false" aria-label="Edition Submenu">
+                             Edition
+                         </div>
+                         <div class="subnav-content" aria-label="Edition Submenu">
+                             <a href="Projekt.html">Projekt</a>
+                             <a href="Transkription.html">Transkription</a>
+                             <a href="https://github.com/baueranna/mathilde_kralik.git" target="_blank" rel="noopener noreferrer">Github</a>
+                         </div>
+                     </div>
+                 </nav>
                 
                 
                 <!-- Metadata Section -->
