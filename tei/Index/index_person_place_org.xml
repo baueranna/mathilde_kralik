@@ -7,7 +7,7 @@
       <fileDesc>
          <titleStmt>
             <title type="main">Edition Mathilde Kralik</title>
-            <title type="s">Personen-, Orte-, und Organisationsverzeichnis</title>
+            <title type="sub">Personen-, Orte-, und Organisationsverzeichnis</title>
             <editor>
                <forename>Anna</forename>
                <surname>Bauer</surname>
@@ -445,10 +445,148 @@
                <idno type="ID" subtype="WIKIDATA">Q52084077</idno>
                <idno type="ID" subtype="GND">1228633460</idno>
             </person>
+            <person xml:id="EduardHauptmann">
+            <persName>
+               <forename>Eduard</forename>
+               <surname>Hauptmann</surname>
+            </persName>
+            </person>
+            <person xml:id="CarlHertlein">
+               <persName>
+                  <forename>Carl</forename>
+                  <surname>Hertlein</surname>
+               </persName>
+            </person>
+            <person xml:id="JuliusEpstein">
+               <persName>
+                  <forename>Julius</forename>
+                  <surname>Epstein</surname>
+               </persName>
+               <idno type="URI" subtype="GND">https://d-nb.info/gnd/116652357</idno>
+               <idno type="ID" subtype="WIKIDATA">Q79036</idno>
+            </person>
+            <person xml:id="IreneZoepf">
+               <persName>
+                  <forename>Irene</forename>
+                  <surname>Zoepf</surname>
+               </persName>
+               <idno type="URI" subtype="VIAF">http://viaf.org/viaf/66893083</idno>
+            </person>
+            <person xml:id="Herder">
+               <persName>
+                  <forename>Johann</forename>
+                  <forename>Gottfried</forename>
+                  <surname>Herder</surname>
+               </persName>
+               <idno type="ID" subtype="WIKIDATA">Q155547</idno>
+               <idno type="URI" subtype="GND">https://d-nb.info/gnd/118549553</idno>
+            </person>
+            <person xml:id="Catull">
+               <persName>Catull</persName>
+               <idno type="URI" subtype="GND">https://d-nb.info/gnd/118519719</idno>
+               <idno type="ID" subtype="WIKIDATA">Q163079</idno>
+            </person>
+            <person xml:id="JohannRathausky">
+               <persName>
+                  <forename>Johann</forename>
+                  <surname>Rathausky</surname>
+               </persName>
+               <idno type="URI" subtype="GND">https://d-nb.info/gnd/1027435025</idno>
+            </person>
+            <person xml:id="Sokrates">
+               <persName>Sokrates</persName>
+               <idno type="ID" subtype="WIKIDATA">Q913</idno>
+            </person>
+            <person xml:id="Ilse">
+               <persName>
+                  <forename>Ilse</forename>
+               </persName>
+            </person>
+            <person xml:id="FranziskaTschampa">
+               <persName>
+                  <forename>Franziska</forename>
+                  <surname>Tschampa</surname>
+               </persName>
+               <idno type="URI" subtype="GND">https://d-nb.info/gnd/1081510544</idno>
+            </person>
+            <person xml:id="LulaGmeiner">
+               <persName>
+                  <forename>Lula</forename>
+                  <surname>Gmeiner</surname>
+               </persName>
+               <idno type="URI" subtype="GND">https://d-nb.info/gnd/117212490</idno>
+               <idno type="ID" subtype="WIKIDATA">Q1676668</idno>
+            </person>
+            <person xml:id="FranzNaval">
+               <persName>
+                  <forename>Franz</forename>
+                  <surname>Naval</surname>
+               </persName>
+               <idno type="URI" subtype="GND">https://d-nb.info/gnd/116266945</idno>
+               <idno type="ID" subtype="WIKIDATA">Q87156</idno>
+            </person>
+            <person xml:id="MarcellaPregi">
+               <persName>
+                  <forename>Marcella</forename>
+                  <surname>Pregi</surname>
+               </persName>
+               <idno type="URI" subtype="GND">https://d-nb.info/gnd/116281588</idno>
+               <idno type="ID" subtype="WIKIDATA">Q94761060</idno>
+            </person>
+            <person xml:id="Angiline">
+               <persName>
+                  <forename>Angiline</forename>
+               </persName>
+            </person>
+            <person xml:id="RudolphFitzner">
+               <persName>
+                  <forename>Rudolph</forename>
+                  <surname>Fitzner</surname>
+               </persName>
+               <idno type="URI" subtype="GND">https://d-nb.info/gnd/116586540</idno>
+               <idno type="ID" subtype="WIKIDATA">Q7377184</idno>
+            </person>
+            <person xml:id="ErnstDohnany">
+               <persName>
+                  <forename>Ernst</forename>
+                  <surname>von Dohnányi</surname>
+               </persName>
+               <idno type="URI" subtype="GND">https://d-nb.info/gnd/119110016</idno>
+               <idno type="ID" subtype="WIKIDATA">Q78532</idno>
+            </person>
+            <person xml:id="Beethoven">
+               <persName>
+                  <forename>Ludwig</forename>
+                  <surname>van Beethoven</surname>
+               </persName>
+               <idno type="URI" subtype="GND">https://d-nb.info/gnd/118508288</idno>
+               <idno type="ID" subtype="WIKIDATA">Q255</idno>
+            </person>
+            <person xml:id="Mozart">
+               <persName>
+                  <forename>Wolfgang</forename>
+                  <forename>Amadeus</forename>
+                  <surname>Mozart</surname>
+               </persName>
+               <idno type="URI" subtype="GND">https://d-nb.info/gnd/118584596</idno>
+               <idno type="ID" subtype="WIKIDATA">Q254</idno>
+            </person>
+            <person xml:id="Haydn">
+               <persName>
+                  <forename>Joseph</forename>
+                  <surname>Haydn</surname>
+               </persName>
+               <idno type="URI" subtype="GND">https://d-nb.info/gnd/118547356</idno>
+               <idno type="ID" subtype="WIKIDATA">Q7349</idno>
+            </person>
+            <person xml:id="LeoXIII">
+               <persName><forename>Leo</forename> <surname>XIII</surname></persName>
+               <idno type="ID" subtype="WIKIDATA">Q43922</idno>
+            </person>
          </listPerson>
          <listPlace>
             <place xml:id="Wien">
-               <placeName>Wien</placeName>
+               <placeName type="city">Wien</placeName>
                <country>Austria</country>
                <location>
                   <geo>48.20849, 16.37208</geo>
@@ -514,7 +652,7 @@
                </location>
             </place>
             <place xml:id="EhrengrabKralik">
-               <placeName>Ehrengrab Richard Kralik</placeName>
+               <placeName type="cemetery">Ehrengrab Richard Kralik</placeName>
             </place>
             <place xml:id="Stephansdom">
                <placeName type="church">Dom- und Metropolitankirche zu St. Stephan</placeName>
@@ -525,7 +663,7 @@
                </location>
             </place>
             <place xml:id="StMarxerFriedhof">
-               <placeName type="cementary">St. Marxer Friedhof</placeName>
+               <placeName type="cemetery">St. Marxer Friedhof</placeName>
                <settlement type="city">Wien</settlement>
                <country>Österreich</country>
                <location>
@@ -535,7 +673,7 @@
                <idno type="ID" subtype="GND">4843295-7</idno>
             </place>
             <place xml:id="Weimar">
-               <placeName type="City">Weimar</placeName>
+               <placeName type="city">Weimar</placeName>
                <location>
                   <geo>50.9803, 11.32903</geo>
                </location>
@@ -571,7 +709,7 @@
                </location>
             </place>
             <place xml:id="Vorderbrühl">
-               <placeName>Vorderbrühl</placeName>
+               <placeName type="village">Vorderbrühl</placeName>
                <country>Austria</country>
                <location>
                   <geo>48.08284, 16.25874</geo>
@@ -660,7 +798,7 @@
                <idno type="ID" subtype="GND">4120093-7</idno>
             </place>
             <place xml:id="WeimarerStraße_89">
-               <placeName>Weimarer Straße 89</placeName>
+               <placeName type="street">Weimarer Straße 89</placeName>
                <settlement type="city">Wien</settlement>
                <country>Österreich</country>
                <location>
@@ -668,12 +806,40 @@
                </location>
             </place>
             <place xml:id="Bendlgasse_24">
-               <placeName>Bendlgasse 24</placeName>
+               <placeName type="street">Bendlgasse 24</placeName>
                <settlement type="city">Wien</settlement>
                <country>Österreich</country>
                <location>
                   <geo>48.17974233449344, 16.335147009528303</geo>
                </location>
+            </place>
+            <place xml:id="Berlin">
+               <placeName type="city">Berlin</placeName>
+               <country>Germany</country>
+               <location>
+                  <geo>52.52437, 13.41053</geo>
+               </location>
+               <idno type="ID" subtype="WIKIDATA">Q1741</idno>
+               <idno type="URI" subtype="geonames">https://www.geonames.org/2950159/berlin.html</idno>
+            </place>
+            <place xml:id="Seccession">
+               <placeName type="museum">Seccession</placeName>
+               <country>Austria</country>
+               <settlement>Vienna</settlement>
+               <location>
+                  <geo>48.20041, 16.36542</geo>
+               </location>
+               <idno type="ID" subtype="WIKIDATA">Q265129</idno>
+               <idno type="URL" subtype="geonames">https://www.geonames.org/6354994/secession.html</idno>
+            </place>
+            <place xml:id="Linz">
+               <placeName type="city">Linz</placeName>
+               <country>Austria</country>
+               <location>
+                  <geo>48.30639, 14.28611</geo>
+               </location>
+               <idno type="ID" subtype="WIKIDATA">Q41329</idno>
+               <idno type="URI" subtype="geonames">https://www.geonames.org/2772400/linz.html</idno>
             </place>
          </listPlace>
          <listOrg>
@@ -746,6 +912,26 @@
             </org>
             <org xml:id="Lischkar">
                <orgName>Lischkar &amp; Co</orgName>
+            </org>
+            <org xml:id="Vaterland">
+               <orgName>Vaterland</orgName>
+               <idno type="ID" subtype="WIKIDATA">Q125847075</idno>
+            </org>
+            <org xml:id="FreiePresse">
+               <orgName>Neue Freie Presse</orgName>
+               <idno type="ID" subtype="WIKIDATA">Q2919142</idno>
+            </org>
+            <org xml:id="Extrablatt">
+               <orgName>Illustrirtes Wiener Extrablatt</orgName>
+               <idno type="ID" subtype="WIKIDATA">Q1658926</idno>
+            </org>
+            <org xml:id="MeyrsNeffe">
+               <orgName>Meyr's Neffe</orgName>
+               <idno type="ID" subtype="WIKIDATA">Q1926388</idno>
+            </org>
+            <org xml:id="WienerKonservatorium">
+               <orgName>Wiener Konservatorium</orgName>
+               <idno type="ID" subtype="WIKIDATA">Q28864370</idno>
             </org>
          </listOrg>
          <listRelation>

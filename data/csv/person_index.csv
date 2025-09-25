@@ -41,7 +41,7 @@ AgnesKralik,Agnes,Kralik von Meyrswalden,,,,,
 EduardSchmid,Eduard,Schmid,,Glasfabrikant,,,URL (ÖBL): https://www.biographien.ac.at/oebl/oebl_S/Schmid_Josef-Eduard_1836_1910.xml; ID (GND): 1030547009
 CarlKralik,Carl,Kralik von Meyrswalden,,,,,
 JosefTaschek,Josef,Taschek,,,,,ID (WIKIDATA): Q8311993; URL (Wikipedia): https://de.wikipedia.org/wiki/Josef_Taschek
-DietrichKralik,Dietrich,Kralik von Meyrswalden,,Universitätsprofessor,"type: member, subtype: political, orgName: None, ref: None",,ID (GND): 118777912; ID (WIKIDATA): Q1223897; ID (WGW): 16414
+DietrichKralik,Dietrich,Kralik von Meyrswalden,,Universitätsprofessor,"type: member, subtype: political, orgName: Bärenhöhle, ref: #Bärenhöhle",,ID (GND): 118777912; ID (WIKIDATA): Q1223897; ID (WGW): 16414
 HeinrichKralik,Heinrich,Kralik von Meyrswalden,,,,,ID (GND): 121829324; ID (WIKIDATA): Q1235353; ID (WGW): 16424
 RodrichKralik,Rodrich,Kralik von Meyrswalden,,Landesgerichtsrat,,,ID (GND): 11638610X
 EdithPichler,Edith,Pichler von Deeben,,,,,
@@ -56,3 +56,23 @@ TheodorInnitzer,Theodor,Innitzer,,,,,ID (GND): 118555634; ID (WIKIDATA): Q78988;
 RudolfWieser,Rudolf,Wieser,,,,,
 EdmundSteinbock,Edmund,Steinbock,,,,,
 AliceScarlates,Alice,Scarlates,,,,,ID (WIKIDATA): Q52084077; ID (GND): 1228633460
+EduardHauptmann,Eduard,Hauptmann,,,,,
+CarlHertlein,Carl,Hertlein,,,,,
+JuliusEpstein,Julius,Epstein,,,,,URI (GND): https://d-nb.info/gnd/116652357; ID (WIKIDATA): Q79036
+IreneZoepf,Irene,Zoepf,,,,,URI (VIAF): http://viaf.org/viaf/66893083
+Herder,Johann,Herder,,,,,ID (WIKIDATA): Q155547; URI (GND): https://d-nb.info/gnd/118549553
+Catull,,,,,,,URI (GND): https://d-nb.info/gnd/118519719; ID (WIKIDATA): Q163079
+JohannRathausky,Johann,Rathausky,,,,,URI (GND): https://d-nb.info/gnd/1027435025
+Sokrates,,,,,,,ID (WIKIDATA): Q913
+Ilse,Ilse,,,,,,
+FranziskaTschampa,Franziska,Tschampa,,,,,URI (GND): https://d-nb.info/gnd/1081510544
+LulaGmeiner,Lula,Gmeiner,,,,,URI (GND): https://d-nb.info/gnd/117212490; ID (WIKIDATA): Q1676668
+FranzNaval,Franz,Naval,,,,,URI (GND): https://d-nb.info/gnd/116266945; ID (WIKIDATA): Q87156
+MarcellaPregi,Marcella,Pregi,,,,,URI (GND): https://d-nb.info/gnd/116281588; ID (WIKIDATA): Q94761060
+Angiline,Angiline,,,,,,
+RudolphFitzner,Rudolph,Fitzner,,,,,URI (GND): https://d-nb.info/gnd/116586540; ID (WIKIDATA): Q7377184
+ErnstDohnany,Ernst,von Dohnányi,,,,,URI (GND): https://d-nb.info/gnd/119110016; ID (WIKIDATA): Q78532
+Beethoven,Ludwig,van Beethoven,,,,,URI (GND): https://d-nb.info/gnd/118508288; ID (WIKIDATA): Q255
+Mozart,Wolfgang,Mozart,,,,,URI (GND): https://d-nb.info/gnd/118584596; ID (WIKIDATA): Q254
+Haydn,Joseph,Haydn,,,,,URI (GND): https://d-nb.info/gnd/118547356; ID (WIKIDATA): Q7349
+LeoXIII,Leo,XIII,,,,,ID (WIKIDATA): Q43922

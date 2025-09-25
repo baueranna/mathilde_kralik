@@ -1,0 +1,30 @@
+ID,name,type,geo,idnos
+Wien,Wien,city,"48.20849, 16.37208",ID (WIKIDATA): Q1741; URI (geonames): https://www.geonames.org/2761369/vienna.html
+Weimarerplatz_3,Weimarerplatz 3,street,"48.233902622021546, 16.344070193512067",URL (Wikipedia): https://de.wikipedia.org/wiki/Richard-Kralik-Platz; ID (WGW): 26530
+DöblingerFriedhof,Döblinger Friedhof,cemetery,"48.238719731402156, 16.328673269061063",URL (Wikipedia): https://de.wikipedia.org/wiki/D%C3%B6blinger_Friedhof; ID (WGW): 6843; ID (WIKIDATA): Q1270909; ID (GND): 1233214810
+WähringerKirche,"Pfarrkirche heilige Gertraud und heiliger
+                  Laurentius",church,"48.22621692059329, 16.34450228069556",URL (Wikipedia): https://de.wikipedia.org/wiki/W%C3%A4hringer_Pfarrkirche; ID (WGW): 3616
+Rosensteingasse_32,Rosensteingasse 32,street,"48.21808403776477, 16.326086765349057",
+HernalserHauptstraße_81,Hernalser Hauptstraße 81,street,"48.21845628508243, 16.328900153713658",
+EhrengrabKralik,Ehrengrab Richard Kralik,cemetery,,
+Stephansdom,Dom- und Metropolitankirche zu St. Stephan,church,"48.20854411963058, 16.373480666951327",
+StMarxerFriedhof,St. Marxer Friedhof,cemetery,"48.18402446536315, 16.4032053383651",ID (WGW): 18057; ID (GND): 4843295-7
+Weimar,Weimar,city,"50.9803, 11.32903",ID (WIKIDATA): Q3955
+Zentralfriedhof,Zentralfriedhof,cemetery,"48.1514660511102, 16.438521926727077",URL (Wikipedia): https://de.wikipedia.org/wiki/Wiener_Zentralfriedhof; ID (WGW): 9327; ID (WIKIDATA): Q240744; ID (GND): 4120093-7
+GoldeggGasse_19,Goldegg-Gasse 19,street,"48.18976066981652, 16.37695638069264",
+Favoritenstraße_27,Favoritenstraße 27,street,"48.189747763641684, 16.372364634655163",
+Vorderbrühl,Vorderbrühl,village,"48.08284, 16.25874",ID (WIKIDATA): Q114048876; ID (PMB): 957; URI (geonames): https://www.geonames.org/2762284/vorderbruehl.html
+Elisabethstraße_1,Elisabethstraße 1,street,"48.201765590654134, 16.368675138366534",
+Augustinerkircher,Augustinerkirche,church,"48.20610677964904, 16.367669853712695",ID (WGW): 28422
+KärntnerStraße_21,Kärntner Straße 21,street,"48.206327276134346, 16.371738011385606",
+Rennweg_91,Rennweg 91,street,"48.19044582541425, 16.397931765346893",
+ErdbergerKirche,Peter-und-Paul-Kirche,church,"48.200857294744246, 16.398227150471623",ID (WGW): 14138
+KircheMödling,Stadtpfarrkirche Mödling,church,"48.085662256259745, 16.280088723318332",
+Eleonorenhain,Eleonorenhain,village,"48.9343471954487, 13.794896645500788",
+Annathal,Annathal,village,"48.87337398216413, 13.614796312599777",
+Zentralfriedhof_Halle1,Zentralfriedhof Halle 1 Tor 2,cemetery,"48.153249181929844, 16.442484911381403",URL (Wikipedia): https://de.wikipedia.org/wiki/Wiener_Zentralfriedhof; ID (WGW): 9327; ID (WIKIDATA): Q240744; ID (GND): 4120093-7
+WeimarerStraße_89,Weimarer Straße 89,street,"48.2367713611113, 16.344899553715038",
+Bendlgasse_24,Bendlgasse 24,street,"48.17974233449344, 16.335147009528303",
+Berlin,Berlin,city,"52.52437, 13.41053",ID (WIKIDATA): Q1741; URI (geonames): https://www.geonames.org/2950159/berlin.html
+Seccession,Seccession,museum,"48.20041, 16.36542",ID (WIKIDATA): Q265129; URL (geonames): https://www.geonames.org/6354994/secession.html
+Linz,Linz,city,"48.30639, 14.28611",ID (WIKIDATA): Q41329; URI (geonames): https://www.geonames.org/2772400/linz.html
