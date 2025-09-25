@@ -1,0 +1,27 @@
+name,active,passive,mutual
+parent,#AugustRath,#MarieSchönvonKreuzenau #AugustRathjun #PaulRath #StefanRath,
+parent,#AloisiaLobmeyr,#JosephLobmeyr #LudwigLobmeyr #FranzLobmeyr #LouiseKralik #MathildeRath,
+parent,#LouiseKralik,#RichardKralik #MathildeKralik #AloisiaPichler,
+parent,#MaiaKralik,#DietrichKralik #HeinrichKralik #RodrichKralik,
+parent,#RichardKralik,#DietrichKralik #HeinrichKralik #RodrichKralik,
+parent,#AloisiaPichler,#IlsePichler #EdithPichler,
+parent,#EduardPichler,#IlsePichler #EdithPichler,
+parent,#RichardKralik,#HeinrichKralik #DietrichKralik #RodrichKralik,
+parent,#MaiaKralik,#HeinrichKralik #DietrichKralik #RodrichKralik,
+grandparent,#LouiseKralik,#DietrichKralik #HeinrichKralik #RodrichKralik #IlsePichler #EdithPichler,
+grandparent,#MaiaKralik,#WinifredKralik #LeopoldKralik #ElfriedeKralik,
+grandparent,#RichardKralik,#WinifredKralik #LeopoldKralik #ElfriedeKralik,
+sibling,,,#LouiseKralik #LudwigLobmeyr #MathildeRath
+sibling,,,#RudolfLobmeyr #AdolfLobmeyr #OskarLobmeyr #LudwigLobmeyrJun
+sibling,,,#MarieSchönvonKreuzenau #AugustRathjun #PaulRath #StefanRath
+sibling,,,#RichardKralik #MathildeKralik #AloisiaPichler
+sibling,,,#JosephLobmeyr #LudwigLobmeyr #FranzLobmeyr #LouiseKralik #MathildeRath
+sibling,,,#HeinrichKralik #RodrichKralik #DietrichKralik
+sibling,,,#RichardKralik #AloisiaPichler #MathildeKralik
+uncle,#LudwigLobmeyr,#RudolfLobmeyr #AdolfLobmeyr #OskarLobmeyr #LudwigLobmeyrJun #MarieSchönvonKreuzenau #AugustRathjun #PaulRath #StefanRath #RichardKralik #MathildeKralik #AloisiaPichler,
+uncle,#LudwigKralik,#DietrichKralik #HeinrichKralik #RodrichKralik #IlsePichler #EdithPichler,
+spouse,,,#LouiseKralik #WilhelmKralik
+spouse,,,#HildegardLobmeyr #FranzLobmeyr
+spouse,,,#MaiaKralik #RichardKralik
+spouse,,,#AloisiaPichler #EduardPichler
+partner,,,#AliceScarlates #MathildeKralik

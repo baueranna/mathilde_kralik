@@ -1,0 +1,112 @@
+[
+    {
+        "ID":"JLLobmeyr",
+        "name":"J. & L. Lobmeyr ",
+        "idnos":"ID (WGW): 17959; ID (WIKIDATA): Q876883"
+    },
+    {
+        "ID":"Gerold",
+        "name":"Gerold & Co",
+        "idnos":"ID (WGW): 19514"
+    },
+    {
+        "ID":"Herrenhaus",
+        "name":"Herrenhaus",
+        "idnos":"ID (WGW): 12008"
+    },
+    {
+        "ID":"AkBild",
+        "name":"Akademie der bildenden K\u00fcnste",
+        "idnos":"ID (WGW): 17555; ID (GND): 2003761-2; ID (WIKIDATA): Q414219"
+    },
+    {
+        "ID":"GenossenschaftK\u00fcnstler",
+        "name":"Genossenschaft der bildenden K\u00fcnstler Wiens",
+        "idnos":"ID (WGW): 25052; ID (GND): 2100204-6; ID (WIKIDATA): Q284902"
+    },
+    {
+        "ID":"Schillerstiftung",
+        "name":"Deutsche Schillerstiftung",
+        "idnos":"ID (GND): 5187203-1"
+    },
+    {
+        "ID":"TheyerHartmut",
+        "name":"THEYER & HARDTMUTH",
+        "idnos":"ID (WGW): 46454"
+    },
+    {
+        "ID":"St\u00e4dtischeLeichenbestattung",
+        "name":"St\u00e4dtische Leichenbestattung",
+        "idnos":""
+    },
+    {
+        "ID":"DruckBileg",
+        "name":"Josef Bileg",
+        "idnos":""
+    },
+    {
+        "ID":"GeneralinspektionEisenbahn",
+        "name":"Generalinspektion der \u00f6sterreichischen Eisenbahnen",
+        "idnos":""
+    },
+    {
+        "ID":"Statthalterei",
+        "name":"K\u00fcstenl\u00e4ndische Statthalterei",
+        "idnos":""
+    },
+    {
+        "ID":"Enterprisefunebres",
+        "name":"Entreprise des pompes fun\u00e8bres",
+        "idnos":""
+    },
+    {
+        "ID":"B\u00e4renh\u00f6hle",
+        "name":"B\u00e4renh\u00f6hle",
+        "idnos":"ID (WGW): 42579"
+    },
+    {
+        "ID":"Nordbahn",
+        "name":"Kaiser-Ferdinands-Nordbahn",
+        "idnos":"URL (Wikipedia): https:\/\/de.wikipedia.org\/wiki\/Kaiser_Ferdinands-Nordbahn; ID (WGW): 21891; ID (WIKIDATA): Q352763; ID (GND): 4276204-2"
+    },
+    {
+        "ID":"EisenbahnMinisterium",
+        "name":"Eisenbahnen-Ministerium",
+        "idnos":"URL (Wikipedia): https:\/\/de.wikipedia.org\/wiki\/K.k._Eisenbahnministerium"
+    },
+    {
+        "ID":"BestattungPayer",
+        "name":"Payer, Schmutzer & Co",
+        "idnos":""
+    },
+    {
+        "ID":"Lischkar",
+        "name":"Lischkar & Co",
+        "idnos":""
+    },
+    {
+        "ID":"Vaterland",
+        "name":"Vaterland",
+        "idnos":"ID (WIKIDATA): Q125847075"
+    },
+    {
+        "ID":"FreiePresse",
+        "name":"Neue Freie Presse",
+        "idnos":"ID (WIKIDATA): Q2919142"
+    },
+    {
+        "ID":"Extrablatt",
+        "name":"Illustrirtes Wiener Extrablatt",
+        "idnos":"ID (WIKIDATA): Q1658926"
+    },
+    {
+        "ID":"MeyrsNeffe",
+        "name":"Meyr's Neffe",
+        "idnos":"ID (WIKIDATA): Q1926388"
+    },
+    {
+        "ID":"WienerKonservatorium",
+        "name":"Wiener Konservatorium",
+        "idnos":"ID (WIKIDATA): Q28864370"
+    }
+]
