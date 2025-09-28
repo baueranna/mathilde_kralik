@@ -102,7 +102,7 @@
                   <forename>Ludwig</forename>
                   <surname>Ritter Kralik von Meyrswalden</surname>
                </persName>
-               <occupation>Oberingenier der <orgName ref="#Nordbahn">Kaiser-Ferdinand-Nordbahn</orgName></occupation>
+               <occupation>Oberingenieur der <orgName ref="#Nordbahn">Kaiser-Ferdinand-Nordbahn</orgName></occupation>
             </person>
             <person xml:id="HildegardLobmeyr">
                <persName>
@@ -483,7 +483,9 @@
                <idno type="URI" subtype="GND">https://d-nb.info/gnd/118549553</idno>
             </person>
             <person xml:id="Catull">
-               <persName>Catull</persName>
+               <persName>
+                  <forename>Catull</forename>
+               </persName>
                <idno type="URI" subtype="GND">https://d-nb.info/gnd/118519719</idno>
                <idno type="ID" subtype="WIKIDATA">Q163079</idno>
             </person>
@@ -495,7 +497,9 @@
                <idno type="URI" subtype="GND">https://d-nb.info/gnd/1027435025</idno>
             </person>
             <person xml:id="Sokrates">
-               <persName>Sokrates</persName>
+               <persName>
+                  <forename>Sokrates</forename>
+               </persName>
                <idno type="ID" subtype="WIKIDATA">Q913</idno>
             </person>
             <person xml:id="Ilse">

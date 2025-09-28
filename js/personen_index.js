@@ -4,7 +4,7 @@ $(document).ready(function() {
         columns: [
             { data: 'forename' },
             { data: 'surname' },
-            { data: 'occupation' }
+            { data: 'occupations' }
         ]
     });
 });
