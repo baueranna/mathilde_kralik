@@ -24,7 +24,6 @@
             
             <body>
                 <!-- Navigation bar -->
-                <!-- Navigation bar -->
                 <nav class="topnav" aria-label="Main Navigation">
                     <a href="index.html">Menü</a>
                     
@@ -52,6 +51,17 @@
                         </div>
                     </div>
                     
+                    <!-- Submenu for Visualisations -->
+                    <div class="subnav">
+                        <div class="nav-toggle" tabindex="0" aria-haspopup="true" aria-expanded="false" aria-label="Entity Submenu">
+                            <a href="Visualisierung.html">Visualisierungen</a>
+                        </div>
+                        <div class="subnav-content" aria-label="Submenu">
+                            <a href="Vis_Orte.html">Orte</a>
+                            <a href="Vis_Personen.html">Personennetzwerk</a>
+                        </div>
+                    </div>
+                    
                     <!-- Submenu for Mathilde Kralik -->
                     <div class="subnav">
                         <div class="nav-toggle" tabindex="0" aria-haspopup="true" aria-expanded="false" aria-label="Mathilde Kralik Submenu">
@@ -66,7 +76,7 @@
                     <!-- Submenu for Edition -->
                     <div class="subnav">
                         <div class="nav-toggle" tabindex="0" aria-haspopup="true" aria-expanded="false" aria-label="Edition Submenu">
-                            Edition
+                            Über die Edition
                         </div>
                         <div class="subnav-content" aria-label="Edition Submenu">
                             <a href="Projekt.html">Projekt</a>

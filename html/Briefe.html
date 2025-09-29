@@ -4,77 +4,93 @@
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
       <title>Edition Mathilde Kralik</title>
       <link rel="stylesheet" type="text/css" href="../css/menu_bar.css">
-      <link rel="stylesheet" type="text/css" href="../css/list.css">
+      <link rel="stylesheet" type="text/css" href="../css/tabelle.css">
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
       <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900&amp;1,18..144,300..900&amp;family=Montserrat:ital,wght@0,100..900&amp;1,100..900&amp;display=swap" rel="stylesheet">
-      <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/2.3.4/css/dataTables.dataTables.min.css"/>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-      <script src="//cdn.datatables.net/2.3.4/js/dataTables.min.js"></script>
+      <link rel="stylesheet" href="https://cdn.datatables.net/2.3.4/css/dataTables.dataTables.min.css"/>
    </head>
    <body>
+      <!-- Navigation bar -->
       <nav class="topnav" aria-label="Main Navigation">
-         <a href="index.html">Home</a>
-         <a href="Briefe.html">Briefe</a>
-         <a href="Manuskript.html">Manuskripte</a>
+         <a href="index.html">Menü</a>
+         
+         <!-- Submenu for documents -->
+         <div class="subnav">
+            <div class="nav-toggle" tabindex="0" aria-haspopup="true" aria-expanded="false" aria-label="Document Submenu">
+               <a href="Dokumente.html">Dokumente</a>
+            </div>
+            <div class="subnav-content" aria-label="Submenu">
+               <a href="Briefe.html">Briefe</a>
+               <a href="Manuskript.html">Manuskripte</a>
+               <a href="Totenzettel.html">Totenzettel</a>
+            </div>
+         </div>
+         
+         <!-- Submenu for Entities -->
+         <div class="subnav">
+            <div class="nav-toggle" tabindex="0" aria-haspopup="true" aria-expanded="false" aria-label="Entity Submenu">
+               <a href="Verzeichnis.html">Verzeichnis</a>
+            </div>
+            <div class="subnav-content" aria-label="Submenu">
+               <a href="Personen.html">Personen</a>
+               <a href="Orte.html">Orte</a>
+               <a href="Org.html">Organisationen</a>
+            </div>
+         </div>
+         
+         <!-- Submenu for Visualisations -->
+         <div class="subnav">
+            <div class="nav-toggle" tabindex="0" aria-haspopup="true" aria-expanded="false" aria-label="Entity Submenu">
+               <a href="Visualisierung.html">Visualisierungen</a>
+            </div>
+            <div class="subnav-content" aria-label="Submenu">
+               <a href="Vis_Orte.html">Orte</a>
+               <a href="Vis_Personen.html">Personennetzwerk</a>
+            </div>
+         </div>
+         
+         <!-- Submenu for Mathilde Kralik -->
          <div class="subnav">
             <div class="nav-toggle" tabindex="0" aria-haspopup="true" aria-expanded="false" aria-label="Mathilde Kralik Submenu">
                Mathilde Kralik
             </div>
             <div class="subnav-content" aria-label="Mathilde Kralik Submenu">
+               <a href="Bio.html">Biographie</a>
                <a href="Ressourcen.html">Ressourcen</a>
             </div>
          </div>
+         
+         <!-- Submenu for Edition -->
          <div class="subnav">
             <div class="nav-toggle" tabindex="0" aria-haspopup="true" aria-expanded="false" aria-label="Edition Submenu">
-               Edition
+               Über die Edition
             </div>
             <div class="subnav-content" aria-label="Edition Submenu">
                <a href="Projekt.html">Projekt</a>
-               <a href="Impressum.html">Impressum</a>
+               <a href="Transkription.html">Transkription</a>
                <a href="https://github.com/baueranna/mathilde_kralik.git" target="_blank" rel="noopener noreferrer">Github</a>
             </div>
          </div>
       </nav>
-      <h1>Korrespondenzen</h1>
-      <table>
-         <tr>
-            <th>Titel</th>
-            <th>Datum</th>
-            <th>Verfasser:in</th>
-            <th>Empfänger:in</th>
-         </tr>
-         <tr>
-            <td><a href="Brief_an_Maia_von_Kralik_15_06_1899.html">Brief an Maia Kralik am 15. Juni 1899</a></td>
-            <td>1899-06-15</td>
-            <td>Mathilde Kralik</td>
-            <td>Maia Kralik</td>
-         </tr>
-         <tr>
-            <td><a href="Brief_an_Maia_von_Kralik_10_4_1901.html">Brief an Maia Kralik am 10. April 1901</a></td>
-            <td>1901-04-10</td>
-            <td>Mathilde Kralik</td>
-            <td>Maia Kralik</td>
-         </tr>
-         <tr>
-            <td><a href="Brief_an_Maia_von_Kralik_21_09_1902.html">Brief an Maia Kralik am 21. September 1902</a></td>
-            <td>1902-09-21</td>
-            <td>Mathilde Kralik</td>
-            <td>Maia Kralik</td>
-         </tr>
-		 <tr>
-            <td><a href="Brief_an_Maia_von_Kralik_2_10_1902.html">Brief an Maia Kralik am 2. Oktober 1902</a></td>
-            <td>1902-10-02</td>
-            <td>Mathilde Kralik</td>
-            <td>Maia Kralik</td>
-         </tr>
-         <tr>
-            <td><a href="Brief_an_Maia_von_Kralik_4_02_1903.html">Brief an Maia Kralik am 4. Februar 1903</a></td>
-            <td>1903-02-04</td>
-            <td>Mathilde Kralik</td>
-            <td>Maia Kralik</td>
-         </tr>
+      
+      <table id="correspondenceTable" class="display">
+         <thead>
+            <tr>
+               <th>Datum</th>
+               <th>Sender:in</th>
+               <th>Empfänger:in</th>
+               <th>Themen</th>
+               <th>Zum Dokument</th>
+            </tr>
+         </thead>
+         <tbody>
+            <!-- Data will be dynamically inserted here -->
+         </tbody>
       </table>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+      <script src="https://cdn.datatables.net/2.3.4/js/dataTables.min.js"></script>
       <script src="../js/menu_bar.js"></script>
+      <script src="../js/briefe_index.js"></script>
    </body>
 </html>
