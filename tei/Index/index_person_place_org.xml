@@ -61,7 +61,7 @@
                <persName>
                   <forename>Louise</forename>
                   <surname type="married">Kralik von Meyrswalden</surname>
-                  <surname type="maiden">Lobmayr</surname>
+                  <surname type="maiden">Lobmeyr</surname>
                </persName>
                <death when="1905-10-03">3. Oktober 1905</death>
                <idno type="ID" subtype="WIKIDATA">Q133874636</idno>
@@ -443,6 +443,7 @@
                   <forename>Alice</forename>
                   <surname>Scarlates</surname>
                </persName>
+               <occupation>Philologin; Dolmetscherin</occupation>
                <idno type="ID" subtype="WIKIDATA">Q52084077</idno>
                <idno type="ID" subtype="GND">1228633460</idno>
             </person>
