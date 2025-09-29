@@ -1,10 +1,9 @@
 $(document).ready(function() {
     $('#correspondenceTable').DataTable({
-        ajax: '../data/json/person_index.json',
+        ajax: '../data/json/place_index.json',
         columns: [
-            { data: 'forename' },
-            { data: 'surname' },
-            { data: 'occupations' },
+            { data: 'name' },
+            { data: 'type' },
             {
                 data: 'Website',
                 render: function(data, type, row) {

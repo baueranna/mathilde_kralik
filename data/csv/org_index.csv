@@ -1,23 +1,23 @@
-ID,name,idnos
-JLLobmeyr,J. & L. Lobmeyr ,ID (WGW): 17959; ID (WIKIDATA): Q876883
-Gerold,Gerold & Co,ID (WGW): 19514
-Herrenhaus,Herrenhaus,ID (WGW): 12008
-AkBild,Akademie der bildenden Künste,ID (WGW): 17555; ID (GND): 2003761-2; ID (WIKIDATA): Q414219
-GenossenschaftKünstler,Genossenschaft der bildenden Künstler Wiens,ID (WGW): 25052; ID (GND): 2100204-6; ID (WIKIDATA): Q284902
-Schillerstiftung,Deutsche Schillerstiftung,ID (GND): 5187203-1
-TheyerHartmut,THEYER & HARDTMUTH,ID (WGW): 46454
-StädtischeLeichenbestattung,Städtische Leichenbestattung,
-DruckBileg,Josef Bileg,
-GeneralinspektionEisenbahn,Generalinspektion der österreichischen Eisenbahnen,
-Statthalterei,Küstenländische Statthalterei,
-Enterprisefunebres,Entreprise des pompes funèbres,
-Bärenhöhle,Bärenhöhle,ID (WGW): 42579
-Nordbahn,Kaiser-Ferdinands-Nordbahn,URL (Wikipedia): https://de.wikipedia.org/wiki/Kaiser_Ferdinands-Nordbahn; ID (WGW): 21891; ID (WIKIDATA): Q352763; ID (GND): 4276204-2
-EisenbahnMinisterium,Eisenbahnen-Ministerium,URL (Wikipedia): https://de.wikipedia.org/wiki/K.k._Eisenbahnministerium
-BestattungPayer,"Payer, Schmutzer & Co",
-Lischkar,Lischkar & Co,
-Vaterland,Vaterland,ID (WIKIDATA): Q125847075
-FreiePresse,Neue Freie Presse,ID (WIKIDATA): Q2919142
-Extrablatt,Illustrirtes Wiener Extrablatt,ID (WIKIDATA): Q1658926
-MeyrsNeffe,Meyr's Neffe,ID (WIKIDATA): Q1926388
-WienerKonservatorium,Wiener Konservatorium,ID (WIKIDATA): Q28864370
+ID,name,type,idnos,Website
+JLLobmeyr,J. & L. Lobmeyr ,manufactory,ID (WGW): 17959; ID (WIKIDATA): Q876883,JLLobmeyr.html
+Gerold,Gerold & Co,printer,ID (WGW): 19514,Gerold.html
+Herrenhaus,Herrenhaus,representativ,ID (WGW): 12008,Herrenhaus.html
+AkBild,Akademie der bildenden Künste,cultural,ID (WGW): 17555; ID (GND): 2003761-2; ID (WIKIDATA): Q414219,AkBild.html
+GenossenschaftKünstler,Genossenschaft der bildenden Künstler Wiens,cultural,ID (WGW): 25052; ID (GND): 2100204-6; ID (WIKIDATA): Q284902,GenossenschaftKünstler.html
+Schillerstiftung,Deutsche Schillerstiftung,cultural,ID (GND): 5187203-1,Schillerstiftung.html
+TheyerHartmut,THEYER & HARDTMUTH,paper,ID (WGW): 46454,TheyerHartmut.html
+StädtischeLeichenbestattung,Städtische Leichenbestattung,funeral,,StädtischeLeichenbestattung.html
+DruckBileg,Josef Bileg,printer,,DruckBileg.html
+GeneralinspektionEisenbahn,Generalinspektion der österreichischen Eisenbahnen,transport,,GeneralinspektionEisenbahn.html
+Statthalterei,Küstenländische Statthalterei,political,,Statthalterei.html
+Enterprisefunebres,Entreprise des pompes funèbres,funeral,,Enterprisefunebres.html
+Bärenhöhle,Bärenhöhle,political,ID (WGW): 42579,Bärenhöhle.html
+Nordbahn,Kaiser-Ferdinands-Nordbahn,transport,URL (Wikipedia): https://de.wikipedia.org/wiki/Kaiser_Ferdinands-Nordbahn; ID (WGW): 21891; ID (WIKIDATA): Q352763; ID (GND): 4276204-2,Nordbahn.html
+EisenbahnMinisterium,Eisenbahnen-Ministerium,political,URL (Wikipedia): https://de.wikipedia.org/wiki/K.k._Eisenbahnministerium,EisenbahnMinisterium.html
+BestattungPayer,"Payer, Schmutzer & Co",funeral,,BestattungPayer.html
+Lischkar,Lischkar & Co,printer,,Lischkar.html
+Vaterland,Vaterland,press,ID (WIKIDATA): Q125847075,Vaterland.html
+FreiePresse,Neue Freie Presse,press,ID (WIKIDATA): Q2919142,FreiePresse.html
+Extrablatt,Illustrirtes Wiener Extrablatt,press,ID (WIKIDATA): Q1658926,Extrablatt.html
+MeyrsNeffe,Meyr's Neffe,manufactory,ID (WIKIDATA): Q1926388,MeyrsNeffe.html
+WienerKonservatorium,Wiener Konservatorium,cultural,ID (WIKIDATA): Q28864370,WienerKonservatorium.html

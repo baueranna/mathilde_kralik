@@ -196,8 +196,8 @@ button.collapsible.active::after {
 .nav-button {
     display:inline;
 	width:100%;
-    background: white;
-    border: white;
+    background: #FAF9F6;
+    border: #FAF9F6;
     font-size: 26px; 
     width: 50%;
     padding: 10px 35px;

@@ -629,8 +629,7 @@
                <idno type="ID" subtype="GND">1233214810</idno>
             </place>
             <place xml:id="WähringerKirche">
-               <placeName type="church">Pfarrkirche heilige Gertraud und heiliger
-                  Laurentius</placeName>
+               <placeName type="church">Pfarrkirche heilige Gertraud und heiliger Laurentius</placeName>
                <placeName type="church">Währinger Kirche</placeName>
                <settlement type="city">Wien</settlement>
                <country>Österreich</country>
@@ -850,59 +849,59 @@
          </listPlace>
          <listOrg>
             <org xml:id="JLLobmeyr">
-               <orgName>J. &amp; L. Lobmeyr </orgName>
+               <orgName type="manufactory">J. &amp; L. Lobmeyr </orgName>
                <idno type="ID" subtype="WGW">17959</idno>
                <idno type="ID" subtype="WIKIDATA">Q876883</idno>
             </org>
             <org xml:id="Gerold">
-               <orgName>Gerold &amp; Co</orgName>
+               <orgName type="printer">Gerold &amp; Co</orgName>
                <idno type="ID" subtype="WGW">19514</idno>
             </org>
             <org xml:id="Herrenhaus">
-               <orgName>Herrenhaus</orgName>
+               <orgName type="representativ">Herrenhaus</orgName>
                <idno type="ID" subtype="WGW">12008</idno>
             </org>
             <org xml:id="AkBild">
-               <orgName>Akademie der bildenden Künste</orgName>
+               <orgName type="cultural">Akademie der bildenden Künste</orgName>
                <idno type="ID" subtype="WGW">17555</idno>
                <idno type="ID" subtype="GND">2003761-2</idno>
                <idno type="ID" subtype="WIKIDATA">Q414219</idno>
             </org>
             <org xml:id="GenossenschaftKünstler">
-               <orgName>Genossenschaft der bildenden Künstler Wiens</orgName>
+               <orgName type="cultural">Genossenschaft der bildenden Künstler Wiens</orgName>
                <idno type="ID" subtype="WGW">25052</idno>
                <idno type="ID" subtype="GND">2100204-6</idno>
                <idno type="ID" subtype="WIKIDATA">Q284902</idno>
             </org>
             <org xml:id="Schillerstiftung">
-               <orgName>Deutsche Schillerstiftung</orgName>
+               <orgName type="cultural">Deutsche Schillerstiftung</orgName>
                <idno type="ID" subtype="GND">5187203-1</idno>
             </org>
             <org xml:id="TheyerHartmut">
-               <orgName>THEYER &amp; HARDTMUTH</orgName>
+               <orgName type="paper">THEYER &amp; HARDTMUTH</orgName>
                <idno type="ID" subtype="WGW">46454</idno>
             </org>
             <org xml:id="StädtischeLeichenbestattung">
-               <orgName>Städtische Leichenbestattung</orgName>
+               <orgName type="funeral">Städtische Leichenbestattung</orgName>
             </org>
             <org xml:id="DruckBileg">
-               <orgName>Josef Bileg</orgName>
+               <orgName type="printer">Josef Bileg</orgName>
             </org>
             <org xml:id="GeneralinspektionEisenbahn">
-               <orgName>Generalinspektion der österreichischen Eisenbahnen</orgName>
+               <orgName type="transport">Generalinspektion der österreichischen Eisenbahnen</orgName>
             </org>
             <org xml:id="Statthalterei">
-               <orgName>Küstenländische Statthalterei</orgName>
+               <orgName type="political">Küstenländische Statthalterei</orgName>
             </org>
             <org xml:id="Enterprisefunebres">
-               <orgName>Entreprise des pompes funèbres</orgName>
+               <orgName type="funeral">Entreprise des pompes funèbres</orgName>
             </org>
-            <org xml:id="Bärenhöhle" type="political" subtype="antisemitic">
-               <orgName>Bärenhöhle</orgName>
+            <org xml:id="Bärenhöhle">
+               <orgName  type="political" subtype="antisemitic">Bärenhöhle</orgName>
                <idno type="ID" subtype="WGW">42579</idno>
             </org>
             <org xml:id="Nordbahn">
-               <orgName>Kaiser-Ferdinands-Nordbahn</orgName>
+               <orgName type="transport">Kaiser-Ferdinands-Nordbahn</orgName>
                <idno type="URL" subtype="Wikipedia"
                   >https://de.wikipedia.org/wiki/Kaiser_Ferdinands-Nordbahn</idno>
                <idno type="ID" subtype="WGW">21891</idno>
@@ -910,33 +909,33 @@
                <idno type="ID" subtype="GND">4276204-2</idno>
             </org>
             <org xml:id="EisenbahnMinisterium">
-               <orgName>Eisenbahnen-Ministerium</orgName>
+               <orgName type="political">Eisenbahnen-Ministerium</orgName>
                <idno type="URL" subtype="Wikipedia">https://de.wikipedia.org/wiki/K.k._Eisenbahnministerium</idno>
             </org>
             <org xml:id="BestattungPayer">
-               <orgName>Payer, Schmutzer &amp; Co</orgName>
+               <orgName type="funeral">Payer, Schmutzer &amp; Co</orgName>
             </org>
             <org xml:id="Lischkar">
-               <orgName>Lischkar &amp; Co</orgName>
+               <orgName type="printer">Lischkar &amp; Co</orgName>
             </org>
             <org xml:id="Vaterland">
-               <orgName>Vaterland</orgName>
+               <orgName type="press">Vaterland</orgName>
                <idno type="ID" subtype="WIKIDATA">Q125847075</idno>
             </org>
             <org xml:id="FreiePresse">
-               <orgName>Neue Freie Presse</orgName>
+               <orgName type="press">Neue Freie Presse</orgName>
                <idno type="ID" subtype="WIKIDATA">Q2919142</idno>
             </org>
             <org xml:id="Extrablatt">
-               <orgName>Illustrirtes Wiener Extrablatt</orgName>
+               <orgName type="press">Illustrirtes Wiener Extrablatt</orgName>
                <idno type="ID" subtype="WIKIDATA">Q1658926</idno>
             </org>
             <org xml:id="MeyrsNeffe">
-               <orgName>Meyr's Neffe</orgName>
+               <orgName type="manufactory">Meyr's Neffe</orgName>
                <idno type="ID" subtype="WIKIDATA">Q1926388</idno>
             </org>
             <org xml:id="WienerKonservatorium">
-               <orgName>Wiener Konservatorium</orgName>
+               <orgName type="cultural">Wiener Konservatorium</orgName>
                <idno type="ID" subtype="WIKIDATA">Q28864370</idno>
             </org>
          </listOrg>
