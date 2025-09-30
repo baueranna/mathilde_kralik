@@ -8,7 +8,7 @@ $(document).ready(function() {
             {
                 data: 'Website',
                 render: function(data, type, row) {
-                    return `<a href="${data}" target="_blank" class="link">↪</a>`;
+                    return `<a href="personen/${data}" target="_blank" class="link">↪</a>`;
                 }
             }
         ],

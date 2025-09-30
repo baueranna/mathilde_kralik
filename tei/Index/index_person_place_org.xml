@@ -32,15 +32,11 @@
                </persName>
                <death when="1917-03-25">25. März 1917</death>
                <occupation>k. k. Hofglashändler</occupation>
-               <affiliation type="member" subtype="honorary"><orgName ref="#Herrenhaus"
-                  >Österreichisches Herrenhaus</orgName></affiliation>
-               <affiliation type="member" subtype="honorary"><orgName ref="#AkBild">k. k.
-                  Akademie der bildenden Künste</orgName></affiliation>
+               <affiliation type="member" subtype="honorary"><orgName ref="#Herrenhaus">Österreichisches Herrenhaus</orgName></affiliation>
+               <affiliation type="member" subtype="honorary"><orgName ref="#AkBild">k. k.Akademie der bildenden Künste</orgName></affiliation>
                <affiliation type="member" subtype="honorary"><orgName
-                  ref="#GenossenschaftKünstler">Genossenschaft der bildenden Künstler
-                  Wiens</orgName></affiliation>
-               <affiliation type="member" subtype="honorary"><orgName ref="#Schillerstiftung">Deutsche
-                  Schillerstiftung</orgName></affiliation>
+                  ref="#GenossenschaftKünstler">Genossenschaft der bildenden Künstler Wiens</orgName></affiliation>
+               <affiliation type="member" subtype="honorary"><orgName ref="#Schillerstiftung">Deutsche Schillerstiftung</orgName></affiliation>
                <idno type="ID" subtype="WIKIDATA">Q55847850</idno>
             </person>
             <person xml:id="JosephLobmeyr">
@@ -443,7 +439,8 @@
                   <forename>Alice</forename>
                   <surname>Scarlates</surname>
                </persName>
-               <occupation>Philologin; Dolmetscherin</occupation>
+               <occupation>Philologin</occupation>
+               <occupation>Dolmetscherin</occupation>
                <idno type="ID" subtype="WIKIDATA">Q52084077</idno>
                <idno type="ID" subtype="GND">1228633460</idno>
             </person>
@@ -464,7 +461,7 @@
                   <forename>Julius</forename>
                   <surname>Epstein</surname>
                </persName>
-               <idno type="URI" subtype="GND">https://d-nb.info/gnd/116652357</idno>
+               <idno type="ID" subtype="GND">116652357</idno>
                <idno type="ID" subtype="WIKIDATA">Q79036</idno>
             </person>
             <person xml:id="IreneZoepf">
@@ -472,7 +469,7 @@
                   <forename>Irene</forename>
                   <surname>Zoepf</surname>
                </persName>
-               <idno type="URI" subtype="VIAF">http://viaf.org/viaf/66893083</idno>
+               <idno type="ID" subtype="VIAF">66893083</idno>
             </person>
             <person xml:id="Herder">
                <persName>
@@ -481,13 +478,13 @@
                   <surname>Herder</surname>
                </persName>
                <idno type="ID" subtype="WIKIDATA">Q155547</idno>
-               <idno type="URI" subtype="GND">https://d-nb.info/gnd/118549553</idno>
+               <idno type="ID" subtype="GND">118549553</idno>
             </person>
             <person xml:id="Catull">
                <persName>
                   <forename>Catull</forename>
                </persName>
-               <idno type="URI" subtype="GND">https://d-nb.info/gnd/118519719</idno>
+               <idno type="ID" subtype="GND">118519719</idno>
                <idno type="ID" subtype="WIKIDATA">Q163079</idno>
             </person>
             <person xml:id="JohannRathausky">
@@ -495,7 +492,7 @@
                   <forename>Johann</forename>
                   <surname>Rathausky</surname>
                </persName>
-               <idno type="URI" subtype="GND">https://d-nb.info/gnd/1027435025</idno>
+               <idno type="ID" subtype="GND">1027435025</idno>
             </person>
             <person xml:id="Sokrates">
                <persName>
@@ -513,14 +510,14 @@
                   <forename>Franziska</forename>
                   <surname>Tschampa</surname>
                </persName>
-               <idno type="URI" subtype="GND">https://d-nb.info/gnd/1081510544</idno>
+               <idno type="ID" subtype="GND">1081510544</idno>
             </person>
             <person xml:id="LulaGmeiner">
                <persName>
                   <forename>Lula</forename>
                   <surname>Gmeiner</surname>
                </persName>
-               <idno type="URI" subtype="GND">https://d-nb.info/gnd/117212490</idno>
+               <idno type="ID" subtype="GND">117212490</idno>
                <idno type="ID" subtype="WIKIDATA">Q1676668</idno>
             </person>
             <person xml:id="FranzNaval">
@@ -528,7 +525,7 @@
                   <forename>Franz</forename>
                   <surname>Naval</surname>
                </persName>
-               <idno type="URI" subtype="GND">https://d-nb.info/gnd/116266945</idno>
+               <idno type="ID" subtype="GND">116266945</idno>
                <idno type="ID" subtype="WIKIDATA">Q87156</idno>
             </person>
             <person xml:id="MarcellaPregi">
@@ -536,7 +533,7 @@
                   <forename>Marcella</forename>
                   <surname>Pregi</surname>
                </persName>
-               <idno type="URI" subtype="GND">https://d-nb.info/gnd/116281588</idno>
+               <idno type="ID" subtype="GND">116281588</idno>
                <idno type="ID" subtype="WIKIDATA">Q94761060</idno>
             </person>
             <person xml:id="Angiline">
@@ -549,7 +546,7 @@
                   <forename>Rudolph</forename>
                   <surname>Fitzner</surname>
                </persName>
-               <idno type="URI" subtype="GND">https://d-nb.info/gnd/116586540</idno>
+               <idno type="ID" subtype="GND">116586540</idno>
                <idno type="ID" subtype="WIKIDATA">Q7377184</idno>
             </person>
             <person xml:id="ErnstDohnany">
@@ -557,7 +554,7 @@
                   <forename>Ernst</forename>
                   <surname>von Dohnányi</surname>
                </persName>
-               <idno type="URI" subtype="GND">https://d-nb.info/gnd/119110016</idno>
+               <idno type="ID" subtype="GND">119110016</idno>
                <idno type="ID" subtype="WIKIDATA">Q78532</idno>
             </person>
             <person xml:id="Beethoven">
@@ -565,7 +562,7 @@
                   <forename>Ludwig</forename>
                   <surname>van Beethoven</surname>
                </persName>
-               <idno type="URI" subtype="GND">https://d-nb.info/gnd/118508288</idno>
+               <idno type="ID" subtype="GND">118508288</idno>
                <idno type="ID" subtype="WIKIDATA">Q255</idno>
             </person>
             <person xml:id="Mozart">
@@ -574,7 +571,7 @@
                   <forename>Amadeus</forename>
                   <surname>Mozart</surname>
                </persName>
-               <idno type="URI" subtype="GND">https://d-nb.info/gnd/118584596</idno>
+               <idno type="ID" subtype="GND">118584596</idno>
                <idno type="ID" subtype="WIKIDATA">Q254</idno>
             </person>
             <person xml:id="Haydn">
@@ -582,7 +579,7 @@
                   <forename>Joseph</forename>
                   <surname>Haydn</surname>
                </persName>
-               <idno type="URI" subtype="GND">https://d-nb.info/gnd/118547356</idno>
+               <idno type="ID" subtype="GND">118547356</idno>
                <idno type="ID" subtype="WIKIDATA">Q7349</idno>
             </person>
             <person xml:id="LeoXIII">
