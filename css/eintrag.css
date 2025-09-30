@@ -1,0 +1,40 @@
+body{
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 600;
+	font-size: 43px;
+	text-align: center;
+}
+
+table {
+    line-height: 1.5;
+}
+    
+th{
+    font-family: "Montserrat", sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+	text-align: right;
+}
+
+td {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 350;
+	font-size: 16px;
+	text-align: left;
+	padding-left: 20px;
+}
+
+.info {
+    text-decoration: none;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 350;
+	font-size: 16px;
+	color: #ff5c33;
+}
