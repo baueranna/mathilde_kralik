@@ -9,7 +9,7 @@ button.collapsible {
 	width:100%;
     background: white;
     border: white;
-    font-size: 32px;
+    font-size: 28px;
     text-align: left;
     padding: 35px 65px 20px;
 	margin-top:30px;
@@ -17,7 +17,7 @@ button.collapsible {
     cursor: pointer;
     outline: none;
 	font-family: "Montserrat", sans-serif;
-	font-weight: 500;
+	font-weight: 600;
 	position: relative;
 }
 
@@ -52,8 +52,8 @@ button.collapsible.active::after {
 
 #metadata h2{
 	font-family: "Montserrat", sans-serif;
-	font-weight: 500;
-	font-size: 24px;
+	font-weight: 600;
+	font-size: 22px;
 	padding:0 65px;
 }
 
@@ -69,7 +69,7 @@ button.collapsible.active::after {
     text-align: left;
     font-family: "Montserrat", sans-serif;
 	font-weight: 450;
-	font-size: 18px;
+	font-size: 16px;
     width: 10%;
 	
 }
@@ -77,55 +77,56 @@ button.collapsible.active::after {
 #metadata td {
 	font-family: "Montserrat", sans-serif;
 	font-weight: 300;
-	font-size: 16px;
+	font-size: 14px;
 }
 
 #metadata a {
     text-decoration: none;
 	font-family: "Montserrat", sans-serif;
 	font-weight: 300;
-	font-size: 16px;
+	font-size: 14px;
 	color: #ff5c33;
 }
 
 /*TRANSKRIPTION*/
-.text-container{
+.content-container{
 	display: grid;
 	grid-template-rows: 1fr 2fr;
 	grid-template-columns: 4fr 1fr;
 	padding-left: 65px;
 	padding-right: 25px;
+	gap: 50px;
 }
 
 
 
-/*.text-wrapper {
-	padding: 0 25px;
-	margin-top: 35px;
+.text-wrapper {
     font-family: "Merriweather", serif;
-	display:grid;
-	grid-template-columns:3fr 1fr;
-	gap: 30px;
-	align-items: start;
-	position: relative;
+	font-size: 10;
+	line-height: 1.5;
+	font-weight: 300;
+	text-align: center;
  }
 
 .content-wrapper{
-    display: grid;
-    grid-template-columns: 1fr 2fr;
     gap: 35px;
-    align-items: start;
-	margin-bottom: 80px;
- }*/
+    align-items: center;
+	margin-bottom: 30px;
+ }
+ 
+.button-container {
+	align-items: right;
+}
+ 
 img {
- max-width: 400px;
+	width: 800px;
     height: auto;
 }
  
  #transcription h1 {
 	font-family: "Montserrat", sans-serif;
-	font-weight: 500;
-	font-size: 24px;
+	font-weight: 600;
+	font-size: 22px;
 	padding:0 65px;
 }
 

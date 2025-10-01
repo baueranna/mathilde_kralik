@@ -118,7 +118,6 @@
                 
               <!-- Transcription Section -->
                 <section id="transcription" class="content-container">
-                    <h1>Transkription</h1>
                     <div class="text-container"><xsl:apply-templates select="//tei:body"/></div>                  
                 </section>
                 
