@@ -20,7 +20,7 @@
                 <link rel="stylesheet" type="text/css" href="../css/menu_bar.css" />
                 <link rel="preconnect" href="https://fonts.googleapis.com"/>
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous"/>
-                <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&amp;family=Jost:ital,wght@0,100..900;1,100..900&amp;display=swap" rel="stylesheet" />
+                <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900&amp;1,18..144,300..900&amp;family=Montserrat:ital,wght@0,100..900&amp;1,100..900&amp;display=swap" rel="stylesheet" />
             </head>
             
             <body>
@@ -117,9 +117,9 @@
                 </section>
                 
               <!-- Transcription Section -->
-                <section id="transcription">
+                <section id="transcription" class="content-container">
                     <h1>Transkription</h1>
-                    <div class="text-container"><xsl:apply-templates select="//tei:body"/></div>
+                    <div class="text-container"><xsl:apply-templates select="//tei:body"/></div>                  
                 </section>
                 
              <!-- Footer -->
@@ -167,29 +167,71 @@
         </span>
     </xsl:template>
     
+    <!-- Template for persName -->
     <xsl:template match="tei:persName">
-        <a href="Entitaeten.html{@ref}"><xsl:apply-templates/></a>
+        <span class="person">
+            <a href="../html/personen/{substring-after(@ref, '#')}.html">
+                <xsl:value-of select="." />
+            </a>
+        </span>
     </xsl:template>
     
-    <xsl:template match="tei:orgName">
-        <a href="Entitaeten.html{@ref}"><xsl:apply-templates/></a>
-    </xsl:template>
-    
+    <!-- Template for placeName -->
     <xsl:template match="tei:placeName">
-        <a href="Entitaeten.html{@ref}"><xsl:apply-templates/></a>
+        <span class="place">
+            <a href="../html/orte/{substring-after(@ref, '#')}.html">
+                <xsl:value-of select="." />
+            </a>
+        </span>
+    </xsl:template>
+    
+    <!-- Template for orgName -->
+    <xsl:template match="tei:orgName">
+        <span class="org">
+            <a href="../html/org/{substring-after(@ref, '#')}.html">
+                <xsl:value-of select="." />
+            </a>
+        </span>
     </xsl:template>
     
     <xsl:template match="tei:div[@type='obituary']">
         <xsl:for-each select="tei:pb">
-            <div class="content-wrapper">
-                <xsl:apply-templates select="."/>
-            </div>
                 <div class="text-wrapper">
                     <xsl:apply-templates select="following-sibling::*[
                         not(self::tei:pb) and 
                         generate-id(preceding-sibling::tei:pb[1]) = generate-id(current())
                         ]"/>
+                </div>
+            <div class="button-container">
+                <label>
+                    <span>Personen</span>
+                    <input type="checkbox" id="person"/>
+                    <span class="slider"></span>
+                </label>
+                <label>
+                    <span>Orte</span>
+                    <input type="checkbox" id="place"/>
+                    <span class="slider"></span>
+                </label>
+                <label>
+                    <span>Organisationen</span>
+                    <input type="checkbox" id="org"/>
+                    <span class="slider"></span>
+                </label>
+                <label>
+                    <span>Kommentare</span>
+                    <input type="checkbox" id="note"/>
+                    <span class="slider"></span>
+                </label>
+                <label>
+                    <span>Diplomatische Transkription</span>
+                    <input type="checkbox" id="trans"/>
+                    <span class="slider"></span>
+                </label>
             </div>
+                <div class="content-wrapper">
+                    <xsl:apply-templates select="."/>
+                </div>
         </xsl:for-each>
     </xsl:template>
     

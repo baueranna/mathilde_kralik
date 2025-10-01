@@ -5,7 +5,11 @@
             "name": "Wien",
             "type": "Stadt",
             "geo": "48.20849, 16.37208",
-            "idnos": "ID (WIKIDATA): Q1741; URI (geonames): https://www.geonames.org/2761369/vienna.html",
+            "Wikipedia": "",
+            "WIKIDATA": "Q1741",
+            "Geonames": "https://www.geonames.org/2761369/vienna.html",
+            "WGW": "",
+            "GND": "",
             "Website": "Wien.html"
         },
         {
@@ -13,7 +17,11 @@
             "name": "Weimarerplatz 3",
             "type": "Straße",
             "geo": "48.233902622021546, 16.344070193512067",
-            "idnos": "URL (Wikipedia): https://de.wikipedia.org/wiki/Richard-Kralik-Platz; ID (WGW): 26530",
+            "Wikipedia": "https://de.wikipedia.org/wiki/Richard-Kralik-Platz",
+            "WIKIDATA": "",
+            "Geonames": "",
+            "WGW": "26530",
+            "GND": "",
             "Website": "Weimarerplatz_3.html"
         },
         {
@@ -21,7 +29,11 @@
             "name": "Döblinger Friedhof",
             "type": "Friedhof",
             "geo": "48.238719731402156, 16.328673269061063",
-            "idnos": "URL (Wikipedia): https://de.wikipedia.org/wiki/D%C3%B6blinger_Friedhof; ID (WGW): 6843; ID (WIKIDATA): Q1270909; ID (GND): 1233214810",
+            "Wikipedia": "https://de.wikipedia.org/wiki/D%C3%B6blinger_Friedhof",
+            "WIKIDATA": "Q1270909",
+            "Geonames": "",
+            "WGW": "6843",
+            "GND": "1233214810",
             "Website": "DöblingerFriedhof.html"
         },
         {
@@ -29,7 +41,11 @@
             "name": "Pfarrkirche heilige Gertraud und heiliger Laurentius",
             "type": "Kirche",
             "geo": "48.22621692059329, 16.34450228069556",
-            "idnos": "URL (Wikipedia): https://de.wikipedia.org/wiki/W%C3%A4hringer_Pfarrkirche; ID (WGW): 3616",
+            "Wikipedia": "https://de.wikipedia.org/wiki/W%C3%A4hringer_Pfarrkirche",
+            "WIKIDATA": "",
+            "Geonames": "",
+            "WGW": "3616",
+            "GND": "",
             "Website": "WähringerKirche.html"
         },
         {
@@ -37,7 +53,11 @@
             "name": "Rosensteingasse 32",
             "type": "Straße",
             "geo": "48.21808403776477, 16.326086765349057",
-            "idnos": "",
+            "Wikipedia": "",
+            "WIKIDATA": "",
+            "Geonames": "",
+            "WGW": "",
+            "GND": "",
             "Website": "Rosensteingasse_32.html"
         },
         {
@@ -45,7 +65,11 @@
             "name": "Hernalser Hauptstraße 81",
             "type": "Straße",
             "geo": "48.21845628508243, 16.328900153713658",
-            "idnos": "",
+            "Wikipedia": "",
+            "WIKIDATA": "",
+            "Geonames": "",
+            "WGW": "",
+            "GND": "",
             "Website": "HernalserHauptstraße_81.html"
         },
         {
@@ -53,7 +77,11 @@
             "name": "Ehrengrab Richard Kralik",
             "type": "Friedhof",
             "geo": "",
-            "idnos": "",
+            "Wikipedia": "",
+            "WIKIDATA": "",
+            "Geonames": "",
+            "WGW": "",
+            "GND": "",
             "Website": "EhrengrabKralik.html"
         },
         {
@@ -61,7 +89,11 @@
             "name": "Dom- und Metropolitankirche zu St. Stephan",
             "type": "Kirche",
             "geo": "48.20854411963058, 16.373480666951327",
-            "idnos": "",
+            "Wikipedia": "",
+            "WIKIDATA": "",
+            "Geonames": "",
+            "WGW": "",
+            "GND": "",
             "Website": "Stephansdom.html"
         },
         {
@@ -69,7 +101,11 @@
             "name": "St. Marxer Friedhof",
             "type": "Friedhof",
             "geo": "48.18402446536315, 16.4032053383651",
-            "idnos": "ID (WGW): 18057; ID (GND): 4843295-7",
+            "Wikipedia": "",
+            "WIKIDATA": "",
+            "Geonames": "",
+            "WGW": "18057",
+            "GND": "4843295-7",
             "Website": "StMarxerFriedhof.html"
         },
         {
@@ -77,7 +113,11 @@
             "name": "Weimar",
             "type": "Stadt",
             "geo": "50.9803, 11.32903",
-            "idnos": "ID (WIKIDATA): Q3955",
+            "Wikipedia": "",
+            "WIKIDATA": "Q3955",
+            "Geonames": "",
+            "WGW": "",
+            "GND": "",
             "Website": "Weimar.html"
         },
         {
@@ -85,7 +125,11 @@
             "name": "Zentralfriedhof",
             "type": "Friedhof",
             "geo": "48.1514660511102, 16.438521926727077",
-            "idnos": "URL (Wikipedia): https://de.wikipedia.org/wiki/Wiener_Zentralfriedhof; ID (WGW): 9327; ID (WIKIDATA): Q240744; ID (GND): 4120093-7",
+            "Wikipedia": "https://de.wikipedia.org/wiki/Wiener_Zentralfriedhof",
+            "WIKIDATA": "Q240744",
+            "Geonames": "",
+            "WGW": "9327",
+            "GND": "4120093-7",
             "Website": "Zentralfriedhof.html"
         },
         {
@@ -93,7 +137,11 @@
             "name": "Goldegg-Gasse 19",
             "type": "Straße",
             "geo": "48.18976066981652, 16.37695638069264",
-            "idnos": "",
+            "Wikipedia": "",
+            "WIKIDATA": "",
+            "Geonames": "",
+            "WGW": "",
+            "GND": "",
             "Website": "GoldeggGasse_19.html"
         },
         {
@@ -101,7 +149,11 @@
             "name": "Favoritenstraße 27",
             "type": "Straße",
             "geo": "48.189747763641684, 16.372364634655163",
-            "idnos": "",
+            "Wikipedia": "",
+            "WIKIDATA": "",
+            "Geonames": "",
+            "WGW": "",
+            "GND": "",
             "Website": "Favoritenstraße_27.html"
         },
         {
@@ -109,7 +161,11 @@
             "name": "Vorderbrühl",
             "type": "Dorf",
             "geo": "48.08284, 16.25874",
-            "idnos": "ID (WIKIDATA): Q114048876; ID (PMB): 957; URI (geonames): https://www.geonames.org/2762284/vorderbruehl.html",
+            "Wikipedia": "",
+            "WIKIDATA": "Q114048876",
+            "Geonames": "https://www.geonames.org/2762284/vorderbruehl.html",
+            "WGW": "",
+            "GND": "",
             "Website": "Vorderbrühl.html"
         },
         {
@@ -117,7 +173,11 @@
             "name": "Elisabethstraße 1",
             "type": "Straße",
             "geo": "48.201765590654134, 16.368675138366534",
-            "idnos": "",
+            "Wikipedia": "",
+            "WIKIDATA": "",
+            "Geonames": "",
+            "WGW": "",
+            "GND": "",
             "Website": "Elisabethstraße_1.html"
         },
         {
@@ -125,7 +185,11 @@
             "name": "Augustinerkirche",
             "type": "Kirche",
             "geo": "48.20610677964904, 16.367669853712695",
-            "idnos": "ID (WGW): 28422",
+            "Wikipedia": "",
+            "WIKIDATA": "",
+            "Geonames": "",
+            "WGW": "28422",
+            "GND": "",
             "Website": "Augustinerkircher.html"
         },
         {
@@ -133,7 +197,11 @@
             "name": "Kärntner Straße 21",
             "type": "Straße",
             "geo": "48.206327276134346, 16.371738011385606",
-            "idnos": "",
+            "Wikipedia": "",
+            "WIKIDATA": "",
+            "Geonames": "",
+            "WGW": "",
+            "GND": "",
             "Website": "KärntnerStraße_21.html"
         },
         {
@@ -141,7 +209,11 @@
             "name": "Rennweg 91",
             "type": "Straße",
             "geo": "48.19044582541425, 16.397931765346893",
-            "idnos": "",
+            "Wikipedia": "",
+            "WIKIDATA": "",
+            "Geonames": "",
+            "WGW": "",
+            "GND": "",
             "Website": "Rennweg_91.html"
         },
         {
@@ -149,7 +221,11 @@
             "name": "Peter-und-Paul-Kirche",
             "type": "Kirche",
             "geo": "48.200857294744246, 16.398227150471623",
-            "idnos": "ID (WGW): 14138",
+            "Wikipedia": "",
+            "WIKIDATA": "",
+            "Geonames": "",
+            "WGW": "14138",
+            "GND": "",
             "Website": "ErdbergerKirche.html"
         },
         {
@@ -157,7 +233,11 @@
             "name": "Stadtpfarrkirche Mödling",
             "type": "Kirche",
             "geo": "48.085662256259745, 16.280088723318332",
-            "idnos": "",
+            "Wikipedia": "",
+            "WIKIDATA": "",
+            "Geonames": "",
+            "WGW": "",
+            "GND": "",
             "Website": "KircheMödling.html"
         },
         {
@@ -165,7 +245,11 @@
             "name": "Eleonorenhain",
             "type": "Dorf",
             "geo": "48.9343471954487, 13.794896645500788",
-            "idnos": "",
+            "Wikipedia": "",
+            "WIKIDATA": "",
+            "Geonames": "",
+            "WGW": "",
+            "GND": "",
             "Website": "Eleonorenhain.html"
         },
         {
@@ -173,7 +257,11 @@
             "name": "Annathal",
             "type": "Dorf",
             "geo": "48.87337398216413, 13.614796312599777",
-            "idnos": "",
+            "Wikipedia": "",
+            "WIKIDATA": "",
+            "Geonames": "",
+            "WGW": "",
+            "GND": "",
             "Website": "Annathal.html"
         },
         {
@@ -181,7 +269,11 @@
             "name": "Zentralfriedhof Halle 1 Tor 2",
             "type": "Friedhof",
             "geo": "48.153249181929844, 16.442484911381403",
-            "idnos": "URL (Wikipedia): https://de.wikipedia.org/wiki/Wiener_Zentralfriedhof; ID (WGW): 9327; ID (WIKIDATA): Q240744; ID (GND): 4120093-7",
+            "Wikipedia": "https://de.wikipedia.org/wiki/Wiener_Zentralfriedhof",
+            "WIKIDATA": "Q240744",
+            "Geonames": "",
+            "WGW": "9327",
+            "GND": "4120093-7",
             "Website": "Zentralfriedhof_Halle1.html"
         },
         {
@@ -189,7 +281,11 @@
             "name": "Weimarer Straße 89",
             "type": "Straße",
             "geo": "48.2367713611113, 16.344899553715038",
-            "idnos": "",
+            "Wikipedia": "",
+            "WIKIDATA": "",
+            "Geonames": "",
+            "WGW": "",
+            "GND": "",
             "Website": "WeimarerStraße_89.html"
         },
         {
@@ -197,7 +293,11 @@
             "name": "Bendlgasse 24",
             "type": "Straße",
             "geo": "48.17974233449344, 16.335147009528303",
-            "idnos": "",
+            "Wikipedia": "",
+            "WIKIDATA": "",
+            "Geonames": "",
+            "WGW": "",
+            "GND": "",
             "Website": "Bendlgasse_24.html"
         },
         {
@@ -205,7 +305,11 @@
             "name": "Berlin",
             "type": "Stadt",
             "geo": "52.52437, 13.41053",
-            "idnos": "ID (WIKIDATA): Q1741; URI (geonames): https://www.geonames.org/2950159/berlin.html",
+            "Wikipedia": "",
+            "WIKIDATA": "Q1741",
+            "Geonames": "https://www.geonames.org/2950159/berlin.html",
+            "WGW": "",
+            "GND": "",
             "Website": "Berlin.html"
         },
         {
@@ -213,7 +317,11 @@
             "name": "Seccession",
             "type": "Museum",
             "geo": "48.20041, 16.36542",
-            "idnos": "ID (WIKIDATA): Q265129; URL (geonames): https://www.geonames.org/6354994/secession.html",
+            "Wikipedia": "",
+            "WIKIDATA": "Q265129",
+            "Geonames": "https://www.geonames.org/6354994/secession.html",
+            "WGW": "",
+            "GND": "",
             "Website": "Seccession.html"
         },
         {
@@ -221,7 +329,11 @@
             "name": "Linz",
             "type": "Stadt",
             "geo": "48.30639, 14.28611",
-            "idnos": "ID (WIKIDATA): Q41329; URI (geonames): https://www.geonames.org/2772400/linz.html",
+            "Wikipedia": "",
+            "WIKIDATA": "Q41329",
+            "Geonames": "https://www.geonames.org/2772400/linz.html",
+            "WGW": "",
+            "GND": "",
             "Website": "Linz.html"
         }
     ]

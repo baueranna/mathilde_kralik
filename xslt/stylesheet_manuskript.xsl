@@ -275,76 +275,28 @@
     
     <!-- Template for persName -->
     <xsl:template match="tei:persName">
-        <xsl:variable name="refId" select="substring-after(@ref, '#')"/>
-        <xsl:variable name="entity" select="//tei:back/tei:listPerson/tei:person[@xml:id=$refId]"/>
-        <xsl:variable name="wikidata" select="$entity/tei:idno[@type='ID' and @subtype='WIKIDATA']"/>
-        <xsl:variable name="otherId" select="$entity/tei:idno[@type='URI' or @type='URL']"/>
         <span class="person">
-            <xsl:choose>
-                <xsl:when test="$wikidata">
-                    <a href="https://www.wikidata.org/wiki/{$wikidata}">
-                        <xsl:value-of select="."/>
-                    </a>
-                </xsl:when>
-                <xsl:when test="$otherId">
-                    <a href="{$otherId}">
-                        <xsl:value-of select="."/>
-                    </a>
-                </xsl:when>
-                <xsl:otherwise>
-                    <xsl:value-of select="."/>
-                </xsl:otherwise>
-            </xsl:choose>
+            <a href="../html/personen/{substring-after(@ref, '#')}.html">
+                <xsl:value-of select="." />
+            </a>
         </span>
     </xsl:template>
     
     <!-- Template for placeName -->
     <xsl:template match="tei:placeName">
-        <xsl:variable name="refId" select="substring-after(@ref, '#')"/>
-        <xsl:variable name="entity" select="//tei:back/tei:listPlace/tei:place[@xml:id=$refId]"/>
-        <xsl:variable name="wikidata" select="$entity/tei:idno[@type='ID' and @subtype='WIKIDATA']"/>
-        <xsl:variable name="otherId" select="$entity/tei:idno[@type='URI' or @type='URL']"/>
         <span class="place">
-            <xsl:choose>
-                <xsl:when test="$wikidata">
-                    <a href="https://www.wikidata.org/wiki/{$wikidata}">
-                        <xsl:value-of select="."/>
-                    </a>
-                </xsl:when>
-                <xsl:when test="$otherId">
-                    <a href="{$otherId}">
-                        <xsl:value-of select="."/>
-                    </a>
-                </xsl:when>
-                <xsl:otherwise>
-                    <xsl:value-of select="."/>
-                </xsl:otherwise>
-            </xsl:choose>
+            <a href="../html/orte/{substring-after(@ref, '#')}.html">
+                <xsl:value-of select="." />
+            </a>
         </span>
     </xsl:template>
     
     <!-- Template for orgName -->
     <xsl:template match="tei:orgName">
-        <xsl:variable name="refId" select="substring-after(@ref, '#')"/>
-        <xsl:variable name="entity" select="//tei:back/tei:listOrg/tei:org[@xml:id=$refId]"/>
-        <xsl:variable name="wikidata" select="$entity/tei:idno[@type='ID' and @subtype='WIKIDATA']"/>
-        <xsl:variable name="otherId" select="$entity/tei:idno[@type='URI' or @type='URL']"/>
         <span class="org">
-            <xsl:choose>
-                <xsl:when test="$wikidata">
-                    <a href="https://www.wikidata.org/wiki/{$wikidata}">
-                        <xsl:value-of select="."/>
-                    </a>
-                </xsl:when>
-                <xsl:when test="$otherId">
-                    <a href="{$otherId}">
-                        <xsl:value-of select="."/>
-                    </a>
-                </xsl:when>
-                <xsl:otherwise>
-                    <xsl:value-of select="."/>
-                </xsl:otherwise>
-            </xsl:choose>
+            <a href="../html/org/{substring-after(@ref, '#')}.html">
+                <xsl:value-of select="." />
+            </a>
         </span>
     </xsl:template>
 </xsl:stylesheet>
