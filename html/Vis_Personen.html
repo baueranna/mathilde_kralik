@@ -1,0 +1,369 @@
+<!DOCTYPE HTML>
+<html lang="de">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>Edition Mathilde Kralik</title>
+      <style>
+                    .node {
+                    stroke: #fff;
+                    stroke-width: 1.5px;
+                    }
+                    
+                    .link {
+                    stroke-opacity: 0.6;
+                    }
+                    
+                    text {
+                    font-size: 12px;
+                    pointer-events: none;
+                    }
+                    
+                    .tooltip {
+                    position: absolute;
+                    text-align: center;
+                    width: auto;
+                    height: auto;
+                    padding: 5px;
+                    font: 12px sans-serif;
+                    background: lightgray;
+                    border: 1px solid #ccc;
+                    border-radius: 5px;
+                    pointer-events: none;
+                    }
+                </style>
+   </head>
+   <body>
+      <h1>Family Relationships Visualization</h1>
+      <div id="chart"></div><script>
+                    // Data extracted from TEI-XML
+                    const teiData = [
+                    
+                        {
+                        "type": "parent",
+                        
+                            "active": "#AugustRath",
+                        
+                            "passive": [
+                            
+                                "#MarieSchönvonKreuzenau", 
+                                "#AugustRathjun", 
+                                "#PaulRath", 
+                                "#StefanRath"
+                            ],
+                        
+                        },
+                        {
+                        "type": "parent",
+                        
+                            "active": "#AloisiaLobmeyr",
+                        
+                            "passive": [
+                            
+                                "#JosephLobmeyr", 
+                                "#LudwigLobmeyr", 
+                                "#FranzLobmeyr", 
+                                "#LouiseKralik", 
+                                "#MathildeRath"
+                            ],
+                        
+                        },
+                        {
+                        "type": "parent",
+                        
+                            "active": "#LouiseKralik",
+                        
+                            "passive": [
+                            
+                                "#RichardKralik", 
+                                "#MathildeKralik", 
+                                "#AloisiaPichler"
+                            ],
+                        
+                        },
+                        {
+                        "type": "parent",
+                        
+                            "active": "#MaiaKralik",
+                        
+                            "passive": [
+                            
+                                "#DietrichKralik", 
+                                "#HeinrichKralik", 
+                                "#RodrichKralik"
+                            ],
+                        
+                        },
+                        {
+                        "type": "parent",
+                        
+                            "active": "#RichardKralik",
+                        
+                            "passive": [
+                            
+                                "#DietrichKralik", 
+                                "#HeinrichKralik", 
+                                "#RodrichKralik"
+                            ],
+                        
+                        },
+                        {
+                        "type": "parent",
+                        
+                            "active": "#AloisiaPichler",
+                        
+                            "passive": [
+                            
+                                "#IlsePichler", 
+                                "#EdithPichler"
+                            ],
+                        
+                        },
+                        {
+                        "type": "parent",
+                        
+                            "active": "#EduardPichler",
+                        
+                            "passive": [
+                            
+                                "#IlsePichler", 
+                                "#EdithPichler"
+                            ],
+                        
+                        },
+                        {
+                        "type": "parent",
+                        
+                            "active": "#RichardKralik",
+                        
+                            "passive": [
+                            
+                                "#HeinrichKralik", 
+                                "#DietrichKralik", 
+                                "#RodrichKralik"
+                            ],
+                        
+                        },
+                        {
+                        "type": "parent",
+                        
+                            "active": "#MaiaKralik",
+                        
+                            "passive": [
+                            
+                                "#HeinrichKralik", 
+                                "#DietrichKralik", 
+                                "#RodrichKralik"
+                            ],
+                        
+                        },
+                        {
+                        "type": "grandparent",
+                        
+                            "active": "#LouiseKralik",
+                        
+                            "passive": [
+                            
+                                "#DietrichKralik", 
+                                "#HeinrichKralik", 
+                                "#RodrichKralik", 
+                                "#IlsePichler", 
+                                "#EdithPichler"
+                            ],
+                        
+                        },
+                        {
+                        "type": "grandparent",
+                        
+                            "active": "#MaiaKralik",
+                        
+                            "passive": [
+                            
+                                "#WinifredKralik", 
+                                "#LeopoldKralik", 
+                                "#ElfriedeKralik"
+                            ],
+                        
+                        },
+                        {
+                        "type": "grandparent",
+                        
+                            "active": "#RichardKralik",
+                        
+                            "passive": [
+                            
+                                "#WinifredKralik", 
+                                "#LeopoldKralik", 
+                                "#ElfriedeKralik"
+                            ],
+                        
+                        },
+                        {
+                        "type": "sibling",
+                        
+                            "mutual": [
+                            
+                                "#LouiseKralik", 
+                                "#LudwigLobmeyr", 
+                                "#MathildeRath"
+                            ]
+                        
+                        },
+                        {
+                        "type": "sibling",
+                        
+                            "mutual": [
+                            
+                                "#RudolfLobmeyr", 
+                                "#AdolfLobmeyr", 
+                                "#OskarLobmeyr", 
+                                "#LudwigLobmeyrJun"
+                            ]
+                        
+                        },
+                        {
+                        "type": "sibling",
+                        
+                            "mutual": [
+                            
+                                "#MarieSchönvonKreuzenau", 
+                                "#AugustRathjun", 
+                                "#PaulRath", 
+                                "#StefanRath"
+                            ]
+                        
+                        },
+                        {
+                        "type": "sibling",
+                        
+                            "mutual": [
+                            
+                                "#RichardKralik", 
+                                "#MathildeKralik", 
+                                "#AloisiaPichler"
+                            ]
+                        
+                        },
+                        {
+                        "type": "sibling",
+                        
+                            "mutual": [
+                            
+                                "#JosephLobmeyr", 
+                                "#LudwigLobmeyr", 
+                                "#FranzLobmeyr", 
+                                "#LouiseKralik", 
+                                "#MathildeRath"
+                            ]
+                        
+                        },
+                        {
+                        "type": "sibling",
+                        
+                            "mutual": [
+                            
+                                "#HeinrichKralik", 
+                                "#RodrichKralik", 
+                                "#DietrichKralik"
+                            ]
+                        
+                        },
+                        {
+                        "type": "sibling",
+                        
+                            "mutual": [
+                            
+                                "#RichardKralik", 
+                                "#AloisiaPichler", 
+                                "#MathildeKralik"
+                            ]
+                        
+                        },
+                        {
+                        "type": "uncle",
+                        
+                            "active": "#LudwigLobmeyr",
+                        
+                            "passive": [
+                            
+                                "#RudolfLobmeyr", 
+                                "#AdolfLobmeyr", 
+                                "#OskarLobmeyr", 
+                                "#LudwigLobmeyrJun", 
+                                "#MarieSchönvonKreuzenau", 
+                                "#AugustRathjun", 
+                                "#PaulRath", 
+                                "#StefanRath", 
+                                "#RichardKralik", 
+                                "#MathildeKralik", 
+                                "#AloisiaPichler"
+                            ],
+                        
+                        },
+                        {
+                        "type": "uncle",
+                        
+                            "active": "#LudwigKralik",
+                        
+                            "passive": [
+                            
+                                "#DietrichKralik", 
+                                "#HeinrichKralik", 
+                                "#RodrichKralik", 
+                                "#IlsePichler", 
+                                "#EdithPichler"
+                            ],
+                        
+                        },
+                        {
+                        "type": "spouse",
+                        
+                            "mutual": [
+                            
+                                "#LouiseKralik", 
+                                "#WilhelmKralik"
+                            ]
+                        
+                        },
+                        {
+                        "type": "spouse",
+                        
+                            "mutual": [
+                            
+                                "#HildegardLobmeyr", 
+                                "#FranzLobmeyr"
+                            ]
+                        
+                        },
+                        {
+                        "type": "spouse",
+                        
+                            "mutual": [
+                            
+                                "#MaiaKralik", 
+                                "#RichardKralik"
+                            ]
+                        
+                        },
+                        {
+                        "type": "spouse",
+                        
+                            "mutual": [
+                            
+                                "#AloisiaPichler", 
+                                "#EduardPichler"
+                            ]
+                        
+                        },
+                        {
+                        "type": "partner",
+                        
+                            "mutual": [
+                            
+                                "#AliceScarlates", 
+                                "#MathildeKralik"
+                            ]
+                        
+                        }
+                    ];
+                </script><script src="https://d3js.org/d3.v7.min.js"></script><script src="../js/netzwerk.js"></script></body>
+</html>

@@ -1,4 +1,29 @@
-#map {
-    height: 100vh; 
-    width: 100%;
-}
+ #map {
+    width: 80%;
+    height: 500px;
+    margin: 20px auto; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 80px;
+ }
+ 
+ /* Legend styling */
+        .info.legend {
+            background: white;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            font-size: 14px;
+            line-height: 18px;
+            color: #333;
+        }
+
+        .info.legend h4 {
+            margin: 0 0 5px;
+            font-weight: bold;
+        }
+
+        .info.legend label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        

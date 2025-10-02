@@ -3,156 +3,130 @@
         "name":"parent",
         "active":"#AugustRath",
         "passive":"#MarieSch\u00f6nvonKreuzenau #AugustRathjun #PaulRath #StefanRath",
-        "mutual":null
     },
     {
         "name":"parent",
         "active":"#AloisiaLobmeyr",
         "passive":"#JosephLobmeyr #LudwigLobmeyr #FranzLobmeyr #LouiseKralik #MathildeRath",
-        "mutual":null
+        
     },
     {
         "name":"parent",
         "active":"#LouiseKralik",
         "passive":"#RichardKralik #MathildeKralik #AloisiaPichler",
-        "mutual":null
+        
     },
     {
         "name":"parent",
         "active":"#MaiaKralik",
         "passive":"#DietrichKralik #HeinrichKralik #RodrichKralik",
-        "mutual":null
+        
     },
     {
         "name":"parent",
         "active":"#RichardKralik",
         "passive":"#DietrichKralik #HeinrichKralik #RodrichKralik",
-        "mutual":null
+        
     },
     {
         "name":"parent",
         "active":"#AloisiaPichler",
         "passive":"#IlsePichler #EdithPichler",
-        "mutual":null
     },
     {
         "name":"parent",
         "active":"#EduardPichler",
         "passive":"#IlsePichler #EdithPichler",
-        "mutual":null
+        
     },
     {
         "name":"parent",
         "active":"#RichardKralik",
         "passive":"#HeinrichKralik #DietrichKralik #RodrichKralik",
-        "mutual":null
+        
     },
     {
         "name":"parent",
         "active":"#MaiaKralik",
         "passive":"#HeinrichKralik #DietrichKralik #RodrichKralik",
-        "mutual":null
+        
     },
     {
         "name":"grandparent",
         "active":"#LouiseKralik",
         "passive":"#DietrichKralik #HeinrichKralik #RodrichKralik #IlsePichler #EdithPichler",
-        "mutual":null
+        
     },
     {
         "name":"grandparent",
         "active":"#MaiaKralik",
         "passive":"#WinifredKralik #LeopoldKralik #ElfriedeKralik",
-        "mutual":null
+        
     },
     {
         "name":"grandparent",
         "active":"#RichardKralik",
         "passive":"#WinifredKralik #LeopoldKralik #ElfriedeKralik",
-        "mutual":null
+        
     },
     {
-        "name":"sibling",
-        "active":null,
-        "passive":null,
+        "name":"sibling", 
         "mutual":"#LouiseKralik #LudwigLobmeyr #MathildeRath"
     },
     {
-        "name":"sibling",
-        "active":null,
-        "passive":null,
+        "name":"sibling", 
         "mutual":"#RudolfLobmeyr #AdolfLobmeyr #OskarLobmeyr #LudwigLobmeyrJun"
     },
     {
         "name":"sibling",
-        "active":null,
-        "passive":null,
         "mutual":"#MarieSch\u00f6nvonKreuzenau #AugustRathjun #PaulRath #StefanRath"
     },
     {
-        "name":"sibling",
-        "active":null,
-        "passive":null,
+        "name":"sibling", 
         "mutual":"#RichardKralik #MathildeKralik #AloisiaPichler"
     },
     {
         "name":"sibling",
-        "active":null,
-        "passive":null,
         "mutual":"#JosephLobmeyr #LudwigLobmeyr #FranzLobmeyr #LouiseKralik #MathildeRath"
     },
     {
         "name":"sibling",
-        "active":null,
-        "passive":null,
         "mutual":"#HeinrichKralik #RodrichKralik #DietrichKralik"
     },
     {
         "name":"sibling",
-        "active":null,
-        "passive":null,
         "mutual":"#RichardKralik #AloisiaPichler #MathildeKralik"
     },
     {
         "name":"uncle",
         "active":"#LudwigLobmeyr",
         "passive":"#RudolfLobmeyr #AdolfLobmeyr #OskarLobmeyr #LudwigLobmeyrJun #MarieSch\u00f6nvonKreuzenau #AugustRathjun #PaulRath #StefanRath #RichardKralik #MathildeKralik #AloisiaPichler",
-        "mutual":null
+        
     },
     {
         "name":"uncle",
         "active":"#LudwigKralik",
         "passive":"#DietrichKralik #HeinrichKralik #RodrichKralik #IlsePichler #EdithPichler",
-        "mutual":null
+        
     },
     {
-        "name":"spouse",
-        "active":null,
-        "passive":null,
+        "name":"spouse", 
         "mutual":"#LouiseKralik #WilhelmKralik"
     },
     {
         "name":"spouse",
-        "active":null,
-        "passive":null,
         "mutual":"#HildegardLobmeyr #FranzLobmeyr"
     },
     {
-        "name":"spouse",
-        "active":null,
-        "passive":null,
+        "name":"spouse",  
         "mutual":"#MaiaKralik #RichardKralik"
     },
     {
-        "name":"spouse",
-        "active":null,
-        "passive":null,
+        "name":"spouse",  
         "mutual":"#AloisiaPichler #EduardPichler"
     },
     {
-        "name":"partner",
-        "active":null,
-        "passive":null,
+        "name":"partner", 
         "mutual":"#AliceScarlates #MathildeKralik"
     }
 ]

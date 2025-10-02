@@ -30,8 +30,7 @@
                     
                     <!-- Submenu for documents -->
                     <div class="subnav">
-                        <div class="nav-toggle" tabindex="0" aria-haspopup="true" aria-expanded="false" aria-label="Document Submenu">
-                            <a href="Dokumente.html">Dokumente</a>
+                        <div class="nav-toggle">
                         </div>
                         <div class="subnav-content" aria-label="Submenu">
                             <a href="Briefe.html">Briefe</a>
@@ -42,7 +41,7 @@
                     
                     <!-- Submenu for Entities -->
                     <div class="subnav">
-                        <div class="nav-toggle" tabindex="0" aria-haspopup="true" aria-expanded="false" aria-label="Entity Submenu">
+                        <div class="nav-toggle">
                             <a href="Verzeichnis.html">Verzeichnis</a>
                         </div>
                         <div class="subnav-content" aria-label="Submenu">
@@ -54,7 +53,7 @@
                     
                     <!-- Submenu for Visualisations -->
                     <div class="subnav">
-                        <div class="nav-toggle" tabindex="0" aria-haspopup="true" aria-expanded="false" aria-label="Entity Submenu">
+                        <div class="nav-toggle">
                             <a href="Visualisierung.html">Visualisierungen</a>
                         </div>
                         <div class="subnav-content" aria-label="Submenu">
@@ -65,7 +64,7 @@
                     
                     <!-- Submenu for Mathilde Kralik -->
                     <div class="subnav">
-                        <div class="nav-toggle" tabindex="0" aria-haspopup="true" aria-expanded="false" aria-label="Mathilde Kralik Submenu">
+                        <div class="nav-toggle">
                             Mathilde Kralik
                         </div>
                         <div class="subnav-content" aria-label="Mathilde Kralik Submenu">
@@ -76,7 +75,7 @@
                     
                     <!-- Submenu for Edition -->
                     <div class="subnav">
-                        <div class="nav-toggle" tabindex="0" aria-haspopup="true" aria-expanded="false" aria-label="Edition Submenu">
+                        <div class="nav-toggle">
                             Über die Edition
                         </div>
                         <div class="subnav-content" aria-label="Edition Submenu">
@@ -113,13 +112,40 @@
                             </td>
                         </tr>
                     </table>
+                    <h2>Entitäten</h2>
+                    <div class="button-container">
+                        <label>
+                            <span>Personen</span>
+                            <input type="checkbox" id="person"/>
+                            <span class="slider"></span>
+                        </label>
+                        <label>
+                            <span>Orte</span>
+                            <input type="checkbox" id="place"/>
+                            <span class="slider"></span>
+                        </label>
+                        <label>
+                            <span>Organisationen</span>
+                            <input type="checkbox" id="org"/>
+                            <span class="slider"></span>
+                        </label>
+                        <label>
+                            <span>Kommentare</span>
+                            <input type="checkbox" id="note"/>
+                            <span class="slider"></span>
+                        </label>
+                        <label>
+                            <span>Diplomatische Transkription</span>
+                            <input type="checkbox" id="trans"/>
+                            <span class="slider"></span>
+                        </label>
                     </div>
+                 </div>
                 </section>
                 
               <!-- Transcription Section -->
-                <section id="transcription" class="content-container">
                     <div class="text-container"><xsl:apply-templates select="//tei:body"/></div>                  
-                </section>
+                
                 
              <!-- Footer -->
                 <footer>
@@ -201,33 +227,6 @@
                         generate-id(preceding-sibling::tei:pb[1]) = generate-id(current())
                         ]"/>
                 </div>
-            <div class="button-container">
-                <label>
-                    <span>Personen</span>
-                    <input type="checkbox" id="person"/>
-                    <span class="slider"></span>
-                </label>
-                <label>
-                    <span>Orte</span>
-                    <input type="checkbox" id="place"/>
-                    <span class="slider"></span>
-                </label>
-                <label>
-                    <span>Organisationen</span>
-                    <input type="checkbox" id="org"/>
-                    <span class="slider"></span>
-                </label>
-                <label>
-                    <span>Kommentare</span>
-                    <input type="checkbox" id="note"/>
-                    <span class="slider"></span>
-                </label>
-                <label>
-                    <span>Diplomatische Transkription</span>
-                    <input type="checkbox" id="trans"/>
-                    <span class="slider"></span>
-                </label>
-            </div>
                 <div class="content-wrapper">
                     <xsl:apply-templates select="."/>
                 </div>

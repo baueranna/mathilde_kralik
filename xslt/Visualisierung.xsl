@@ -107,18 +107,62 @@
                     shadowAnchor: [12, 41]
                     });
                     
+                    iconAnchor: [12, 41],
+                    popupAnchor: [1, -34],
+                    shadowUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png',
+                    shadowSize: [41, 41],
+                    shadowAnchor: [12, 41]
+                    });
+                    
+                    var defaultIcon = L.icon({
+                    iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-green.png',
+                    iconSize: [25, 41],
+                    iconAnchor: [12, 41],
+                    popupAnchor: [1, -34],
+                    shadowUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png',
+                    shadowSize: [41, 41],
+                    shadowAnchor: [12, 41]
+                    });
+                    
+                    // Add tile layer
                     L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
                     maxZoom: 19,
                     attribution: '&amp;#169; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
                     }).addTo(map);
                     
+                    // Add markers based on type
                     <xsl:for-each select="//tei:place">
                         <xsl:if test="tei:location/tei:geo and contains(tei:location/tei:geo, ',')">
-                            <xsl:text>L.marker([</xsl:text>
+                            <xsl:text>var icon = </xsl:text>
+                            <xsl:choose>
+                                <xsl:when test="tei:placeName/@type = 'street'">
+                                    <xsl:text>streetIcon;</xsl:text>
+                                </xsl:when>
+                                <xsl:when test="tei:placeName/@type = 'church'">
+                                    <xsl:text>churchIcon;</xsl:text>
+                                </xsl:when>
+                                <xsl:when test="tei:placeName/@type = 'city'">
+                                    <xsl:text>cityIcon;</xsl:text>
+                                </xsl:when>
+                                <xsl:when test="tei:placeName/@type = 'village'">
+                                    <xsl:text>villageIcon;</xsl:text>
+                                </xsl:when>
+                                <xsl:when test="tei:placeName/@type = 'museum'">
+                                    <xsl:text>museumIcon;</xsl:text>
+                                </xsl:when>
+                                <xsl:when test="tei:placeName/@type = 'cemetery'">
+                                    <xsl:text>cemeteryIcon;</xsl:text>
+                                </xsl:when>
+                                <xsl:otherwise>
+                                    <xsl:text>defaultIcon;</xsl:text>
+                                </xsl:otherwise>
+                            </xsl:choose>
+                            <xsl:text>
+                            L.marker([</xsl:text>
                             <xsl:value-of select="substring-before(tei:location/tei:geo, ',')"/>
                             <xsl:text>, </xsl:text>
                             <xsl:value-of select="substring-after(tei:location/tei:geo, ',')"/>
-                            <xsl:text>], {icon:redIcon}).addTo(map).bindPopup("</xsl:text>
+                            <xsl:text>], {icon:icon}).addTo(map).bindPopup("</xsl:text>
                             <xsl:value-of select="normalize-space(translate(tei:placeName[1], '&quot;', '&amp;quot;'))"/>
                             <xsl:text>");</xsl:text>
                         </xsl:if>
