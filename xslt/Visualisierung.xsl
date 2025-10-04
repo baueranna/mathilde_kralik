@@ -30,7 +30,7 @@
             <body>
                 <!-- Navigation bar -->
                 <nav class="topnav" aria-label="Main Navigation">
-                    <a href="index.html">Menü</a>
+                    <a href="../index.html">Menü</a>
                     
                     <!-- Submenu for documents -->
                     <div class="subnav">
