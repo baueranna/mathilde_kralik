@@ -78,7 +78,7 @@
                          </div>
                          <div class="subnav-content" aria-label="Edition Submenu">
                              <a href="Projekt.html">Projekt</a>
-                             <a href="Transkription.html">Transkription</a>
+                             <a href="Impressum.html">Impressum</a>
                              <a href="https://github.com/baueranna/mathilde_kralik.git" target="_blank" rel="noopener noreferrer">Github</a>
                          </div>
                      </div>
@@ -96,7 +96,7 @@
                         <tr><th>Sammlung:</th><td><xsl:value-of select="//tei:msDesc/tei:msIdentifier/tei:collection"/></td></tr>
                         <tr><th>Signatur:</th><td><xsl:value-of select="//tei:msDesc/tei:msIdentifier/tei:idno[@type='Signatur']"/></td></tr>
                         <tr><th>Online-Ressource:</th> 
-                        <td><a href="{//tei:msDesc/tei:msIdentifier/tei:idno[@type='PURL']}"><xsl:value-of select="//tei:teiHeader//tei:titleStmt//tei:title[@type='s']"/></a></td></tr>
+                        <td><a href="{//tei:msDesc/tei:msIdentifier/tei:idno[@type='PURL']}"><xsl:value-of select="//tei:teiHeader//tei:titleStmt//tei:title[@type='sub']"/></a></td></tr>
                         </table>
                     </div>
                     </div>

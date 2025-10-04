@@ -79,7 +79,7 @@
                         </div>
                         <div class="subnav-content" aria-label="Edition Submenu">
                             <a href="Projekt.html">Projekt</a>
-                            <a href="Transkription.html">Transkription</a>
+                            <a href="Impressum.html">Impressum</a>
                             <a href="https://github.com/baueranna/mathilde_kralik.git" target="_blank" rel="noopener noreferrer">Github</a>
                         </div>
                     </div>
