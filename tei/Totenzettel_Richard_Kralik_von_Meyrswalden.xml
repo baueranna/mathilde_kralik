@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">Edition Mathilde Kralik</title>
+				<title type="sub">Totenzettel Richard Kralik von Meyrswalden</title>
+				<editor>
+					<forename>Anna</forename>
+					<surname>Bauer</surname>
+				</editor>
+			</titleStmt>
+			<publicationStmt>
+				<p>Kurzedition im Rahmen der Übung "Textkodierung und -verarbeitung mit TEI und XSL"
+					bei Martina Scholger und Selina Galka</p>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Wien</settlement>
+						<repository>Wienbibliothek im Rathaus</repository>
+						<idno type="Signatur">E-74842 </idno>
+						<idno type="URL"
+							>https://www.digital.wienbibliothek.at/wbrparte/content/titleinfo/3545312?query=Mathilde%20Kralik</idno>
+					</msIdentifier>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="de">Deutsch</language>
+			</langUsage>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="obituary">
+				<pb n="1" facs="../facsimile/Totenzettel_RichardKralik1.png"/>
+				<div type="info">
+					<p>
+					<lb/>Verwandten und Freunden zur Kenntnis, daß
+					<lb/><hi rend="bold"><persName ref="#RichardKralik">Dr. Richard Ritter Kralik von Meyrswalden</persName></hi>
+					<lb/>am <date when="1934-02-04" type="death">Sonntag, den 4. Februar 1934</date>
+					um <time when="23:30:00" type="death">½12 Uhr nachts</time> wohl vorbereitet aus
+					diesem 
+					<lb/>Leben von uns ins Jenseits schied, von wo aus zweifellos mit Gottes
+					und aller 
+					<lb/>Heiligen Hilfe die Wirksamkeit für seine hohen Ideen nicht
+					verloren gehen wird.</p>
+					<p><date when="1934-02-08" type="funeral">Donnerstag, den 8. Februar
+						1934</date> findet im <placeName ref="#Weimarerplatz_3">Trauerhause Wien
+						XIX, Weimarerplatz 3</placeName> um <time when="15:30:00" type="funeral">½4 Uhr
+						nachmittags</time>
+					<lb/>die feierliche Einsegnung statt und danach erfolgt die Bestattung auf dem
+						<placeName ref="#DöblingerFriedhof">Döblinger Friedhof</placeName>. <date
+						when="1934-02-10" type="mass">Samstag, den 10. Feb- 
+					<lb/>ruar 1934</date> um <time
+						when="09:00:00" type="mass">9 Uhr vormittags</time> wird in der <placeName
+						ref="#WähringerKirche">Pfarrkirche zum hl. Laurenz und Gertrud in
+						Währing</placeName> eine heilige Seelen- 
+					<lb/>messe für den <persName
+						ref="#RichardKralik">Verstorbenen</persName> gelesen.</p>
+				</div> 
+				<div type="dateline">
+					<p>
+					<lb/><placeName ref="#Wien">Wien</placeName>, den <date when="1934-02-05" type="notice">5. Februar
+						1934</date>.</p>
+				</div>
+				<div type="names">
+					<p>
+						<lb/>Frau und seine Kinder: <persName ref="#MaiaKralik"
+						>Maia Kralik von Meyrswalden</persName>, <persName ref="#DietrichKralik"
+						>Universitätsprofessor Dr. Dietrich <lb/>Ritter Kralik von
+						Meyrswalden</persName>, <persName ref="#HeinrichKralik">Dr. Heinrich Ritter
+						Kralik von Meyrswalden</persName>, <persName ref="#RodrichKralik"
+						>Landesgerichtsrat <lb/>Dr. Rodrich Ritter Kralik von
+					Meyrswalden</persName>.</p>
+				</div>
+				<div type="printer">
+					<p>
+						<lb/><orgName ref="#BestattungWieser">Niederösterreichische Leichenbestattungs- und Lohnfuhrwerksunternehmung
+							<persName ref="#RudolfWieser">Rudolf Wieser</persName> rekte
+						Wisser</orgName>. Zentrale: <placeName ref="#Rosensteingasse_32">Wien XVII,
+						Rosen- 
+						<lb/>steingasse 32</placeName>. Telephon interurban A-25-1-96. -
+						<orgName ref="#DruckereiSteinbock">Druck von <persName
+							ref="#EdmundSteinbock">Edmund Steinbock</persName></orgName>, <placeName
+						ref="#HernalserHauptstraße_81">Wien XVII, Hernalser Hauptstraße
+						81</placeName>.</p>
+					</div>
+				<pb n="2" facs="../facsimile/Totenzettel_RichardKralik2.png"/>
+					<div type="info">
+						<p>
+						<lb/>Verwandten und Freunden zur Kenntnis, daß 
+						<lb/><hi rend="bold"><persName
+						ref="#RichardKralik">Dr. Richard Ritter Kralik von Meyrswalden</persName></hi>
+						<lb/>am <date ref="1934-02-04" type="death">Sonntag, den 4. Februar 1934</date> um <time
+						when="23:30:00" type="death">½12 Uhr nachts</time> wohl vorbereitet aus diesem 
+						<lb/>Leben von uns ins Jenseits schied, von wo aus zweifellos mit Gottes und aller
+						<lb/>Heiligen Hilfe die Wirksamkeit für seine hohen Ideen nicht verloren gehen
+					wird. 
+						<lb/><date when="1934-02-08" type="funeral">Donnerstag, den 8. Februar 1934</date> findet
+					im <placeName ref="#Weimarerplatz_3">Trauerhause Wien XII., Weimarplatz
+						3</placeName> um <time when="14:00:00" type="funeral">2 Uhr nachmittags</time>
+						<lb/>die erste Einsegnung statt; sodann wird Seine Eminenz der hochwürdigste
+						<persName ref="#TheodorInnitzer">Kardinal Erzbischof Dr. Theodor
+						Innitzer</persName> die <lb/>feierliche Einsegnung in der <placeName
+						ref="#WähringerKirche">Pfarrkirche zu den hl. Laurenz und Gertrud in
+						Währing</placeName> um <time when="14:30:00" type="funeral">½3 Uhr nachmittags</time> vor-
+						<lb/>nehmen. Darnach erfolgt die Bestattung am <placeName ref="#Zentralfriedhof"
+						>Zentralfriedhof</placeName> in dem von der Gemeinde <placeName ref="#Wien"
+						>Wien</placeName> gewidmeten <placeName ref="#EhrengrabKralik"
+						>Ehrengrab</placeName>. <lb/><date when="1934-02-10" type="mass">Samstag, den 10. Februar 1934</date> um <time when="09:00:00" type="mass">9 Uhr
+					vormittags</time> wird in obgenannter <placeName ref="#WähringerKirche"
+						>Pfarrkirche</placeName> eine heilige Seelenmesse für <lb/>den <persName
+						ref="#RichardKralik">Verstorbenen</persName> gelesen.<lb/><placeName
+						ref="#Wien">Wien</placeName>, den <date when="1934-02-05" type="notice">5. Februar
+						1934</date>.</p>
+					</div>
+				<div type="names">
+					<p>
+						<lb/>Seine Frau und seine Kinder: <persName ref="#MaiaKralik"
+						>Maia Kralik von Meyrswalden</persName>, Universitätsprofessor <persName
+						ref="#DietrichKralik">Dr. Dietrich 
+						<lb/>Ritter Kralik von
+						Meyrswalden</persName>, <persName ref="#HeinrichKralik">Dr. Heinrich Ritter
+						Kralik von Meyrswalden</persName>, Landesgerichtsrat <lb/><persName
+						ref="#RodrichKralik">Dr. Rodrich Ritter Kralik von Meyrswalden</persName>;
+					seine Schwestern <persName ref="#MathildeKralik">Mathilde Kralik von
+						Meyrswalden</persName>
+					<lb/>und <persName ref="#AloisiaPichler">Luisa Pichler von Deeben</persName>.</p>
+				</div>
+						<div type="printer">
+							<p>
+								<lb/><orgName ref="#BestattungWieser">Niederösterreichische
+									Leichenbestattungs- und Lohnfuhrwerksunternehmung</orgName> <persName
+							ref="#RudolfWieser">Rudolf Wieser</persName> rekte Wisser,
+					Zentrale: <placeName ref="#Rosensteingasse_32">Wien XVII, Rosen- <lb/>steingasse
+						32</placeName>. Telephon interurban A-25-1-96. - Druck von <persName
+						ref="#EdmundSteinbock">Edmund Steinbock</persName>, <placeName
+						ref="#HernalserHauptstraße_81">Wien XVII, Hernalser Hauptstraße
+						81</placeName>.</p>
+						</div> 
+				<pb n="3" facs="../facsimile/Totenzettel_RichardKralik3.jpg"/>
+				<div type="note">
+					<p>
+					<lb/>Der von <persName ref="#RichardKralik">Kralik</persName> selbst entworfene
+					Partezettel; <lb/>bestattet wurde er in dem von der Gemeinde <placeName
+						ref="#Wien">Wien</placeName> gewidmeten <placeName ref="#EhrengrabKralik"
+						>Ehrengrabe</placeName>.<lb/>auf dem <placeName ref="#Zentralfriedhof">Zentralfriedhof</placeName>.</p>
+					<pb n="4" facs="../facsimile/Totenzettel_RichardKralik4.jpg"/>
+				</div>
+				<div type="info">
+					<p>
+					<lb/>Verwandten und Freunden zur Kenntnis, daß <lb/><hi rend="bold"><persName
+						ref="#RichardKralik">Dr. Richard Ritter Kralik von Meyrswalden</persName></hi>
+					<lb/>am <date when="1934-02-04" type="death">Sonntag, den 4. Februar 1934</date> um <time
+						when="23:30:00" type="death">½12 Uhr nachts</time> wohl vorbereitet aus diesem <lb/>Leben
+					von uns ins Jenseits schied, von wo aus zweifellos mit Gottes und aller
+					<lb/>Heiligen Hilfe die Wirksamkeit für seine hohen Ideen nicht verloren gehen
+					wird. <lb/><date when="1934-02-08" type="funeral">Donnerstag. den 8. Februar 1934</date> findet
+					im <placeName ref="#Weimarerplatz_3">Trauerhause Wien XIX., Weimarerplatz
+						3</placeName> um <time when="14:00:00" type="funeral">2 Uhr nachmittags</time>
+					<lb/>die erste Einsegnung statt; sodann wird Seine Eminenz der hochwürdigste
+						<persName ref="#TheodorInnitzer">Kardinal Erzbischof Dr. Theodor
+						Innitzer</persName> die <lb/>feierliche Einsegnung in der <placeName
+						ref="#WähringerKirche">Pfarrkirche zu den hl. Laurenz und Gertrud in
+						Währing</placeName> um <time when="14:30:00" type="funeral">½3 Uhr nachmittags</time> vor-
+					<lb/>nehmen. Darnach erfolgt die Bestattung am <placeName ref="#Zentralfriedhof"
+						>Zentralfriedhof</placeName> in dem von der Gemeinde <placeName ref="#Wien"
+						>Wien</placeName> gewidmeten <placeName ref="#EhrengrabKralik"
+						>Ehrengrab</placeName>. <lb/><date when="1934-02-10" type="mass">Samstag, den 10.
+						Februar 1934</date> um <time when="09:00:00" type="mass">9 Uhr</time> vormittags wird in
+					obgenannter <placeName ref="#WähringerKirche">Pfarrkirche</placeName> eine
+					heilige Seelenmesse für <lb/>den <persName ref="#RichardKralik"
+						>Verstorbenen</persName> gelesen.</p>
+				</div>
+				<div type="dateline">
+					<p><lb/><placeName ref="#Wien">Wien</placeName>, den <date when="1934-02-05" type="notice">5. Februar 1934</date>.</p>
+				</div>
+				<div type="names">
+					<p><lb/>Seine Frau und seine Kinder: <persName ref="#MaiaKralik">Maia Kralik von
+						Meyrswalden</persName>, Universitätsprofessor <persName
+						ref="#DietrichKralik">Dr. Dietrich <lb/>Ritter Kralik von
+						Meyrswalden</persName>, <persName ref="#HeinrichKralik">Dr. Heinrich Ritter
+						Kraik von Meyrswalden</persName>, Landesgerichtsrat<lb/><persName
+						ref="#RodrichKralik">Dr. Rodrich Ritter Kralik von Meyrswalden</persName>;
+					seine Schwestern <persName ref="#MathildeKralik">Mathilde Kralik von
+						Meyrswalden</persName>
+					<lb/>und <persName ref="#AloisiaPichler">Luisa Pichler von Deeben</persName>;
+					seine Schwiegertöchter <persName>Dr. Hannah Kralik von Meyrswalden</persName>,
+						<lb/><persName ref="#GretlKralik">Gretl Kralik von Meyrswalden</persName>
+					und <persName ref="#LuiseKralik">Luise Kralik von Meyrswalden</persName>; seine
+					Enkelkinder <persName ref="#WinifredKralik">Winifred</persName>, <lb/><persName
+						ref="#LeopoldKralik">Leopold</persName> und <persName ref="#ElfriedeKralik"
+						>Elfriede</persName>.</p></div>
+				<div type="printer">
+					<p><lb/><orgName ref="#BestattungWieser"
+						>Niederösterreichische Leichenbestattungs- und Lohnfuhrwerksunternehmung
+							<persName ref="#RudolfWieser">Rudolf Wieser</persName> rekte
+						Wisser</orgName>, Zentrale: <placeName ref="#Rosensteingasse_32">Wien XVII,
+						Rosen- <lb/>steingasse 32</placeName>. Telephon interurban A-25-1-96. —
+						<orgName ref="#DruckereiSteinbock">Druck von <persName
+							ref="#EdmundSteinbock">Edmund Steinbock</persName></orgName>, <placeName
+						ref="#HernalserHauptstraße_81">Wien XVII, Hernalser Hauptstraße
+						81</placeName>.</p>
+				</div>
+			</div>
+		</body>
+		<back>
+			<listPerson>
+				<person xml:id="RichardKralik">
+					<persName>
+						<forename>Richard</forename>
+						<surname>Kralik von Meyrswalden</surname>
+					</persName>
+					<death when="1934-02-04">4. Februar 1934</death>
+					<idno type="URI" subtype="GND">https://d-nb.info/gnd/118777920</idno>
+					<idno type="ID" subtype="WIKIDATA">Q1317482</idno>
+					<idno type="ID" subtype="WGW">16425</idno>
+					<idno type="ID" subtype="PMB">3731</idno>
+				</person>
+				<person xml:id="MaiaKralik">
+					<persName>
+						<forename>Maia</forename>
+						<surname>Kralik von Meyrswalden</surname>
+					</persName>
+					<idno type="URI" subtype="GND">https://d-nb.info/gnd/116385863</idno>
+				</person>
+				<person xml:id="DietrichKralik">
+					<persName>
+						<forename>Dietrich</forename>
+						<surname>Kralik von Meyrswalden</surname>
+					</persName>
+					<occupation>Universitätsprofessor</occupation>
+					<idno type="ID" subtype="GND">118777912</idno>
+					<idno type="ID" subtype="WIKIDATA">Q1223897</idno>
+					<idno type="ID" subtype="WGW">16414</idno>
+				</person>
+				<person xml:id="HeinrichKralik">
+					<persName>
+						<forename>Heinrich</forename>
+						<surname>Kralik von Meyrswalden</surname>
+					</persName>
+					<idno type="ID" subtype="GND">121829324</idno>
+					<idno type="ID" subtype="WIKIDATA">Q1235353</idno>
+					<idno type="ID" subtype="WGW">16424</idno>
+				</person>
+				<person xml:id="RodrichKralik">
+					<persName>
+						<forename>Rodrich</forename>
+						<surname>Kralik von Meyrswalden</surname>
+					</persName>
+					<occupation>Landesgerichtsrat</occupation>
+					<idno type="URI" subtype="GND">https://d-nb.info/gnd/11638610X</idno>
+				</person>
+				<person xml:id="MathildeKralik">
+					<persName>
+						<forename>Mathilde</forename>
+						<surname>Kralik</surname>
+					</persName>
+					<idno type="ID" subtype="WGW">37789</idno>
+					<idno type="ID" subtype="WIKIDATA">Q89972</idno>
+					<idno type="URI" subtype="GND">https://d-nb.info/gnd/130214566</idno>
+					<idno type="ID" subtype="PMB">19659</idno>
+				</person>
+				<person xml:id="HannahKralik">
+					<persName>
+						<forename>Hannah</forename>
+						<surname>Kralik von Meyerswalden</surname>
+					</persName>
+				</person>
+				<person xml:id="GretlKralik">
+					<persName>
+						<forename>Gretl</forename>
+						<surname>Kralik von Meyrswalden</surname>
+					</persName>
+				</person>
+				<person xml:id="LuiseKralik">
+					<persName>
+						<forename>Luise</forename>
+						<surname>Kralik von Meyrswalden</surname>
+					</persName>
+				</person>
+				<person xml:id="WinifredKralik">
+					<persName>
+						<forename>Winifred</forename>
+						<surname>Kralik</surname>
+					</persName>
+					<idno type="ID" subtype="WGW">37795</idno>
+					<idno type="ID" subtype="WIKIDATA">Q59653649</idno>
+					<idno type="ID" subtype="GND">118643274</idno>
+				</person>
+				<person xml:id="LeopoldKralik">
+					<persName>
+						<forename>Leopold</forename>
+						<surname>Kralik</surname>
+					</persName>
+				</person>
+				<person xml:id="ElfriedeKralik">
+					<persName>
+						<forename>Elfriede</forename>
+						<surname>Kralik</surname>
+					</persName>
+				</person>
+				<person xml:id="AloisiaPichler">
+					<persName>
+						<forename>Aloisia</forename>
+						<surname>Pichler von Deeben</surname>
+					</persName>
+				</person>
+				<person xml:id="TheodorInnitzer">
+					<persName>
+						<forename>Theodor</forename>
+						<surname>Innitzer</surname>
+					</persName>
+					<idno type="URI" subtype="GND">https://d-nb.info/gnd/118555634</idno>
+					<idno type="ID" subtype="WIKIDATA">Q78988</idno>
+					<idno type="ID" subtype="WGW">13273</idno>
+					<idno type="ID" subtype="PMB">57443</idno>
+				</person>
+				<person xml:id="RudolfWieser">
+					<persName>
+						<forename>Rudolf</forename>
+						<surname>Wieser</surname>
+					</persName>
+				</person>
+				<person xml:id="EdmundSteinbock">
+					<persName>
+						<forename>Edmund</forename>
+						<surname>Steinbock</surname>
+					</persName>
+				</person>
+			</listPerson>
+			<listPlace>
+				<place xml:id="Wien">
+					<placeName>Wien</placeName>
+					<country>Austria</country>
+					<location>
+						<geo>48.20849, 16.37208</geo>
+					</location>
+					<idno type="ID" subtype="WIKIDATA">Q1741</idno>
+					<idno type="URI" subtype="geonames"
+						>https://www.geonames.org/2761369/vienna.html</idno>
+				</place>
+				<place xml:id="Weimarerplatz_3">
+					<placeName type="street" notBefore="1919-11-06" notAfter="1934-12-27"
+						>Weimarerplatz <num>3</num></placeName>
+					<placeName type="street" notBefore="1934-12-27">Richard-Kralik-Platz
+						3</placeName>
+					<settlement type="city">Wien</settlement>
+					<country>Österreich</country>
+					<location>
+						<geo>48.233902622021546, 16.344070193512067</geo>
+					</location>
+					<idno type="URL" subtype="Wikipedia"
+						>https://de.wikipedia.org/wiki/Richard-Kralik-Platz</idno>
+					<idno type="ID" subtype="WGW">26530</idno>
+				</place>
+				<place xml:id="DöblingerFriedhof">
+					<placeName type="cemetery">Döblinger Friedhof</placeName>
+					<settlement type="city">Wien</settlement>
+					<country>Österreich</country>
+					<location>
+						<geo>48.238719731402156, 16.328673269061063</geo>
+					</location>
+					<idno type="URL" subtype="Wikipedia"
+						>https://de.wikipedia.org/wiki/D%C3%B6blinger_Friedhof</idno>
+					<idno type="ID" subtype="WGW">6843</idno>
+					<idno type="ID" subtype="WIKIDATA">Q1270909</idno>
+					<idno type="ID" subtype="GND">1233214810</idno>
+				</place>
+				<place xml:id="WähringerKirche">
+					<placeName type="church">Pfarrkirche heilige Gertraud und heiliger
+						Laurentius</placeName>
+					<placeName type="church">Währinger Kirche</placeName>
+					<settlement type="city">Wien</settlement>
+					<country>Österreich</country>
+					<location>
+						<geo>48.22621692059329, 16.34450228069556</geo>
+					</location>
+					<idno type="URL" subtype="Wikipedia"
+						>https://de.wikipedia.org/wiki/W%C3%A4hringer_Pfarrkirche</idno>
+					<idno type="ID" subtype="WGW">3616</idno>
+				</place>
+				<place xml:id="Rosensteingasse_32">
+					<placeName type="street">Rosensteingasse <num>32</num></placeName>
+					<settlement type="city">Wien</settlement>
+					<country>Österreich</country>
+					<location>
+						<geo>48.21808403776477, 16.326086765349057</geo>
+					</location>
+				</place>
+				<place xml:id="HernalserHauptstraße_81">
+					<placeName type="street">Hernalser Hauptstraße <num>81</num></placeName>
+					<settlement type="city">Wien</settlement>
+					<country>Österreich</country>
+					<location>
+						<geo>48.21845628508243, 16.328900153713658</geo>
+					</location>
+				</place>
+				<place xml:id="Zentralfriedhof">
+					<placeName type="cemetery">Zentralfriedhof</placeName>
+					<settlement type="city">Wien</settlement>
+					<country>Österreich</country>
+					<location>
+						<geo>48.1514660511102, 16.438521926727077</geo>
+					</location>
+					<idno type="URL" subtype="Wikipedia"
+						>https://de.wikipedia.org/wiki/Wiener_Zentralfriedhof</idno>
+					<idno type="ID" subtype="WGW">9327</idno>
+					<idno type="ID" subtype="WIKIDATA">Q240744</idno>
+					<idno type="ID" subtype="GND">4120093-7</idno>
+				</place>
+				<place xml:id="EhrengrabKralik">
+					<placeName>Ehrengrab</placeName>
+				</place>
+			</listPlace>
+			<listOrg>
+				<org xml:id="BestattungWieser">
+					<orgName>Niederösterreichische Leichenbestattungs- und Lohnfuhrwerksunternehmung
+						Rudolf Wieser</orgName>
+				</org>
+				<org xml:id="DruckereiSteinbock">
+					<orgName>Druckerei Edmund Steinbock</orgName>
+				</org>
+			</listOrg>
+			<listRelation>
+				<relation name="parent" active="#RichardKralik" passive="#HeinrichKralik #DietrichKralik #RodrichKralik"/>
+				<relation name="parent" active="#MaiaKralik" passive="#HeinrichKralik #DietrichKralik #RodrichKralik"/>
+				<relation name="grandparent" active="#RichardKralik" passive="#WinifredKralik #LeopoldKralik #ElfriedeKralik"/>
+				<relation name="grandparent" active="#MaiaKralik" passive="#WinifredKralik #LeopoldKralik #ElfriedeKralik"/>
+				<relation name="sibling" mutual="#HeinrichKralik #RodrichKralik #DietrichKralik"/>
+				<relation name="sibling" mutual="#RichardKralik #AloisiaPichler #MathildeKralik"/>
+				<relation name="spouse" mutual="#RichardKralik #MaiaKralik"/>
+			</listRelation>
+		</back>
+	</text>
+</TEI>

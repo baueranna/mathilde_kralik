@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">Edition Mathilde Kralik</title>
+				<title type="sub">Totenzettel Aloisia Lobmeyr</title>
+				<editor>
+					<forename>Anna</forename>
+					<surname>Bauer</surname>
+				</editor>
+			</titleStmt>
+			<publicationStmt>
+				<p>Kurzedition im Rahmen der Übung "Textkodierung und -verarbeitung mit TEI und XSL"
+					bei Martina Scholger und Selina Galka</p>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Wien</settlement>
+						<repository>Wienbibliothek im Rathaus</repository>
+						<idno type="Signatur">E-74842</idno>
+						<idno type="URL"
+							>https://www.digital.wienbibliothek.at/wbrparte/content/titleinfo/3548247?query=Aloisia%20Lobmeyr</idno>
+					</msIdentifier>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="de">Deutsch</language>
+			</langUsage>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="obituary">
+				<pb n="1" facs="../facsimile/Totenzettel_AloisiaLobmeyr.jpg"/>
+					<div type="info">
+						<p><lb/><persName ref="#JosephLobmeyr">Joseph Lobmeyr</persName> und <persName
+						ref="#LudwigLobmeyr">Ludwig Lobmeyr</persName>, k. k. Hofglashändler, geben
+					hiermit in ihrem und im Namen ihrer <lb/>Geschwister: <persName
+						ref="#FranzLobmeyr">Franz Lobmeyr</persName>, k. k.
+					Linienschiffs-Lieutenant, <persName ref="#LouiseKralik">Louise
+					Kralik</persName>, geborne Lobmayr, und <persName ref="#MathildeRath">Mathilde
+						<lb/>Lobmeyr</persName>, dann ihres Schwagers <persName ref="#WilhelmKralik"
+						>Wilhelm Kralik</persName>, Glasfabriken-Besitzer, und ihrer Schwägerin
+						<persName ref="#HildegardLobmeyr">Hildegarde <lb/>Lobmeyr</persName>,
+					geborne von Stahlberg. Nachricht von dem sie höchst betrübenden Hinscheiden
+					ihrer innigstgeliebten <lb/>Mutter, beziehungsweise Schwiegermutter, der Frau
+						<lb/><hi rend="bold"><persName ref="#AloisiaLobmeyr">Aloisia
+							Lobmeyr</persName>,</hi> gebornen <hi rend="bold">Dobratsky,</hi>
+					<lb/>welche <date when="1864-01-26" type="death">Dienstag den 26. Jänner 1864</date> um <time
+						when="17:00:00" type="death">5 Uhr Nachmittags</time>, nach langer schmerzhafter
+					Krankheit und Em- <lb/>pfang der heil. Sterbe-Sacramente, im 61. Lebensjahre
+					selig in dem Herrn entschlafen ist. <lb/>Die entseelte Hülle wird <date
+						when="1864-01-28" type="funeral">Donnerstag den 28. d. M.</date> um <time when="14:00:00" type="funeral">2
+						Uhr Nachmittags</time> in der <placeName ref="#Stephansdom">Dom- und
+						<lb/>Metropolitankirche zu St. Stefan</placeName> feierlich eingesegnet und
+					sodann am <placeName ref="#StMarxerFriedhof">St. Marxer Friedhofe</placeName> im
+					Familiengrabe <lb/>zur Ruhe bestattet. <lb/>Die heiligen Seelenmessen werden
+						<date when="1864-01-29" type="mass">Freitag den 29. d. M.</date> um <time
+						when="10:00:00" type="mass">10 Uhr Vormittags</time> in obgenannter  <lb/><placeName
+						ref="#Stephansdom">Kirche</placeName> und in anderen Kirchen gelesen werden.</p>
+					</div>
+					<div type="dateline">
+						<p>
+							<lb/><placeName ref="#Wien">Wien</placeName>, am <date when="1864-01-27" type="notice">27.
+						Jänner 1864</date>.
+						</p>
+					</div>
+				<div type="printer">
+					<p>
+						<lb/><orgName ref="#Gerold">Buchdruckerei</orgName> von <persName
+							ref="#CarlGerold">Carl Gerold</persName>'s Sohn in <placeName
+						ref="#Wien">Wien</placeName>.
+					</p>
+				</div>
+			</div>
+		</body>
+		<back>
+			<listPerson>
+				<person xml:id="LudwigLobmeyr">
+					<persName>
+						<forename>Ludwig</forename>
+						<surname>Lobmeyr</surname>
+					</persName>
+					<occupation>k. k. Hofglashändler</occupation>
+					<affiliation type="member" subtype="honorary"><orgName ref="#Herrenhaus"
+						>Österreichisches Herrenhaus</orgName></affiliation>
+					<affiliation type="member" subtype="honorary"><orgName ref="#AkBild">k. k.
+						Akademie der bildenden Künste</orgName></affiliation>
+					<affiliation type="member" subtype="honorary"><orgName
+						ref="#GenossenschaftKünstler">Genossenschaft der bildenden Künstler
+						Wiens</orgName></affiliation>
+					<affiliation type="member" subtype="honorary"><orgName ref="#Schillerstiftung">Deutsche
+						Schillerstiftung</orgName></affiliation>
+					<idno type="ID" subtype="WIKIDATA">Q55847850</idno>
+				</person>
+				<person xml:id="JosephLobmeyr">
+					<persName>
+						<forename>Joseph</forename>
+						<surname>Lobmeyr</surname>
+					</persName>
+					<occupation>k. k. Hofglashändler</occupation>
+				</person>
+				<person xml:id="FranzLobmeyr">
+					<persName>
+						<forename>Franz</forename>
+						<surname>Lobmeyr</surname>
+					</persName>
+					<occupation>k. k. Linienschiffs-Lieutenant</occupation>
+				</person>
+				<person xml:id="LouiseKralik">
+					<persName>
+						<forename>Louise</forename>
+						<surname type="married">Kralik von Meyrswalden</surname>
+						<surname type="maiden">Lobmayr</surname>
+					</persName>
+					<death when="1905-10-03">3. Oktober 1905</death>
+					<idno type="ID" subtype="WIKIDATA">Q133874636</idno>
+				</person>
+				<person xml:id="MathildeRath">
+					<persName>
+						<forename>Mathilde</forename>
+						<surname type="married">Rath</surname>
+						<surname type="maiden">Lobmeyr</surname>
+					</persName>
+				</person>
+				<person xml:id="WilhelmKralik">
+					<persName>
+						<forename>Wilhelm</forename>
+						<surname>Kralik von Meyrswalden</surname>
+					</persName>
+					<occupation>Glasfabriken-Besitzer</occupation>
+					<idno type="ID" subtype="GND">136539696</idno>
+					<idno type="ID" subtype="WIKIDATA">Q2573745</idno>
+				</person>
+				<person xml:id="HildegardLobmeyr">
+					<persName>
+						<forename>Hildegard</forename>
+						<surname type="married">Lobmeyr</surname>
+						<surname type="maiden">von Stahlberg</surname>
+					</persName>
+				</person>
+				<person xml:id="AloisiaLobmeyr">
+					<persName>
+						<forename>Aloisia</forename>
+						<surname type="married">Lobmeyr</surname>
+						<surname type="maiden">Dobratsky</surname>
+					</persName>
+					<death when="1864-01-26">26. Jänner 1864</death>
+				</person>
+				<person xml:id="CarlGerold">
+					<persName>
+						<forename>Carl</forename>
+						<surname>Gerold</surname>
+					</persName>
+					<occupation>Buchdrucker</occupation>
+					<affiliation type="owner"><orgName ref="#Gerold">Gerold &amp; Co</orgName></affiliation>
+					<idno type="ID" subtype="WGW">19487</idno>
+					<idno type="ID" subtype="GND">133262871</idno>
+					<idno type="ID" subtype="WIKIDATA">Q61995654</idno>
+				</person>
+			</listPerson>
+			<listPlace>
+				<place xml:id="Wien">
+					<placeName>Wien</placeName>
+					<country>Austria</country>
+					<location>
+						<geo>48.20849, 16.37208</geo>
+					</location>
+					<idno type="ID" subtype="WIKIDATA">Q1741</idno>
+					<idno type="URI" subtype="geonames"
+						>https://www.geonames.org/2761369/vienna.html</idno>
+				</place>
+				<place xml:id="Stephansdom">
+					<placeName type="church">Dom- und Metropolitankirche zu St. Stephan</placeName>
+					<settlement type="city">Wien</settlement>
+					<country>Österreich</country>
+					<location>
+						<geo>48.20854411963058, 16.373480666951327</geo>
+					</location>
+				</place>
+				<place xml:id="StMarxerFriedhof">
+					<placeName type="cementary">St. Marxer Friedhof</placeName>
+					<settlement type="city">Wien</settlement>
+					<country>Österreich</country>
+					<location>
+						<geo>48.18402446536315, 16.4032053383651</geo>
+					</location>
+					<idno type="ID" subtype="WGW">18057</idno>
+					<idno type="ID" subtype="GND">4843295-7</idno>
+				</place>
+			</listPlace>
+			<listOrg>
+				<org xml:id="JLLobmeyr">
+					<orgName>J. &amp; L. Lobmeyr </orgName>
+					<idno type="ID" subtype="WGW">17959</idno>
+					<idno type="ID" subtype="WIKIDATA">Q876883</idno>
+				</org>
+				<org xml:id="Gerold">
+					<orgName>Gerold &amp; Co</orgName>
+					<idno type="ID" subtype="WGW">19514</idno>
+				</org>
+			</listOrg>
+			<listRelation>
+				<relation name="sibling" mutual="#JosephLobmeyr #LudwigLobmeyr #FranzLobmeyr #LouiseKralik #MathildeRath"/>
+				<relation name="parent" active="#AloisiaLobmeyr" passive="#JosephLobmeyr #LudwigLobmeyr #FranzLobmeyr #LouiseKralik #MathildeRath"/>
+				<relation name="spouse" mutual="#LouiseKralik #WilhelmKralik"/>
+				<relation name="spouse" mutual="#HildegardLobmeyr #FranzLobmeyr"/>
+			</listRelation>
+		</back>
+	</text>
+</TEI>

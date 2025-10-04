@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">Edition Mathilde Kralik</title>
+				<title type="sub">Totenzettel Ludwig Kralik von Meyrswalden</title>
+				<editor>
+					<forename>Anna</forename>
+					<surname>Bauer</surname>
+				</editor>
+			</titleStmt>
+			<publicationStmt>
+				<p>Kurzedition im Rahmen der Übung "Textkodierung und -verarbeitung mit TEI und XSL"
+					bei Martina Scholger und Selina Galka</p>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Wien</settlement>
+						<repository>Wienbibliothek im Rathaus</repository>
+						<idno type="Signatur">E-74842</idno>
+						<idno type="URL"
+							>https://digital.wienbibliothek.at/wbrparte/content/search/3545301?query=Ludwig%20Kralik</idno>
+					</msIdentifier>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="de">Deutsch</language>
+			</langUsage>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="obituary">
+				<pb n="1" facs="../facsimile/Totenzettel_LudwigKralik.jpg"/>
+				<div type="info">
+					<p>
+					<lb/>Vom tiefsten Schmerze gebeugt, geben die Unterzeichneten Nachricht von dem
+					Hinscheiden ihres innigst- <lb/>geliebten Sohnes, bezw. Bruders, Schwagers und
+					Onkels, des Herrn
+					<lb/><hi rend="bold"><persName ref="#LudwigKralik">Ludwig Ritter Kralik von
+						Meyrswalden</persName></hi>
+					<lb/>Oberingenieur der <orgName ref="#Nordbahn">K. F. Nordbahn i. P.</orgName>,
+					<lb/>welcher am <date when="1903-08-07" type="death">7. August 1903</date>, abends im 50.
+					Lebensjahre, nach langem schweren Leiden, selig in dem Herrn <lb/>entschlafen
+					ist. 
+					<lb/>Die irdische Hülle des theueren Dahingeschiedenen wird <date
+						when="1903-08-10" type="funeral">Montag den 10. d. M.</date> um <time when="15:00:00" type="march">3 Uhr
+						Nach- 
+					<lb/>mittags</time> von der <placeName ref="#Rennweg_91">städtischen
+						Leichenhalle III. Bez., Rennweg Nr. 91</placeName> in die <placeName
+						ref="#ErdbergerKirche">Pfarrkirche zu St. Peter u. Paul III.,
+					<lb/>Erdbergerstrasse</placeName> überführt, daselbst um <time
+						when="15:30:00" type="funeral">½4 Uhr</time> feierlich eingesegnet und sodann auf dem
+						<placeName ref="#Zentralfriedhof">Central-Friedhofe</placeName>
+					<lb/>nach nochmaliger Einsegnung im eigenen Grabe zur ewigen Ruhe bestattet.
+					<lb/>Die heiligen Seelenmessen werden <date when="1903-08-11" type="mass">Dienstag den <choice>
+							<sic>10</sic>
+							<corr>11</corr>
+						</choice>. d. M.</date> um <time when="09:30:00" type="mass">½10 Uhr Vormittags</time>
+					in der <placeName ref="Augustinerkirche">k. k. 
+					<lb/>Hof- und Stadtpfarrkirche zu
+						St. Augustin</placeName> in <placeName ref="#Wien">Wien</placeName> und in
+					der <placeName ref="#KircheMödling">Pfarrkirche zu Mödling</placeName> gelesen.</p>
+				</div>
+				<div type="dateline">
+					<p>
+					<lb/><placeName ref="#Wien">Wien</placeName>, am <date when="1903-08-07" type="notice">7.
+						August 1903</date>.
+					</p>
+				</div>
+				<div type="names">
+					<p>
+					<lb/><hi rend="bold"><persName ref="#LouiseKralik">Louise Kralik von Meyrswalden</persName>,</hi> geb.
+						<hi rend="bold">Lobmeyr</hi>
+					<lb/>als Mutter</p>
+				<p>
+					<lb/><hi rend="bold"><persName ref="#HannsKralik">Hanns Ritter Kralik von Meyrswalden</persName></hi>
+					<lb/><hi rend="bold"><persName ref="#HeinrichKralikSen">Heinrich Ritter Kralik von
+						Meyrswalden</persName></hi>
+					<lb/>Glasfabrikant in <placeName ref="#Eleonorenhain">Eleonorenhain</placeName>
+					<lb/><hi rend="bold"><persName ref="#RichardKralik">Dr. Richard Ritter Kralik von
+						Meyrswalden</persName></hi>
+					<lb/><hi rend="bold"><persName ref="#MathildeKralik"
+						>Mathilde Kralik von Meyrswalden</persName></hi>
+					<lb/><hi rend="bold"><persName ref="#AloisiaPichler">Luisa Pichler Edle v. Deeben</persName>,</hi> geb. <hi rend="bold">Kralik
+						v. Meyrswalden</hi>
+					<lb/>als Geschwister.</p>
+				<p>
+					<lb/><hi rend="bold"><persName ref="#MinnaKralik">Minna Kralik von Meyrswalden</persName></hi>
+					<lb/><hi rend="bold"><persName ref="#AgnesKralik">Agnes Kralik von Meyrswalden</persName></hi>
+					<lb/><hi rend="bold"><persName ref="#EduardSchmid"
+						>Eduard Schmid</persName>,</hi> Glasfabrikant in <placeName ref="#Annathal">Annathal</placeName>
+					<lb/><persName ref="#MaiaKralik">Maia Kralik von Meyrswalden geb. von
+						Flattich</persName>
+					<lb/><hi rend="bold"><persName ref="#EduardPichler">Eduard Pichler Edler von Deeben</persName></hi>
+					<lb/>Sectionsrat im <orgName ref="#EisenbahnMinisterium">Eisenbahn-Ministerium</orgName>
+					<lb/>als Schwäger und
+					Schwägerinnen </p>
+				<p>
+					<lb/><hi rend="bold">Sämmtliche Neffen, Nichten, Grossneffen und Gross- 
+					<lb/>nichten</hi> von Seite der <hi rend="bold">Familien weiland <persName ref="#WilhelmKralik">Wilhelm</persName></hi> und
+					<lb/><hi rend="bold"><persName ref="#CarlKralik">Carl Ritter Kralik v.
+						Meyrswalden</persName></hi> und <persName ref="#JosefTaschek">Josef
+						Taschek</persName>,
+					<lb/>ferner der <hi rend="bold">Familien <persName
+						ref="#HeinrichKralikSen">Heinrich Ritter Kralik v. Meyrswalden</persName>
+					<lb/>und <persName ref="#EduardSchmid">Eduard Schmid</persName>.</hi>
+				</p>
+				<p>
+					<lb/>Die Neffen und Nichten <persName ref="#DietrichKralik">Dietrich</persName>,
+						<persName ref="#HeinrichKralik">Heinrich</persName> und <persName
+						ref="#RodrichKralik">Rodrich <lb/>Kralik von Meyrswalden</persName>
+					<lb/><persName ref="#IlsePichler">Ilse</persName> und <persName
+						ref="#EdithPichler">Edith Pichler von Deeben</persName>
+				</p>
+				</div>
+				<div type="printer">
+					<p>
+					<lb/><orgName ref="#Enterprisefunebres">Entreprise des pompes
+					funèbres</orgName>, <placeName ref="#KärntnerStraße_21">Wien, I.
+						Kärnthnerstrasse 21</placeName>. — Telephon 313.
+					</p>
+				</div>
+			</div>
+		</body>
+		<back>
+			<listPerson>
+				<person xml:id="LudwigKralik">
+					<persName>
+						<forename>Ludwig</forename>
+						<surname>Ritter Kralik von Meyrswalden</surname>
+					</persName>
+					<occupation>Oberingenier der <orgName ref="#Nordbahn">Kaiser-Ferdinand-Nordbahn</orgName></occupation>
+				</person>
+				<person xml:id="LouiseKralik">
+					<persName>
+						<forename>Louise</forename>
+						<surname type="married">Kralik von Meyrswalden</surname>
+						<surname type="maiden">Lobmeyr</surname>
+					</persName>
+					<idno type="ID" subtype="WIKIDATA">Q133874636</idno>
+				</person>
+				<person xml:id="HannsKralik">
+					<persName>
+						<forename>Hanns</forename>
+						<surname>Kralik von Meyrswalden</surname>
+					</persName>
+				</person>
+				<person xml:id="RichardKralik">
+					<persName>
+						<forename>Richard</forename>
+						<surname>Kralik von Meyrswalden</surname>
+					</persName>
+					<idno type="URI" subtype="GND">https://d-nb.info/gnd/118777920</idno>
+					<idno type="ID" subtype="WIKIDATA">Q1317482</idno>
+					<idno type="ID" subtype="WGW">16425</idno>
+					<idno type="ID" subtype="PMB">3731</idno>
+				</person>
+				<person xml:id="HeinrichKralikSen">
+					<persName>
+						<forename>Heinrich</forename>
+						<surname>Kralik von Meyrswalden</surname>
+					</persName>
+					<occupation>Glasfabrikant</occupation>
+					<idno type="URL" subtype="Wikipedia"
+						>https://de.wikipedia.org/wiki/Heinrich_Kralik_von_Meyrswalden_(Industrieller)</idno>
+				</person>
+				<person xml:id="MathildeKralik">
+					<persName>
+						<forename>Mathilde</forename>
+						<surname>Kralik</surname>
+					</persName>
+					<idno type="ID" subtype="WGW">37789</idno>
+					<idno type="ID" subtype="WIKIDATA">Q89972</idno>
+					<idno type="ID" subtype="GND">130214566</idno>
+					<idno type="ID" subtype="PMB">19659</idno>
+				</person>
+				<person xml:id="AloisiaPichler">
+					<persName>
+						<forename>Louisa</forename>
+						<surname type="married">Pichler Edle von Deeben</surname>
+						<surname type="maiden">Kralik von Meyrswalden</surname>
+					</persName>
+				</person>
+				<person xml:id="MinnaKralik">
+					<persName>
+						<forename>Minna</forename>
+						<surname>Kralik von Meyrswalden</surname>
+					</persName>
+				</person>
+				<person xml:id="MaiaKralik">
+					<persName>
+						<forename>Maia</forename>
+						<surname type="married">Kralik von Meyrswalden</surname>
+						<surname type="maiden">von Flattich</surname>
+					</persName>
+					<idno type="URI" subtype="GND">https://d-nb.info/gnd/116385863</idno>
+				</person>
+				<person xml:id="AgnesKralik">
+					<persName>
+						<forename>Agnes</forename>
+						<surname>Kralik von Meyrswalden</surname>
+					</persName>
+				</person>
+				<person xml:id="EduardPichler">
+					<persName>
+						<forename>Eduard</forename>
+						<surname>Pichler Edler von Deeben</surname>
+					</persName>
+					<occupation>Sektionsrat im <orgName ref="#EisenbahnMinisterium">Eisenbahn-Ministerium</orgName></occupation>
+				</person>
+				<person xml:id="EduardSchmid">
+					<persName>
+						<forename>Eduard</forename>
+						<surname>Schmid</surname>
+					</persName>
+					<occupation>Glasfabrikant</occupation>
+					<idno type="URL" subtype="ÖBL"
+						>https://www.biographien.ac.at/oebl/oebl_S/Schmid_Josef-Eduard_1836_1910.xml</idno>
+					<idno type="ID" subtype="GND">1030547009</idno>
+				</person>
+				<person xml:id="WilhelmKralik">
+					<persName>
+						<forename>Wilhelm</forename>
+						<surname>Kralik von Meyrswalden</surname>
+					</persName>
+					<idno type="URI" subtype="GND">https://d-nb.info/gnd/136539696</idno>
+					<idno type="ID" subtype="WIKIDATA">Q2573745</idno>
+				</person>
+				<person xml:id="CarlKralik">
+					<persName>
+						<forename>Carl</forename>
+						<surname>Kralik von Meyrswalden</surname>
+					</persName>
+				</person>
+				<person xml:id="JosefTaschek">
+					<persName>
+						<forename>Josef</forename>
+						<surname>Taschek</surname>
+					</persName>
+					<idno type="ID" subtype="WIKIDATA">Q8311993</idno>
+					<idno type="URL" subtype="Wikipedia"
+						>https://de.wikipedia.org/wiki/Josef_Taschek</idno>
+				</person>
+				<person xml:id="DietrichKralik">
+					<persName>
+						<forename>Dietrich</forename>
+						<surname>Kralik von Meyrswalden</surname>
+					</persName>
+					<affiliation type="member" subtype="political"><orgName ref="#Bärenhöhle">Bärenhöhle</orgName></affiliation>
+					<idno type="ID" subtype="GND">118777912</idno>
+					<idno type="ID" subtype="WIKIDATA">Q1223897</idno>
+					<idno type="ID" subtype="WGW">16414</idno>
+				</person>
+				<person xml:id="HeinrichKralik">
+					<persName>
+						<forename>Heinrich</forename>
+						<surname>Kralik von Meyrswalden</surname>
+					</persName>
+					<idno type="ID" subtype="GND">121829324</idno>
+					<idno type="ID" subtype="WIKIDATA">Q1235353</idno>
+					<idno type="ID" subtype="WGW">16424</idno>
+				</person>
+				<person xml:id="RodrichKralik">
+					<persName>
+						<forename>Rodrich</forename>
+						<surname>Kralik von Meyrswalden</surname>
+					</persName>
+					<idno type="URI" subtype="GND">https://d-nb.info/gnd/11638610X</idno>
+				</person>
+				<person xml:id="EdithPichler">
+					<persName>
+						<forename>Edith</forename>
+						<surname>Pichler von Deeben</surname>
+					</persName>
+				</person>
+				<person xml:id="IlsePichler">
+					<persName>
+						<forename>Ilse</forename>
+						<surname>Pichler von Deeben</surname>
+					</persName>
+				</person>
+			</listPerson>
+			<listPlace>
+				<place xml:id="Wien">
+					<placeName>Wien</placeName>
+					<country>Austria</country>
+					<location>
+						<geo>48.20849, 16.37208</geo>
+					</location>
+					<idno type="ID" subtype="WIKIDATA">Q1741</idno>
+					<idno type="URI" subtype="geonames"
+						>https://www.geonames.org/2761369/vienna.html</idno>
+				</place>
+				<place xml:id="Rennweg_91">
+					<placeName type="street">Rennweg <num>91</num></placeName>
+					<settlement type="city">Wien</settlement>
+					<country>Österreich</country>
+					<location>
+						<geo>48.19044582541425, 16.397931765346893</geo>
+					</location>
+				</place>
+				<place xml:id="ErdbergerKirche">
+					<placeName type="church">Peter-und-Paul-Kirche</placeName>
+					<placeName type="church">Erdberger Kirche</placeName>
+					<settlement type="city">Wien</settlement>
+					<country>Österreich</country>
+					<location>
+						<geo>48.200857294744246, 16.398227150471623</geo>
+					</location>
+					<idno type="ID" subtype="WGW">14138</idno>
+				</place>
+				<place xml:id="Zentralfriedhof">
+					<placeName type="cemetery">Zentralfriedhof</placeName>
+					<settlement type="city">Wien</settlement>
+					<country>Österreich</country>
+					<location>
+						<geo>48.1514660511102, 16.438521926727077</geo>
+					</location>
+					<idno type="URL" subtype="Wikipedia"
+						>https://de.wikipedia.org/wiki/Wiener_Zentralfriedhof</idno>
+					<idno type="ID" subtype="WGW">9327</idno>
+					<idno type="ID" subtype="WIKIDATA">Q240744</idno>
+					<idno type="ID" subtype="GND">4120093-7</idno>
+				</place>
+				<place xml:id="Augustinerkircher">
+					<placeName type="church">Augustinerkirche</placeName>
+					<settlement type="city">Wien</settlement>
+					<country>Österreich</country>
+					<location>
+						<geo>48.20610677964904, 16.367669853712695</geo>
+					</location>
+					<idno type="ID" subtype="WGW">28422</idno>
+				</place>
+				<place xml:id="KärntnerStraße_21">
+					<placeName type="street">Kärntner Straße 21</placeName>
+					<settlement type="city">Wien</settlement>
+					<country>Österreich</country>
+					<location>
+						<geo>48.206327276134346, 16.371738011385606</geo>
+					</location>
+				</place>
+				<place xml:id="KircheMödling">
+					<placeName type="church">Stadtpfarrkirche Mödling</placeName>
+					<settlement type="city">Mödling</settlement>
+					<country>Österreich</country>
+					<location>
+						<geo>48.085662256259745, 16.280088723318332</geo>
+					</location>
+				</place>
+				<place xml:id="Eleonorenhain">
+					<placeName type="village">Eleonorenhain</placeName>
+					<country>Tschechien</country>
+					<location>
+						<geo>48.9343471954487, 13.794896645500788</geo>
+					</location>
+				</place>
+				<place xml:id="Annathal">
+					<placeName type="village">Annathal</placeName>
+					<country>Deutschland</country>
+					<location>
+						<geo>48.87337398216413, 13.614796312599777</geo>
+					</location>
+				</place>
+			</listPlace>
+			<listOrg>
+				<org xml:id="Nordbahn">
+					<orgName>Kaiser-Ferdinands-Nordbahn</orgName>
+					<idno type="URL" subtype="Wikipedia"
+						>https://de.wikipedia.org/wiki/Kaiser_Ferdinands-Nordbahn</idno>
+					<idno type="ID" subtype="WGW">21891</idno>
+					<idno type="ID" subtype="WIKIDATA">Q352763</idno>
+					<idno type="ID" subtype="GND">4276204-2</idno>
+				</org>
+				<org xml:id="Enterprisefunebres">
+					<orgName>Entreprise des pompes funèbres</orgName>
+				</org>
+				<org xml:id="Bärenhöhle" type="political" subtype="antisemitic">
+					<orgName>Bärenhöhle</orgName>
+					<idno type="ID" subtype="WGW">42579</idno>
+				</org>
+				<org xml:id="EisenbahnMinisterium">
+					<orgName>Eisenbahnen-Ministerium</orgName>
+					<idno type="URL" subtype="Wikipedia">https://de.wikipedia.org/wiki/K.k._Eisenbahnministerium</idno>
+				</org>
+			</listOrg>
+			<listRelation>
+				<relation name="grandparent" active="#LouiseKralik" passive="#DietrichKralik #HeinrichKralik #RodrichKralik #IlsePichler #EdithPichler"/>
+				<relation name="uncle" active="#LudwigKralik" passive="#DietrichKralik #HeinrichKralik #RodrichKralik #IlsePichler #EdithPichler"/>
+				<relation name="spouse" mutual="#MaiaKralik #RichardKralik" />
+				<relation name="spouse" mutual="#AloisiaPichler #EduardPichler"/>
+			</listRelation>
+		</back>
+	</text>
+</TEI>

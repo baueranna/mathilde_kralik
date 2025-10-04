@@ -15,46 +15,69 @@
                 <title>
                     <xsl:value-of select="//tei:teiHeader//tei:titleStmt//tei:title[@type='main']"/>
                 </title>
-                <link rel="stylesheet" type="text/css" href="css/menu_bar.css" />
-                <link rel="stylesheet" type="text/css" href="css/letter.css" />
+                <link rel="stylesheet" type="text/css" href="../css/menu_bar.css" />
+                <link rel="stylesheet" type="text/css" href="../css/letter.css" />
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
                 <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900&amp;1,18..144,300..900&amp;family=Montserrat:ital,wght@0,100..900&amp;1,100..900&amp;display=swap" rel="stylesheet" />
             </head>
              <body>
-                <!-- Navigation bar -->
-                <nav class="topnav" aria-label="Main Navigation">
-                    <a href="index.html">Home</a>
-                    <a href="Briefe.html">Briefe</a>
-                    <a href="Manuskript.html">Manuskripte</a>
-                    
-                    <!-- Submenu for Mathilde Kralik -->
-                    <div class="subnav">
-                        <div class="nav-toggle" tabindex="0" aria-haspopup="true" aria-expanded="false" aria-label="Mathilde Kralik Submenu">
-                            Mathilde Kralik
-                        </div>
-                        <div class="subnav-content" aria-label="Mathilde Kralik Submenu">
-                            <a href="Ressourcen.html">Ressourcen</a>
-                        </div>
-                    </div>
-                    
-                    <!-- Submenu for Edition -->
-                    <div class="subnav">
-                        <div class="nav-toggle" tabindex="0" aria-haspopup="true" aria-expanded="false" aria-label="Edition Submenu">
-                            Edition
-                        </div>
-                        <div class="subnav-content" aria-label="Edition Submenu">
-                            <a href="Projekt.html">Projekt</a>
-                            <a href="Transkription.html">Transkription</a>
-                            <a href="https://github.com" target="_blank" rel="noopener noreferrer">Github</a>
-                        </div>
-                    </div>
-                </nav>
+                 <!-- Navigation bar -->
+                 <nav class="topnav" aria-label="Main Navigation">
+                     <a href="index.html">Menü</a>
+                     
+                     <!-- Submenu for documents -->
+                     <div class="subnav">
+                         <div class="nav-toggle">Dokumente</div>
+                         <div class="subnav-content" aria-label="Submenu">
+                             <a href="Briefe.html">Briefe</a>
+                             <a href="Manuskript.html">Manuskripte</a>
+                             <a href="Totenzettel.html">Totenzettel</a>
+                         </div>
+                     </div>
+                     
+                     <!-- Submenu for Entities -->
+                     <div class="subnav">
+                         <div class="nav-toggle">Verzeichnis</div>
+                         <div class="subnav-content" aria-label="Submenu">
+                             <a href="Personen.html">Personen</a>
+                             <a href="Orte.html">Orte</a>
+                             <a href="Org.html">Organisationen</a>
+                         </div>
+                     </div>
+                     
+                     <!-- Submenu for Visualisations -->
+                     <div class="subnav">
+                         <div class="nav-toggle">Visualisierungen</div>
+                         <div class="subnav-content" aria-label="Submenu">
+                             <a href="Vis_Orte.html">Orte</a>
+                             <a href="Vis_Personen.html">Personennetzwerk</a>
+                         </div>
+                     </div>
+                     
+                     <!-- Submenu for Mathilde Kralik -->
+                     <div class="subnav">
+                         <div class="nav-toggle">Mathilde Kralik</div>
+                         <div class="subnav-content" aria-label="Mathilde Kralik Submenu">
+                             <a href="Ressourcen.html">Ressourcen</a>
+                         </div>
+                     </div>
+                     
+                     <!-- Submenu for Edition -->
+                     <div class="subnav">
+                         <div class="nav-toggle">Über die Edition</div>
+                         <div class="subnav-content" aria-label="Edition Submenu">
+                             <a href="Projekt.html">Projekt</a>
+                             <a href="Transkription.html">Transkription</a>
+                             <a href="https://github.com/baueranna/mathilde_kralik.git" target="_blank" rel="noopener noreferrer">Github</a>
+                         </div>
+                     </div>
+                 </nav>
                 
                 
                 <!-- Metadata Section -->
                 <section id="metadata">
-                    <button type="button" class="collapsible"><xsl:value-of select="//tei:teiHeader//tei:titleStmt//tei:title[@type='s']"/></button>
+                    <button type="button" class="collapsible"><xsl:value-of select="//tei:teiHeader//tei:titleStmt//tei:title[@type='sub']"/></button>
                     <div class="content">
                     <div id="msDesc">
                         <h1>Metadaten</h1>
@@ -123,8 +146,8 @@
                 </footer>
                 
                 <!-- Java script -->
-                <script src="js/menu_bar.js"></script>
-                <script src="js/letter.js"></script>
+                 <script src="../js/menu_bar.js"></script>
+                 <script src="../js/letter.js"></script>
             </body>
         </html>
     </xsl:template>
@@ -278,76 +301,28 @@
     
     <!-- Template for persName -->
     <xsl:template match="tei:persName">
-        <xsl:variable name="refId" select="substring-after(@ref, '#')"/>
-        <xsl:variable name="entity" select="//tei:back/tei:listPerson/tei:person[@xml:id=$refId]"/>
-        <xsl:variable name="wikidata" select="$entity/tei:idno[@type='ID' and @subtype='WIKIDATA']"/>
-        <xsl:variable name="otherId" select="$entity/tei:idno[@type='URI' or @type='URL']"/>
         <span class="person">
-            <xsl:choose>
-                <xsl:when test="$wikidata">
-                    <a href="https://www.wikidata.org/wiki/{$wikidata}">
-                        <xsl:value-of select="."/>
-                    </a>
-                </xsl:when>
-                <xsl:when test="$otherId">
-                    <a href="{$otherId}">
-                        <xsl:value-of select="."/>
-                    </a>
-                </xsl:when>
-                <xsl:otherwise>
-                    <xsl:value-of select="."/>
-                </xsl:otherwise>
-            </xsl:choose>
+            <a href="../html/personen/{substring-after(@ref, '#')}.html">
+                <xsl:value-of select="." />
+            </a>
         </span>
     </xsl:template>
     
     <!-- Template for placeName -->
     <xsl:template match="tei:placeName">
-        <xsl:variable name="refId" select="substring-after(@ref, '#')"/>
-        <xsl:variable name="entity" select="//tei:back/tei:listPlace/tei:place[@xml:id=$refId]"/>
-        <xsl:variable name="wikidata" select="$entity/tei:idno[@type='ID' and @subtype='WIKIDATA']"/>
-        <xsl:variable name="otherId" select="$entity/tei:idno[@type='URI' or @type='URL']"/>
         <span class="place">
-            <xsl:choose>
-                <xsl:when test="$wikidata">
-                    <a href="https://www.wikidata.org/wiki/{$wikidata}">
-                        <xsl:value-of select="."/>
-                    </a>
-                </xsl:when>
-                <xsl:when test="$otherId">
-                    <a href="{$otherId}">
-                        <xsl:value-of select="."/>
-                    </a>
-                </xsl:when>
-                <xsl:otherwise>
-                    <xsl:value-of select="."/>
-                </xsl:otherwise>
-            </xsl:choose>
+            <a href="../html/orte/{substring-after(@ref, '#')}.html">
+                <xsl:value-of select="." />
+            </a>
         </span>
     </xsl:template>
     
     <!-- Template for orgName -->
     <xsl:template match="tei:orgName">
-        <xsl:variable name="refId" select="substring-after(@ref, '#')"/>
-        <xsl:variable name="entity" select="//tei:back/tei:listOrg/tei:org[@xml:id=$refId]"/>
-        <xsl:variable name="wikidata" select="$entity/tei:idno[@type='ID' and @subtype='WIKIDATA']"/>
-        <xsl:variable name="otherId" select="$entity/tei:idno[@type='URI' or @type='URL']"/>
         <span class="org">
-            <xsl:choose>
-                <xsl:when test="$wikidata">
-                    <a href="https://www.wikidata.org/wiki/{$wikidata}">
-                        <xsl:value-of select="."/>
-                    </a>
-                </xsl:when>
-                <xsl:when test="$otherId">
-                    <a href="{$otherId}">
-                        <xsl:value-of select="."/>
-                    </a>
-                </xsl:when>
-                <xsl:otherwise>
-                    <xsl:value-of select="."/>
-                </xsl:otherwise>
-            </xsl:choose>
+            <a href="../html/org/{substring-after(@ref, '#')}.html">
+                <xsl:value-of select="." />
+            </a>
         </span>
     </xsl:template>
 </xsl:stylesheet>

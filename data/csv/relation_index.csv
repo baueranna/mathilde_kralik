@@ -1,0 +1,24 @@
+name,active,passive,mutual
+parent,August Rath,Marie Sch Kreuzenau August Rathjun Paul Rath Stefan Rath,
+parent,Aloisia Lobmeyr,Joseph Lobmeyr Ludwig Lobmeyr Franz Lobmeyr Louise Kralik Mathilde Rath,
+parent,Louise Kralik,Richard Kralik Mathilde Kralik Aloisia Pichler,
+parent,Maia Kralik,Dietrich Kralik Heinrich Kralik Rodrich Kralik,
+parent,Richard Kralik,Dietrich Kralik Heinrich Kralik Rodrich Kralik,
+parent,Aloisia Pichler,Ilse Pichler Edith Pichler,
+parent,Eduard Pichler,Ilse Pichler Edith Pichler,
+grandparent,Louise Kralik,Dietrich Kralik Heinrich Kralik Rodrich Kralik Ilse Pichler Edith Pichler,
+grandparent,Maia Kralik,Winifred Kralik Leopold Kralik Elfriede Kralik,
+grandparent,Richard Kralik,Winifred Kralik Leopold Kralik Elfriede Kralik,
+sibling,,,Louise Kralik Ludwig Lobmeyr Mathilde Rath
+sibling,,,Rudolf Lobmeyr Adolf Lobmeyr Oskar Lobmeyr Ludwig Lobmeyr Jun
+sibling,,,Marie Sch Kreuzenau August Rathjun Paul Rath Stefan Rath
+sibling,,,Richard Kralik Mathilde Kralik Aloisia Pichler
+sibling,,,Joseph Lobmeyr Ludwig Lobmeyr Franz Lobmeyr Louise Kralik Mathilde Rath
+sibling,,,Heinrich Kralik Rodrich Kralik Dietrich Kralik
+uncle,Ludwig Lobmeyr,Rudolf Lobmeyr Adolf Lobmeyr Oskar Lobmeyr Ludwig Lobmeyr Jun Marie Sch Kreuzenau August Rathjun Paul Rath Stefan Rath Richard Kralik Mathilde Kralik Aloisia Pichler,
+uncle,Ludwig Kralik,Dietrich Kralik Heinrich Kralik Rodrich Kralik Ilse Pichler Edith Pichler,
+spouse,,,Louise Kralik Wilhelm Kralik
+spouse,,,Hildegard Lobmeyr Franz Lobmeyr
+spouse,,,Maia Kralik Richard Kralik
+spouse,,,Aloisia Pichler Eduard Pichler
+partner,,,Alice Scarlates Mathilde Kralik

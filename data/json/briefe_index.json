@@ -1,0 +1,44 @@
+{
+    "data": [
+        {
+            "Datum": "1899-06-15",
+            "Sender:in": "Mathilde Kralik",
+            "Empfänger:in": "Maia Kralik",
+            "Typ": "Brief",
+            "Dokument": "Brief_an_Maia_von_Kralik_15_06_1899.html",
+            "Themen": "Familie, Besuch, Erdbeben, Lektüre, Zeitung"
+        },
+        {
+            "Datum": "1901-04-10",
+            "Sender:in": "Mathilde Kralik",
+            "Empfänger:in": "Maia Kralik",
+            "Typ": "Brief",
+            "Dokument": "Brief_an_Maia_von_Kralik_10_04_1901.html",
+            "Themen": "Frauenklub, Familie, Aktienkurs, Kunstveranstaltung"
+        },
+        {
+            "Datum": "1902-09-21",
+            "Sender:in": "Mathilde Kralik",
+            "Empfänger:in": "Maia Kralik",
+            "Typ": "Brief",
+            "Dokument": "Brief_an_Maia_von_Kralik_21_09_1902.html",
+            "Themen": "Inneneinrichtung, Familie, Besuch"
+        },
+        {
+            "Datum": "1902-10-02",
+            "Sender:in": "Mathilde Kralik",
+            "Empfänger:in": "Maia Kralik",
+            "Typ": "Brief",
+            "Dokument": "Brief_an_Maia_von_Kralik_02_10_1902.html",
+            "Themen": "Familie, Inneneinrichtung, Zeitung, Besuch, Kirche, Konzert"
+        },
+        {
+            "Datum": "1903-02-04",
+            "Sender:in": "Mathilde Kralik",
+            "Empfänger:in": "Maia Kralik",
+            "Typ": "Brief",
+            "Dokument": "Brief_an_Maia_von_Kralik_04_02_1903.html",
+            "Themen": "Konzert, Gesangsverein"
+        }
+    ]
+}

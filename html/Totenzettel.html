@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Edition Mathilde Kralik</title>
+        <link rel="stylesheet" type="text/css" href="../css/menu_bar.css">
+        <link rel="stylesheet" type="text/css" href="../css/tabelle.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900&amp;1,18..144,300..900&amp;family=Montserrat:ital,wght@0,100..900&amp;1,100..900&amp;display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.datatables.net/2.3.4/css/dataTables.dataTables.min.css"/>
+    </head>
+    <body>
+        <!-- Navigation bar -->
+        <nav class="topnav" aria-label="Main Navigation">
+            <a href="index.html">Menü</a>
+            
+            <!-- Submenu for documents -->
+            <div class="subnav">
+                <div class="nav-toggle">Dokumente</div>
+                <div class="subnav-content" aria-label="Submenu">
+                    <a href="Briefe.html">Briefe</a>
+                    <a href="Manuskript.html">Manuskripte</a>
+                    <a href="Totenzettel.html">Totenzettel</a>
+                </div>
+            </div>
+            
+            <!-- Submenu for Entities -->
+            <div class="subnav">
+                <div class="nav-toggle">Verzeichnis</div>
+                <div class="subnav-content" aria-label="Submenu">
+                    <a href="Personen.html">Personen</a>
+                    <a href="Orte.html">Orte</a>
+                    <a href="Org.html">Organisationen</a>
+                </div>
+            </div>
+            
+            <!-- Submenu for Visualisations -->
+            <div class="subnav">
+                <div class="nav-toggle">Visualisierungen</div>
+                <div class="subnav-content" aria-label="Submenu">
+                    <a href="Vis_Orte.html">Orte</a>
+                    <a href="Vis_Personen.html">Personennetzwerk</a>
+                </div>
+            </div>
+            
+            <!-- Submenu for Mathilde Kralik -->
+            <div class="subnav">
+                <div class="nav-toggle">Mathilde Kralik</div>
+                <div class="subnav-content" aria-label="Mathilde Kralik Submenu">
+                    <a href="Ressourcen.html">Ressourcen</a>
+                </div>
+            </div>
+            
+            <!-- Submenu for Edition -->
+            <div class="subnav">
+                <div class="nav-toggle">Über die Edition</div>
+                <div class="subnav-content" aria-label="Edition Submenu">
+                    <a href="Projekt.html">Projekt</a>
+                    <a href="Transkription.html">Transkription</a>
+                    <a href="https://github.com/baueranna/mathilde_kralik.git" target="_blank" rel="noopener noreferrer">Github</a>
+                </div>
+            </div>
+        </nav>
+        
+        <table id="correspondenceTable" class="display">
+            <thead>
+                <tr>
+                    <th>Sterbedatum</th>
+                    <th>Verstorbene:r</th>
+                    <th>Zum Dokument</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Data will be dynamically inserted here -->
+            </tbody>
+        </table>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="https://cdn.datatables.net/2.3.4/js/dataTables.min.js"></script>
+        <script src="../js/menu_bar.js"></script>
+        <script src="../js/totenzettel_index.js"></script>
+    </body>
+</html>

@@ -2,7 +2,7 @@ document.querySelectorAll('.nav-toggle').forEach(toggle => {
     const subnavContent = toggle.nextElementSibling;
 
     // Toggle submenu on click
-    toggle.addEventListener('click', (event) => {
+    toggle.addEventListener('mouseover', (event) => {
         const isExpanded = toggle.getAttribute('aria-expanded') === 'true';
 
         // Close all other submenus

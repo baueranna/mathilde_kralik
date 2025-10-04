@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">Edition Mathilde Kralik</title>
+				<title type="sub">Totenzettel Ludwig Lobmeyr</title>
+				<editor>
+					<forename>Anna</forename>
+					<surname>Bauer</surname>
+				</editor>
+			</titleStmt>
+			<publicationStmt>
+				<p>Kurzedition im Rahmen der Übung "Textkodierung und -verarbeitung mit TEI und XSL"
+					bei Martina Scholger und Selina Galka</p>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Wien</settlement>
+						<repository>Wienbibliothek im Rathaus</repository>
+						<idno type="Signatur">E-74842</idno>
+						<idno type="URL"
+							>https://www.digital.wienbibliothek.at/wbrparte/content/titleinfo/3548250?query=Ludwig%20Lobmeyr</idno>
+					</msIdentifier>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="de">Deutsch</language>
+			</langUsage>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="obituary">
+				<pb n="1" facs="../facsimile/Totenzettel_LudwigLobmeyr1.jpg"/>
+				<div type="note">
+					<p>
+					<lb/>Für die uns anläßlich des Hinscheidens unseres 
+					<lb/>lieben Onkels des Herrn
+					<lb/><hi rend="bold"><persName ref="#LudwigLobmeyr">Ludwig Lobmeyr</persName></hi>
+					<lb/>erwiesene freundliche Anteilnahme bitten wir den Ausdruck 
+					<lb/>unseres tiefgefühlten Dankes entgegenzunehmen. 
+					<lb/>Familien Lobmeyr, 
+					<lb/>Kralik von Meyrswalden und Rath 
+					<lb/><orgName ref="#TheyerHartmut">THEYER &amp;
+						HARDTMUTH</orgName>. <placeName ref="#Wien">WIEN</placeName>
+					</p>
+				</div>
+				<pb n="2" facs="../facsimile/Totenzettel_LudwigLobmeyr2.jpg"/>
+				<div type="info">
+					<p>
+					<lb/>Wir geben hiermit die Trauernachricht vom Ableben des Herrn 
+						<lb/><hi rend="bold"><persName
+						ref="#LudwigLobmeyr">Ludwig Lobmeyr</persName></hi>
+					<lb/>Mitglied des <orgName ref="#Herrenhaus">österreichischen
+						Herrenhauses</orgName>, Ehrenbürger seiner Vaterstadt <placeName ref="#Wien"
+						>Wien</placeName>, Ehrenmitglied der <orgName ref="#AkBild">k. k. Akademie
+						<lb/>der bildenden Künste</orgName> und der <orgName
+						ref="#GenossenschaftKünstler">Genossenschaft der bildenden Künstler
+						Wiens</orgName>, der <orgName ref="#Schillerstiftung">deutschen
+						Schillerstiftung</orgName> in <lb/><placeName ref="#Weimar"
+						>Weimar</placeName> und mehrerer anderer Korporationen, k. u. k.
+					Hoflieferant etc., 
+						<lb/>welcher nach kurzem Leiden am <date when="1917-03-25" type="death"
+						>25. März 1917</date> in seinem 88. Lebensjahre verschieden ist. 
+						<lb/>Die
+					Leichenfeier findet am <date when="1917-03-28" type="funeral">28. März 1917</date>, um <time
+						when="15:00:00" type="funeral">3 Uhr nachmittags</time>, in der <placeName
+						ref="#Stephansdom">Dom- und Metropolitan- <lb/>kirche zu St.
+						Stefan</placeName>, die Beisetzung in der Familiengruft auf dem <placeName
+						ref="#Zentralfriedhof">Zentralfriedhofe</placeName>, alles treulichst nach
+					den <lb/>Anordnungen des <persName ref="#LudwigLobmeyr">Verstorbenen</persName>,
+					statt.</p>
+				</div> 
+				<div type="dateline">
+					<lb/><p><placeName ref="Wien">Wien</placeName>, am <date when="1917-03-25"
+						type="notice">25. März 1917</date>.</p>
+				</div>
+				<div type="names">
+					<p>
+					<lb/><hi rend="bold"><persName ref="#RudolfLobmeyr">Rudolf Lobmeyr</persName></hi>
+					<lb/>k. k. Bezirkshauptmann 
+						<lb/><hi rend="bold"><persName ref="#AdolfLobmeyr">Adolf Lobmeyr</persName></hi>
+					<lb/>Oberinspektionsrat der <orgName ref="#GeneralinspektionEisenbahn">Generalinspektion der 
+					<lb/>österr. Eisenbahnen</orgName>
+					<lb/><hi rend="bold"><persName ref="#OskarLobmeyr">Oskar von Lobmeyr</persName></hi>
+					<lb/>Vize-Präsident der <orgName ref="#Statthalterei">küstenländ. Statthalterei</orgName> 
+						<lb/><hi rend="bold"><persName ref="#LudwigLobmeyrJun">Ludwig Lobmeyr</persName></hi>
+					<lb/>k. u. k. Rittmeister <lb/>als Neffen 
+					<lb/><hi rend="bold"><persName ref="#JennyLobmeyr"
+						>Jenny Lobmeyr</persName></hi>, geb. <hi rend="bold">Ruße</hi> 
+					<lb/><hi rend="bold"><persName ref="#MarieLobmeyr"
+						>Marie Lobmeyr</persName>,</hi> geb. <hi rend="bold">Steinhuber</hi> 
+					<lb/><hi rend="bold"><persName ref="#EllyLobmeyr"
+						>Elly von Lobmeyr</persName>,</hi> geb. <hi rend="bold">Arbeßer, 
+					<lb/>von Rastburg,</hi>
+					<lb/><hi rend="bold"><persName ref="#GretlLobmeyr">Gretl Lobmeyr</persName>,</hi> geb. <hi rend="bold">Handofsky</hi>
+					<lb/>als Schwiegernichten 
+					<lb/><hi rend="bold"><persName ref="#HermannSpaun">Hermann Freiherr
+						von Spaun</persName></hi>
+					<lb/>Geheimer Rat, k. u. k. Admiral <lb/>als Schwiegerneffe </p>
+				<p>
+					<lb/><hi rend="bold"><persName ref="#AugustRath">August Rath</persName></hi>
+					<lb/>kaiserlicher Rat <lb/>als Schwager 
+					<lb/><hi rend="bold"><persName
+						ref="#MarieSchönvonKreuzenau">Marie Schön von Kreuzenau</persName>,</hi>
+					<lb/>geb. <hi rend="bold">Rath</hi> 
+					<lb/>als Nichte. 
+					<lb/><hi rend="bold"><persName ref="#AugustRathjun">August Rath
+						jun.</persName></hi>
+					<lb/>Großindustrieller 
+					<lb/><hi rend="bold"><persName ref="#PaulRath">Paul Rath</persName></hi>
+					<lb/>k. u. k. Oberst 
+					<lb/><hi rend="bold"><persName ref="#StefanRath">Stefan Rath</persName></hi>
+					<lb/>k k. Oberleutnant i. V. d. E. 
+					<lb/>Gesellschafter der Firma <orgName ref="#JLLobmeyr">J. &amp; L.
+					Lobmeyr</orgName> 
+					<lb/>als Neffen 
+					<lb/><hi rend="bold"><persName ref="#AdeleRath">Adele Rath</persName>,</hi>
+					geb. Wagenmann 
+					<lb/>als Schwiegernichte. 
+					<lb/><hi rend="bold"><persName ref="#KarlPichler">Karl
+						Pichler von Deeben</persName></hi>
+					<lb/>k. k. Ministerialrat 
+					<lb/>als Schwiegerneffe </p>
+				<p>
+					<lb/><hi rend="bold"><persName ref="#RichardKralik">Dr. Richard Kralik Ritter von
+						<lb/>Meyrswalden</persName></hi>
+					<lb/>als Neffe. 
+					<lb/><hi rend="bold"><persName ref="#MathildeKralik">Mathilde Kralik von
+						Meyrswalden</persName></hi>
+					<lb/><hi rend="bold"><persName ref="#AloisiaPichler">Louisa Pichler von Deeben</persName>,
+					<lb/>geb. Kralik von Meyrswalden</hi> 
+					<lb/>als Nichten 
+					<lb/><hi rend="bold"><persName
+						ref="#MaiaKralik">Maia Kralik von Meyrswalden</persName>
+					<lb/>geb. von Flattich</hi> 
+					<lb/>als Schwiegernichte 
+					<lb/><hi rend="bold"><persName
+						ref="#EduardPichler">Eduard Pichler von Deeben</persName></hi>
+					<lb/>k. k. Ministerialrat 
+					<lb/>als Schwiegerneffe 
+					<lb/><hi rend="bold">sämtliche Großneffen,
+					Großnichten <lb/>und fernere Verwandten.</hi>
+				</p>
+				</div>
+				<div type="note">
+					<p>
+					<lb/>Über ausdrücklichen Wunsch des <persName ref="#LudwigLobmeyr"
+						>Verstorbenen</persName> wird dringend gebeten, Kranzspenden zu unterlassen.
+				</p></div>
+				<div type="printer">
+					<p>
+					<lb/><orgName ref="#StädtischeLeichenbestattung">Gemeinde Wien — Städtische
+						Leichenbestattung</orgName>. <lb/><placeName ref="#GoldeggGasse_19">IV.
+						Goldegg-Gasse 19</placeName>. — Telephon Nr. 6292.
+				</p>
+				<p>
+					<lb/><orgName ref="#DruckBileg">Druck</orgName> von <persName ref="#JosefBileg">Josef Bileg</persName>, <placeName ref="#Favoritenstraße_27">IV. Favoritenstraße 27.</placeName>
+				</p></div>
+			</div>
+		</body>
+		<back>
+			<listPerson>
+				<person xml:id="LudwigLobmeyr">
+					<persName>
+						<forename>Ludwig</forename>
+						<surname>Lobmeyr</surname>
+					</persName>
+					<death when="1917-03-25">25. März 1917</death>
+					<occupation>k. k. Hofglashändler</occupation>
+					<affiliation type="member" subtype="honorary"><orgName ref="#Herrenhaus"
+							>Österreichisches Herrenhaus</orgName></affiliation>
+					<affiliation type="member" subtype="honorary"><orgName ref="#AkBild">k. k.
+							Akademie der bildenden Künste</orgName></affiliation>
+					<affiliation type="member" subtype="honorary"><orgName
+						ref="#GenossenschaftKünstler">Genossenschaft der bildenden Künstler
+						Wiens</orgName></affiliation>
+					<affiliation type="member" subtype="honorary"><orgName ref="#Schillerstiftung">Deutsche
+						Schillerstiftung</orgName></affiliation>
+					<idno type="ID" subtype="WIKIDATA">Q55847850</idno>
+				</person>
+				<person xml:id="RudolfLobmeyr">
+					<persName>
+						<forename>Rudolf</forename>
+						<surname>Lobmeyr</surname>
+					</persName>
+					<occupation>k. k. Bezirkshauptmann</occupation>
+				</person>
+				<person xml:id="AdolfLobmeyr">
+					<persName>
+						<forename>Adolf</forename>
+						<surname>Lobmeyr</surname>
+					</persName>
+					<occupation>Oberinspektionsrat der <orgName ref="#GeneralinspektionEisenbahn">Generalinspektion der österreichischen Eisenbahnen</orgName></occupation>
+				</person>
+				<person xml:id="OskarLobmeyr">
+					<persName>
+						<forename>Oskar</forename>
+						<surname>von Lobmeyr</surname>
+					</persName>
+					<occupation>Vize-Präsident der <orgName ref="#Statthalterei">küstenländischen Statthalterei</orgName></occupation>
+					<idno type="ID" subtype="GND">1157623174</idno>
+				</person>
+				<person xml:id="LudwigLobmeyrJun">
+					<persName>
+						<forename>Ludwig</forename>
+						<surname>Lobmeyr</surname>
+					</persName>
+					<occupation>k. k. Rittmeister</occupation>
+				</person>
+				<person xml:id="JennyLobmeyr">
+					<persName>
+						<forename>Jenny</forename>
+						<surname type="married">Lobmeyr</surname>
+						<surname type="maiden">Ruße</surname>
+					</persName>
+				</person>
+				<person xml:id="MarieLobmeyr">
+					<persName>
+						<forename>Marie</forename>
+						<surname type="married">Lobmeyr</surname>
+						<surname type="maiden">Steinhuber</surname>
+					</persName>
+				</person>
+				<person xml:id="EllyLobmeyr">
+					<persName>
+						<forename>Elly</forename>
+						<surname type="married">von Lobmeyr</surname>
+						<surname type="maiden">Arbeßer von Rastburg</surname>
+					</persName>
+				</person>
+				<person xml:id="GretlLobmeyr">
+					<persName>
+						<forename>Gretl</forename>
+						<surname type="married">Lobmeyr</surname>
+						<surname type="maiden">Handofsky</surname>
+					</persName>
+				</person>
+				<person xml:id="HermannSpaun">
+					<persName>
+						<forename>Hermann</forename>
+						<surname>von Spaun</surname>
+					</persName>
+					<occupation>Geheimer Rat</occupation>
+					<occupation>k. k. Admiral</occupation>
+					<idno type="ID" subtype="GND">103544075X</idno>
+					<idno type="URL" subtype="ÖBL"
+						>https://www.biographien.ac.at/oebl/oebl_S/Spaun_Hermann_1833_1919.xml</idno>
+				</person>
+				<person xml:id="AugustRath">
+					<persName>
+						<forename>August</forename>
+						<surname>Rath</surname>
+					</persName>
+					<occupation>kaiserlicher Rat</occupation>
+				</person>
+				<person xml:id="MarieSchönvonKreuzenau">
+					<persName>
+						<forename>Marie</forename>
+						<surname type="married">Schön von Kreuzenau</surname>
+						<surname type="maiden">Rath</surname>
+					</persName>
+				</person>
+				<person xml:id="AugustRathjun">
+					<persName>
+						<forename>August</forename>
+						<surname>Rath jun.</surname>
+					</persName>
+					<occupation>Großindustrieller</occupation>
+				</person>
+				<person xml:id="PaulRath">
+					<persName>
+						<forename>Paul</forename>
+						<surname>Rath</surname>
+					</persName>
+					<occupation>k.k. Oberst</occupation>
+				</person>
+				<person xml:id="StefanRath">
+					<persName>
+						<forename>Stefan</forename>
+						<surname>Rath</surname>
+					</persName>
+					<occupation>k. k. Oberleutnant i. V. d. E.</occupation>
+					<occupation>Gesellschafter der Firma J. &amp; L. Lobmeyr</occupation>
+				</person>
+				<person xml:id="AdeleRath">
+					<persName>
+						<forename>Adele</forename>
+						<surname type="married">Rath</surname>
+						<surname type="maiden">Wagenmann</surname>
+					</persName>
+				</person>
+				<person xml:id="KarlPichler">
+					<persName>
+						<forename>Karl</forename>
+						<surname>Pichler von Deeben</surname>
+					</persName>
+					<occupation>k. k. Ministerialrat</occupation>
+				</person>
+				<person xml:id="MathildeKralik">
+					<persName>
+						<forename>Mathilde</forename>
+						<surname>Kralik</surname>
+					</persName>
+					<idno type="ID" subtype="WGW">37789</idno>
+					<idno type="ID" subtype="WIKIDATA">Q89972</idno>
+					<idno type="URI" subtype="GND">https://d-nb.info/gnd/130214566</idno>
+					<idno type="ID" subtype="PMB">19659</idno>
+				</person>
+				<person xml:id="AloisiaPichler">
+					<persName>
+						<forename>Louisa</forename>
+						<surname type="maiden">Pichler von Deeben</surname>
+						<surname type="maiden">Kralik von Meyrswalden</surname>
+					</persName>
+				</person>
+				<person xml:id="RichardKralik">
+					<persName>
+						<forename>Richard</forename>
+						<surname>Kralik von Meyrswalden</surname>
+					</persName>
+					<idno type="URI" subtype="GND">https://d-nb.info/gnd/118777920</idno>
+					<idno type="ID" subtype="WIKIDATA">Q1317482</idno>
+					<idno type="ID" subtype="WGW">16425</idno>
+					<idno type="ID" subtype="PMB">3731</idno>
+				</person>
+				<person xml:id="MaiaKralik">
+					<persName>
+						<forename>Maia</forename>
+						<surname type="married">Kralik von Meyrswalden</surname>
+						<surname type="maiden">von Flattich</surname>
+					</persName>
+					<idno type="URI" subtype="GND">https://d-nb.info/gnd/116385863</idno>
+				</person>
+				<person xml:id="EduardPichler">
+					<persName>
+						<forename>Eduard</forename>
+						<surname>Pichler von Deeben</surname>
+					</persName>
+					<occupation>k. k. Ministerialrat</occupation>
+				</person>
+				<person xml:id="JosefBileg">
+					<persName>
+						<forename>Josef</forename>
+						<surname>Bileg</surname>
+					</persName>
+					<occupation>Drucker</occupation>
+				</person>
+			</listPerson>
+			<listPlace>
+				<place xml:id="Wien">
+					<placeName type="city">Wien</placeName>
+					<country>Austria</country>
+					<location>
+						<geo>48.20849, 16.37208</geo>
+					</location>
+					<idno type="ID" subtype="WIKIDATA">Q1741</idno>
+					<idno type="URI" subtype="geonames"
+						>https://www.geonames.org/2761369/vienna.html</idno>
+				</place>
+				<place xml:id="Weimar">
+					<placeName type="City">Weimar</placeName>
+					<location>
+						<geo>50.9803, 11.32903</geo>
+					</location>
+					<idno type="ID" subtype="WIKIDATA">Q3955</idno>
+				</place>
+				<place xml:id="Stephansdom">
+					<placeName type="church">Dom- und Metropolitankirche zu St. Stephan</placeName>
+					<settlement type="city">Wien</settlement>
+					<country>Österreich</country>
+					<location>
+						<geo>48.20854411963058, 16.373480666951327</geo>
+					</location>
+				</place>
+				<place xml:id="Zentralfriedhof">
+					<placeName type="cemetery">Zentralfriedhof</placeName>
+					<settlement type="city">Wien</settlement>
+					<country>Österreich</country>
+					<location>
+						<geo>48.1514660511102, 16.438521926727077</geo>
+					</location>
+					<idno type="URL" subtype="Wikipedia"
+						>https://de.wikipedia.org/wiki/Wiener_Zentralfriedhof</idno>
+					<idno type="ID" subtype="WGW">9327</idno>
+					<idno type="ID" subtype="WIKIDATA">Q240744</idno>
+					<idno type="ID" subtype="GND">4120093-7</idno>
+				</place>
+				<place xml:id="GoldeggGasse_19">
+					<placeName type="street">Goldegg-Gasse <num>19</num></placeName>
+					<settlement type="city">Wien</settlement>
+					<country>Österreich</country>
+					<location>
+						<geo>48.18976066981652, 16.37695638069264</geo>
+					</location>
+				</place>
+				<place xml:id="Favoritenstraße_27">
+					<placeName type="street">Favoritenstraße <num>27</num></placeName>
+					<settlement type="city">Wien</settlement>
+					<country>Österreich</country>
+					<location>
+						<geo>48.189747763641684, 16.372364634655163</geo>
+					</location>
+				</place>
+			</listPlace>
+			<listOrg>
+				<org xml:id="Herrenhaus">
+					<orgName>Herrenhaus</orgName>
+					<idno type="ID" subtype="WGW">12008</idno>
+				</org>
+				<org xml:id="AkBild">
+					<orgName>Akademie der bildenden Künste</orgName>
+					<idno type="ID" subtype="WGW">17555</idno>
+					<idno type="ID" subtype="GND">2003761-2</idno>
+					<idno type="ID" subtype="WIKIDATA">Q414219</idno>
+				</org>
+				<org xml:id="GenossenschaftKünstler">
+					<orgName>Genossenschaft der bildenden Künstler Wiens</orgName>
+					<idno type="ID" subtype="WGW">25052</idno>
+					<idno type="ID" subtype="GND">2100204-6</idno>
+					<idno type="ID" subtype="WIKIDATA">Q284902</idno>
+				</org>
+				<org xml:id="Schillerstiftung">
+					<orgName>Deutsche Schillerstiftung</orgName>
+					<idno type="ID" subtype="GND">5187203-1</idno>
+				</org>
+				<org xml:id="TheyerHartmut">
+					<orgName>THEYER &amp; HARDTMUTH</orgName>
+					<idno type="ID" subtype="WGW">46454</idno>
+				</org>
+				<org xml:id="StädtischeLeichenbestattung">
+					<orgName>Städtische Leichenbestattung</orgName>
+				</org>
+				<org xml:id="DruckBileg">
+					<orgName>Josef Bileg</orgName>
+				</org>
+				<org xml:id="GeneralinspektionEisenbahn">
+					<orgName>Generalinspektion der österreichischen Eisenbahnen</orgName>
+				</org>
+				<org xml:id="Statthalterei">
+					<orgName>Küstenländische Statthalterei</orgName>
+				</org>
+				<org xml:id="JLLobmeyr">
+					<orgName>J. &amp; L. Lobmeyr </orgName>
+					<idno type="ID" subtype="WGW">17959</idno>
+					<idno type="ID" subtype="WIKIDATA">Q876883</idno>
+				</org>
+			</listOrg>
+			<listRelation>
+				<relation name="spouse" mutual="#MaiaKralik #RichardKralik" />
+				<relation name="spouse" mutual="#AloisiaPichler #EduardPichler"/>
+				<relation name="parent" active="#AugustRath" passive="#MarieSchönvonKreuzenau #AugustRathjun #PaulRath #StefanRath"/>
+				<relation name="sibling" mutual="#RudolfLobmeyr #AdolfLobmeyr #OskarLobmeyr #LudwigLobmeyrJun"/>
+				<relation name="sibling" mutual="#MarieSchönvonKreuzenau #AugustRathjun #PaulRath #StefanRath"/>
+				<relation name="sibling" mutual="#RichardKralik #MathildeKralik #AloisiaPichler"/>
+				<relation name="uncle" active="#LudwigLobmeyr" passive="#RudolfLobmeyr #AdolfLobmeyr #OskarLobmeyr #LudwigLobmeyrJun #MarieSchönvonKreuzenau #AugustRathjun #PaulRath #StefanRath #RichardKralik #MathildeKralik #AloisiaPichler"/>
+			</listRelation>
+		</back>
+	</text>
+</TEI>

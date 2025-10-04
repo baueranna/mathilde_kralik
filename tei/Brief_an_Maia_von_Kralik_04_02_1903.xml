@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">Edition Mathilde Kralik</title>
+				<title type="sub">Mathilde Kralik an Maia Kralik am 4. Februar 1903</title>
+				<author>Mathilde Kralik</author>
+				<editor>
+					<forename>Anna</forename>
+					<surname>Bauer</surname>
+				</editor>
+			</titleStmt>
+			<publicationStmt>
+				<p>Kurzedition im Rahmen der Übung "Digitale Editionen" bei Gabriel Viehhauser</p>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country>Austria</country>
+						<settlement>Wien</settlement>
+						<repository>Wienbibliothek im Rathaus</repository>
+						<collection>Nachlass Richard von Kralik (Teil von)</collection>
+						<idno type="Signatur">H.I.N.-189358</idno>
+						<idno type="PURL">https://resolver.obvsg.at/urn:nbn:at:AT-WBR-553237</idno>
+					</msIdentifier>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="de">Deutsch</language>
+			</langUsage>
+			<correspDesc>
+				<correspAction type="sent">
+					<persName ref="#MathildeKralik">Mathilde Kralik</persName>
+					<date when="1903-02-04">4. Februar 1903</date>
+				</correspAction>
+				<correspAction type="recieved">
+					<persName ref="#MaiaKralik">Maia Kralik</persName>
+				</correspAction>
+			</correspDesc>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="letterBody">
+				<pb n='1' facs="../facsimile/04_02_1903_1.jpg"/>
+				<opener>
+					<lb facs='#facs_1_l_26' n='N001'/><dateline><date when="1903-02-04">4/2.1903</date></dateline>
+					<lb facs='#facs_1_l_14' n='N001'/><salute>Liebe <persName ref="#MaiaKralik">Maia</persName>!</salute>
+				</opener>
+				<p>
+					<lb facs='#facs_1_l_25' n='N002'/>für Deine liebe Karte
+					<lb facs='#facs_1_l_15' n='N003'/>danke ich Dir. Du hast sehr
+					<lb facs='#facs_1_l_16' n='N004'/>Recht, Dich vor Allem Deines
+					<lb facs='#facs_1_l_17' n='N005'/>kleinere Katarrh&apos;s wegen je
+					<lb facs='#facs_1_l_18' n='N006'/>schonen, damit er nicht größer
+					<lb facs='#facs_1_l_19' n='N007'/>werde. Wenn du wieder kommen
+					<lb facs='#facs_1_l_20' n='N008'/>kannst, werden wir uns sehr
+					<lb facs='#facs_1_l_21' n='N009'/>freuen, Dich zu sehen. Von den
+					<lb facs='#facs_1_l_22' n='N010'/>Karten habe ich Dir auch noch eine
+					<lb facs='#facs_1_l_23' n='N011'/>Auswahl lassen wollen. <choice><sic>Interessiren</sic><corr>Interessieren</corr></choice>
+					<lb facs='#facs_1_l_24' n='N012'/>würde mich das <choice><abbr>böhm.</abbr><expan>böhmische</expan></choice> Streichquartett
+				</p>
+				<pb n='2' facs="../facsimile/04_02_1903_2.jpg"/>
+				<p>
+					<lb facs='#facs_2_tr_2_tl_1' n='N001'/>(eine Karte genügt eventuell) ferner
+					<lb facs='#facs_2_tr_2_tl_2' n='N002'/>allenfalls <persName ref="#LulaGmeiner">Lula Gmeiner</persName> (1 Karte)
+					<lb facs='#facs_2_tr_2_tl_3' n='N003'/>oder <persName ref="#FranzNaval">Naval</persName> (1 Karte) ; sollte<hi rend='strikethrough'>st</hi> es
+					<lb facs='#facs_2_tr_2_tl_4' n='N004'/>Dir nicht möglich sein, alle Karten
+					<lb facs='#facs_2_tr_2_tl_5' n='N005'/>zu den übrigen Concerten unterzu-
+					<lb facs='#facs_2_tr_2_tl_6' n='N006'/>bringen, so übernehme ich noch
+					<lb facs='#facs_2_tr_2_tl_7' n='N007'/>etwas.<hi rend='superscript'>x</hi> für <persName ref="#MarcellaPregi">Pregi</persName> danke ich, denn
+					<lb facs='#facs_2_tr_1_tl_1' n='N008'/>am <date when="1903-02-11">11. <choice><abbr>Febr.</abbr><expan>Februar</expan></choice></date> ist die Neunte
+					<lb facs='#facs_2_tr_1_tl_2' n='N009'/>Bruckner&apos;s<note>Uraufführung von Bruckners Neunten Symphonie durch das Wiener Concertvereinorchester</note>, bei der ich übrigens
+					<lb facs='#facs_2_tr_1_tl_3' n='N010'/>im Singverein Dienst thue; doch
+					<lb facs='#facs_2_tr_1_tl_4' n='N011'/>ist vielleicht <persName ref="#AloisiaPichler">Luise</persName> oder <persName ref="#Angiline">Angiline</persName>
+					<lb facs='#facs_2_tr_1_tl_5' n='N012'/>dafür zu haben, wenn nicht Deine
+					<lb facs='#facs_2_tr_1_tl_6' n='N013'/>Cousine oder Du selbst darauf Lust
+					<lb facs='#facs_2_tr_1_tl_7' n='N014'/>hast.
+				</p>
+					<closer><lb facs='#facs_2_tr_1_tl_8' n='N015'/><salute>Herzlichst</salute>
+					<lb facs='#facs_2_tr_1_tl_9' n='N016'/>Deine <persName ref="#MathildeKralik">Mathilde</persName></closer>
+				
+				<pb n='3' facs="../facsimile/04_02_1903_3.jpg"/>
+				<postscript>
+					<p>
+					<lb facs='#facs_3_tr_1_tl_1' n='N001'/>Das nächste <persName ref="#RudolphFitzner">Fitzner</persName>-Quartett
+					<lb facs='#facs_3_tr_1_tl_2' n='N002'/>würde mich <choice><sic>interessiren</sic><corr>interessieren</corr></choice> wegen
+					<lb facs='#facs_3_tr_1_tl_3' n='N003'/><persName ref="#ErnstDohnany">Dohnany</persName>. Das nächste Soldat -
+					<lb facs='#facs_3_tr_1_tl_4' n='N004'/>Quartett ist am 18. <choice><abbr>d.M.</abbr><expan>diesen Monats</expan></choice> - die
+					<lb facs='#facs_3_tr_1_tl_5' n='N005'/>Abonnementkarten sind vor-
+					<lb facs='#facs_3_tr_1_tl_6' n='N006'/>läufig noch bei mir.
+					<lb facs='#facs_3_tr_1_tl_7' n='N007'/>Viele Grüße an Euch Alle!
+					<lb facs='#facs_3_tr_1_tl_8' n='N008'/>Auch an Deine Mama!
+					<lb facs='#facs_3_tr_1_tl_9' n='N009'/>von <persName ref="#LouiseKralik">Mutter</persName> und mir.
+					</p>
+					<p>
+					<lb facs='#facs_3_tr_2_tl_1' n='N001'/>X hier heute und morgen un-
+					<lb facs='#facs_3_tr_2_tl_2' n='N002'/>möglich, da ich bereits versorgt
+					<lb facs='#facs_3_tr_2_tl_3' n='N003'/>bin
+				</p>
+				</postscript>
+				<pb n='4' facs="../facsimile/04_02_1903_4.jpg"/>
+			</div>
+		</body>
+		<back>
+			<listPerson>
+				<person xml:id="MathildeKralik">
+					<persName>
+						<forename>Mathilde</forename>
+						<surname>Kralik</surname>
+					</persName>
+					<idno type="ID" subtype="WGW">37789</idno>
+					<idno type="ID" subtype="WIKIDATA">Q89972</idno>
+					<idno type="URI" subtype="GND">https://d-nb.info/gnd/130214566</idno>
+					<idno type="ID" subtype="PMB">19659</idno>
+				</person>
+				<person xml:id="MaiaKralik">
+					<persName>
+						<forename>Maia</forename>
+						<surname>Kralik</surname>
+					</persName>
+					<idno type="URI" subtype="GND">https://d-nb.info/gnd/116385863</idno>
+				</person>
+				<person xml:id="LouiseKralik">
+					<persName>
+						<forename>Louise</forename>
+						<surname>Kralik</surname>
+					</persName>
+					<idno type="URL" subtype="geni.com">https://www.geni.com/people/Louise-Kralik-von-Meyrswalden/6000000027540572061</idno>
+					<idno type="ID" subtype="WIKIDATA">Q133874636</idno>
+				</person>
+				<person xml:id="AloisiaPichler">
+					<persName>
+						<forename>Aloisia</forename>
+						<surname>Pichler von Deeben</surname>
+					</persName>
+					<idno type="URL" subtype="geni.com">https://www.geni.com/people/Aloisia-Louise-Pichler-von-Deeben/6000000047505600963</idno>
+				</person>
+				<person xml:id="LulaGmeiner">
+					<persName>
+						<forename>Lula</forename>
+						<surname>Gmeiner</surname>
+					</persName>
+					<idno type="URI" subtype="GND">https://d-nb.info/gnd/117212490</idno>
+					<idno type="ID" subtype="WIKIDATA">Q1676668</idno>
+				</person>
+				<person xml:id="FranzNaval">
+					<persName>
+						<forename>Franz</forename>
+						<surname>Naval</surname>
+					</persName>
+					<idno type="URI" subtype="GND">https://d-nb.info/gnd/116266945</idno>
+					<idno type="ID" subtype="WIKIDATA">Q87156</idno>
+				</person>
+				<person xml:id="MarcellaPregi">
+					<persName>
+						<forename>Marcella</forename>
+						<surname>Pregi</surname>
+					</persName>
+					<idno type="URI" subtype="GND">https://d-nb.info/gnd/116281588</idno>
+					<idno type="ID" subtype="WIKIDATA">Q94761060</idno>
+				</person>
+				<person xml:id="Angiline">
+					<persName>
+						<forename>Angiline</forename>
+					</persName>
+				</person>
+				<person xml:id="RudolphFitzner">
+					<persName>
+						<forename>Rudolph</forename>
+						<surname>Fitzner</surname>
+					</persName>
+					<idno type="URI" subtype="GND">https://d-nb.info/gnd/116586540</idno>
+					<idno type="ID" subtype="WIKIDATA">Q7377184</idno>
+				</person>
+				<person xml:id="ErnstDohnany">
+					<persName>
+						<forename>Ernst</forename>
+						<surname>von Dohnányi</surname>
+					</persName>
+					<idno type="URI" subtype="GND">https://d-nb.info/gnd/119110016</idno>
+					<idno type="ID" subtype="WIKIDATA">Q78532</idno>
+				</person>
+			</listPerson>
+		</back>
+	</text>
+</TEI>

@@ -7,7 +7,7 @@
 		<fileDesc>
 			<titleStmt>
 				<title type="main">Edition Mathilde Kralik</title>
-				<title type="s">Curriculum vitae</title>
+				<title type="sub">Curriculum vitae</title>
 				<author>
 					<forename>Anna</forename>
 					<surname>Bauer</surname>
@@ -33,7 +33,7 @@
 	<text>
 		<body>
 			<div>
-				<pb n='1' facs="facsimile/CV_1.jpg"/>
+				<pb n='1' facs="../facsimile/CV_1.jpg"/>
 				<p>
 					<lb facs='#facs_1_tr_1_tl_1' n='N001'/><placeName ref="#Wien">Wien</placeName> <date when="1904-10-19">19. Okt. 1904</date>
 					<lb facs='#facs_1_tr_1_tl_3' n='N003'/>Ich bin am <date when="1857-12-03">3. Dezember 1857</date> zu <placeName ref="#Linz">Linz</placeName>
@@ -63,7 +63,7 @@
 					<lb facs='#facs_1_tr_1_tl_27' n='N027'/><hi rend='superscript'>x</hi> oder: <persName ref="#Haydn">Haydn&apos;s</persName> und <persName ref="#Mozart">Mozart&apos;s</persName> Klänge wurden mir zunächst durch die
 					<lb facs='#facs_1_tr_1_tl_28' n='N028'/>häuslichen Quartette vermittelt.
 				</p>
-				<pb n='2' facs="facsimile/CV_2.jpg"/>
+				<pb n='2' facs="../facsimile/CV_2.jpg"/>
 				<p>
 					<lb facs='#facs_2_tr_1_tl_1' n='N001'/><hi rend='strikethrough'>obt.</hi>
 					<lb facs='#facs_2_tr_1_tl_2' n='N002'/>In den folgenden Jahren pflegten wir in 
@@ -104,7 +104,7 @@
 					<lb facs='#facs_2_tr_2_tl_30' n='N027'/><hi rend='strikethrough'>sind</hi> im Verlage Gutmann, <placeName ref="#Wien">Wien</placeName>, erschienen, <hi rend='strikethrough'>und</hi>
 					<lb facs='#facs_2_tr_2_tl_31' n='N028'/>sind:
 				</p>
-				<pb n='3' facs="facsimile/CV_3.jpg"/>
+				<pb n='3' facs="../facsimile/CV_3.jpg"/>
 				<p>
 					<lb facs='#facs_3_tr_1_tl_1' n='N001'/><hi rend="head"><hi rend="strikethrough">Narodny</hi></hi>
 				</p>
@@ -142,7 +142,7 @@
 					<lb facs='#facs_4_tr_1_tl_30' n='N029'/><hi rend='strikethrough'>Oper </hi>in drei Akten. Orchesterpart <choice><abbr>u.</abbr><expan>und</expan></choice> <choice><abbr>2hdg.</abbr><expan>zweihändig</expan></choice> Klavierauszu
 					<lb facs='#facs_4_tr_1_tl_31' n='N030'/><hi rend='strikethrough'>Märchenspiel</hi> Dichtung von <persName ref="RichardKralik">Richard v. Kralik</persName>
 				</p>
-				<pb n='5' facs="facsimile/CV_5.jpg"/>
+				<pb n='5' facs="../facsimile/CV_5.jpg"/>
 				<p>
 					<lb facs='#facs_5_tr_1_tl_1' n='N001'/><lang xml:lang="la">De se ipso.</lang> Gedicht von Papst <persName ref="#LeoXIII">Leo XIII.</persName> <choice><abbr>f.</abbr><expan>für</expan></choice> Männerchor
 					<lb facs='#facs_5_tr_1_tl_2' n='N002'/>a capella
@@ -184,7 +184,7 @@
 					<lb facs='#facs_5_tr_2_tl_37' n='N032'/>Hymnus <choice><abbr>S.</abbr><expan>Sankt</expan></choice> Hildegardi
 					<lb facs='#facs_5_tr_2_tl_38' n='N033'/>Weihnachten, Kreuzweg, Symphonie, Nonett, Streichquartett, Messen.
 				</p>
-				<pb n='6' facs="facsimile/CV_6.jpg"/>
+				<pb n='6' facs="../facsimile/CV_6.jpg"/>
 			</div>
 		</body>
 		<back>

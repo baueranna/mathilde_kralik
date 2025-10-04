@@ -1,0 +1,742 @@
+[
+    {
+        "ID":"LudwigLobmeyr",
+        "forename":"Ludwig",
+        "surname":"Lobmeyr",
+        "surname maiden":null,
+        "occupations":"k. k. Hofglash\u00e4ndler",
+        "affiliations":"type: member, subtype: honorary, orgName: \u00d6sterreichisches Herrenhaus, ref: #Herrenhaus; type: member, subtype: honorary, orgName: k. k.\n                  Akademie der bildenden K\u00fcnste, ref: #AkBild; type: member, subtype: honorary, orgName: Genossenschaft der bildenden K\u00fcnstler\n                  Wiens, ref: #GenossenschaftK\u00fcnstler; type: member, subtype: honorary, orgName: Deutsche\n                  Schillerstiftung, ref: #Schillerstiftung",
+        "death_date":"1917-03-25",
+        "idnos":"ID (WIKIDATA): Q55847850"
+    },
+    {
+        "ID":"JosephLobmeyr",
+        "forename":"Joseph",
+        "surname":"Lobmeyr",
+        "surname maiden":null,
+        "occupations":"k. k. Hofglash\u00e4ndler",
+        "affiliations":"",
+        "death_date":null,
+        "idnos":""
+    },
+    {
+        "ID":"FranzLobmeyr",
+        "forename":"Franz",
+        "surname":"Lobmeyr",
+        "surname maiden":null,
+        "occupations":"k. k. Linienschiffs-Lieutenant",
+        "affiliations":"",
+        "death_date":null,
+        "idnos":""
+    },
+    {
+        "ID":"LouiseKralik",
+        "forename":"Louise",
+        "surname":"Kralik von Meyrswalden",
+        "surname maiden":"Lobmayr",
+        "occupations":"",
+        "affiliations":"",
+        "death_date":"1905-10-03",
+        "idnos":"ID (WIKIDATA): Q133874636"
+    },
+    {
+        "ID":"HannsKralik",
+        "forename":"Hanns",
+        "surname":"Kralik von Meyrswalden",
+        "surname maiden":null,
+        "occupations":"",
+        "affiliations":"",
+        "death_date":null,
+        "idnos":""
+    },
+    {
+        "ID":"HeinrichKralikSen",
+        "forename":"Heinrich",
+        "surname":"Kralik von Meyrswalden",
+        "surname maiden":null,
+        "occupations":"Glasfabrikant",
+        "affiliations":"",
+        "death_date":null,
+        "idnos":"URL (Wikipedia): https:\/\/de.wikipedia.org\/wiki\/Heinrich_Kralik_von_Meyrswalden_(Industrieller)"
+    },
+    {
+        "ID":"MathildeRath",
+        "forename":"Mathilde",
+        "surname":"Rath",
+        "surname maiden":"Lobmeyr",
+        "occupations":"",
+        "affiliations":"",
+        "death_date":null,
+        "idnos":""
+    },
+    {
+        "ID":"WilhelmKralik",
+        "forename":"Wilhelm",
+        "surname":"Kralik von Meyrswalden",
+        "surname maiden":null,
+        "occupations":"Glasfabriken-Besitzer",
+        "affiliations":"",
+        "death_date":null,
+        "idnos":"ID (GND): 136539696; ID (WIKIDATA): Q2573745"
+    },
+    {
+        "ID":"LudwigKralik",
+        "forename":"Ludwig",
+        "surname":"Ritter Kralik von Meyrswalden",
+        "surname maiden":null,
+        "occupations":"Oberingenier der ",
+        "affiliations":"",
+        "death_date":null,
+        "idnos":""
+    },
+    {
+        "ID":"HildegardLobmeyr",
+        "forename":"Hildegard",
+        "surname":"Lobmeyr",
+        "surname maiden":"von Stahlberg",
+        "occupations":"",
+        "affiliations":"",
+        "death_date":null,
+        "idnos":""
+    },
+    {
+        "ID":"AloisiaLobmeyr",
+        "forename":"Aloisia",
+        "surname":"Lobmeyr",
+        "surname maiden":"Dobratsky",
+        "occupations":"",
+        "affiliations":"",
+        "death_date":"1864-01-26",
+        "idnos":""
+    },
+    {
+        "ID":"CarlGerold",
+        "forename":"Carl",
+        "surname":"Gerold",
+        "surname maiden":null,
+        "occupations":"Buchdrucker",
+        "affiliations":"type: owner, subtype: None, orgName: Gerold & Co, ref: #Gerold",
+        "death_date":null,
+        "idnos":"ID (WGW): 19487; ID (GND): 133262871; ID (WIKIDATA): Q61995654"
+    },
+    {
+        "ID":"RudolfLobmeyr",
+        "forename":"Rudolf",
+        "surname":"Lobmeyr",
+        "surname maiden":null,
+        "occupations":"k. k. Bezirkshauptmann",
+        "affiliations":"",
+        "death_date":null,
+        "idnos":""
+    },
+    {
+        "ID":"AdolfLobmeyr",
+        "forename":"Adolf",
+        "surname":"Lobmeyr",
+        "surname maiden":null,
+        "occupations":"Oberinspektionsrat der ",
+        "affiliations":"",
+        "death_date":null,
+        "idnos":""
+    },
+    {
+        "ID":"OskarLobmeyr",
+        "forename":"Oskar",
+        "surname":"von Lobmeyr",
+        "surname maiden":null,
+        "occupations":"Vize-Pr\u00e4sident der ",
+        "affiliations":"",
+        "death_date":null,
+        "idnos":"ID (GND): 1157623174"
+    },
+    {
+        "ID":"LudwigLobmeyrJun",
+        "forename":"Ludwig",
+        "surname":"Lobmeyr",
+        "surname maiden":null,
+        "occupations":"k. k. Rittmeister",
+        "affiliations":"",
+        "death_date":null,
+        "idnos":""
+    },
+    {
+        "ID":"JennyLobmeyr",
+        "forename":"Jenny",
+        "surname":"Lobmeyr",
+        "surname maiden":"Ru\u00dfe",
+        "occupations":"",
+        "affiliations":"",
+        "death_date":null,
+        "idnos":""
+    },
+    {
+        "ID":"MarieLobmeyr",
+        "forename":"Marie",
+        "surname":"Lobmeyr",
+        "surname maiden":"Steinhuber",
+        "occupations":"",
+        "affiliations":"",
+        "death_date":null,
+        "idnos":""
+    },
+    {
+        "ID":"EllyLobmeyr",
+        "forename":"Elly",
+        "surname":"von Lobmeyr",
+        "surname maiden":"Arbe\u00dfer von Rastburg",
+        "occupations":"",
+        "affiliations":"",
+        "death_date":null,
+        "idnos":""
+    },
+    {
+        "ID":"GretlLobmeyr",
+        "forename":"Gretl",
+        "surname":"Lobmeyr",
+        "surname maiden":"Handofsky",
+        "occupations":"",
+        "affiliations":"",
+        "death_date":null,
+        "idnos":""
+    },
+    {
+        "ID":"HermannSpaun",
+        "forename":"Hermann",
+        "surname":"von Spaun",
+        "surname maiden":null,
+        "occupations":"Geheimer Rat; k. k. Admiral",
+        "affiliations":"",
+        "death_date":null,
+        "idnos":"ID (GND): 103544075X; URL (\u00d6BL): https:\/\/www.biographien.ac.at\/oebl\/oebl_S\/Spaun_Hermann_1833_1919.xml"
+    },
+    {
+        "ID":"AugustRath",
+        "forename":"August",
+        "surname":"Rath",
+        "surname maiden":null,
+        "occupations":"kaiserlicher Rat",
+        "affiliations":"",
+        "death_date":null,
+        "idnos":""
+    },
+    {
+        "ID":"MarieSch\u00f6nvonKreuzenau",
+        "forename":"Marie",
+        "surname":"Sch\u00f6n von Kreuzenau",
+        "surname maiden":"Rath",
+        "occupations":"",
+        "affiliations":"",
+        "death_date":null,
+        "idnos":""
+    },
+    {
+        "ID":"AugustRathjun",
+        "forename":"August",
+        "surname":"Rath jun.",
+        "surname maiden":null,
+        "occupations":"Gro\u00dfindustrieller",
+        "affiliations":"",
+        "death_date":null,
+        "idnos":""
+    },
+    {
+        "ID":"PaulRath",
+        "forename":"Paul",
+        "surname":"Rath",
+        "surname maiden":null,
+        "occupations":"k.k. Oberst",
+        "affiliations":"",
+        "death_date":null,
+        "idnos":""
+    },
+    {
+        "ID":"StefanRath",
+        "forename":"Stefan",
+        "surname":"Rath",
+        "surname maiden":null,
+        "occupations":"k. k. Oberleutnant i. V. d. E.; Gesellschafter der Firma J. & L. Lobmeyr",
+        "affiliations":"",
+        "death_date":null,
+        "idnos":""
+    },
+    {
+        "ID":"AdeleRath",
+        "forename":"Adele",
+        "surname":"Rath",
+        "surname maiden":"Wagenmann",
+        "occupations":"",
+        "affiliations":"",
+        "death_date":null,
+        "idnos":""
+    },
+    {
+        "ID":"KarlPichler",
+        "forename":"Karl",
+        "surname":"Pichler von Deeben",
+        "surname maiden":null,
+        "occupations":"k. k. Ministerialrat",
+        "affiliations":"",
+        "death_date":null,
+        "idnos":""
+    },
+    {
+        "ID":"MathildeKralik",
+        "forename":"Mathilde",
+        "surname":"Kralik von Meyrswalden",
+        "surname maiden":null,
+        "occupations":"",
+        "affiliations":"",
+        "death_date":null,
+        "idnos":"ID (WGW): 37789; ID (WIKIDATA): Q89972; ID (GND): 130214566; ID (PMB): 19659"
+    },
+    {
+        "ID":"AloisiaPichler",
+        "forename":"Louisa",
+        "surname":"Pichler von Deeben",
+        "surname maiden":"Kralik von Meyrswalden",
+        "occupations":"",
+        "affiliations":"",
+        "death_date":null,
+        "idnos":""
+    },
+    {
+        "ID":"MinnaKralik",
+        "forename":"Minna",
+        "surname":"Kralik von Meyrswalden",
+        "surname maiden":null,
+        "occupations":"",
+        "affiliations":"",
+        "death_date":null,
+        "idnos":""
+    },
+    {
+        "ID":"RichardKralik",
+        "forename":"Richard",
+        "surname":"Kralik von Meyrswalden",
+        "surname maiden":null,
+        "occupations":"",
+        "affiliations":"",
+        "death_date":"1934-02-04",
+        "idnos":"ID (GND): 118777920; ID (WIKIDATA): Q1317482; ID (WGW): 16425; ID (PMB): 3731"
+    },
+    {
+        "ID":"MaiaKralik",
+        "forename":"Maia",
+        "surname":"Kralik von Meyrswalden",
+        "surname maiden":"von Flattich",
+        "occupations":"",
+        "affiliations":"",
+        "death_date":null,
+        "idnos":"ID (GND): 116385863"
+    },
+    {
+        "ID":"EduardPichler",
+        "forename":"Eduard",
+        "surname":"Pichler von Deeben",
+        "surname maiden":null,
+        "occupations":"k. k. Ministerialrat; Sektionsrat im ",
+        "affiliations":"",
+        "death_date":null,
+        "idnos":""
+    },
+    {
+        "ID":"JosefBileg",
+        "forename":"Josef",
+        "surname":"Bileg",
+        "surname maiden":null,
+        "occupations":"Drucker",
+        "affiliations":"",
+        "death_date":null,
+        "idnos":""
+    },
+    {
+        "ID":"AgnesKralik",
+        "forename":"Agnes",
+        "surname":"Kralik von Meyrswalden",
+        "surname maiden":null,
+        "occupations":"",
+        "affiliations":"",
+        "death_date":null,
+        "idnos":""
+    },
+    {
+        "ID":"EduardSchmid",
+        "forename":"Eduard",
+        "surname":"Schmid",
+        "surname maiden":null,
+        "occupations":"Glasfabrikant",
+        "affiliations":"",
+        "death_date":null,
+        "idnos":"URL (\u00d6BL): https:\/\/www.biographien.ac.at\/oebl\/oebl_S\/Schmid_Josef-Eduard_1836_1910.xml; ID (GND): 1030547009"
+    },
+    {
+        "ID":"CarlKralik",
+        "forename":"Carl",
+        "surname":"Kralik von Meyrswalden",
+        "surname maiden":null,
+        "occupations":"",
+        "affiliations":"",
+        "death_date":null,
+        "idnos":""
+    },
+    {
+        "ID":"JosefTaschek",
+        "forename":"Josef",
+        "surname":"Taschek",
+        "surname maiden":null,
+        "occupations":"",
+        "affiliations":"",
+        "death_date":null,
+        "idnos":"ID (WIKIDATA): Q8311993; URL (Wikipedia): https:\/\/de.wikipedia.org\/wiki\/Josef_Taschek"
+    },
+    {
+        "ID":"DietrichKralik",
+        "forename":"Dietrich",
+        "surname":"Kralik von Meyrswalden",
+        "surname maiden":null,
+        "occupations":"Universit\u00e4tsprofessor",
+        "affiliations":"type: member, subtype: political, orgName: B\u00e4renh\u00f6hle, ref: #B\u00e4renh\u00f6hle",
+        "death_date":null,
+        "idnos":"ID (GND): 118777912; ID (WIKIDATA): Q1223897; ID (WGW): 16414"
+    },
+    {
+        "ID":"HeinrichKralik",
+        "forename":"Heinrich",
+        "surname":"Kralik von Meyrswalden",
+        "surname maiden":null,
+        "occupations":"",
+        "affiliations":"",
+        "death_date":null,
+        "idnos":"ID (GND): 121829324; ID (WIKIDATA): Q1235353; ID (WGW): 16424"
+    },
+    {
+        "ID":"RodrichKralik",
+        "forename":"Rodrich",
+        "surname":"Kralik von Meyrswalden",
+        "surname maiden":null,
+        "occupations":"Landesgerichtsrat",
+        "affiliations":"",
+        "death_date":null,
+        "idnos":"ID (GND): 11638610X"
+    },
+    {
+        "ID":"EdithPichler",
+        "forename":"Edith",
+        "surname":"Pichler von Deeben",
+        "surname maiden":null,
+        "occupations":"",
+        "affiliations":"",
+        "death_date":null,
+        "idnos":""
+    },
+    {
+        "ID":"IlsePichler",
+        "forename":"Ilse",
+        "surname":"Pichler von Deeben",
+        "surname maiden":null,
+        "occupations":"",
+        "affiliations":"",
+        "death_date":null,
+        "idnos":""
+    },
+    {
+        "ID":"HannahKralik",
+        "forename":"Hannah",
+        "surname":"Kralik von Meyerswalden",
+        "surname maiden":null,
+        "occupations":"",
+        "affiliations":"",
+        "death_date":null,
+        "idnos":""
+    },
+    {
+        "ID":"GretlKralik",
+        "forename":"Gretl",
+        "surname":"Kralik von Meyrswalden",
+        "surname maiden":null,
+        "occupations":"",
+        "affiliations":"",
+        "death_date":null,
+        "idnos":""
+    },
+    {
+        "ID":"LuiseKralik",
+        "forename":"Luise",
+        "surname":"Kralik von Meyrswalden",
+        "surname maiden":null,
+        "occupations":"",
+        "affiliations":"",
+        "death_date":null,
+        "idnos":""
+    },
+    {
+        "ID":"WinifredKralik",
+        "forename":"Winifred",
+        "surname":"Kralik",
+        "surname maiden":null,
+        "occupations":"",
+        "affiliations":"",
+        "death_date":null,
+        "idnos":"ID (WGW): 37795; ID (WIKIDATA): Q59653649; ID (GND): 118643274"
+    },
+    {
+        "ID":"LeopoldKralik",
+        "forename":"Leopold",
+        "surname":"Kralik",
+        "surname maiden":null,
+        "occupations":"",
+        "affiliations":"",
+        "death_date":null,
+        "idnos":""
+    },
+    {
+        "ID":"ElfriedeKralik",
+        "forename":"Elfriede",
+        "surname":"Kralik",
+        "surname maiden":null,
+        "occupations":"",
+        "affiliations":"",
+        "death_date":null,
+        "idnos":""
+    },
+    {
+        "ID":"TheodorInnitzer",
+        "forename":"Theodor",
+        "surname":"Innitzer",
+        "surname maiden":null,
+        "occupations":"",
+        "affiliations":"",
+        "death_date":null,
+        "idnos":"ID (GND): 118555634; ID (WIKIDATA): Q78988; ID (WGW): 13273; ID (PMB): 57443"
+    },
+    {
+        "ID":"RudolfWieser",
+        "forename":"Rudolf",
+        "surname":"Wieser",
+        "surname maiden":null,
+        "occupations":"",
+        "affiliations":"",
+        "death_date":null,
+        "idnos":""
+    },
+    {
+        "ID":"EdmundSteinbock",
+        "forename":"Edmund",
+        "surname":"Steinbock",
+        "surname maiden":null,
+        "occupations":"",
+        "affiliations":"",
+        "death_date":null,
+        "idnos":""
+    },
+    {
+        "ID":"AliceScarlates",
+        "forename":"Alice",
+        "surname":"Scarlates",
+        "surname maiden":null,
+        "occupations":"",
+        "affiliations":"",
+        "death_date":null,
+        "idnos":"ID (WIKIDATA): Q52084077; ID (GND): 1228633460"
+    },
+    {
+        "ID":"EduardHauptmann",
+        "forename":"Eduard",
+        "surname":"Hauptmann",
+        "surname maiden":null,
+        "occupations":"",
+        "affiliations":"",
+        "death_date":null,
+        "idnos":""
+    },
+    {
+        "ID":"CarlHertlein",
+        "forename":"Carl",
+        "surname":"Hertlein",
+        "surname maiden":null,
+        "occupations":"",
+        "affiliations":"",
+        "death_date":null,
+        "idnos":""
+    },
+    {
+        "ID":"JuliusEpstein",
+        "forename":"Julius",
+        "surname":"Epstein",
+        "surname maiden":null,
+        "occupations":"",
+        "affiliations":"",
+        "death_date":null,
+        "idnos":"URI (GND): https:\/\/d-nb.info\/gnd\/116652357; ID (WIKIDATA): Q79036"
+    },
+    {
+        "ID":"IreneZoepf",
+        "forename":"Irene",
+        "surname":"Zoepf",
+        "surname maiden":null,
+        "occupations":"",
+        "affiliations":"",
+        "death_date":null,
+        "idnos":"URI (VIAF): http:\/\/viaf.org\/viaf\/66893083"
+    },
+    {
+        "ID":"Herder",
+        "forename":"Johann",
+        "surname":"Herder",
+        "surname maiden":null,
+        "occupations":"",
+        "affiliations":"",
+        "death_date":null,
+        "idnos":"ID (WIKIDATA): Q155547; URI (GND): https:\/\/d-nb.info\/gnd\/118549553"
+    },
+    {
+        "ID":"Catull",
+        "forename":null,
+        "surname":null,
+        "surname maiden":null,
+        "occupations":"",
+        "affiliations":"",
+        "death_date":null,
+        "idnos":"URI (GND): https:\/\/d-nb.info\/gnd\/118519719; ID (WIKIDATA): Q163079"
+    },
+    {
+        "ID":"JohannRathausky",
+        "forename":"Johann",
+        "surname":"Rathausky",
+        "surname maiden":null,
+        "occupations":"",
+        "affiliations":"",
+        "death_date":null,
+        "idnos":"URI (GND): https:\/\/d-nb.info\/gnd\/1027435025"
+    },
+    {
+        "ID":"Sokrates",
+        "forename":null,
+        "surname":null,
+        "surname maiden":null,
+        "occupations":"",
+        "affiliations":"",
+        "death_date":null,
+        "idnos":"ID (WIKIDATA): Q913"
+    },
+    {
+        "ID":"Ilse",
+        "forename":"Ilse",
+        "surname":null,
+        "surname maiden":null,
+        "occupations":"",
+        "affiliations":"",
+        "death_date":null,
+        "idnos":""
+    },
+    {
+        "ID":"FranziskaTschampa",
+        "forename":"Franziska",
+        "surname":"Tschampa",
+        "surname maiden":null,
+        "occupations":"",
+        "affiliations":"",
+        "death_date":null,
+        "idnos":"URI (GND): https:\/\/d-nb.info\/gnd\/1081510544"
+    },
+    {
+        "ID":"LulaGmeiner",
+        "forename":"Lula",
+        "surname":"Gmeiner",
+        "surname maiden":null,
+        "occupations":"",
+        "affiliations":"",
+        "death_date":null,
+        "idnos":"URI (GND): https:\/\/d-nb.info\/gnd\/117212490; ID (WIKIDATA): Q1676668"
+    },
+    {
+        "ID":"FranzNaval",
+        "forename":"Franz",
+        "surname":"Naval",
+        "surname maiden":null,
+        "occupations":"",
+        "affiliations":"",
+        "death_date":null,
+        "idnos":"URI (GND): https:\/\/d-nb.info\/gnd\/116266945; ID (WIKIDATA): Q87156"
+    },
+    {
+        "ID":"MarcellaPregi",
+        "forename":"Marcella",
+        "surname":"Pregi",
+        "surname maiden":null,
+        "occupations":"",
+        "affiliations":"",
+        "death_date":null,
+        "idnos":"URI (GND): https:\/\/d-nb.info\/gnd\/116281588; ID (WIKIDATA): Q94761060"
+    },
+    {
+        "ID":"Angiline",
+        "forename":"Angiline",
+        "surname":null,
+        "surname maiden":null,
+        "occupations":"",
+        "affiliations":"",
+        "death_date":null,
+        "idnos":""
+    },
+    {
+        "ID":"RudolphFitzner",
+        "forename":"Rudolph",
+        "surname":"Fitzner",
+        "surname maiden":null,
+        "occupations":"",
+        "affiliations":"",
+        "death_date":null,
+        "idnos":"URI (GND): https:\/\/d-nb.info\/gnd\/116586540; ID (WIKIDATA): Q7377184"
+    },
+    {
+        "ID":"ErnstDohnany",
+        "forename":"Ernst",
+        "surname":"von Dohn\u00e1nyi",
+        "surname maiden":null,
+        "occupations":"",
+        "affiliations":"",
+        "death_date":null,
+        "idnos":"URI (GND): https:\/\/d-nb.info\/gnd\/119110016; ID (WIKIDATA): Q78532"
+    },
+    {
+        "ID":"Beethoven",
+        "forename":"Ludwig",
+        "surname":"van Beethoven",
+        "surname maiden":null,
+        "occupations":"",
+        "affiliations":"",
+        "death_date":null,
+        "idnos":"URI (GND): https:\/\/d-nb.info\/gnd\/118508288; ID (WIKIDATA): Q255"
+    },
+    {
+        "ID":"Mozart",
+        "forename":"Wolfgang",
+        "surname":"Mozart",
+        "surname maiden":null,
+        "occupations":"",
+        "affiliations":"",
+        "death_date":null,
+        "idnos":"URI (GND): https:\/\/d-nb.info\/gnd\/118584596; ID (WIKIDATA): Q254"
+    },
+    {
+        "ID":"Haydn",
+        "forename":"Joseph",
+        "surname":"Haydn",
+        "surname maiden":null,
+        "occupations":"",
+        "affiliations":"",
+        "death_date":null,
+        "idnos":"URI (GND): https:\/\/d-nb.info\/gnd\/118547356; ID (WIKIDATA): Q7349"
+    },
+    {
+        "ID":"LeoXIII",
+        "forename":"Leo",
+        "surname":"XIII",
+        "surname maiden":null,
+        "occupations":"",
+        "affiliations":"",
+        "death_date":null,
+        "idnos":"ID (WIKIDATA): Q43922"
+    }
+]
