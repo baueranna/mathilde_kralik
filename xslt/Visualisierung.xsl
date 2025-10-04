@@ -34,8 +34,8 @@
                     
                     <!-- Submenu for documents -->
                     <div class="subnav">
-                        <div class="nav-toggle" tabindex="0" aria-haspopup="true" aria-expanded="false" aria-label="Document Submenu">
-                            <a href="Dokumente.html">Dokumente</a>
+                        <div class="nav-toggle">
+                            Dokumente
                         </div>
                         <div class="subnav-content" aria-label="Submenu">
                             <a href="Briefe.html">Briefe</a>
@@ -46,8 +46,8 @@
                     
                     <!-- Submenu for Entities -->
                     <div class="subnav">
-                        <div class="nav-toggle" tabindex="0" aria-haspopup="true" aria-expanded="false" aria-label="Entity Submenu">
-                            <a href="Verzeichnis.html">Verzeichnis</a>
+                        <div class="nav-toggle">
+                            Verzeichnis
                         </div>
                         <div class="subnav-content" aria-label="Submenu">
                             <a href="Personen.html">Personen</a>
@@ -58,8 +58,8 @@
                     
                     <!-- Submenu for Visualisations -->
                     <div class="subnav">
-                        <div class="nav-toggle" tabindex="0" aria-haspopup="true" aria-expanded="false" aria-label="Entity Submenu">
-                            <a href="Visualisierung.html">Visualisierungen</a>
+                        <div class="nav-toggle" >
+                            Visualisierungen
                         </div>
                         <div class="subnav-content" aria-label="Submenu">
                             <a href="Vis_Orte.html">Orte</a>
@@ -69,18 +69,17 @@
                     
                     <!-- Submenu for Mathilde Kralik -->
                     <div class="subnav">
-                        <div class="nav-toggle" tabindex="0" aria-haspopup="true" aria-expanded="false" aria-label="Mathilde Kralik Submenu">
+                        <div class="nav-toggle">
                             Mathilde Kralik
                         </div>
                         <div class="subnav-content" aria-label="Mathilde Kralik Submenu">
-                            <a href="Bio.html">Biographie</a>
                             <a href="Ressourcen.html">Ressourcen</a>
                         </div>
                     </div>
                     
                     <!-- Submenu for Edition -->
                     <div class="subnav">
-                        <div class="nav-toggle" tabindex="0" aria-haspopup="true" aria-expanded="false" aria-label="Edition Submenu">
+                        <div class="nav-toggle">
                             Über die Edition
                         </div>
                         <div class="subnav-content" aria-label="Edition Submenu">
@@ -91,13 +90,23 @@
                     </div>
                 </nav>
                 
-                <!-- Java Script -->
                 <!-- Map -->
                 <div id="map"></div>
                 <script>
-                    var map = L.map('map').setView([48.233902622021546, 16.344070193512067], 13);
+                    var map = L.map('map').setView([48.233902622021546, 16.344070193512067], 10);
                     
-                    var redIcon = L.icon({
+                    // Define different icons for each type
+                    var streetIcon = L.icon({
+                    iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-blue.png',
+                    iconSize: [25, 41],
+                    iconAnchor: [12, 41],
+                    popupAnchor: [1, -34],
+                    shadowUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png',
+                    shadowSize: [41, 41],
+                    shadowAnchor: [12, 41]
+                    });
+                    
+                    var churchIcon = L.icon({
                     iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-red.png',
                     iconSize: [25, 41],
                     iconAnchor: [12, 41],
@@ -107,6 +116,39 @@
                     shadowAnchor: [12, 41]
                     });
                     
+                    var cityIcon = L.icon({
+                    iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-orange.png',
+                    iconSize: [25, 41],
+                    iconAnchor: [12, 41],
+                    popupAnchor: [1, -34],
+                    shadowUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png',
+                    shadowSize: [41, 41],
+                    shadowAnchor: [12, 41]
+                    });
+                    
+                    var villageIcon = L.icon({
+                    iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-yellow.png',
+                    iconSize: [25, 41],
+                    iconAnchor: [12, 41],
+                    popupAnchor: [1, -34],
+                    shadowUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png',
+                    shadowSize: [41, 41],
+                    shadowAnchor: [12, 41]
+                    });
+                    
+                    var museumIcon = L.icon({
+                    iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-grey.png',
+                    iconSize: [25, 41],
+                    iconAnchor: [12, 41],
+                    popupAnchor: [1, -34],
+                    shadowUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png',
+                    shadowSize: [41, 41],
+                    shadowAnchor: [12, 41]
+                    });
+                    
+                    var cemeteryIcon = L.icon({
+                    iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-black.png',
+                    iconSize: [25, 41],
                     iconAnchor: [12, 41],
                     popupAnchor: [1, -34],
                     shadowUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png',

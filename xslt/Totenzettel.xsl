@@ -30,7 +30,7 @@
                     
                     <!-- Submenu for documents -->
                     <div class="subnav">
-                        <div class="nav-toggle">
+                        <div class="nav-toggle">Dokumente
                         </div>
                         <div class="subnav-content" aria-label="Submenu">
                             <a href="Briefe.html">Briefe</a>
@@ -42,7 +42,7 @@
                     <!-- Submenu for Entities -->
                     <div class="subnav">
                         <div class="nav-toggle">
-                            <a href="Verzeichnis.html">Verzeichnis</a>
+                            Verzeichnis
                         </div>
                         <div class="subnav-content" aria-label="Submenu">
                             <a href="Personen.html">Personen</a>
@@ -54,7 +54,7 @@
                     <!-- Submenu for Visualisations -->
                     <div class="subnav">
                         <div class="nav-toggle">
-                            <a href="Visualisierung.html">Visualisierungen</a>
+                            Visualisierungen
                         </div>
                         <div class="subnav-content" aria-label="Submenu">
                             <a href="Vis_Orte.html">Orte</a>
@@ -68,7 +68,6 @@
                             Mathilde Kralik
                         </div>
                         <div class="subnav-content" aria-label="Mathilde Kralik Submenu">
-                            <a href="Bio.html">Biographie</a>
                             <a href="Ressourcen.html">Ressourcen</a>
                         </div>
                     </div>

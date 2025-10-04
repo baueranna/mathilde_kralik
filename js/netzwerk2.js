@@ -3,8 +3,7 @@ fetch('../data/json/relation_index.json')
     .then(response => response.json())
     .then(data => {
         createFamilyGraph(data);
-    })
-    .catch(error => console.error('Error loading JSON:', error));
+    });
 
 function createFamilyGraph(teiData) {
     // Convert TEI data into nodes and links for D3

@@ -60,14 +60,14 @@
                         <xsl:if test="@passive">
                             "passive": [
                             <xsl:for-each select="tokenize(@passive, ' ')">
-                                "<xsl:value-of select="." />"<xsl:if test="position() != last()">, </xsl:if>
+                                "<xsl:value-of select='.' />"<xsl:if test="position() != last()">, </xsl:if>
                             </xsl:for-each>
                             ],
                         </xsl:if>
                         <xsl:if test="@mutual">
                             "mutual": [
                             <xsl:for-each select="tokenize(@mutual, ' ')">
-                                "<xsl:value-of select="." />"<xsl:if test="position() != last()">, </xsl:if>
+                                "<xsl:value-of select='.' />"<xsl:if test="position() != last()">, </xsl:if>
                             </xsl:for-each>
                             ]
                         </xsl:if>
@@ -75,8 +75,8 @@
                     </xsl:for-each>
                     ];
                 </script>
-                <script src="https://d3js.org/d3.v7.min.js"></script>
                 <script src="../js/netzwerk.js"></script>
+                <script src="https://d3js.org/d3.v7.min.js"></script>
             </body>
         </html>
     </xsl:template>

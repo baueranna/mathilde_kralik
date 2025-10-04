@@ -12,7 +12,7 @@ $(document).ready(function() {
             }
         ],
         language: {
-            url: "//cdn.datatables.net/plug-ins/1.13.6/i18n/de-DE.json"
+            url: '../data/json/de-DE.json'
         }
     });
 });

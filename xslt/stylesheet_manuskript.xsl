@@ -29,11 +29,11 @@
                      
                      <!-- Submenu for documents -->
                      <div class="subnav">
-                         <div class="nav-toggle" tabindex="0" aria-haspopup="true" aria-expanded="false" aria-label="Document Submenu">
+                         <div class="nav-toggle">
                              <a href="Dokumente.html">Dokumente</a>
                          </div>
                          <div class="subnav-content" aria-label="Submenu">
-                             <a href="Briefe.html">Briefe</a>
+                             Briefe
                              <a href="Manuskript.html">Manuskripte</a>
                              <a href="Totenzettel.html">Totenzettel</a>
                          </div>
@@ -41,8 +41,8 @@
                      
                      <!-- Submenu for Entities -->
                      <div class="subnav">
-                         <div class="nav-toggle" tabindex="0" aria-haspopup="true" aria-expanded="false" aria-label="Entity Submenu">
-                             <a href="Verzeichnis.html">Verzeichnis</a>
+                         <div class="nav-toggle">
+                             Verzeichnis
                          </div>
                          <div class="subnav-content" aria-label="Submenu">
                              <a href="Personen.html">Personen</a>
@@ -53,8 +53,7 @@
                      
                      <!-- Submenu for Visualisations -->
                      <div class="subnav">
-                         <div class="nav-toggle" tabindex="0" aria-haspopup="true" aria-expanded="false" aria-label="Entity Submenu">
-                             <a href="Visualisierung.html">Visualisierungen</a>
+                         <div class="nav-toggle">Visualisierungen
                          </div>
                          <div class="subnav-content" aria-label="Submenu">
                              <a href="Vis_Orte.html">Orte</a>
@@ -64,18 +63,17 @@
                      
                      <!-- Submenu for Mathilde Kralik -->
                      <div class="subnav">
-                         <div class="nav-toggle" tabindex="0" aria-haspopup="true" aria-expanded="false" aria-label="Mathilde Kralik Submenu">
+                         <div class="nav-toggle">
                              Mathilde Kralik
                          </div>
                          <div class="subnav-content" aria-label="Mathilde Kralik Submenu">
-                             <a href="Bio.html">Biographie</a>
                              <a href="Ressourcen.html">Ressourcen</a>
                          </div>
                      </div>
                      
                      <!-- Submenu for Edition -->
                      <div class="subnav">
-                         <div class="nav-toggle" tabindex="0" aria-haspopup="true" aria-expanded="false" aria-label="Edition Submenu">
+                         <div class="nav-toggle">
                              Über die Edition
                          </div>
                          <div class="subnav-content" aria-label="Edition Submenu">

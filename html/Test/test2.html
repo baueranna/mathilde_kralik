@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Network Graph</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        .node circle {
+            stroke-width: 1.5px;
+        }
+
+        .node text {
+            font-size: 12px;
+            pointer-events: none;
+        }
+
+        .link {
+            stroke: #999;
+            stroke-opacity: 0.6;
+        }
+    </style>
+</head>
+<body>
+    <h1>Network Graph</h1>
+    <svg width="960" height="600"></svg>
+
+    <script>
+    // Load the JSON data
+    const jsonFilePath = '../data/json/relation_index.json';
+
+    d3.json(jsonFilePath).then(data => {
+        // Parse the data into nodes and links
+        const nodes = new Map();
+        const links = [];
+
+        data.data.forEach(entry => {
+            const active = entry.active ? entry.active.split(',').map(s => s.trim()) : [];
+            const passive = entry.passive ? entry.passive.split(',').map(s => s.trim()) : [];
+            const mutual = entry.mutual ? entry.mutual.split(',').map(s => s.trim()) : [];
+
+            // Add active and passive relationships
+            if (active.length > 0 && passive.length > 0) {
+                active.forEach(a => {
+                    passive.forEach(p => {
+                        links.push({ source: a, target: p, type: entry.name }); // Ensure type is added
+                        nodes.set(a, { id: a });
+                        nodes.set(p, { id: p });
+                    });
+                });
+            }
+
+            // Add mutual relationships
+            if (mutual.length > 0) {
+                for (let i = 0; i < mutual.length; i++) {
+                    for (let j = i + 1; j < mutual.length; j++) {
+                        links.push({ source: mutual[i], target: mutual[j], type: entry.name }); // Ensure type is added
+                        nodes.set(mutual[i], { id: mutual[i] });
+                        nodes.set(mutual[j], { id: mutual[j] });
+                    }
+                }
+            }
+        });
+
+        // Convert nodes map to an array
+        const nodesArray = Array.from(nodes.values());
+
+        // Create the SVG canvas
+        const svg = d3.select("svg");
+        const width = +svg.attr("width");
+        const height = +svg.attr("height");
+
+        // Create a simulation
+        const simulation = d3.forceSimulation(nodesArray)
+            .force("link", d3.forceLink(links).id(d => d.id).distance(100))
+            .force("charge", d3.forceManyBody().strength(-300))
+            .force("center", d3.forceCenter(width / 2, height / 2));
+
+        // Add a tooltip div (hidden by default)
+        const tooltip = d3.select("body").append("div")
+            .attr("class", "tooltip")
+            .style("position", "absolute")
+            .style("background", "white")
+            .style("border", "1px solid black")
+            .style("padding", "5px")
+            .style("border-radius", "5px")
+            .style("pointer-events", "none")
+            .style("display", "none");
+
+        // Draw the links
+        const link = svg.append("g")
+            .attr("class", "links")
+            .selectAll("line")
+            .data(links)
+            .enter().append("line")
+            .attr("class", "link")
+            .attr("stroke-width", 1.5)
+            .attr("stroke", "gray") // Default color for links
+            .on("click", (event, d) => {
+                // Show the tooltip with the relationship type
+                tooltip
+                    .style("display", "block")
+                    .style("left", `${event.pageX + 10}px`)
+                    .style("top", `${event.pageY + 10}px`)
+                    .html(`<strong>Relationship:</strong> ${d.type}`);
+            });
+
+        // Hide the tooltip when clicking elsewhere
+        svg.on("click", () => {
+            tooltip.style("display", "none");
+        });
+
+        // Draw the nodes
+        const node = svg.append("g")
+            .attr("class", "nodes")
+            .selectAll("g")
+            .data(nodesArray)
+            .enter().append("g");
+
+        node.append("circle")
+            .attr("r", 5)
+            .attr("fill", "steelblue");
+
+        node.append("text")
+            .attr("x", 8)
+            .attr("y", 3)
+            .text(d => d.id);
+
+        // Update positions on each tick
+        simulation.on("tick", () => {
+            link
+                .attr("x1", d => d.source.x)
+                .attr("y1", d => d.source.y)
+                .attr("x2", d => d.target.x)
+                .attr("y2", d => d.target.y);
+
+            node
+                .attr("transform", d => `translate(${d.x},${d.y})`);
+        });
+
+        // Add drag behavior
+        node.call(d3.drag()
+            .on("start", (event, d) => {
+                if (!event.active) simulation.alphaTarget(0.3).restart();
+                d.fx = d.x;
+                d.fy = d.y;
+            })
+            .on("drag", (event, d) => {
+                d.fx = event.x;
+                d.fy = event.y;
+            })
+            .on("end", (event, d) => {
+                if (!event.active) simulation.alphaTarget(0);
+                d.fx = null;
+                d.fy = null;
+            }));
+    }).catch(error => {
+        console.error('Error loading the JSON file:', error);
+    });
+</script>
+</body>
+</html>

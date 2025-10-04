@@ -944,8 +944,6 @@
             <relation name="parent" active="#RichardKralik" passive="#DietrichKralik #HeinrichKralik #RodrichKralik"/>
             <relation name="parent" active="#AloisiaPichler" passive="#IlsePichler #EdithPichler"/>
             <relation name="parent" active="#EduardPichler" passive="#IlsePichler #EdithPichler"/>
-            <relation name="parent" active="#RichardKralik" passive="#HeinrichKralik #DietrichKralik #RodrichKralik"/>
-            <relation name="parent" active="#MaiaKralik" passive="#HeinrichKralik #DietrichKralik #RodrichKralik"/>
             
             <relation name="grandparent" active="#LouiseKralik" passive="#DietrichKralik #HeinrichKralik #RodrichKralik #IlsePichler #EdithPichler"/>
             <relation name="grandparent" active="#MaiaKralik" passive="#WinifredKralik #LeopoldKralik #ElfriedeKralik"/>
@@ -957,7 +955,6 @@
             <relation name="sibling" mutual="#RichardKralik #MathildeKralik #AloisiaPichler"/>
             <relation name="sibling" mutual="#JosephLobmeyr #LudwigLobmeyr #FranzLobmeyr #LouiseKralik #MathildeRath"/>
             <relation name="sibling" mutual="#HeinrichKralik #RodrichKralik #DietrichKralik"/>
-            <relation name="sibling" mutual="#RichardKralik #AloisiaPichler #MathildeKralik"/>
             
             <relation name="uncle" active="#LudwigLobmeyr" passive="#RudolfLobmeyr #AdolfLobmeyr #OskarLobmeyr #LudwigLobmeyrJun #MarieSchönvonKreuzenau #AugustRathjun #PaulRath #StefanRath #RichardKralik #MathildeKralik #AloisiaPichler"/>
             <relation name="uncle" active="#LudwigKralik" passive="#DietrichKralik #HeinrichKralik #RodrichKralik #IlsePichler #EdithPichler"/>

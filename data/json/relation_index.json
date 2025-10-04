@@ -1,132 +1,108 @@
-[
-    {
-        "name":"parent",
-        "active":"#AugustRath",
-        "passive":"#MarieSch\u00f6nvonKreuzenau #AugustRathjun #PaulRath #StefanRath",
-    },
-    {
-        "name":"parent",
-        "active":"#AloisiaLobmeyr",
-        "passive":"#JosephLobmeyr #LudwigLobmeyr #FranzLobmeyr #LouiseKralik #MathildeRath",
-        
-    },
-    {
-        "name":"parent",
-        "active":"#LouiseKralik",
-        "passive":"#RichardKralik #MathildeKralik #AloisiaPichler",
-        
-    },
-    {
-        "name":"parent",
-        "active":"#MaiaKralik",
-        "passive":"#DietrichKralik #HeinrichKralik #RodrichKralik",
-        
-    },
-    {
-        "name":"parent",
-        "active":"#RichardKralik",
-        "passive":"#DietrichKralik #HeinrichKralik #RodrichKralik",
-        
-    },
-    {
-        "name":"parent",
-        "active":"#AloisiaPichler",
-        "passive":"#IlsePichler #EdithPichler",
-    },
-    {
-        "name":"parent",
-        "active":"#EduardPichler",
-        "passive":"#IlsePichler #EdithPichler",
-        
-    },
-    {
-        "name":"parent",
-        "active":"#RichardKralik",
-        "passive":"#HeinrichKralik #DietrichKralik #RodrichKralik",
-        
-    },
-    {
-        "name":"parent",
-        "active":"#MaiaKralik",
-        "passive":"#HeinrichKralik #DietrichKralik #RodrichKralik",
-        
-    },
-    {
-        "name":"grandparent",
-        "active":"#LouiseKralik",
-        "passive":"#DietrichKralik #HeinrichKralik #RodrichKralik #IlsePichler #EdithPichler",
-        
-    },
-    {
-        "name":"grandparent",
-        "active":"#MaiaKralik",
-        "passive":"#WinifredKralik #LeopoldKralik #ElfriedeKralik",
-        
-    },
-    {
-        "name":"grandparent",
-        "active":"#RichardKralik",
-        "passive":"#WinifredKralik #LeopoldKralik #ElfriedeKralik",
-        
-    },
-    {
-        "name":"sibling", 
-        "mutual":"#LouiseKralik #LudwigLobmeyr #MathildeRath"
-    },
-    {
-        "name":"sibling", 
-        "mutual":"#RudolfLobmeyr #AdolfLobmeyr #OskarLobmeyr #LudwigLobmeyrJun"
-    },
-    {
-        "name":"sibling",
-        "mutual":"#MarieSch\u00f6nvonKreuzenau #AugustRathjun #PaulRath #StefanRath"
-    },
-    {
-        "name":"sibling", 
-        "mutual":"#RichardKralik #MathildeKralik #AloisiaPichler"
-    },
-    {
-        "name":"sibling",
-        "mutual":"#JosephLobmeyr #LudwigLobmeyr #FranzLobmeyr #LouiseKralik #MathildeRath"
-    },
-    {
-        "name":"sibling",
-        "mutual":"#HeinrichKralik #RodrichKralik #DietrichKralik"
-    },
-    {
-        "name":"sibling",
-        "mutual":"#RichardKralik #AloisiaPichler #MathildeKralik"
-    },
-    {
-        "name":"uncle",
-        "active":"#LudwigLobmeyr",
-        "passive":"#RudolfLobmeyr #AdolfLobmeyr #OskarLobmeyr #LudwigLobmeyrJun #MarieSch\u00f6nvonKreuzenau #AugustRathjun #PaulRath #StefanRath #RichardKralik #MathildeKralik #AloisiaPichler",
-        
-    },
-    {
-        "name":"uncle",
-        "active":"#LudwigKralik",
-        "passive":"#DietrichKralik #HeinrichKralik #RodrichKralik #IlsePichler #EdithPichler",
-        
-    },
-    {
-        "name":"spouse", 
-        "mutual":"#LouiseKralik #WilhelmKralik"
-    },
-    {
-        "name":"spouse",
-        "mutual":"#HildegardLobmeyr #FranzLobmeyr"
-    },
-    {
-        "name":"spouse",  
-        "mutual":"#MaiaKralik #RichardKralik"
-    },
-    {
-        "name":"spouse",  
-        "mutual":"#AloisiaPichler #EduardPichler"
-    },
-    {
-        "name":"partner", 
-        "mutual":"#AliceScarlates #MathildeKralik"
-    }
-]
+{
+    "data": [
+        {
+            "name": "parent",
+            "active": "August Rath",
+            "passive": "Marie Sch Kreuzenau, August Rathjun, Paul Rath, Stefan Rath"
+        },
+        {
+            "name": "parent",
+            "active": "Aloisia Lobmeyr",
+            "passive": "Joseph Lobmeyr, Ludwig Lobmeyr, Franz Lobmeyr, Louise Kralik, Mathilde Rath"
+        },
+        {
+            "name": "parent",
+            "active": "Louise Kralik",
+            "passive": "Richard Kralik, Mathilde Kralik, Aloisia Pichler"
+        },
+        {
+            "name": "parent",
+            "active": "Maia Kralik",
+            "passive": "Dietrich Kralik, Heinrich Kralik, Rodrich Kralik"
+        },
+        {
+            "name": "parent",
+            "active": "Richard Kralik",
+            "passive": "Dietrich Kralik, Heinrich Kralik, Rodrich Kralik"
+        },
+        {
+            "name": "parent",
+            "active": "Aloisia Pichler",
+            "passive": "Ilse Pichler, Edith Pichler"
+        },
+        {
+            "name": "parent",
+            "active": "Eduard Pichler",
+            "passive": "Ilse Pichler, Edith Pichler"
+        },
+        {
+            "name": "grandparent",
+            "active": "Louise Kralik",
+            "passive": "Dietrich Kralik, Heinrich Kralik, Rodrich Kralik, Ilse Pichler, Edith Pichler"
+        },
+        {
+            "name": "grandparent",
+            "active": "Maia Kralik",
+            "passive": "Winifred Kralik, Leopold Kralik, Elfriede Kralik"
+        },
+        {
+            "name": "grandparent",
+            "active": "Richard Kralik",
+            "passive": "Winifred Kralik, Leopold Kralik, Elfriede Kralik"
+        },
+        {
+            "name": "sibling",
+            "mutual": "Louise Kralik, Ludwig Lobmeyr, Mathilde Rath"
+        },
+        {
+            "name": "sibling",
+            "mutual": "Rudolf Lobmeyr, Adolf Lobmeyr, Oskar Lobmeyr, Ludwig Lobmeyr Jun"
+        },
+        {
+            "name": "sibling",
+            "mutual": "Marie Sch Kreuzenau, August Rathjun, Paul Rath, Stefan Rath"
+        },
+        {
+            "name": "sibling",
+            "mutual": "Richard Kralik, Mathilde Kralik, Aloisia Pichler"
+        },
+        {
+            "name": "sibling",
+            "mutual": "Joseph Lobmeyr, Ludwig Lobmeyr, Franz Lobmeyr, Louise Kralik, Mathilde Rath"
+        },
+        {
+            "name": "sibling",
+            "mutual": "Heinrich Kralik, Rodrich Kralik, Dietrich Kralik"
+        },
+        {
+            "name": "uncle",
+            "active": "Ludwig Lobmeyr",
+            "passive": "Rudolf Lobmeyr, Adolf Lobmeyr, Oskar Lobmeyr, Ludwig Lobmeyr Jun, Marie Sch Kreuzenau, August Rathjun, Paul Rath, Stefan Rath, Richard Kralik, Mathilde Kralik, Aloisia Pichler"
+        },
+        {
+            "name": "uncle",
+            "active": "Ludwig Kralik",
+            "passive": "Dietrich Kralik, Heinrich Kralik, Rodrich Kralik, Ilse Pichler, Edith Pichler"
+        },
+        {
+            "name": "spouse",
+            "mutual": "Louise Kralik, Wilhelm Kralik"
+        },
+        {
+            "name": "spouse",
+            "mutual": "Hildegard Lobmeyr, Franz Lobmeyr"
+        },
+        {
+            "name": "spouse",
+            "mutual": "Maia Kralik, Richard Kralik"
+        },
+        {
+            "name": "spouse",
+            "mutual": "Aloisia Pichler, Eduard Pichler"
+        },
+        {
+            "name": "partner",
+            "mutual": "Alice Scarlates, Mathilde Kralik"
+        }
+    ]
+}

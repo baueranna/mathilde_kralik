@@ -10,31 +10,59 @@
       <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&amp;family=Jost:ital,wght@0,100..900;1,100..900&amp;display=swap" rel="stylesheet">
       <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""><script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script></head>
    <body>
-      <nav class="topnav" aria-label="Main Navigation"><a href="index.html">Menü</a><div class="subnav">
-            <div class="nav-toggle" tabindex="0" aria-haspopup="true" aria-expanded="false" aria-label="Document Submenu"><a href="Dokumente.html">Dokumente</a></div>
-            <div class="subnav-content" aria-label="Submenu"><a href="Briefe.html">Briefe</a><a href="Manuskript.html">Manuskripte</a><a href="Totenzettel.html">Totenzettel</a></div>
-         </div>
+      <!-- Navigation bar -->
+      <nav class="topnav" aria-label="Main Navigation">
+         <a href="index.html">Menü</a>
+         
+         <!-- Submenu for documents -->
          <div class="subnav">
-            <div class="nav-toggle" tabindex="0" aria-haspopup="true" aria-expanded="false" aria-label="Entity Submenu"><a href="Verzeichnis.html">Verzeichnis</a></div>
-            <div class="subnav-content" aria-label="Submenu"><a href="Personen.html">Personen</a><a href="Orte.html">Orte</a><a href="Org.html">Organisationen</a></div>
+            <div class="nav-toggle">Dokumente</div>
+            <div class="subnav-content" aria-label="Submenu">
+               <a href="Briefe.html">Briefe</a>
+               <a href="Manuskript.html">Manuskripte</a>
+               <a href="Totenzettel.html">Totenzettel</a>
+            </div>
          </div>
+         
+         <!-- Submenu for Entities -->
          <div class="subnav">
-            <div class="nav-toggle" tabindex="0" aria-haspopup="true" aria-expanded="false" aria-label="Entity Submenu"><a href="Visualisierung.html">Visualisierungen</a></div>
-            <div class="subnav-content" aria-label="Submenu"><a href="Vis_Orte.html">Orte</a><a href="Vis_Personen.html">Personennetzwerk</a></div>
+            <div class="nav-toggle">Verzeichnis</div>
+            <div class="subnav-content" aria-label="Submenu">
+               <a href="Personen.html">Personen</a>
+               <a href="Orte.html">Orte</a>
+               <a href="Org.html">Organisationen</a>
+            </div>
          </div>
+         
+         <!-- Submenu for Visualisations -->
          <div class="subnav">
-            <div class="nav-toggle" tabindex="0" aria-haspopup="true" aria-expanded="false" aria-label="Mathilde Kralik Submenu">
-               Mathilde Kralik
-               </div>
-            <div class="subnav-content" aria-label="Mathilde Kralik Submenu"><a href="Bio.html">Biographie</a><a href="Ressourcen.html">Ressourcen</a></div>
+            <div class="nav-toggle">Visualisierungen</div>
+            <div class="subnav-content" aria-label="Submenu">
+               <a href="Vis_Orte.html">Orte</a>
+               <a href="Vis_Personen.html">Personennetzwerk</a>
+            </div>
          </div>
+         
+         <!-- Submenu for Mathilde Kralik -->
          <div class="subnav">
-            <div class="nav-toggle" tabindex="0" aria-haspopup="true" aria-expanded="false" aria-label="Edition Submenu">
-               Über die Edition
-               </div>
-            <div class="subnav-content" aria-label="Edition Submenu"><a href="Projekt.html">Projekt</a><a href="Transkription.html">Transkription</a><a href="https://github.com/baueranna/mathilde_kralik.git" target="_blank" rel="noopener noreferrer">Github</a></div>
+            <div class="nav-toggle">Mathilde Kralik</div>
+            <div class="subnav-content" aria-label="Mathilde Kralik Submenu">
+               <a href="Ressourcen.html">Ressourcen</a>
+            </div>
+         </div>
+         
+         <!-- Submenu for Edition -->
+         <div class="subnav">
+            <div class="nav-toggle">Über die Edition</div>
+            <div class="subnav-content" aria-label="Edition Submenu">
+               <a href="Projekt.html">Projekt</a>
+               <a href="Transkription.html">Transkription</a>
+               <a href="https://github.com/baueranna/mathilde_kralik.git" target="_blank" rel="noopener noreferrer">Github</a>
+            </div>
          </div>
       </nav>
+      
+      <!--Map -->
       <div id="map"></div><script>
                     var map = L.map('map').setView([48.233902622021546, 16.344070193512067], 10);
                     
